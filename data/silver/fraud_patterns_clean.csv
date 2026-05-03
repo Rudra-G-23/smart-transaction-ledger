@@ -1,0 +1,7 @@
+pattern_id,merchant,amount_range,fraud_flag
+P001,Big Bazaar,>5000,1
+P002,Amazon,<50,0
+P003,Unknown Store,>20000,1
+P004,Flipkart,>10000,1
+P005,OLA,>1000,0
+P006,Unknown Store,>20000,1

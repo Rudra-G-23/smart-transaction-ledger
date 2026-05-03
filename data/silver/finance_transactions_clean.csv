@@ -1,0 +1,1001 @@
+transaction_id,user_id,date,amount,merchant_name,payment_mode,category,user_category_new,clean_brand,is_refund
+TXN0001,U019,2024-03-11,6614.32,Starbucks,UPI,other,Low,Starbucks,0
+TXN0002,U017,2024-01-31,14567.58,Amazon,Cash,refund,Medium-Low,Amazon,1
+TXN0003,U007,2024-01-13,12937.22,Local Shop,UPI,shopping,Medium-Low,Local Shop,0
+TXN0004,U013,2024-02-13,5755.79,Starbucks,Card,shopping,Low,Starbucks,0
+TXN0005,U018,2024-01-13,29978.48,Apple,UPI,refund,High,Apple,1
+TXN0006,U013,2024-01-08,74.64,Big Bazaar,Card,refund,Low,Big Bazaar,1
+TXN0007,U007,2024-02-07,17379.62,Flipkart,UPI,grocery,Medium-Low,Flipkart,0
+TXN0008,U017,2024-01-11,17855.1,Starbucks,Cash,food,Medium-Low,Starbucks,0
+TXN0009,U003,2024-02-23,6135.73,Local Shop,UPI,electronics,Low,Unknown Store,0
+TXN0010,U011,2024-01-10,18638.57,Apple,UPI,grocery,Medium-High,Apple,0
+TXN0011,U003,2024-02-01,4740.83,DMart,Cash,electronics,Low,DMart,0
+TXN0012,U005,2024-02-03,22275.08,Amazon,Cash,electronics,Medium-High,Amazon,0
+TXN0013,U016,2024-02-02,19032.19,Swiggy,UPI,electronics,Medium-High,Swiggy,0
+TXN0014,U015,2024-03-11,299.99,Flipkart,Cash,,Low,Flipkart,0
+TXN0015,U019,2024-03-11,3832.09,DMart,Card,transport,Low,DMart,0
+TXN0016,U012,2024-03-12,22486.83,Amazon,UPI,food,Medium-High,Amazon,0
+TXN0017,U011,2024-02-22,4784.34,Flipkart,Card,refund,Low,Flipkart,1
+TXN0018,U010,2024-01-30,19804.4,DMart,Card,Food & Beverage,Medium-High,DMart,0
+TXN0019,U011,2024-01-04,5365.25,Swiggy,Cash,other,Low,Swiggy,0
+TXN0020,U020,2024-03-06,26986.15,Local Shop,UPI,transport,High,Local Shop,0
+TXN0021,U014,2024-01-09,9424.33,DMart,Cash,Food & Beverage,Medium-Low,DMart,0
+TXN0022,U013,2024-03-30,3827.36,DMart,Cash,electronics,Low,DMart,0
+TXN0023,U018,2024-01-01,6313.38,Local Shop,Card,transport,Low,Local Shop,0
+TXN0024,U016,2024-01-22,15468.41,Swiggy,Cash,transport,Medium-Low,Swiggy,0
+TXN0025,U001,2024-01-06,18342.11,Flipkart,Cash,Food & Beverage,Medium-High,Flipkart,0
+TXN0026,U013,2024-02-01,20631.8,Apple,Card,refund,Medium-High,Apple,1
+TXN0027,U018,2024-02-01,4008.84,Starbucks,Cash,refund,Low,Starbucks,1
+TXN0028,U017,2024-02-24,22312.23,Local Shop,Cash,refund,Medium-High,Unknown Store,1
+TXN0029,U009,2024-02-26,8578.99,Big Bazaar,UPI,transport,Medium-Low,Big Bazaar,0
+TXN0030,U005,2024-03-31,12451.89,Local Shop,UPI,Food & Beverage,Medium-Low,Local Shop,0
+TXN0031,U001,2024-03-14,186.82,Local Shop,Cash,transport,Low,Unknown Store,0
+TXN0032,U008,2024-02-04,880.45,Apple,Cash,refund,Low,Apple,1
+TXN0033,U020,2024-03-09,17760.86,Flipkart,UPI,grocery,Medium-Low,Flipkart,0
+TXN0034,U009,2024-02-18,13646.43,Starbucks,Card,shopping,Medium-Low,Starbucks,0
+TXN0035,U001,2024-03-10,6734.42,Apple,UPI,transport,Low,Apple,0
+TXN0036,U020,2024-01-20,14212.1,Starbucks,Cash,other,Medium-Low,Starbucks,0
+TXN0037,U020,2024-03-18,24580.84,Flipkart,Card,Food & Beverage,High,Flipkart,0
+TXN0038,U007,2024-01-10,20918.82,Local Shop,Cash,other,Medium-High,Local Shop,0
+TXN0039,U014,2024-03-25,15183.76,Swiggy,UPI,other,Medium-Low,Swiggy,0
+TXN0040,U005,2024-02-25,15657.18,Apple,Card,electronics,Medium-Low,Apple,0
+TXN0041,U008,2024-01-12,7323.46,DMart,Card,,Low,DMart,0
+TXN0042,U006,2024-03-03,23936.99,DMart,Card,transport,High,DMart,0
+TXN0043,U008,2024-02-22,22747.36,Amazon,Card,shopping,Medium-High,Amazon,0
+TXN0044,U008,2024-02-21,19922.16,OLA,Card,other,Medium-High,OLA,0
+TXN0045,U015,2024-02-04,6923.84,DMart,Cash,grocery,Low,DMart,0
+TXN0046,U007,2024-03-02,17691.71,Big Bazaar,UPI,other,Medium-Low,Big Bazaar,0
+TXN0047,U010,2024-01-02,1375.02,Flipkart,Cash,refund,Low,Flipkart,1
+TXN0048,U001,2024-03-14,14366.64,Amazon,Card,shopping,Medium-Low,Amazon,0
+TXN0049,U016,2024-01-10,4484.44,Local Shop,UPI,Food & Beverage,Low,Local Shop,0
+TXN0050,U020,2024-03-20,15681.95,Local Shop,Card,food,Medium-Low,Unknown Store,0
+TXN0051,U004,2024-01-27,19816.24,Local Shop,UPI,,Medium-High,Unknown Store,0
+TXN0052,U020,2024-03-01,6951.97,Apple,UPI,electronics,Low,Apple,0
+TXN0053,U007,2024-02-24,6752.04,Local Shop,UPI,electronics,Low,Unknown Store,0
+TXN0054,U019,2024-02-06,14066.25,Local Shop,Cash,refund,Medium-Low,Unknown Store,1
+TXN0055,U020,2024-01-06,9676.42,Amazon,Cash,food,Medium-Low,Amazon,0
+TXN0056,U019,2024-01-06,15573.73,OLA,Card,refund,Medium-Low,OLA,1
+TXN0057,U016,2024-02-14,9638.54,Amazon,Cash,Food & Beverage,Medium-Low,Amazon,0
+TXN0058,U002,2024-02-28,7579.44,Swiggy,UPI,refund,Low,Swiggy,1
+TXN0059,U002,2024-01-25,22695.73,Local Shop,Card,electronics,Medium-High,Local Shop,0
+TXN0060,U016,2024-01-16,18270.06,Apple,UPI,shopping,Medium-High,Apple,0
+TXN0061,U004,2024-02-29,24965.97,Big Bazaar,Cash,refund,High,Big Bazaar,1
+TXN0062,U008,2024-02-28,5726.41,Apple,UPI,Food & Beverage,Low,Apple,0
+TXN0063,U017,2024-02-04,21784.27,DMart,Card,refund,Medium-High,DMart,1
+TXN0064,U016,2024-02-14,22888.55,Swiggy,Cash,Food & Beverage,Medium-High,Swiggy,0
+TXN0065,U014,2024-01-06,14194.56,Big Bazaar,Cash,refund,Medium-Low,Big Bazaar,1
+TXN0066,U005,2024-03-05,3019.93,Starbucks,UPI,Food & Beverage,Low,Starbucks,0
+TXN0067,U003,2024-03-01,18701.55,Flipkart,Cash,Food & Beverage,Medium-High,Flipkart,0
+TXN0068,U016,2024-03-10,2061.94,DMart,Cash,shopping,Low,DMart,0
+TXN0069,U015,2024-01-22,1389.27,Amazon,Card,Food & Beverage,Low,Amazon,0
+TXN0070,U006,2024-01-22,18288.66,Local Shop,Cash,refund,Medium-High,Unknown Store,1
+TXN0071,U015,2024-02-02,13962.95,OLA,Card,electronics,Medium-Low,OLA,0
+TXN0072,U009,2024-02-28,29981.21,Local Shop,Cash,electronics,High,Local Shop,0
+TXN0073,U001,2024-03-25,252.86,OLA,Cash,electronics,Low,OLA,0
+TXN0074,U020,2024-02-15,5712.06,Big Bazaar,Cash,shopping,Low,Big Bazaar,0
+TXN0075,U010,2024-02-26,10952.19,Starbucks,Cash,transport,Medium-Low,Starbucks,0
+TXN0076,U018,2024-02-16,4944.69,Flipkart,Cash,shopping,Low,Flipkart,0
+TXN0077,U003,2024-01-19,20292.95,Apple,Card,Food & Beverage,Medium-High,Apple,0
+TXN0078,U009,2024-03-09,11063.88,Starbucks,Cash,shopping,Medium-Low,Starbucks,0
+TXN0079,U016,2024-01-04,6648.8,Big Bazaar,Card,shopping,Low,Big Bazaar,0
+TXN0080,U002,2024-01-05,3492.45,Flipkart,Card,Food & Beverage,Low,Flipkart,0
+TXN0081,U005,2024-02-23,14685.52,Local Shop,Cash,refund,Medium-Low,Unknown Store,1
+TXN0082,U008,2024-02-16,11026.38,Apple,Card,shopping,Medium-Low,Apple,0
+TXN0083,U003,2024-03-25,19188.39,Apple,UPI,transport,Medium-High,Apple,0
+TXN0084,U018,2024-01-27,26092.17,Amazon,UPI,grocery,High,Amazon,0
+TXN0085,U018,2024-02-02,19835.12,Flipkart,Cash,grocery,Medium-High,Flipkart,0
+TXN0086,U002,2024-01-17,3418.34,OLA,Cash,refund,Low,OLA,1
+TXN0087,U008,2024-03-19,23498.98,Swiggy,Cash,food,High,Swiggy,0
+TXN0088,U013,2024-02-24,21374.92,Apple,Cash,grocery,Medium-High,Apple,0
+TXN0089,U020,2024-03-22,29838.89,OLA,Card,shopping,High,OLA,0
+TXN0090,U007,2024-02-25,12420.27,Swiggy,UPI,other,Medium-Low,Swiggy,0
+TXN0091,U012,2024-01-20,2745.83,OLA,Cash,grocery,Low,OLA,0
+TXN0092,U002,2024-03-16,3675.72,Swiggy,Cash,electronics,Low,Swiggy,0
+TXN0093,U010,2024-02-15,15227.3,Local Shop,Card,other,Medium-Low,Unknown Store,0
+TXN0094,U009,2024-03-14,12879.08,Amazon,Cash,food,Medium-Low,Amazon,0
+TXN0095,U009,2024-01-04,21083.94,Local Shop,UPI,Food & Beverage,Medium-High,Unknown Store,0
+TXN0096,U005,2024-03-22,22385.89,Amazon,UPI,other,Medium-High,Amazon,0
+TXN0097,U020,2024-01-11,4730.72,Local Shop,Card,refund,Low,Unknown Store,1
+TXN0098,U015,2024-02-23,22650.74,Local Shop,Cash,refund,Medium-High,Unknown Store,1
+TXN0099,U010,2024-01-06,29533.53,Swiggy,UPI,electronics,High,Swiggy,0
+TXN0100,U004,2024-01-01,12925.34,DMart,Cash,other,Medium-Low,DMart,0
+TXN0101,U013,2024-01-06,13798.03,Amazon,Cash,Food & Beverage,Medium-Low,Amazon,0
+TXN0102,U004,2024-02-21,5164.48,OLA,Card,shopping,Low,OLA,0
+TXN0103,U014,2024-03-16,2368.63,Big Bazaar,Card,shopping,Low,Big Bazaar,0
+TXN0104,U004,2024-03-08,10487.76,Swiggy,UPI,electronics,Medium-Low,Swiggy,0
+TXN0105,U006,2024-03-18,22776.98,Big Bazaar,Card,refund,Medium-High,Big Bazaar,1
+TXN0106,U020,2024-02-11,13198.49,Local Shop,Cash,shopping,Medium-Low,Unknown Store,0
+TXN0107,U015,2024-02-27,11068.44,OLA,Cash,Food & Beverage,Medium-Low,OLA,0
+TXN0108,U019,2024-03-11,27272.41,Apple,Card,food,High,Apple,0
+TXN0109,U004,2024-02-13,19387.35,Apple,Cash,grocery,Medium-High,Apple,0
+TXN0110,U012,2024-02-06,23236.2,DMart,Cash,other,High,DMart,0
+TXN0111,U018,2024-03-27,7567.35,Amazon,UPI,grocery,Low,Amazon,0
+TXN0112,U010,2024-03-24,17855.29,DMart,Cash,grocery,Medium-Low,DMart,0
+TXN0113,U003,2024-03-23,10861.22,Swiggy,Card,refund,Medium-Low,Swiggy,1
+TXN0114,U008,2024-01-18,8880.81,Big Bazaar,Cash,food,Medium-Low,Big Bazaar,0
+TXN0115,U020,2024-01-17,4875.79,DMart,Cash,Food & Beverage,Low,DMart,0
+TXN0116,U008,2024-02-26,22458.61,DMart,Card,transport,Medium-High,DMart,0
+TXN0117,U019,2024-02-26,8460.33,DMart,UPI,grocery,Low,DMart,0
+TXN0118,U002,2024-03-23,11142.65,OLA,UPI,grocery,Medium-Low,OLA,0
+TXN0119,U015,2024-03-06,13129.8,OLA,Card,Food & Beverage,Medium-Low,OLA,0
+TXN0120,U013,2024-03-05,11591.12,Starbucks,UPI,other,Medium-Low,Starbucks,0
+TXN0121,U005,2024-01-05,14178.92,Flipkart,Card,shopping,Medium-Low,Flipkart,0
+TXN0122,U009,2024-01-28,28207.38,Starbucks,UPI,food,High,Starbucks,0
+TXN0123,U014,2024-03-22,3334.63,Big Bazaar,Cash,transport,Low,Big Bazaar,0
+TXN0124,U010,2024-02-24,10590.95,Flipkart,UPI,other,Medium-Low,Flipkart,0
+TXN0125,U017,2024-03-10,26201.21,Amazon,Card,other,High,Amazon,0
+TXN0126,U012,2024-01-31,17461.28,Amazon,Cash,grocery,Medium-Low,Amazon,0
+TXN0127,U016,2024-03-21,4054.23,Apple,Card,transport,Low,Apple,0
+TXN0128,U011,2024-02-09,16295.49,Starbucks,Card,food,Medium-Low,Starbucks,0
+TXN0129,U009,2024-01-16,26685.7,DMart,Card,refund,High,DMart,1
+TXN0130,U012,2024-03-07,2487.52,Apple,Cash,shopping,Low,Apple,0
+TXN0131,U011,2024-03-25,13383.01,Amazon,Card,other,Medium-Low,Amazon,0
+TXN0132,U014,2024-02-05,20138.8,Local Shop,Cash,food,Medium-High,Unknown Store,0
+TXN0133,U020,2024-03-27,3795.64,Flipkart,Card,food,Low,Flipkart,0
+TXN0134,U005,2024-03-27,11166.68,Local Shop,Card,electronics,Medium-Low,Unknown Store,0
+TXN0135,U004,2024-01-04,15537.18,Big Bazaar,Cash,electronics,Medium-Low,Big Bazaar,0
+TXN0136,U007,2024-01-16,2230.82,Apple,Cash,other,Low,Apple,0
+TXN0137,U003,2024-03-11,25542.35,DMart,UPI,transport,High,DMart,0
+TXN0138,U007,2024-01-18,14825.72,Amazon,Cash,shopping,Medium-Low,Amazon,0
+TXN0139,U010,2024-02-20,12329.75,Amazon,Card,refund,Medium-Low,Amazon,1
+TXN0140,U017,2024-02-14,23410.09,Apple,Card,food,High,Apple,0
+TXN0141,U017,2024-01-20,4867.39,Amazon,Card,electronics,Low,Amazon,0
+TXN0142,U018,2024-02-05,9091.71,Big Bazaar,Cash,grocery,Medium-Low,Big Bazaar,0
+TXN0143,U020,2024-03-18,27718.65,Flipkart,UPI,electronics,High,Flipkart,0
+TXN0144,U019,2024-02-23,26671.02,Big Bazaar,Card,Food & Beverage,High,Big Bazaar,0
+TXN0145,U015,2024-01-10,13193.77,OLA,UPI,other,Medium-Low,OLA,0
+TXN0146,U013,2024-01-17,16853.92,DMart,Card,shopping,Medium-Low,DMart,0
+TXN0147,U010,2024-02-19,28880.95,Starbucks,Cash,grocery,High,Starbucks,0
+TXN0148,U017,2024-02-29,14926.13,Apple,UPI,other,Medium-Low,Apple,0
+TXN0149,U002,2024-02-06,26471.36,Starbucks,UPI,Food & Beverage,High,Starbucks,0
+TXN0150,U009,2024-02-16,1366.82,Flipkart,Cash,Food & Beverage,Low,Flipkart,0
+TXN0151,U015,2024-03-11,29672.83,Swiggy,Card,other,High,Swiggy,0
+TXN0152,U012,2024-01-19,15278.58,Swiggy,Cash,refund,Medium-Low,Swiggy,1
+TXN0153,U015,2024-01-20,27941.75,Swiggy,Cash,other,High,Swiggy,0
+TXN0154,U017,2024-03-09,16892.1,Swiggy,Cash,Food & Beverage,Medium-Low,Swiggy,0
+TXN0155,U010,2024-03-29,14242.96,Local Shop,Cash,food,Medium-Low,Unknown Store,0
+TXN0156,U016,2024-01-22,24651.62,Local Shop,UPI,refund,High,Unknown Store,1
+TXN0157,U014,2024-01-20,6124.71,DMart,Cash,grocery,Low,DMart,0
+TXN0158,U007,2024-03-12,14356.35,Swiggy,Cash,other,Medium-Low,Swiggy,0
+TXN0159,U020,2024-03-02,8377.4,OLA,Card,refund,Low,OLA,1
+TXN0160,U016,2024-02-14,3665.0,DMart,Card,grocery,Low,DMart,0
+TXN0161,U002,2024-02-06,27721.05,OLA,UPI,electronics,High,OLA,0
+TXN0162,U009,2024-01-18,22229.32,Swiggy,UPI,food,Medium-High,Swiggy,0
+TXN0163,U014,2024-02-12,20438.95,Amazon,Card,refund,Medium-High,Amazon,1
+TXN0164,U007,2024-02-06,19380.48,Apple,UPI,food,Medium-High,Apple,0
+TXN0165,U014,2024-01-23,11915.87,Flipkart,UPI,,Medium-Low,Flipkart,0
+TXN0166,U020,2024-01-14,13635.93,Local Shop,Cash,transport,Medium-Low,Unknown Store,0
+TXN0167,U011,2024-01-21,7725.37,Amazon,Cash,transport,Low,Amazon,0
+TXN0168,U020,2024-03-22,12836.82,Flipkart,UPI,refund,Medium-Low,Flipkart,1
+TXN0169,U008,2024-01-01,7073.28,DMart,Cash,food,Low,DMart,0
+TXN0170,U012,2024-03-29,20036.91,OLA,Cash,electronics,Medium-High,OLA,0
+TXN0171,U010,2024-02-17,28721.24,Amazon,Card,refund,High,Amazon,1
+TXN0172,U007,2024-02-01,13407.97,Swiggy,UPI,transport,Medium-Low,Swiggy,0
+TXN0173,U018,2024-01-20,25636.04,Local Shop,Cash,refund,High,Unknown Store,1
+TXN0174,U015,2024-01-17,16921.7,Starbucks,Cash,,Medium-Low,Starbucks,0
+TXN0175,U001,2024-01-28,12716.68,OLA,UPI,refund,Medium-Low,OLA,1
+TXN0176,U010,2024-02-22,4071.51,Starbucks,Card,Food & Beverage,Low,Starbucks,0
+TXN0177,U013,2024-02-18,28924.69,Apple,UPI,Food & Beverage,High,Apple,0
+TXN0178,U005,2024-01-29,691.83,Swiggy,Card,transport,Low,Swiggy,0
+TXN0179,U015,2024-02-14,5662.53,Big Bazaar,Cash,food,Low,Big Bazaar,0
+TXN0180,U007,2024-01-09,1016.95,Big Bazaar,UPI,Food & Beverage,Low,Big Bazaar,0
+TXN0181,U008,2024-03-10,25913.27,Apple,UPI,other,High,Apple,0
+TXN0182,U020,2024-03-27,9059.92,Local Shop,Card,food,Medium-Low,Unknown Store,0
+TXN0183,U019,2024-01-23,14873.67,Swiggy,Card,other,Medium-Low,Swiggy,0
+TXN0184,U014,2024-01-20,5524.53,Local Shop,Card,grocery,Low,Local Shop,0
+TXN0185,U002,2024-03-12,16723.03,Apple,Card,refund,Medium-Low,Apple,1
+TXN0186,U003,2024-03-09,8061.16,DMart,UPI,transport,Low,DMart,0
+TXN0187,U007,2024-02-12,6362.12,Apple,Card,transport,Low,Apple,0
+TXN0188,U008,2024-03-11,8498.95,Local Shop,Card,refund,Low,Local Shop,1
+TXN0189,U004,2024-03-01,11127.44,Apple,Cash,electronics,Medium-Low,Apple,0
+TXN0190,U019,2024-03-15,4580.82,Swiggy,Card,other,Low,Swiggy,0
+TXN0191,U016,2024-03-23,5055.33,OLA,Cash,food,Low,OLA,0
+TXN0192,U002,2024-01-10,201.45,Swiggy,Cash,transport,Low,Swiggy,0
+TXN0193,U015,2024-02-17,19135.48,Swiggy,Card,,Medium-High,Swiggy,0
+TXN0194,U018,2024-02-22,15887.24,Swiggy,Cash,Food & Beverage,Medium-Low,Swiggy,0
+TXN0195,U004,2024-01-13,5766.04,Flipkart,Card,Food & Beverage,Low,Flipkart,0
+TXN0196,U019,2024-02-01,20524.41,Apple,UPI,Food & Beverage,Medium-High,Apple,0
+TXN0197,U018,2024-03-01,293.41,Local Shop,Cash,shopping,Low,Local Shop,0
+TXN0198,U002,2024-01-30,20771.71,Swiggy,Cash,food,Medium-High,Swiggy,0
+TXN0199,U011,2024-01-03,4334.3,Flipkart,Card,transport,Low,Flipkart,0
+TXN0200,U013,2024-03-27,22670.72,Local Shop,UPI,other,Medium-High,Unknown Store,0
+TXN0201,U004,2024-02-25,2289.79,Starbucks,Card,other,Low,Starbucks,0
+TXN0202,U009,2024-02-27,10680.78,Starbucks,Cash,shopping,Medium-Low,Starbucks,0
+TXN0203,U010,2024-02-01,8046.48,Local Shop,Cash,other,Low,Unknown Store,0
+TXN0204,U003,2024-01-01,10803.93,Amazon,Card,Food & Beverage,Medium-Low,Amazon,0
+TXN0205,U001,2024-01-12,2801.0,Amazon,UPI,Food & Beverage,Low,Amazon,0
+TXN0206,U018,2024-02-01,11428.15,Amazon,UPI,Food & Beverage,Medium-Low,Amazon,0
+TXN0207,U014,2024-02-08,2316.87,OLA,Card,transport,Low,OLA,0
+TXN0208,U004,2024-01-18,28465.22,Apple,Card,grocery,High,Apple,0
+TXN0209,U011,2024-03-18,9432.36,OLA,Cash,refund,Medium-Low,OLA,1
+TXN0210,U008,2024-02-11,24496.67,Local Shop,UPI,grocery,High,Unknown Store,0
+TXN0211,U001,2024-02-29,23932.59,Swiggy,Cash,electronics,High,Swiggy,0
+TXN0212,U009,2024-03-25,12699.61,Big Bazaar,Card,Food & Beverage,Medium-Low,Big Bazaar,0
+TXN0213,U002,2024-02-16,23070.93,Swiggy,Cash,,High,Swiggy,0
+TXN0214,U011,2024-02-25,2967.21,Local Shop,Cash,transport,Low,Local Shop,0
+TXN0215,U012,2024-02-20,20389.87,Apple,Card,Food & Beverage,Medium-High,Apple,0
+TXN0216,U004,2024-01-19,10298.57,Amazon,Card,refund,Medium-Low,Amazon,1
+TXN0217,U003,2024-02-08,21326.26,DMart,Cash,transport,Medium-High,DMart,0
+TXN0218,U006,2024-03-11,16799.87,Swiggy,Cash,Food & Beverage,Medium-Low,Swiggy,0
+TXN0219,U001,2024-03-19,17770.17,Local Shop,Card,shopping,Medium-Low,Local Shop,0
+TXN0220,U004,2024-03-09,9786.29,Local Shop,Cash,other,Medium-Low,Unknown Store,0
+TXN0221,U013,2024-03-19,3435.82,Local Shop,Cash,electronics,Low,Unknown Store,0
+TXN0222,U019,2024-01-11,3544.67,Local Shop,UPI,Food & Beverage,Low,Unknown Store,0
+TXN0223,U005,2024-03-14,5580.75,Local Shop,UPI,refund,Low,Unknown Store,1
+TXN0224,U005,2024-01-24,13535.52,OLA,Card,Food & Beverage,Medium-Low,OLA,0
+TXN0225,U017,2024-03-24,20544.05,Swiggy,UPI,food,Medium-High,Swiggy,0
+TXN0226,U010,2024-01-05,16132.88,Big Bazaar,Card,shopping,Medium-Low,Big Bazaar,0
+TXN0227,U004,2024-02-04,24680.1,Local Shop,UPI,shopping,High,Unknown Store,0
+TXN0228,U010,2024-01-05,10463.82,Big Bazaar,UPI,other,Medium-Low,Big Bazaar,0
+TXN0229,U014,2024-01-22,6206.52,Local Shop,Cash,grocery,Low,Unknown Store,0
+TXN0230,U010,2024-02-07,15437.31,DMart,Card,electronics,Medium-Low,DMart,0
+TXN0231,U005,2024-02-01,9669.68,Flipkart,Card,electronics,Medium-Low,Flipkart,0
+TXN0232,U013,2024-02-27,23840.01,Local Shop,Card,other,High,Local Shop,0
+TXN0233,U016,2024-02-11,23226.32,Apple,Cash,other,High,Apple,0
+TXN0234,U018,2024-02-20,24747.18,Amazon,Card,grocery,High,Amazon,0
+TXN0235,U016,2024-02-13,2996.25,Local Shop,UPI,food,Low,Unknown Store,0
+TXN0236,U007,2024-03-29,9062.95,Local Shop,Cash,shopping,Medium-Low,Local Shop,0
+TXN0237,U006,2024-01-07,9172.22,DMart,UPI,food,Medium-Low,DMart,0
+TXN0238,U016,2024-01-10,6793.46,Big Bazaar,Card,Food & Beverage,Low,Big Bazaar,0
+TXN0239,U016,2024-01-10,2689.04,Flipkart,Card,grocery,Low,Flipkart,0
+TXN0240,U003,2024-03-08,19504.11,Flipkart,Cash,Food & Beverage,Medium-High,Flipkart,0
+TXN0241,U015,2024-01-28,4208.99,Local Shop,Card,grocery,Low,Unknown Store,0
+TXN0242,U009,2024-03-23,16606.36,Big Bazaar,UPI,electronics,Medium-Low,Big Bazaar,0
+TXN0243,U017,2024-03-18,11758.61,Big Bazaar,Card,transport,Medium-Low,Big Bazaar,0
+TXN0244,U020,2024-01-10,28018.39,Apple,Card,grocery,High,Apple,0
+TXN0245,U003,2024-01-03,7872.94,Apple,Cash,Food & Beverage,Low,Apple,0
+TXN0246,U013,2024-01-11,2517.08,Local Shop,Cash,shopping,Low,Local Shop,0
+TXN0247,U014,2024-01-31,2595.52,OLA,UPI,grocery,Low,OLA,0
+TXN0248,U001,2024-03-31,350.4,Amazon,Cash,other,Low,Amazon,0
+TXN0249,U009,2024-01-16,24215.16,Flipkart,Cash,refund,High,Flipkart,1
+TXN0250,U017,2024-02-16,25782.2,Apple,Cash,shopping,High,Apple,0
+TXN0251,U017,2024-01-01,25889.23,Big Bazaar,UPI,food,High,Big Bazaar,0
+TXN0252,U014,2024-01-29,12493.54,Swiggy,Cash,food,Medium-Low,Swiggy,0
+TXN0253,U008,2024-03-07,2077.1,Flipkart,Card,refund,Low,Flipkart,1
+TXN0254,U012,2024-01-26,23537.37,Starbucks,Cash,transport,High,Starbucks,0
+TXN0255,U008,2024-01-20,727.07,Swiggy,UPI,food,Low,Swiggy,0
+TXN0256,U010,2024-01-14,29493.64,Local Shop,Cash,food,High,Local Shop,0
+TXN0257,U017,2024-02-22,29236.9,Big Bazaar,Cash,shopping,High,Big Bazaar,0
+TXN0258,U019,2024-01-08,28926.91,Local Shop,Card,other,High,Unknown Store,0
+TXN0259,U015,2024-02-04,28307.21,DMart,UPI,refund,High,DMart,1
+TXN0260,U011,2024-02-22,10755.04,Apple,Card,shopping,Medium-Low,Apple,0
+TXN0261,U010,2024-03-31,25079.38,Flipkart,Card,food,High,Flipkart,0
+TXN0262,U009,2024-01-23,25639.49,OLA,Card,grocery,High,OLA,0
+TXN0263,U001,2024-01-08,5952.01,Amazon,UPI,electronics,Low,Amazon,0
+TXN0264,U001,2024-01-09,13308.51,Amazon,UPI,,Medium-Low,Amazon,0
+TXN0265,U002,2024-01-22,21735.68,Apple,UPI,grocery,Medium-High,Apple,0
+TXN0266,U009,2024-02-27,18427.06,OLA,Card,refund,Medium-High,OLA,1
+TXN0267,U003,2024-02-05,12582.85,Starbucks,Cash,food,Medium-Low,Starbucks,0
+TXN0268,U012,2024-03-02,27381.18,Local Shop,UPI,transport,High,Local Shop,0
+TXN0269,U009,2024-01-08,10729.41,Starbucks,UPI,transport,Medium-Low,Starbucks,0
+TXN0270,U018,2024-01-08,25396.69,OLA,UPI,other,High,OLA,0
+TXN0271,U019,2024-01-04,16912.56,DMart,Cash,refund,Medium-Low,DMart,1
+TXN0272,U003,2024-01-08,6572.08,Starbucks,UPI,other,Low,Starbucks,0
+TXN0273,U011,2024-01-08,17602.41,Flipkart,Card,other,Medium-Low,Flipkart,0
+TXN0274,U019,2024-01-13,9684.87,Local Shop,Cash,other,Medium-Low,Local Shop,0
+TXN0275,U018,2024-03-29,19969.29,Flipkart,Cash,grocery,Medium-High,Flipkart,0
+TXN0276,U019,2024-02-20,18075.64,Starbucks,Cash,refund,Medium-High,Starbucks,1
+TXN0277,U011,2024-01-10,29471.57,Flipkart,Cash,other,High,Flipkart,0
+TXN0278,U001,2024-02-03,20798.35,Apple,UPI,,Medium-High,Apple,0
+TXN0279,U014,2024-01-22,26454.3,Apple,Cash,transport,High,Apple,0
+TXN0280,U015,2024-01-10,612.14,Flipkart,UPI,grocery,Low,Flipkart,0
+TXN0281,U018,2024-01-12,29558.43,Amazon,Cash,Food & Beverage,High,Amazon,0
+TXN0282,U002,2024-01-13,29232.21,Flipkart,Cash,electronics,High,Flipkart,0
+TXN0283,U008,2024-01-13,17157.38,OLA,UPI,electronics,Medium-Low,OLA,0
+TXN0284,U016,2024-01-26,6216.52,Local Shop,UPI,Food & Beverage,Low,Unknown Store,0
+TXN0285,U016,2024-03-25,19259.57,Apple,Card,food,Medium-High,Apple,0
+TXN0286,U015,2024-02-29,25113.99,OLA,Cash,other,High,OLA,0
+TXN0287,U014,2024-03-16,1838.9,Swiggy,Cash,refund,Low,Swiggy,1
+TXN0288,U008,2024-03-01,11850.18,Local Shop,Cash,grocery,Medium-Low,Unknown Store,0
+TXN0289,U015,2024-01-23,24255.74,Amazon,Card,grocery,High,Amazon,0
+TXN0290,U009,2024-02-10,11649.09,Local Shop,Cash,food,Medium-Low,Unknown Store,0
+TXN0291,U019,2024-03-07,12439.13,Local Shop,UPI,shopping,Medium-Low,Unknown Store,0
+TXN0292,U018,2024-02-14,11497.47,OLA,UPI,grocery,Medium-Low,OLA,0
+TXN0293,U020,2024-03-28,11879.82,Local Shop,Cash,electronics,Medium-Low,Unknown Store,0
+TXN0294,U001,2024-02-13,8417.6,DMart,UPI,refund,Low,DMart,1
+TXN0295,U009,2024-02-23,13257.08,DMart,Cash,food,Medium-Low,DMart,0
+TXN0296,U006,2024-01-09,15208.79,Swiggy,UPI,transport,Medium-Low,Swiggy,0
+TXN0297,U008,2024-01-05,27541.75,Starbucks,Cash,shopping,High,Starbucks,0
+TXN0298,U008,2024-02-17,13388.64,Starbucks,Card,electronics,Medium-Low,Starbucks,0
+TXN0299,U010,2024-01-04,4895.59,Amazon,Cash,transport,Low,Amazon,0
+TXN0300,U014,2024-03-06,23411.31,OLA,Cash,food,High,OLA,0
+TXN0301,U009,2024-03-18,29011.06,Big Bazaar,Card,transport,High,Big Bazaar,0
+TXN0302,U010,2024-03-27,3078.34,Apple,Cash,electronics,Low,Apple,0
+TXN0303,U004,2024-03-02,29650.95,OLA,Cash,electronics,High,OLA,0
+TXN0304,U005,2024-03-07,24164.84,Big Bazaar,Card,food,High,Big Bazaar,0
+TXN0305,U010,2024-02-03,11654.36,Apple,UPI,transport,Medium-Low,Apple,0
+TXN0306,U016,2024-03-26,9012.84,Swiggy,UPI,refund,Medium-Low,Swiggy,1
+TXN0307,U009,2024-03-12,26988.74,Flipkart,Cash,Food & Beverage,High,Flipkart,0
+TXN0308,U012,2024-02-03,25537.9,DMart,Cash,shopping,High,DMart,0
+TXN0309,U007,2024-03-05,20424.13,Apple,UPI,other,Medium-High,Apple,0
+TXN0310,U019,2024-02-28,25873.19,Local Shop,Cash,other,High,Local Shop,0
+TXN0311,U001,2024-02-27,22838.19,Starbucks,UPI,Food & Beverage,Medium-High,Starbucks,0
+TXN0312,U013,2024-02-24,150.03,Local Shop,Card,transport,Low,Local Shop,0
+TXN0313,U001,2024-03-21,20808.81,Starbucks,Cash,grocery,Medium-High,Starbucks,0
+TXN0314,U002,2024-02-08,21837.68,Amazon,UPI,refund,Medium-High,Amazon,1
+TXN0315,U007,2024-01-22,6860.26,DMart,UPI,grocery,Low,DMart,0
+TXN0316,U012,2024-03-24,26297.56,Amazon,Cash,shopping,High,Amazon,0
+TXN0317,U002,2024-03-29,13334.99,Starbucks,UPI,food,Medium-Low,Starbucks,0
+TXN0318,U014,2024-03-25,15614.07,OLA,UPI,shopping,Medium-Low,OLA,0
+TXN0319,U004,2024-01-14,18273.96,OLA,Card,electronics,Medium-High,OLA,0
+TXN0320,U002,2024-03-11,20649.24,Flipkart,Cash,shopping,Medium-High,Flipkart,0
+TXN0321,U016,2024-01-20,15356.04,Local Shop,Cash,electronics,Medium-Low,Unknown Store,0
+TXN0322,U015,2024-01-07,5249.31,OLA,Card,shopping,Low,OLA,0
+TXN0323,U002,2024-01-02,19419.49,Amazon,Card,shopping,Medium-High,Amazon,0
+TXN0324,U011,2024-01-24,12013.5,DMart,Card,grocery,Medium-Low,DMart,0
+TXN0325,U005,2024-03-30,4790.27,Amazon,Cash,Food & Beverage,Low,Amazon,0
+TXN0326,U020,2024-01-04,27612.74,DMart,UPI,other,High,DMart,0
+TXN0327,U017,2024-03-14,26195.58,Starbucks,UPI,transport,High,Starbucks,0
+TXN0328,U012,2024-03-25,25172.6,Apple,UPI,grocery,High,Apple,0
+TXN0329,U016,2024-03-04,22545.39,Swiggy,UPI,Food & Beverage,Medium-High,Swiggy,0
+TXN0330,U008,2024-01-11,24039.83,Local Shop,Card,refund,High,Local Shop,1
+TXN0331,U004,2024-02-21,16718.36,Starbucks,Cash,transport,Medium-Low,Starbucks,0
+TXN0332,U011,2024-02-16,6695.31,Apple,Cash,other,Low,Apple,0
+TXN0333,U004,2024-01-13,10247.3,Apple,Cash,shopping,Medium-Low,Apple,0
+TXN0334,U006,2024-03-04,21508.51,Starbucks,UPI,Food & Beverage,Medium-High,Starbucks,0
+TXN0335,U015,2024-01-25,22716.91,Big Bazaar,Cash,refund,Medium-High,Big Bazaar,1
+TXN0336,U019,2024-03-05,140.09,Apple,Cash,grocery,Low,Apple,0
+TXN0337,U006,2024-01-17,19729.08,Local Shop,Card,transport,Medium-High,Unknown Store,0
+TXN0338,U013,2024-02-13,24145.86,OLA,Cash,other,High,OLA,0
+TXN0339,U007,2024-01-26,21434.39,Swiggy,Cash,grocery,Medium-High,Swiggy,0
+TXN0340,U018,2024-03-29,3471.0,Swiggy,Cash,electronics,Low,Swiggy,0
+TXN0341,U001,2024-03-07,11432.3,Local Shop,UPI,electronics,Medium-Low,Local Shop,0
+TXN0342,U002,2024-03-29,22610.28,Flipkart,Cash,transport,Medium-High,Flipkart,0
+TXN0343,U013,2024-01-31,19938.16,Swiggy,Card,food,Medium-High,Swiggy,0
+TXN0344,U009,2024-01-26,6774.2,Starbucks,Cash,transport,Low,Starbucks,0
+TXN0345,U010,2024-02-27,2243.33,Big Bazaar,Card,,Low,Big Bazaar,0
+TXN0346,U018,2024-02-03,17523.74,OLA,UPI,,Medium-Low,OLA,0
+TXN0347,U020,2024-01-07,23699.35,DMart,Card,grocery,High,DMart,0
+TXN0348,U003,2024-03-05,16296.97,Swiggy,Cash,other,Medium-Low,Swiggy,0
+TXN0349,U007,2024-03-20,24712.42,OLA,Card,transport,High,OLA,0
+TXN0350,U011,2024-02-18,7705.15,Starbucks,Card,refund,Low,Starbucks,1
+TXN0351,U002,2024-02-07,15421.7,Apple,Cash,,Medium-Low,Apple,0
+TXN0352,U007,2024-03-26,20565.3,Amazon,Cash,shopping,Medium-High,Amazon,0
+TXN0353,U001,2024-02-28,2634.75,Flipkart,UPI,transport,Low,Flipkart,0
+TXN0354,U014,2024-02-19,12139.4,OLA,Cash,,Medium-Low,OLA,0
+TXN0355,U003,2024-03-15,25449.05,Local Shop,Cash,shopping,High,Unknown Store,0
+TXN0356,U015,2024-02-18,19825.09,OLA,Cash,electronics,Medium-High,OLA,0
+TXN0357,U010,2024-03-27,16610.19,Flipkart,Cash,shopping,Medium-Low,Flipkart,0
+TXN0358,U007,2024-02-14,27169.78,OLA,UPI,electronics,High,OLA,0
+TXN0359,U004,2024-01-24,22533.74,Big Bazaar,Cash,shopping,Medium-High,Big Bazaar,0
+TXN0360,U004,2024-01-26,10720.58,OLA,Cash,transport,Medium-Low,OLA,0
+TXN0361,U016,2024-02-27,19786.07,DMart,Card,Food & Beverage,Medium-High,DMart,0
+TXN0362,U001,2024-02-10,6653.56,Flipkart,UPI,other,Low,Flipkart,0
+TXN0363,U015,2024-02-27,9171.1,Apple,UPI,grocery,Medium-Low,Apple,0
+TXN0364,U007,2024-02-03,2271.24,Swiggy,Cash,transport,Low,Swiggy,0
+TXN0365,U018,2024-02-03,23258.17,Starbucks,Cash,grocery,High,Starbucks,0
+TXN0366,U017,2024-03-06,10922.33,Apple,Cash,grocery,Medium-Low,Apple,0
+TXN0367,U006,2024-01-23,21962.81,Apple,UPI,other,Medium-High,Apple,0
+TXN0368,U002,2024-03-26,27232.71,Big Bazaar,UPI,,High,Big Bazaar,0
+TXN0369,U004,2024-03-31,22259.87,DMart,Cash,shopping,Medium-High,DMart,0
+TXN0370,U009,2024-02-18,12181.21,Swiggy,Cash,,Medium-Low,Swiggy,0
+TXN0371,U015,2024-01-22,15441.09,Flipkart,Card,shopping,Medium-Low,Flipkart,0
+TXN0372,U014,2024-02-12,20260.13,Big Bazaar,Card,,Medium-High,Big Bazaar,0
+TXN0373,U005,2024-03-14,18889.92,Starbucks,UPI,grocery,Medium-High,Starbucks,0
+TXN0374,U013,2024-03-17,21841.95,Swiggy,Card,refund,Medium-High,Swiggy,1
+TXN0375,U006,2024-01-29,4289.94,Apple,Cash,grocery,Low,Apple,0
+TXN0376,U015,2024-03-17,11352.56,DMart,Cash,grocery,Medium-Low,DMart,0
+TXN0377,U004,2024-01-23,17998.42,Local Shop,UPI,grocery,Medium-Low,Unknown Store,0
+TXN0378,U018,2024-01-01,12626.31,Local Shop,UPI,refund,Medium-Low,Unknown Store,1
+TXN0379,U012,2024-03-16,4025.15,Local Shop,Card,Food & Beverage,Low,Local Shop,0
+TXN0380,U007,2024-01-01,15680.99,OLA,Cash,Food & Beverage,Medium-Low,OLA,0
+TXN0381,U004,2024-01-20,17565.25,DMart,Card,Food & Beverage,Medium-Low,DMart,0
+TXN0382,U014,2024-03-11,11112.69,Big Bazaar,Cash,Food & Beverage,Medium-Low,Big Bazaar,0
+TXN0383,U004,2024-01-30,20982.35,Flipkart,Card,food,Medium-High,Flipkart,0
+TXN0384,U013,2024-03-22,2741.75,Flipkart,UPI,transport,Low,Flipkart,0
+TXN0385,U003,2024-03-18,11535.94,DMart,Card,food,Medium-Low,DMart,0
+TXN0386,U016,2024-02-26,25518.52,Flipkart,UPI,transport,High,Flipkart,0
+TXN0387,U006,2024-03-27,7185.31,Local Shop,Card,Food & Beverage,Low,Unknown Store,0
+TXN0388,U019,2024-01-26,21111.62,Local Shop,Cash,other,Medium-High,Local Shop,0
+TXN0389,U009,2024-01-29,27892.12,DMart,Cash,shopping,High,DMart,0
+TXN0390,U010,2024-02-13,15403.47,Swiggy,Card,Food & Beverage,Medium-Low,Swiggy,0
+TXN0391,U016,2024-02-01,13770.86,Local Shop,Card,shopping,Medium-Low,Unknown Store,0
+TXN0392,U008,2024-03-27,9478.76,Local Shop,Cash,transport,Medium-Low,Local Shop,0
+TXN0393,U003,2024-02-21,16641.0,OLA,Cash,transport,Medium-Low,OLA,0
+TXN0394,U007,2024-01-31,7969.51,Apple,Card,shopping,Low,Apple,0
+TXN0395,U003,2024-03-27,208.64,Amazon,Card,refund,Low,Amazon,1
+TXN0396,U009,2024-03-03,27481.04,Local Shop,UPI,Food & Beverage,High,Unknown Store,0
+TXN0397,U018,2024-01-05,25813.4,Apple,Cash,other,High,Apple,0
+TXN0398,U001,2024-03-27,17434.44,Starbucks,UPI,transport,Medium-Low,Starbucks,0
+TXN0399,U016,2024-03-19,5525.57,OLA,Card,electronics,Low,OLA,0
+TXN0400,U006,2024-03-14,20583.5,Apple,Cash,Food & Beverage,Medium-High,Apple,0
+TXN0401,U005,2024-01-20,302.17,Big Bazaar,Cash,other,Low,Big Bazaar,0
+TXN0402,U010,2024-02-02,2978.25,Apple,Card,shopping,Low,Apple,0
+TXN0403,U011,2024-02-03,16814.9,Apple,Card,transport,Medium-Low,Apple,0
+TXN0404,U019,2024-03-24,8545.42,Local Shop,Card,Food & Beverage,Medium-Low,Unknown Store,0
+TXN0405,U010,2024-02-29,5035.59,Local Shop,Cash,shopping,Low,Unknown Store,0
+TXN0406,U006,2024-02-13,9513.18,Amazon,Card,refund,Medium-Low,Amazon,1
+TXN0407,U019,2024-03-07,5027.87,DMart,Cash,shopping,Low,DMart,0
+TXN0408,U006,2024-02-20,1923.13,Big Bazaar,Card,shopping,Low,Big Bazaar,0
+TXN0409,U009,2024-03-20,19648.43,Amazon,Cash,grocery,Medium-High,Amazon,0
+TXN0410,U017,2024-01-22,19909.84,Flipkart,Card,electronics,Medium-High,Flipkart,0
+TXN0411,U015,2024-01-18,17931.55,Swiggy,Card,electronics,Medium-Low,Swiggy,0
+TXN0412,U016,2024-03-10,2695.73,DMart,Card,,Low,DMart,0
+TXN0413,U005,2024-02-14,16057.62,Swiggy,Card,,Medium-Low,Swiggy,0
+TXN0414,U010,2024-03-17,226.47,Local Shop,Card,grocery,Low,Local Shop,0
+TXN0415,U013,2024-01-29,12672.96,Local Shop,Cash,electronics,Medium-Low,Local Shop,0
+TXN0416,U009,2024-02-22,2063.23,Swiggy,Cash,refund,Low,Swiggy,1
+TXN0417,U011,2024-01-03,29091.79,Big Bazaar,Card,refund,High,Big Bazaar,1
+TXN0418,U008,2024-01-12,14812.45,Starbucks,Card,food,Medium-Low,Starbucks,0
+TXN0419,U003,2024-01-19,23271.83,DMart,Card,food,High,DMart,0
+TXN0420,U008,2024-02-19,22131.19,Amazon,Cash,transport,Medium-High,Amazon,0
+TXN0421,U013,2024-03-28,4766.76,Apple,Cash,refund,Low,Apple,1
+TXN0422,U007,2024-02-16,20004.18,OLA,Card,,Medium-High,OLA,0
+TXN0423,U019,2024-01-16,7300.25,OLA,Card,grocery,Low,OLA,0
+TXN0424,U003,2024-02-01,2751.13,DMart,UPI,grocery,Low,DMart,0
+TXN0425,U004,2024-01-17,9509.02,Swiggy,Card,food,Medium-Low,Swiggy,0
+TXN0426,U012,2024-01-18,14564.21,Local Shop,Card,grocery,Medium-Low,Local Shop,0
+TXN0427,U012,2024-02-11,26031.18,Swiggy,UPI,refund,High,Swiggy,1
+TXN0428,U009,2024-03-10,31.59,OLA,UPI,other,Low,OLA,0
+TXN0429,U008,2024-02-11,29015.22,Local Shop,Card,grocery,High,Unknown Store,0
+TXN0430,U010,2024-02-11,9667.5,Local Shop,UPI,food,Medium-Low,Unknown Store,0
+TXN0431,U004,2024-03-03,964.2,Big Bazaar,Cash,electronics,Low,Big Bazaar,0
+TXN0432,U012,2024-01-29,27907.03,Starbucks,Card,food,High,Starbucks,0
+TXN0433,U018,2024-02-23,21255.93,DMart,Cash,electronics,Medium-High,DMart,0
+TXN0434,U007,2024-03-07,21757.91,Amazon,Cash,grocery,Medium-High,Amazon,0
+TXN0435,U018,2024-02-23,19162.34,Swiggy,Card,grocery,Medium-High,Swiggy,0
+TXN0436,U018,2024-02-21,4753.71,Flipkart,Card,other,Low,Flipkart,0
+TXN0437,U014,2024-03-22,21778.77,DMart,Card,electronics,Medium-High,DMart,0
+TXN0438,U015,2024-02-27,21792.14,DMart,UPI,electronics,Medium-High,DMart,0
+TXN0439,U010,2024-01-29,9453.99,Starbucks,Cash,grocery,Medium-Low,Starbucks,0
+TXN0440,U002,2024-02-28,4160.86,Amazon,Card,shopping,Low,Amazon,0
+TXN0441,U013,2024-03-13,2325.27,Local Shop,Cash,shopping,Low,Unknown Store,0
+TXN0442,U010,2024-01-05,23405.86,Local Shop,Card,shopping,High,Unknown Store,0
+TXN0443,U020,2024-01-02,9150.45,Big Bazaar,Card,transport,Medium-Low,Big Bazaar,0
+TXN0444,U002,2024-03-27,22587.68,Flipkart,Card,grocery,Medium-High,Flipkart,0
+TXN0445,U011,2024-01-11,22362.0,Flipkart,Cash,grocery,Medium-High,Flipkart,0
+TXN0446,U016,2024-03-12,11865.61,Flipkart,Cash,shopping,Medium-Low,Flipkart,0
+TXN0447,U014,2024-02-11,20155.71,OLA,Card,food,Medium-High,OLA,0
+TXN0448,U006,2024-02-14,4383.1,OLA,Cash,shopping,Low,OLA,0
+TXN0449,U002,2024-02-01,24975.02,Amazon,Card,food,High,Amazon,0
+TXN0450,U007,2024-03-09,16397.26,DMart,Cash,food,Medium-Low,DMart,0
+TXN0451,U019,2024-03-25,5117.89,Local Shop,Card,food,Low,Local Shop,0
+TXN0452,U013,2024-03-25,25563.97,Amazon,Card,Food & Beverage,High,Amazon,0
+TXN0453,U013,2024-03-06,14545.02,Big Bazaar,Cash,food,Medium-Low,Big Bazaar,0
+TXN0454,U008,2024-03-08,14703.09,Starbucks,Card,electronics,Medium-Low,Starbucks,0
+TXN0455,U017,2024-02-05,7737.8,Big Bazaar,Cash,transport,Low,Big Bazaar,0
+TXN0456,U011,2024-02-20,21899.39,Flipkart,Cash,transport,Medium-High,Flipkart,0
+TXN0457,U005,2024-02-24,9885.25,Local Shop,Cash,transport,Medium-Low,Unknown Store,0
+TXN0458,U010,2024-03-29,29870.62,Flipkart,UPI,shopping,High,Flipkart,0
+TXN0459,U011,2024-01-19,9567.44,Flipkart,Card,electronics,Medium-Low,Flipkart,0
+TXN0460,U007,2024-01-14,795.68,Flipkart,Cash,transport,Low,Flipkart,0
+TXN0461,U001,2024-02-15,23396.99,Big Bazaar,Cash,grocery,High,Big Bazaar,0
+TXN0462,U016,2024-03-01,5805.86,Local Shop,Card,transport,Low,Local Shop,0
+TXN0463,U007,2024-01-09,26015.2,Big Bazaar,UPI,food,High,Big Bazaar,0
+TXN0464,U013,2024-02-10,28174.78,Local Shop,Cash,shopping,High,Unknown Store,0
+TXN0465,U015,2024-01-06,16140.7,Apple,Cash,food,Medium-Low,Apple,0
+TXN0466,U010,2024-02-26,23212.57,Big Bazaar,Cash,grocery,High,Big Bazaar,0
+TXN0467,U015,2024-01-12,23364.15,Apple,Card,refund,High,Apple,1
+TXN0468,U006,2024-02-28,2714.49,Starbucks,UPI,shopping,Low,Starbucks,0
+TXN0469,U004,2024-03-31,10894.67,Amazon,Cash,Food & Beverage,Medium-Low,Amazon,0
+TXN0470,U013,2024-01-06,16969.09,Swiggy,UPI,food,Medium-Low,Swiggy,0
+TXN0471,U010,2024-02-09,18797.32,Local Shop,UPI,electronics,Medium-High,Local Shop,0
+TXN0472,U015,2024-03-04,24225.56,Starbucks,Cash,refund,High,Starbucks,1
+TXN0473,U015,2024-01-11,26466.21,Local Shop,UPI,food,High,Local Shop,0
+TXN0474,U002,2024-01-19,17347.0,DMart,UPI,grocery,Medium-Low,DMart,0
+TXN0475,U010,2024-03-19,22482.55,Flipkart,Card,Food & Beverage,Medium-High,Flipkart,0
+TXN0476,U014,2024-03-11,14129.8,Amazon,Cash,transport,Medium-Low,Amazon,0
+TXN0477,U020,2024-01-08,21894.56,Big Bazaar,Cash,electronics,Medium-High,Big Bazaar,0
+TXN0478,U020,2024-02-10,17258.53,Local Shop,Cash,refund,Medium-Low,Local Shop,1
+TXN0479,U006,2024-03-19,8721.74,Apple,Cash,transport,Medium-Low,Apple,0
+TXN0480,U014,2024-02-22,10496.0,Local Shop,UPI,electronics,Medium-Low,Unknown Store,0
+TXN0481,U010,2024-02-08,193.88,Amazon,Cash,food,Low,Amazon,0
+TXN0482,U007,2024-02-12,14378.46,Flipkart,Card,refund,Medium-Low,Flipkart,1
+TXN0483,U011,2024-02-29,1690.11,Swiggy,Card,food,Low,Swiggy,0
+TXN0484,U019,2024-03-28,27486.43,Big Bazaar,Card,other,High,Big Bazaar,0
+TXN0485,U018,2024-01-22,17859.8,Local Shop,Card,electronics,Medium-Low,Local Shop,0
+TXN0486,U003,2024-03-04,13562.67,Local Shop,UPI,food,Medium-Low,Local Shop,0
+TXN0487,U003,2024-02-26,14485.07,Big Bazaar,Cash,electronics,Medium-Low,Big Bazaar,0
+TXN0488,U005,2024-01-13,21739.87,DMart,UPI,,Medium-High,DMart,0
+TXN0489,U020,2024-01-12,26676.68,Starbucks,Card,,High,Starbucks,0
+TXN0490,U007,2024-02-11,8604.16,OLA,UPI,grocery,Medium-Low,OLA,0
+TXN0491,U004,2024-01-02,16280.44,OLA,Card,grocery,Medium-Low,OLA,0
+TXN0492,U010,2024-03-19,13314.99,Amazon,UPI,food,Medium-Low,Amazon,0
+TXN0493,U014,2024-02-20,17887.68,Amazon,Card,electronics,Medium-Low,Amazon,0
+TXN0494,U007,2024-03-26,22935.2,DMart,Card,electronics,Medium-High,DMart,0
+TXN0495,U016,2024-01-30,25834.28,Apple,UPI,other,High,Apple,0
+TXN0496,U015,2024-03-03,14265.28,DMart,Card,grocery,Medium-Low,DMart,0
+TXN0497,U004,2024-02-21,16688.93,Swiggy,Card,transport,Medium-Low,Swiggy,0
+TXN0498,U008,2024-03-11,11520.66,Local Shop,Card,Food & Beverage,Medium-Low,Unknown Store,0
+TXN0499,U011,2024-03-10,19881.74,Local Shop,Card,refund,Medium-High,Unknown Store,1
+TXN0500,U018,2024-01-13,9247.99,DMart,Cash,Food & Beverage,Medium-Low,DMart,0
+TXN0501,U016,2024-03-23,6536.18,DMart,UPI,grocery,Low,DMart,0
+TXN0502,U018,2024-02-07,17342.16,Apple,Card,electronics,Medium-Low,Apple,0
+TXN0503,U012,2024-01-12,29592.79,Local Shop,UPI,food,High,Local Shop,0
+TXN0504,U018,2024-02-15,8473.46,Starbucks,Card,Food & Beverage,Low,Starbucks,0
+TXN0505,U013,2024-02-25,5210.57,Local Shop,Card,grocery,Low,Local Shop,0
+TXN0506,U001,2024-01-10,21642.96,Flipkart,UPI,Food & Beverage,Medium-High,Flipkart,0
+TXN0507,U020,2024-02-24,15287.35,Apple,UPI,food,Medium-Low,Apple,0
+TXN0508,U016,2024-01-31,27797.67,Local Shop,Cash,other,High,Unknown Store,0
+TXN0509,U019,2024-03-02,21908.26,Amazon,Card,shopping,Medium-High,Amazon,0
+TXN0510,U016,2024-03-21,19014.29,Big Bazaar,Card,food,Medium-High,Big Bazaar,0
+TXN0511,U015,2024-03-06,22017.1,Apple,Card,electronics,Medium-High,Apple,0
+TXN0512,U009,2024-01-08,5080.69,Local Shop,Cash,,Low,Unknown Store,0
+TXN0513,U003,2024-01-17,23515.05,Apple,Card,,High,Apple,0
+TXN0514,U020,2024-01-23,13405.13,Amazon,UPI,food,Medium-Low,Amazon,0
+TXN0515,U003,2024-01-19,14883.49,DMart,Cash,grocery,Medium-Low,DMart,0
+TXN0516,U019,2024-02-14,7939.22,Big Bazaar,Card,refund,Low,Big Bazaar,1
+TXN0517,U008,2024-02-18,7886.13,Swiggy,Card,other,Low,Swiggy,0
+TXN0518,U002,2024-01-13,12959.26,Swiggy,Card,shopping,Medium-Low,Swiggy,0
+TXN0519,U019,2024-02-20,20261.98,OLA,Cash,grocery,Medium-High,OLA,0
+TXN0520,U018,2024-01-02,2047.88,DMart,Card,electronics,Low,DMart,0
+TXN0521,U007,2024-01-05,2767.32,OLA,Cash,shopping,Low,OLA,0
+TXN0522,U020,2024-01-17,22918.09,Amazon,UPI,electronics,Medium-High,Amazon,0
+TXN0523,U015,2024-03-25,13608.78,OLA,Cash,other,Medium-Low,OLA,0
+TXN0524,U006,2024-01-10,1881.0,OLA,Card,shopping,Low,OLA,0
+TXN0525,U007,2024-03-19,19368.04,Apple,UPI,shopping,Medium-High,Apple,0
+TXN0526,U009,2024-01-14,2121.67,Apple,Card,food,Low,Apple,0
+TXN0527,U013,2024-02-04,9901.63,Starbucks,Card,Food & Beverage,Medium-Low,Starbucks,0
+TXN0528,U018,2024-01-29,28625.12,Amazon,Cash,other,High,Amazon,0
+TXN0529,U010,2024-02-21,29910.5,DMart,UPI,electronics,High,DMart,0
+TXN0530,U006,2024-03-11,19825.42,Big Bazaar,Cash,refund,Medium-High,Big Bazaar,1
+TXN0531,U015,2024-01-25,5800.85,Amazon,Card,electronics,Low,Amazon,0
+TXN0532,U018,2024-02-27,10185.16,Apple,UPI,refund,Medium-Low,Apple,1
+TXN0533,U005,2024-03-15,1115.96,Swiggy,Cash,,Low,Swiggy,0
+TXN0534,U001,2024-01-23,24623.97,Flipkart,UPI,shopping,High,Flipkart,0
+TXN0535,U016,2024-03-17,24135.56,Amazon,Cash,shopping,High,Amazon,0
+TXN0536,U018,2024-01-18,28941.12,Local Shop,Card,electronics,High,Unknown Store,0
+TXN0537,U014,2024-01-22,4958.53,Flipkart,UPI,Food & Beverage,Low,Flipkart,0
+TXN0538,U001,2024-03-03,226.65,Flipkart,Card,refund,Low,Flipkart,1
+TXN0539,U007,2024-01-19,13518.07,Flipkart,UPI,refund,Medium-Low,Flipkart,1
+TXN0540,U003,2024-03-21,12569.39,Local Shop,UPI,transport,Medium-Low,Unknown Store,0
+TXN0541,U007,2024-02-05,3389.25,Apple,Card,food,Low,Apple,0
+TXN0542,U012,2024-02-06,7548.94,Starbucks,UPI,food,Low,Starbucks,0
+TXN0543,U006,2024-01-21,15451.96,Swiggy,Cash,Food & Beverage,Medium-Low,Swiggy,0
+TXN0544,U011,2024-01-30,6841.18,Big Bazaar,Card,shopping,Low,Big Bazaar,0
+TXN0545,U019,2024-03-03,4356.79,Apple,Card,transport,Low,Apple,0
+TXN0546,U009,2024-01-26,972.52,DMart,Card,grocery,Low,DMart,0
+TXN0547,U008,2024-02-07,23839.02,DMart,Cash,shopping,High,DMart,0
+TXN0548,U017,2024-03-03,14209.93,Local Shop,Cash,transport,Medium-Low,Local Shop,0
+TXN0549,U014,2024-03-15,28388.11,DMart,UPI,,High,DMart,0
+TXN0550,U017,2024-01-05,11835.66,Apple,Card,shopping,Medium-Low,Apple,0
+TXN0551,U001,2024-03-29,3990.03,Swiggy,UPI,electronics,Low,Swiggy,0
+TXN0552,U015,2024-03-14,13918.18,Flipkart,Card,food,Medium-Low,Flipkart,0
+TXN0553,U013,2024-03-29,991.1,Amazon,Cash,transport,Low,Amazon,0
+TXN0554,U020,2024-02-12,28360.21,Amazon,Card,food,High,Amazon,0
+TXN0555,U012,2024-01-23,21283.02,DMart,Cash,refund,Medium-High,DMart,1
+TXN0556,U007,2024-01-29,26939.01,Local Shop,UPI,refund,High,Unknown Store,1
+TXN0557,U017,2024-03-08,21297.66,Apple,Card,shopping,Medium-High,Apple,0
+TXN0558,U015,2024-01-12,26939.4,Big Bazaar,UPI,grocery,High,Big Bazaar,0
+TXN0559,U005,2024-01-27,12501.93,Apple,Card,food,Medium-Low,Apple,0
+TXN0560,U007,2024-01-09,24061.65,OLA,Card,other,High,OLA,0
+TXN0561,U019,2024-03-26,9129.43,Apple,Card,other,Medium-Low,Apple,0
+TXN0562,U002,2024-01-19,13683.24,OLA,Cash,grocery,Medium-Low,OLA,0
+TXN0563,U006,2024-01-31,29813.25,Flipkart,UPI,food,High,Flipkart,0
+TXN0564,U012,2024-01-19,16200.6,DMart,Card,grocery,Medium-Low,DMart,0
+TXN0565,U011,2024-01-20,16388.91,Apple,Card,grocery,Medium-Low,Apple,0
+TXN0566,U015,2024-02-13,14374.65,Local Shop,Card,,Medium-Low,Unknown Store,0
+TXN0567,U008,2024-02-27,9797.73,Local Shop,UPI,electronics,Medium-Low,Unknown Store,0
+TXN0568,U001,2024-01-11,20150.02,Big Bazaar,Card,food,Medium-High,Big Bazaar,0
+TXN0569,U013,2024-01-19,11589.52,DMart,Card,shopping,Medium-Low,DMart,0
+TXN0570,U015,2024-02-23,4922.07,Big Bazaar,Card,shopping,Low,Big Bazaar,0
+TXN0571,U007,2024-02-08,15763.78,Flipkart,Card,Food & Beverage,Medium-Low,Flipkart,0
+TXN0572,U014,2024-01-23,17041.81,OLA,Card,food,Medium-Low,OLA,0
+TXN0573,U019,2024-02-08,22198.28,OLA,Card,refund,Medium-High,OLA,1
+TXN0574,U010,2024-02-23,27204.73,Amazon,Card,shopping,High,Amazon,0
+TXN0575,U012,2024-03-15,13087.69,Local Shop,UPI,food,Medium-Low,Unknown Store,0
+TXN0576,U006,2024-03-15,9597.24,OLA,UPI,Food & Beverage,Medium-Low,OLA,0
+TXN0577,U002,2024-02-07,19172.01,DMart,UPI,grocery,Medium-High,DMart,0
+TXN0578,U011,2024-02-10,20566.46,Swiggy,Card,food,Medium-High,Swiggy,0
+TXN0579,U017,2024-02-06,14552.12,Flipkart,UPI,transport,Medium-Low,Flipkart,0
+TXN0580,U018,2024-03-19,13820.14,Big Bazaar,Card,other,Medium-Low,Big Bazaar,0
+TXN0581,U015,2024-03-17,21299.75,Flipkart,UPI,grocery,Medium-High,Flipkart,0
+TXN0582,U010,2024-01-17,29433.48,Big Bazaar,UPI,,High,Big Bazaar,0
+TXN0583,U014,2024-01-06,993.45,Apple,UPI,food,Low,Apple,0
+TXN0584,U010,2024-03-26,2904.14,Amazon,UPI,other,Low,Amazon,0
+TXN0585,U003,2024-01-19,10441.62,Starbucks,Cash,shopping,Medium-Low,Starbucks,0
+TXN0586,U019,2024-01-02,5754.51,Amazon,UPI,shopping,Low,Amazon,0
+TXN0587,U017,2024-03-31,20947.01,Big Bazaar,UPI,Food & Beverage,Medium-High,Big Bazaar,0
+TXN0588,U007,2024-03-06,3394.24,Local Shop,Cash,other,Low,Local Shop,0
+TXN0589,U018,2024-01-06,14816.45,OLA,Card,refund,Medium-Low,OLA,1
+TXN0590,U018,2024-02-22,12844.57,Big Bazaar,Cash,food,Medium-Low,Big Bazaar,0
+TXN0591,U004,2024-02-20,19759.86,Apple,Cash,shopping,Medium-High,Apple,0
+TXN0592,U003,2024-02-16,6015.9,Flipkart,Card,electronics,Low,Flipkart,0
+TXN0593,U019,2024-02-04,14280.03,Local Shop,Cash,refund,Medium-Low,Unknown Store,1
+TXN0594,U004,2024-02-02,6932.35,Amazon,UPI,refund,Low,Amazon,1
+TXN0595,U006,2024-02-18,9089.55,Starbucks,Cash,refund,Medium-Low,Starbucks,1
+TXN0596,U010,2024-03-25,15148.79,Big Bazaar,Cash,,Medium-Low,Big Bazaar,0
+TXN0597,U014,2024-01-16,9443.63,Starbucks,UPI,electronics,Medium-Low,Starbucks,0
+TXN0598,U016,2024-02-25,21474.54,Flipkart,Card,refund,Medium-High,Flipkart,1
+TXN0599,U018,2024-01-21,7909.1,Apple,Card,electronics,Low,Apple,0
+TXN0600,U002,2024-01-04,25109.66,DMart,Cash,shopping,High,DMart,0
+TXN0601,U012,2024-02-15,1702.91,Local Shop,Cash,shopping,Low,Local Shop,0
+TXN0602,U004,2024-02-13,16157.12,OLA,Cash,Food & Beverage,Medium-Low,OLA,0
+TXN0603,U001,2024-03-30,676.87,OLA,Cash,refund,Low,OLA,1
+TXN0604,U007,2024-02-13,24345.6,Amazon,Card,transport,High,Amazon,0
+TXN0605,U003,2024-03-09,7962.0,Apple,Cash,shopping,Low,Apple,0
+TXN0606,U004,2024-03-16,2027.42,Local Shop,Card,electronics,Low,Unknown Store,0
+TXN0607,U010,2024-02-25,12435.28,Swiggy,Cash,food,Medium-Low,Swiggy,0
+TXN0608,U006,2024-03-14,19827.58,Swiggy,Cash,Food & Beverage,Medium-High,Swiggy,0
+TXN0609,U002,2024-03-07,13879.98,Local Shop,Card,shopping,Medium-Low,Unknown Store,0
+TXN0610,U014,2024-02-04,4825.92,Big Bazaar,UPI,food,Low,Big Bazaar,0
+TXN0611,U010,2024-02-29,29738.88,Big Bazaar,UPI,food,High,Big Bazaar,0
+TXN0612,U009,2024-03-25,25577.11,OLA,UPI,shopping,High,OLA,0
+TXN0613,U020,2024-02-08,26904.23,DMart,Cash,transport,High,DMart,0
+TXN0614,U019,2024-03-05,19929.87,Amazon,Card,shopping,Medium-High,Amazon,0
+TXN0615,U020,2024-01-16,24971.7,Big Bazaar,UPI,transport,High,Big Bazaar,0
+TXN0616,U004,2024-01-23,13189.87,Flipkart,Cash,shopping,Medium-Low,Flipkart,0
+TXN0617,U018,2024-02-24,7397.94,DMart,Card,other,Low,DMart,0
+TXN0618,U001,2024-03-23,22186.1,OLA,UPI,Food & Beverage,Medium-High,OLA,0
+TXN0619,U012,2024-03-28,26009.92,OLA,Card,transport,High,OLA,0
+TXN0620,U007,2024-01-21,9522.36,OLA,Card,refund,Medium-Low,OLA,1
+TXN0621,U014,2024-02-12,3020.86,Apple,Card,other,Low,Apple,0
+TXN0622,U001,2024-01-07,13307.72,Apple,Cash,shopping,Medium-Low,Apple,0
+TXN0623,U006,2024-02-01,17824.54,Amazon,Card,grocery,Medium-Low,Amazon,0
+TXN0624,U006,2024-03-28,8461.1,OLA,Card,transport,Low,OLA,0
+TXN0625,U001,2024-03-12,29224.09,Starbucks,UPI,Food & Beverage,High,Starbucks,0
+TXN0626,U009,2024-01-20,5111.99,Local Shop,Card,refund,Low,Unknown Store,1
+TXN0627,U004,2024-01-29,28382.11,Apple,Card,Food & Beverage,High,Apple,0
+TXN0628,U020,2024-01-28,20318.89,Big Bazaar,UPI,electronics,Medium-High,Big Bazaar,0
+TXN0629,U020,2024-02-27,17491.26,Big Bazaar,UPI,Food & Beverage,Medium-Low,Big Bazaar,0
+TXN0630,U013,2024-03-31,17919.91,Big Bazaar,Card,refund,Medium-Low,Big Bazaar,1
+TXN0631,U020,2024-03-26,7617.17,DMart,Cash,food,Low,DMart,0
+TXN0632,U006,2024-02-03,14790.27,Local Shop,Card,Food & Beverage,Medium-Low,Unknown Store,0
+TXN0633,U009,2024-01-15,29355.71,Flipkart,Cash,Food & Beverage,High,Flipkart,0
+TXN0634,U009,2024-03-19,9397.18,OLA,UPI,refund,Medium-Low,OLA,1
+TXN0635,U007,2024-01-20,5502.41,Starbucks,Card,refund,Low,Starbucks,1
+TXN0636,U015,2024-02-15,14794.73,Starbucks,Card,electronics,Medium-Low,Starbucks,0
+TXN0637,U006,2024-03-06,26727.93,Flipkart,Cash,grocery,High,Flipkart,0
+TXN0638,U003,2024-02-01,2838.21,Local Shop,UPI,shopping,Low,Local Shop,0
+TXN0639,U005,2024-01-04,24922.67,DMart,Cash,other,High,DMart,0
+TXN0640,U020,2024-02-27,29994.64,Starbucks,UPI,electronics,High,Starbucks,0
+TXN0641,U002,2024-01-10,11971.77,DMart,UPI,,Medium-Low,DMart,0
+TXN0642,U006,2024-02-19,19418.57,Big Bazaar,Card,electronics,Medium-High,Big Bazaar,0
+TXN0643,U005,2024-02-15,11030.03,Local Shop,Card,Food & Beverage,Medium-Low,Unknown Store,0
+TXN0644,U014,2024-02-17,18924.28,Amazon,Cash,grocery,Medium-High,Amazon,0
+TXN0645,U017,2024-03-21,14051.89,Apple,UPI,electronics,Medium-Low,Apple,0
+TXN0646,U017,2024-02-24,1441.37,Big Bazaar,Cash,shopping,Low,Big Bazaar,0
+TXN0647,U019,2024-02-02,17571.18,Apple,Cash,grocery,Medium-Low,Apple,0
+TXN0648,U002,2024-01-11,8936.45,Local Shop,Card,electronics,Medium-Low,Local Shop,0
+TXN0649,U006,2024-01-28,22413.41,DMart,Card,food,Medium-High,DMart,0
+TXN0650,U004,2024-01-02,14318.83,Local Shop,Cash,electronics,Medium-Low,Local Shop,0
+TXN0651,U020,2024-02-16,9086.67,Local Shop,UPI,transport,Medium-Low,Unknown Store,0
+TXN0652,U007,2024-03-02,7260.99,Starbucks,UPI,refund,Low,Starbucks,1
+TXN0653,U016,2024-02-24,4991.5,Flipkart,Card,,Low,Flipkart,0
+TXN0654,U019,2024-02-01,17087.22,Apple,UPI,Food & Beverage,Medium-Low,Apple,0
+TXN0655,U016,2024-03-15,14630.02,Local Shop,Cash,refund,Medium-Low,Local Shop,1
+TXN0656,U002,2024-03-08,17296.34,Big Bazaar,Card,shopping,Medium-Low,Big Bazaar,0
+TXN0657,U020,2024-03-23,20928.46,Apple,Card,transport,Medium-High,Apple,0
+TXN0658,U008,2024-03-16,25605.08,Swiggy,Cash,Food & Beverage,High,Swiggy,0
+TXN0659,U016,2024-01-21,20724.02,DMart,UPI,refund,Medium-High,DMart,1
+TXN0660,U014,2024-03-04,6290.89,Amazon,Card,grocery,Low,Amazon,0
+TXN0661,U002,2024-01-09,3427.94,Swiggy,Card,other,Low,Swiggy,0
+TXN0662,U018,2024-02-04,20707.17,Starbucks,UPI,refund,Medium-High,Starbucks,1
+TXN0663,U004,2024-01-14,16878.56,Apple,UPI,grocery,Medium-Low,Apple,0
+TXN0664,U015,2024-03-05,26116.08,OLA,UPI,refund,High,OLA,1
+TXN0665,U001,2024-02-01,8609.88,Local Shop,Card,transport,Medium-Low,Local Shop,0
+TXN0666,U017,2024-02-23,24055.04,Flipkart,Cash,other,High,Flipkart,0
+TXN0667,U015,2024-01-19,24189.34,Starbucks,Card,grocery,High,Starbucks,0
+TXN0668,U002,2024-02-20,27676.34,Local Shop,Cash,electronics,High,Local Shop,0
+TXN0669,U013,2024-03-28,22283.5,Local Shop,Cash,grocery,Medium-High,Local Shop,0
+TXN0670,U015,2024-03-23,18734.55,Local Shop,Cash,transport,Medium-High,Local Shop,0
+TXN0671,U003,2024-01-05,21755.71,OLA,Card,electronics,Medium-High,OLA,0
+TXN0672,U011,2024-03-22,846.46,Swiggy,Card,shopping,Low,Swiggy,0
+TXN0673,U012,2024-02-03,1441.51,Starbucks,Cash,refund,Low,Starbucks,1
+TXN0674,U008,2024-03-15,8983.06,DMart,Cash,Food & Beverage,Medium-Low,DMart,0
+TXN0675,U008,2024-01-14,17475.25,Swiggy,UPI,Food & Beverage,Medium-Low,Swiggy,0
+TXN0676,U003,2024-01-08,14292.83,Amazon,Card,Food & Beverage,Medium-Low,Amazon,0
+TXN0677,U019,2024-03-04,20673.65,OLA,UPI,grocery,Medium-High,OLA,0
+TXN0678,U015,2024-01-17,6387.15,Apple,Card,shopping,Low,Apple,0
+TXN0679,U014,2024-01-15,17157.22,Local Shop,Card,electronics,Medium-Low,Unknown Store,0
+TXN0680,U016,2024-01-04,23515.94,OLA,Card,refund,High,OLA,1
+TXN0681,U004,2024-03-11,26114.09,Starbucks,Card,Food & Beverage,High,Starbucks,0
+TXN0682,U020,2024-01-17,19097.44,Apple,Cash,Food & Beverage,Medium-High,Apple,0
+TXN0683,U008,2024-02-20,1384.13,Local Shop,Cash,grocery,Low,Local Shop,0
+TXN0684,U019,2024-03-21,19358.34,Starbucks,Cash,food,Medium-High,Starbucks,0
+TXN0685,U017,2024-01-25,26906.96,Local Shop,UPI,transport,High,Unknown Store,0
+TXN0686,U019,2024-02-26,16010.98,Big Bazaar,UPI,grocery,Medium-Low,Big Bazaar,0
+TXN0687,U001,2024-03-08,7722.76,Local Shop,Card,electronics,Low,Local Shop,0
+TXN0688,U005,2024-02-09,5084.04,Amazon,Cash,Food & Beverage,Low,Amazon,0
+TXN0689,U011,2024-01-19,7745.45,Amazon,UPI,transport,Low,Amazon,0
+TXN0690,U017,2024-03-05,8085.93,Apple,Card,,Low,Apple,0
+TXN0691,U001,2024-02-04,22891.72,Big Bazaar,Card,transport,Medium-High,Big Bazaar,0
+TXN0692,U012,2024-03-10,7362.39,Flipkart,Card,,Low,Flipkart,0
+TXN0693,U020,2024-02-07,1814.65,Apple,Cash,other,Low,Apple,0
+TXN0694,U019,2024-03-06,4850.87,Big Bazaar,Card,grocery,Low,Big Bazaar,0
+TXN0695,U009,2024-02-25,15149.56,Swiggy,Cash,refund,Medium-Low,Swiggy,1
+TXN0696,U008,2024-03-25,6326.61,OLA,UPI,food,Low,OLA,0
+TXN0697,U016,2024-01-01,5214.35,Local Shop,Card,shopping,Low,Unknown Store,0
+TXN0698,U001,2024-03-26,3711.23,Swiggy,Card,food,Low,Swiggy,0
+TXN0699,U015,2024-02-17,290.81,Amazon,Cash,shopping,Low,Amazon,0
+TXN0700,U010,2024-01-29,29019.22,Local Shop,Cash,food,High,Unknown Store,0
+TXN0701,U013,2024-01-15,15014.77,Big Bazaar,Cash,grocery,Medium-Low,Big Bazaar,0
+TXN0702,U019,2024-01-17,7796.14,Amazon,Cash,transport,Low,Amazon,0
+TXN0703,U018,2024-03-19,16807.88,Starbucks,Cash,food,Medium-Low,Starbucks,0
+TXN0704,U014,2024-02-22,20408.4,DMart,Cash,electronics,Medium-High,DMart,0
+TXN0705,U018,2024-02-27,11761.85,Local Shop,Cash,Food & Beverage,Medium-Low,Local Shop,0
+TXN0706,U008,2024-01-26,9331.07,Amazon,Card,other,Medium-Low,Amazon,0
+TXN0707,U008,2024-01-14,28764.49,OLA,UPI,refund,High,OLA,1
+TXN0708,U015,2024-03-15,29236.02,Amazon,UPI,food,High,Amazon,0
+TXN0709,U002,2024-02-08,3063.81,Apple,Card,Food & Beverage,Low,Apple,0
+TXN0710,U020,2024-03-25,11523.76,Big Bazaar,UPI,food,Medium-Low,Big Bazaar,0
+TXN0711,U017,2024-02-12,3089.66,Apple,Cash,electronics,Low,Apple,0
+TXN0712,U014,2024-03-02,7302.14,DMart,Cash,other,Low,DMart,0
+TXN0713,U019,2024-03-10,14091.02,OLA,Cash,grocery,Medium-Low,OLA,0
+TXN0714,U008,2024-03-05,10321.04,Starbucks,UPI,refund,Medium-Low,Starbucks,1
+TXN0715,U020,2024-03-29,17356.54,Apple,Card,refund,Medium-Low,Apple,1
+TXN0716,U016,2024-01-29,6698.52,Starbucks,Card,other,Low,Starbucks,0
+TXN0717,U007,2024-02-21,29696.44,Local Shop,Cash,electronics,High,Local Shop,0
+TXN0718,U007,2024-03-21,29259.53,Apple,Card,other,High,Apple,0
+TXN0719,U008,2024-01-23,5290.56,Swiggy,UPI,shopping,Low,Swiggy,0
+TXN0720,U007,2024-02-09,11095.52,DMart,Cash,shopping,Medium-Low,DMart,0
+TXN0721,U005,2024-01-17,15981.32,Amazon,Cash,food,Medium-Low,Amazon,0
+TXN0722,U019,2024-01-25,4465.52,Local Shop,UPI,refund,Low,Unknown Store,1
+TXN0723,U003,2024-03-01,15263.33,Big Bazaar,Card,refund,Medium-Low,Big Bazaar,1
+TXN0724,U011,2024-02-17,28673.0,Flipkart,Cash,transport,High,Flipkart,0
+TXN0725,U007,2024-02-27,6565.63,Big Bazaar,Card,shopping,Low,Big Bazaar,0
+TXN0726,U003,2024-02-07,10553.73,Flipkart,Card,refund,Medium-Low,Flipkart,1
+TXN0727,U014,2024-02-17,8197.85,Local Shop,Cash,shopping,Low,Local Shop,0
+TXN0728,U017,2024-03-06,8299.98,OLA,UPI,other,Low,OLA,0
+TXN0729,U011,2024-02-02,24468.79,Big Bazaar,Cash,electronics,High,Big Bazaar,0
+TXN0730,U010,2024-02-06,29905.3,Starbucks,UPI,grocery,High,Starbucks,0
+TXN0731,U008,2024-01-30,7019.36,Local Shop,Cash,other,Low,Local Shop,0
+TXN0732,U011,2024-01-25,28258.47,Amazon,UPI,grocery,High,Amazon,0
+TXN0733,U001,2024-03-04,6772.46,OLA,Cash,food,Low,OLA,0
+TXN0734,U002,2024-01-18,17050.04,Local Shop,Card,transport,Medium-Low,Unknown Store,0
+TXN0735,U003,2024-03-09,14248.58,Local Shop,Card,shopping,Medium-Low,Local Shop,0
+TXN0736,U006,2024-01-05,5608.9,Swiggy,UPI,shopping,Low,Swiggy,0
+TXN0737,U002,2024-02-17,9809.89,Apple,UPI,refund,Medium-Low,Apple,1
+TXN0738,U013,2024-01-27,6178.25,Amazon,UPI,electronics,Low,Amazon,0
+TXN0739,U007,2024-03-05,6059.06,Local Shop,Cash,other,Low,Unknown Store,0
+TXN0740,U016,2024-02-28,1182.15,Local Shop,Card,electronics,Low,Unknown Store,0
+TXN0741,U020,2024-01-23,5395.55,Local Shop,Cash,shopping,Low,Local Shop,0
+TXN0742,U002,2024-01-31,26477.85,Local Shop,Cash,transport,High,Local Shop,0
+TXN0743,U014,2024-03-11,2305.24,Apple,Card,electronics,Low,Apple,0
+TXN0744,U017,2024-01-06,2205.13,Big Bazaar,Card,transport,Low,Big Bazaar,0
+TXN0745,U002,2024-01-02,21275.9,Local Shop,Card,shopping,Medium-High,Local Shop,0
+TXN0746,U008,2024-02-26,24614.6,Swiggy,Cash,electronics,High,Swiggy,0
+TXN0747,U018,2024-02-20,20145.05,Amazon,Card,food,Medium-High,Amazon,0
+TXN0748,U007,2024-02-26,19047.36,Swiggy,UPI,electronics,Medium-High,Swiggy,0
+TXN0749,U002,2024-03-17,23174.57,Apple,UPI,food,High,Apple,0
+TXN0750,U001,2024-01-02,5772.63,Local Shop,Cash,grocery,Low,Local Shop,0
+TXN0751,U014,2024-03-06,9820.97,Starbucks,Cash,Food & Beverage,Medium-Low,Starbucks,0
+TXN0752,U008,2024-01-28,9707.8,Amazon,Card,transport,Medium-Low,Amazon,0
+TXN0753,U009,2024-03-24,2029.26,Amazon,Card,shopping,Low,Amazon,0
+TXN0754,U019,2024-01-22,18000.02,Swiggy,Cash,grocery,Medium-High,Swiggy,0
+TXN0755,U016,2024-01-09,18259.91,DMart,Cash,food,Medium-High,DMart,0
+TXN0756,U001,2024-03-19,7099.53,Big Bazaar,UPI,refund,Low,Big Bazaar,1
+TXN0757,U007,2024-01-20,19264.75,OLA,Cash,grocery,Medium-High,OLA,0
+TXN0758,U011,2024-03-23,23755.48,OLA,UPI,other,High,OLA,0
+TXN0759,U008,2024-01-27,29651.4,DMart,Cash,other,High,DMart,0
+TXN0760,U015,2024-03-21,26097.3,Flipkart,UPI,grocery,High,Flipkart,0
+TXN0761,U006,2024-03-16,15227.66,Amazon,Cash,Food & Beverage,Medium-Low,Amazon,0
+TXN0762,U020,2024-02-01,17296.89,Flipkart,UPI,other,Medium-Low,Flipkart,0
+TXN0763,U013,2024-01-22,12686.69,Local Shop,Card,,Medium-Low,Local Shop,0
+TXN0764,U014,2024-01-11,16120.56,Local Shop,Card,electronics,Medium-Low,Local Shop,0
+TXN0765,U018,2024-03-18,10003.69,Local Shop,UPI,,Medium-Low,Local Shop,0
+TXN0766,U012,2024-03-03,28209.15,Swiggy,Card,shopping,High,Swiggy,0
+TXN0767,U002,2024-01-16,4879.25,Local Shop,Card,refund,Low,Local Shop,1
+TXN0768,U002,2024-03-24,22072.57,DMart,Cash,food,Medium-High,DMart,0
+TXN0769,U009,2024-03-18,4429.55,Flipkart,UPI,,Low,Flipkart,0
+TXN0770,U013,2024-02-20,27299.37,Amazon,Card,Food & Beverage,High,Amazon,0
+TXN0771,U010,2024-02-22,19089.05,Local Shop,Card,Food & Beverage,Medium-High,Unknown Store,0
+TXN0772,U001,2024-01-22,2915.15,OLA,Cash,Food & Beverage,Low,OLA,0
+TXN0773,U006,2024-02-17,4038.62,Flipkart,Card,transport,Low,Flipkart,0
+TXN0774,U007,2024-01-08,22777.35,Flipkart,Card,shopping,Medium-High,Flipkart,0
+TXN0775,U003,2024-02-07,3749.2,Flipkart,Card,shopping,Low,Flipkart,0
+TXN0776,U002,2024-02-04,17477.54,Starbucks,UPI,electronics,Medium-Low,Starbucks,0
+TXN0777,U016,2024-02-13,11129.85,Apple,Card,Food & Beverage,Medium-Low,Apple,0
+TXN0778,U002,2024-02-15,3014.32,Local Shop,UPI,,Low,Unknown Store,0
+TXN0779,U017,2024-02-05,13563.02,Amazon,Card,food,Medium-Low,Amazon,0
+TXN0780,U001,2024-03-22,1382.17,DMart,UPI,Food & Beverage,Low,DMart,0
+TXN0781,U003,2024-02-14,29606.28,Local Shop,Card,transport,High,Unknown Store,0
+TXN0782,U017,2024-03-14,14942.77,Flipkart,Card,refund,Medium-Low,Flipkart,1
+TXN0783,U016,2024-03-25,6357.11,Amazon,UPI,food,Low,Amazon,0
+TXN0784,U011,2024-02-19,21578.06,Flipkart,UPI,refund,Medium-High,Flipkart,1
+TXN0785,U011,2024-01-29,10303.34,Amazon,Card,Food & Beverage,Medium-Low,Amazon,0
+TXN0786,U008,2024-02-03,2639.53,Big Bazaar,Cash,other,Low,Big Bazaar,0
+TXN0787,U011,2024-02-18,1865.93,Flipkart,Card,grocery,Low,Flipkart,0
+TXN0788,U020,2024-03-16,11865.42,Swiggy,Card,refund,Medium-Low,Swiggy,1
+TXN0789,U005,2024-03-17,22414.33,Apple,Cash,shopping,Medium-High,Apple,0
+TXN0790,U019,2024-03-02,8751.94,OLA,UPI,transport,Medium-Low,OLA,0
+TXN0791,U002,2024-01-23,11760.32,Big Bazaar,UPI,other,Medium-Low,Big Bazaar,0
+TXN0792,U016,2024-02-14,2163.98,Local Shop,Cash,Food & Beverage,Low,Local Shop,0
+TXN0793,U005,2024-02-11,28037.92,Amazon,UPI,refund,High,Amazon,1
+TXN0794,U005,2024-01-27,22453.99,OLA,Cash,grocery,Medium-High,OLA,0
+TXN0795,U014,2024-03-27,2890.47,Local Shop,UPI,other,Low,Local Shop,0
+TXN0796,U014,2024-01-20,1029.44,Local Shop,Cash,Food & Beverage,Low,Unknown Store,0
+TXN0797,U015,2024-03-24,18973.68,Amazon,UPI,transport,Medium-High,Amazon,0
+TXN0798,U019,2024-03-14,20814.84,Starbucks,Card,Food & Beverage,Medium-High,Starbucks,0
+TXN0799,U019,2024-01-17,1914.31,OLA,Card,food,Low,OLA,0
+TXN0800,U018,2024-03-09,15571.84,Local Shop,UPI,transport,Medium-Low,Local Shop,0
+TXN0801,U006,2024-03-17,16646.11,Amazon,Cash,grocery,Medium-Low,Amazon,0
+TXN0802,U018,2024-02-02,29398.05,Amazon,UPI,food,High,Amazon,0
+TXN0803,U010,2024-01-06,16027.73,Big Bazaar,Cash,other,Medium-Low,Big Bazaar,0
+TXN0804,U018,2024-03-06,2979.28,Local Shop,UPI,transport,Low,Unknown Store,0
+TXN0805,U020,2024-03-11,10778.36,Flipkart,Cash,Food & Beverage,Medium-Low,Flipkart,0
+TXN0806,U013,2024-02-28,20299.0,Flipkart,UPI,electronics,Medium-High,Flipkart,0
+TXN0807,U012,2024-03-13,24648.82,Big Bazaar,UPI,transport,High,Big Bazaar,0
+TXN0808,U009,2024-01-16,16455.58,Amazon,Card,grocery,Medium-Low,Amazon,0
+TXN0809,U009,2024-01-02,29384.76,Big Bazaar,UPI,electronics,High,Big Bazaar,0
+TXN0810,U016,2024-01-13,17169.02,Local Shop,UPI,Food & Beverage,Medium-Low,Unknown Store,0
+TXN0811,U012,2024-03-27,17773.38,Flipkart,UPI,grocery,Medium-Low,Flipkart,0
+TXN0812,U019,2024-02-04,19179.41,Local Shop,Cash,refund,Medium-High,Local Shop,1
+TXN0813,U015,2024-02-15,8611.72,Flipkart,UPI,shopping,Medium-Low,Flipkart,0
+TXN0814,U014,2024-02-10,2393.45,OLA,Cash,electronics,Low,OLA,0
+TXN0815,U016,2024-01-02,15265.38,Swiggy,Cash,shopping,Medium-Low,Swiggy,0
+TXN0816,U001,2024-03-19,22380.06,Local Shop,Card,food,Medium-High,Local Shop,0
+TXN0817,U015,2024-01-22,2262.92,Local Shop,Card,grocery,Low,Unknown Store,0
+TXN0818,U004,2024-02-13,16178.2,DMart,Card,transport,Medium-Low,DMart,0
+TXN0819,U019,2024-02-20,27873.98,Starbucks,Card,refund,High,Starbucks,1
+TXN0820,U012,2024-01-01,8957.54,Starbucks,UPI,food,Medium-Low,Starbucks,0
+TXN0821,U014,2024-03-03,15877.61,Amazon,UPI,electronics,Medium-Low,Amazon,0
+TXN0822,U016,2024-02-20,10941.23,Big Bazaar,UPI,refund,Medium-Low,Big Bazaar,1
+TXN0823,U005,2024-02-15,10783.51,Flipkart,Card,,Medium-Low,Flipkart,0
+TXN0824,U014,2024-02-12,19989.48,Local Shop,UPI,refund,Medium-High,Local Shop,1
+TXN0825,U011,2024-02-21,3300.89,Flipkart,Card,transport,Low,Flipkart,0
+TXN0826,U011,2024-02-24,14410.99,Starbucks,UPI,grocery,Medium-Low,Starbucks,0
+TXN0827,U009,2024-01-15,7428.16,Big Bazaar,UPI,grocery,Low,Big Bazaar,0
+TXN0828,U019,2024-03-21,3622.63,Big Bazaar,UPI,transport,Low,Big Bazaar,0
+TXN0829,U002,2024-02-18,9200.31,Amazon,Card,Food & Beverage,Medium-Low,Amazon,0
+TXN0830,U010,2024-01-15,8423.87,Starbucks,UPI,food,Low,Starbucks,0
+TXN0831,U011,2024-01-28,8411.98,Starbucks,Card,electronics,Low,Starbucks,0
+TXN0832,U004,2024-03-26,16557.53,Amazon,Card,other,Medium-Low,Amazon,0
+TXN0833,U009,2024-01-27,26616.94,Big Bazaar,UPI,transport,High,Big Bazaar,0
+TXN0834,U015,2024-01-13,18574.12,Big Bazaar,Cash,food,Medium-High,Big Bazaar,0
+TXN0835,U007,2024-02-23,25604.61,Flipkart,Card,shopping,High,Flipkart,0
+TXN0836,U003,2024-03-02,27940.66,Local Shop,Card,grocery,High,Local Shop,0
+TXN0837,U002,2024-03-13,29174.5,OLA,Cash,shopping,High,OLA,0
+TXN0838,U015,2024-03-06,23383.37,Flipkart,UPI,transport,High,Flipkart,0
+TXN0839,U001,2024-03-06,21235.54,Local Shop,Card,shopping,Medium-High,Unknown Store,0
+TXN0840,U008,2024-01-06,1182.33,Flipkart,Card,food,Low,Flipkart,0
+TXN0841,U007,2024-03-09,19462.88,Big Bazaar,UPI,electronics,Medium-High,Big Bazaar,0
+TXN0842,U014,2024-03-19,29557.99,Flipkart,UPI,electronics,High,Flipkart,0
+TXN0843,U009,2024-01-03,22375.64,Flipkart,Cash,transport,Medium-High,Flipkart,0
+TXN0844,U008,2024-02-11,17454.1,Apple,Card,Food & Beverage,Medium-Low,Apple,0
+TXN0845,U005,2024-03-02,5453.59,DMart,Cash,grocery,Low,DMart,0
+TXN0846,U001,2024-02-09,24526.8,OLA,UPI,refund,High,OLA,1
+TXN0847,U004,2024-03-08,22515.82,Local Shop,UPI,food,Medium-High,Local Shop,0
+TXN0848,U005,2024-02-01,4287.64,Starbucks,UPI,other,Low,Starbucks,0
+TXN0849,U007,2024-01-18,16889.91,Amazon,Card,food,Medium-Low,Amazon,0
+TXN0850,U009,2024-03-21,24749.5,Swiggy,Card,transport,High,Swiggy,0
+TXN0851,U008,2024-02-24,10605.76,Starbucks,Card,shopping,Medium-Low,Starbucks,0
+TXN0852,U006,2024-01-15,28694.43,Apple,UPI,shopping,High,Apple,0
+TXN0853,U020,2024-01-20,15919.11,Starbucks,Cash,electronics,Medium-Low,Starbucks,0
+TXN0854,U004,2024-02-04,11079.68,DMart,UPI,grocery,Medium-Low,DMart,0
+TXN0855,U011,2024-01-19,21643.09,Flipkart,UPI,electronics,Medium-High,Flipkart,0
+TXN0856,U003,2024-02-11,23028.39,Flipkart,Cash,other,High,Flipkart,0
+TXN0857,U008,2024-02-19,14918.1,Flipkart,Card,Food & Beverage,Medium-Low,Flipkart,0
+TXN0858,U019,2024-03-29,2626.63,Swiggy,Card,grocery,Low,Swiggy,0
+TXN0859,U002,2024-02-14,25481.38,Amazon,UPI,Food & Beverage,High,Amazon,0
+TXN0860,U007,2024-01-29,4142.66,Big Bazaar,Cash,,Low,Big Bazaar,0
+TXN0861,U012,2024-01-07,17452.4,Local Shop,UPI,grocery,Medium-Low,Local Shop,0
+TXN0862,U008,2024-01-10,24933.73,Amazon,Cash,electronics,High,Amazon,0
+TXN0863,U014,2024-02-13,19348.97,Apple,Cash,,Medium-High,Apple,0
+TXN0864,U017,2024-01-21,24982.08,Flipkart,Cash,electronics,High,Flipkart,0
+TXN0865,U014,2024-01-21,15649.82,Big Bazaar,Card,transport,Medium-Low,Big Bazaar,0
+TXN0866,U006,2024-03-12,20775.87,Local Shop,Card,other,Medium-High,Local Shop,0
+TXN0867,U007,2024-02-04,2343.48,Local Shop,UPI,shopping,Low,Local Shop,0
+TXN0868,U007,2024-03-17,27291.51,Amazon,UPI,food,High,Amazon,0
+TXN0869,U016,2024-01-06,2805.4,Local Shop,Card,other,Low,Unknown Store,0
+TXN0870,U012,2024-01-17,12224.52,Local Shop,UPI,Food & Beverage,Medium-Low,Local Shop,0
+TXN0871,U019,2024-01-05,4554.62,Apple,Cash,transport,Low,Apple,0
+TXN0872,U006,2024-03-05,23562.7,Flipkart,UPI,Food & Beverage,High,Flipkart,0
+TXN0873,U007,2024-03-19,17011.36,Big Bazaar,UPI,electronics,Medium-Low,Big Bazaar,0
+TXN0874,U003,2024-03-04,9418.42,Swiggy,Cash,shopping,Medium-Low,Swiggy,0
+TXN0875,U006,2024-03-31,29584.44,Amazon,Cash,shopping,High,Amazon,0
+TXN0876,U016,2024-01-06,8605.89,Local Shop,UPI,other,Medium-Low,Unknown Store,0
+TXN0877,U003,2024-03-28,13508.27,DMart,Cash,food,Medium-Low,DMart,0
+TXN0878,U018,2024-01-02,3167.89,Big Bazaar,UPI,refund,Low,Big Bazaar,1
+TXN0879,U012,2024-02-29,16058.12,Amazon,Cash,Food & Beverage,Medium-Low,Amazon,0
+TXN0880,U007,2024-02-21,9525.37,Local Shop,Cash,electronics,Medium-Low,Local Shop,0
+TXN0881,U002,2024-03-10,4373.96,Apple,Card,other,Low,Apple,0
+TXN0882,U016,2024-01-28,26041.94,Local Shop,Card,shopping,High,Local Shop,0
+TXN0883,U003,2024-02-05,8957.12,Flipkart,UPI,electronics,Medium-Low,Flipkart,0
+TXN0884,U002,2024-01-12,28901.34,Flipkart,Card,grocery,High,Flipkart,0
+TXN0885,U012,2024-03-29,307.85,Local Shop,Cash,grocery,Low,Local Shop,0
+TXN0886,U011,2024-01-02,28015.24,DMart,Card,food,High,DMart,0
+TXN0887,U005,2024-03-22,29084.03,Apple,Card,grocery,High,Apple,0
+TXN0888,U013,2024-01-28,28571.78,Local Shop,Card,food,High,Unknown Store,0
+TXN0889,U010,2024-03-05,14978.93,OLA,Card,Food & Beverage,Medium-Low,OLA,0
+TXN0890,U011,2024-01-15,12857.22,Swiggy,Card,Food & Beverage,Medium-Low,Swiggy,0
+TXN0891,U020,2024-01-13,25118.66,OLA,UPI,shopping,High,OLA,0
+TXN0892,U017,2024-03-15,8704.23,Apple,Cash,transport,Medium-Low,Apple,0
+TXN0893,U004,2024-02-14,27240.73,Apple,UPI,transport,High,Apple,0
+TXN0894,U010,2024-02-04,25156.14,Swiggy,UPI,Food & Beverage,High,Swiggy,0
+TXN0895,U001,2024-01-04,11238.43,Starbucks,Card,Food & Beverage,Medium-Low,Starbucks,0
+TXN0896,U018,2024-02-20,19336.59,Big Bazaar,Card,Food & Beverage,Medium-High,Big Bazaar,0
+TXN0897,U013,2024-02-10,6936.78,Flipkart,Cash,Food & Beverage,Low,Flipkart,0
+TXN0898,U018,2024-01-21,2806.7,OLA,UPI,,Low,OLA,0
+TXN0899,U003,2024-03-14,22272.77,Swiggy,Card,transport,Medium-High,Swiggy,0
+TXN0900,U007,2024-03-09,23403.07,OLA,UPI,grocery,High,OLA,0
+TXN0901,U019,2024-01-14,27816.7,Starbucks,UPI,refund,High,Starbucks,1
+TXN0902,U007,2024-02-20,23865.29,DMart,UPI,Food & Beverage,High,DMart,0
+TXN0903,U011,2024-03-22,4841.5,Local Shop,Cash,food,Low,Local Shop,0
+TXN0904,U011,2024-02-14,18003.79,Amazon,UPI,food,Medium-High,Amazon,0
+TXN0905,U001,2024-03-07,26007.56,Swiggy,UPI,grocery,High,Swiggy,0
+TXN0906,U009,2024-03-02,10463.12,OLA,Card,Food & Beverage,Medium-Low,OLA,0
+TXN0907,U009,2024-01-23,25382.61,Big Bazaar,Cash,electronics,High,Big Bazaar,0
+TXN0908,U007,2024-03-03,12717.88,Flipkart,UPI,Food & Beverage,Medium-Low,Flipkart,0
+TXN0909,U019,2024-02-15,24582.06,Big Bazaar,Card,electronics,High,Big Bazaar,0
+TXN0910,U017,2024-02-15,3448.35,Local Shop,Card,transport,Low,Unknown Store,0
+TXN0911,U012,2024-01-19,298.89,DMart,Card,other,Low,DMart,0
+TXN0912,U018,2024-01-09,18058.04,Big Bazaar,Cash,shopping,Medium-High,Big Bazaar,0
+TXN0913,U014,2024-03-28,24403.7,Local Shop,Card,,High,Unknown Store,0
+TXN0914,U014,2024-01-16,5142.48,OLA,UPI,food,Low,OLA,0
+TXN0915,U010,2024-01-17,26875.93,Apple,UPI,shopping,High,Apple,0
+TXN0916,U010,2024-02-05,10381.28,Local Shop,Cash,,Medium-Low,Local Shop,0
+TXN0917,U015,2024-03-04,11223.44,OLA,UPI,other,Medium-Low,OLA,0
+TXN0918,U008,2024-01-22,21726.0,Local Shop,UPI,food,Medium-High,Local Shop,0
+TXN0919,U002,2024-01-15,2260.51,OLA,Card,grocery,Low,OLA,0
+TXN0920,U015,2024-01-16,25858.23,Local Shop,Cash,shopping,High,Unknown Store,0
+TXN0921,U017,2024-01-31,14708.21,Swiggy,UPI,electronics,Medium-Low,Swiggy,0
+TXN0922,U012,2024-03-12,19417.56,Amazon,Card,food,Medium-High,Amazon,0
+TXN0923,U015,2024-02-19,3145.0,Big Bazaar,Cash,electronics,Low,Big Bazaar,0
+TXN0924,U005,2024-03-05,6571.36,Apple,Cash,Food & Beverage,Low,Apple,0
+TXN0925,U003,2024-02-05,20591.12,Big Bazaar,UPI,shopping,Medium-High,Big Bazaar,0
+TXN0926,U008,2024-01-03,8010.03,Amazon,Card,shopping,Low,Amazon,0
+TXN0927,U014,2024-01-28,15070.69,DMart,Card,Food & Beverage,Medium-Low,DMart,0
+TXN0928,U007,2024-02-07,5307.59,Local Shop,Card,food,Low,Local Shop,0
+TXN0929,U004,2024-01-29,26852.8,Big Bazaar,UPI,Food & Beverage,High,Big Bazaar,0
+TXN0930,U013,2024-01-13,24723.82,Local Shop,UPI,electronics,High,Local Shop,0
+TXN0931,U010,2024-01-01,15102.17,Local Shop,Cash,other,Medium-Low,Unknown Store,0
+TXN0932,U006,2024-01-24,4263.59,Amazon,UPI,electronics,Low,Amazon,0
+TXN0933,U006,2024-03-27,10570.79,Amazon,Card,food,Medium-Low,Amazon,0
+TXN0934,U010,2024-01-30,4406.02,Local Shop,Card,other,Low,Unknown Store,0
+TXN0935,U009,2024-03-25,10935.04,Swiggy,Card,refund,Medium-Low,Swiggy,1
+TXN0936,U009,2024-03-28,29359.34,Amazon,Card,transport,High,Amazon,0
+TXN0937,U014,2024-02-16,2687.33,Local Shop,Card,refund,Low,Unknown Store,1
+TXN0938,U006,2024-02-03,11736.88,Swiggy,UPI,,Medium-Low,Swiggy,0
+TXN0939,U011,2024-03-19,23862.03,Swiggy,Card,food,High,Swiggy,0
+TXN0940,U005,2024-02-29,29000.48,Apple,Card,electronics,High,Apple,0
+TXN0941,U015,2024-01-06,24765.86,Starbucks,Card,food,High,Starbucks,0
+TXN0942,U009,2024-01-18,23560.05,Starbucks,UPI,electronics,High,Starbucks,0
+TXN0943,U007,2024-02-25,6573.54,Flipkart,Cash,Food & Beverage,Low,Flipkart,0
+TXN0944,U009,2024-02-08,16921.59,Amazon,UPI,transport,Medium-Low,Amazon,0
+TXN0945,U005,2024-02-23,9156.83,OLA,Cash,Food & Beverage,Medium-Low,OLA,0
+TXN0946,U005,2024-03-08,9404.68,Amazon,Card,Food & Beverage,Medium-Low,Amazon,0
+TXN0947,U015,2024-01-04,12633.35,Local Shop,UPI,other,Medium-Low,Local Shop,0
+TXN0948,U020,2024-03-10,22662.5,Flipkart,Card,refund,Medium-High,Flipkart,1
+TXN0949,U003,2024-01-08,29585.34,Starbucks,Cash,other,High,Starbucks,0
+TXN0950,U004,2024-03-15,6159.88,Starbucks,UPI,grocery,Low,Starbucks,0
+TXN0951,U010,2024-01-01,20636.36,OLA,UPI,transport,Medium-High,OLA,0
+TXN0952,U004,2024-03-01,15179.08,Big Bazaar,Card,grocery,Medium-Low,Big Bazaar,0
+TXN0953,U018,2024-02-03,19748.2,Big Bazaar,UPI,transport,Medium-High,Big Bazaar,0
+TXN0954,U017,2024-03-30,14419.19,Flipkart,Card,electronics,Medium-Low,Flipkart,0
+TXN0955,U013,2024-03-30,12512.73,Local Shop,UPI,food,Medium-Low,Local Shop,0
+TXN0956,U010,2024-01-05,27244.17,Local Shop,Card,grocery,High,Unknown Store,0
+TXN0957,U017,2024-03-05,27077.49,DMart,Cash,other,High,DMart,0
+TXN0958,U005,2024-02-05,2055.62,Apple,Cash,electronics,Low,Apple,0
+TXN0959,U011,2024-03-16,18528.08,Flipkart,UPI,shopping,Medium-High,Flipkart,0
+TXN0960,U016,2024-02-11,24258.58,Apple,Cash,Food & Beverage,High,Apple,0
+TXN0961,U002,2024-03-19,1132.17,Amazon,Cash,food,Low,Amazon,0
+TXN0962,U011,2024-01-14,4005.17,Flipkart,Card,electronics,Low,Flipkart,0
+TXN0963,U007,2024-01-21,15860.6,Big Bazaar,Cash,shopping,Medium-Low,Big Bazaar,0
+TXN0964,U002,2024-01-18,23233.83,Big Bazaar,UPI,refund,High,Big Bazaar,1
+TXN0965,U007,2024-03-14,10569.66,Big Bazaar,UPI,Food & Beverage,Medium-Low,Big Bazaar,0
+TXN0966,U019,2024-01-11,15522.23,Amazon,Cash,food,Medium-Low,Amazon,0
+TXN0967,U010,2024-02-02,10743.58,Big Bazaar,UPI,transport,Medium-Low,Big Bazaar,0
+TXN0968,U020,2024-03-05,18563.16,Swiggy,Card,electronics,Medium-High,Swiggy,0
+TXN0969,U002,2024-02-13,6023.33,Starbucks,Cash,other,Low,Starbucks,0
+TXN0970,U008,2024-03-04,28440.45,Starbucks,Card,Food & Beverage,High,Starbucks,0
+TXN0971,U020,2024-01-11,8122.55,Local Shop,UPI,Food & Beverage,Low,Unknown Store,0
+TXN0972,U010,2024-01-30,800.35,Apple,Card,food,Low,Apple,0
+TXN0973,U016,2024-01-07,11323.06,Swiggy,UPI,shopping,Medium-Low,Swiggy,0
+TXN0974,U012,2024-02-15,13101.38,Local Shop,UPI,food,Medium-Low,Unknown Store,0
+TXN0975,U008,2024-01-08,3810.21,Starbucks,Cash,transport,Low,Starbucks,0
+TXN0976,U005,2024-03-18,19730.91,OLA,UPI,other,Medium-High,OLA,0
+TXN0977,U015,2024-02-08,16546.66,Big Bazaar,Card,shopping,Medium-Low,Big Bazaar,0
+TXN0978,U012,2024-02-22,2362.6,Starbucks,UPI,transport,Low,Starbucks,0
+TXN0979,U012,2024-01-19,20953.27,Amazon,UPI,food,Medium-High,Amazon,0
+TXN0980,U009,2024-03-16,24817.09,OLA,Card,Food & Beverage,High,OLA,0
+TXN0981,U015,2024-01-06,11386.02,Local Shop,Card,,Medium-Low,Local Shop,0
+TXN0982,U001,2024-03-18,27224.41,DMart,Card,Food & Beverage,High,DMart,0
+TXN0983,U002,2024-01-14,27974.86,Local Shop,Card,electronics,High,Local Shop,0
+TXN0984,U013,2024-02-29,27232.3,Flipkart,UPI,electronics,High,Flipkart,0
+TXN0985,U019,2024-02-20,8235.35,DMart,Cash,,Low,DMart,0
+TXN0986,U019,2024-03-25,7942.88,OLA,UPI,other,Low,OLA,0
+TXN0987,U018,2024-01-28,17391.31,Apple,Card,refund,Medium-Low,Apple,1
+TXN0988,U009,2024-02-05,14852.92,Flipkart,Cash,,Medium-Low,Flipkart,0
+TXN0989,U002,2024-01-24,9526.86,Amazon,Card,food,Medium-Low,Amazon,0
+TXN0990,U018,2024-01-06,3283.81,DMart,UPI,other,Low,DMart,0
+TXN0991,U003,2024-03-23,4300.95,Local Shop,Card,other,Low,Local Shop,0
+TXN0992,U010,2024-03-20,11055.37,Apple,UPI,transport,Medium-Low,Apple,0
+TXN0993,U017,2024-03-06,11371.4,DMart,Card,shopping,Medium-Low,DMart,0
+TXN0994,U008,2024-03-13,21994.04,Amazon,Cash,refund,Medium-High,Amazon,1
+TXN0995,U009,2024-01-25,9867.25,DMart,Card,shopping,Medium-Low,DMart,0
+TXN0996,U015,2024-02-22,10566.02,Big Bazaar,Card,refund,Medium-Low,Big Bazaar,1
+TXN0997,U008,2024-03-13,7355.87,Local Shop,UPI,electronics,Low,Local Shop,0
+TXN0998,U011,2024-01-16,12636.47,DMart,UPI,refund,Medium-Low,DMart,1
+TXN0999,U006,2024-01-16,22967.63,Starbucks,UPI,Food & Beverage,Medium-High,Starbucks,0
+TXN1000,U006,2024-01-10,26007.73,Starbucks,UPI,transport,High,Starbucks,0
