@@ -5,9 +5,19 @@ description = "AI-Powered Financial Transaction Cleaner & Fraud Detector"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "faiss-cpu==1.8.0",
+    "fastapi==0.115.0",
+    "groq>=1.2.0",
     "matplotlib>=3.10.9",
     "numpy>=2.4.4",
-    "pandas>=3.0.2",
+    "openai==1.51.0",
+    "pandas==2.2.3",
     "plotly>=6.7.0",
+    "pydantic>=2.13.3",
+    "python-dotenv>=1.2.2",
+    "python-multipart==0.0.9",
+    "requests>=2.33.1",
     "seaborn>=0.13.2",
+    "sentence-transformers==3.1.1",
+    "uvicorn==0.32.0",
 ]
