@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/backup,git,python,react,reactnative,venv,vercel,vertx,visualstudio,vs
 # Edit at https://www.toptal.com/developers/gitignore?templates=backup,git,python,react,reactnative,venv,vercel,vertx,visualstudio,vs
 
+000-DEL
+
 ### Backup ###
 *.bak
 *.gho
@@ -223,7 +225,8 @@ __generated__
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

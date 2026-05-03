@@ -1,3 +1,0 @@
-# DataBase
-
-## Raw Schema
