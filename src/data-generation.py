@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 import random
 import numpy as np
 from datetime import datetime, timedelta
@@ -7,6 +8,7 @@ from datetime import datetime, timedelta
 random.seed(42)
 np.random.seed(42)
 num_rows = 1000
+os.makedirs("data/bronze", exist_ok=True)
 
 # --- 1. MERCHANT DATABASE ---
 merchants = [
@@ -86,10 +88,10 @@ for i in range(1, num_rows + 1):
 df_transactions = pd.DataFrame(txn_data)
 
 # --- Save to CSVs ---
-df_transactions.to_csv("data/raw/finance_transactions.csv", index=False)
-df_users.to_csv("data/raw/user_db.csv", index=False)
-df_merchants.to_csv("data/raw/merchant_db.csv", index=False)
-df_fraud.to_csv("data/raw/fraud_patterns.csv", index=False)
+df_transactions.to_csv("data/bronze/finance_transactions.csv", index=False)
+df_users.to_csv("data/bronze/user_db.csv", index=False)
+df_merchants.to_csv("data/bronze/merchant_db.csv", index=False)
+df_fraud.to_csv("data/bronze/fraud_patterns.csv", index=False)
 
 print("Success! 4 Dirty CSVs generated.")
 print(df_transactions.head(10))

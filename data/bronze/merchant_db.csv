@@ -1,0 +1,11 @@
+merchant_id,merchant_name,expected_category,avg_transaction_value,risk_level
+M001,Starbucks,Food & Beverage,300,low
+M002,Amazon,Shopping,1500,medium
+M003,Flipkart,E-commerce,1200,medium
+M004,Big Bazaar,Grocery,800,low
+M005,OLA,Transport,200,low
+M006,DMart,Grocery,1000,low
+M007,Local Shop,,100,high
+M008,Apple,Electronics,25000,medium
+M009,Swiggy,Food & Beverage,400,low
+M010,Unknown Store,???,500,high
