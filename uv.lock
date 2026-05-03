@@ -1446,6 +1446,20 @@ wheels = [
 ]
 
 [[package]]
+name = "pysqlite3-wheels"
+version = "0.5.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/1a/20/8c17636cec5780297485c06cd3afbabeaf50ce3304e6bf8d926ea5a99ce6/pysqlite3_wheels-0.5.0-cp311-cp311-macosx_10_9_x86_64.whl", hash = "sha256:b983575fb1c1420ad69d85b9f865870a662125ae31557223aedb77dba905dd9e", size = 982293, upload-time = "2023-02-03T09:25:36.032Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/c8/ce5202d63e45eec58b9e52f693f928d0988ab58cea8489dc8e125a7b0f6a/pysqlite3_wheels-0.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a2db8791254f60e6f037476a50c8768ed3c1c682b82b6ae9cb9c5ca3d6c0b97b", size = 4009184, upload-time = "2023-02-03T09:25:37.277Z" },
+    { url = "https://files.pythonhosted.org/packages/90/6c/2fb0200b3189527f0df319cb508b191f8aee2d826e609e7868cf0e3d8582/pysqlite3_wheels-0.5.0-cp311-cp311-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:77afba05c59b474e4b54e7e699d818c5c9c8b39ffbb672ce376356307e8313ea", size = 3929183, upload-time = "2023-02-03T09:25:39.057Z" },
+    { url = "https://files.pythonhosted.org/packages/02/6c/544c1e754cc438dee05bce0afea585a836b128e4ceea381fe9dac15e3315/pysqlite3_wheels-0.5.0-cp311-cp311-musllinux_1_1_i686.whl", hash = "sha256:3018df38f9cd7795cc6feb7b44c984e04bd6f546f2fabc8dd6240aaf373e6d41", size = 3888206, upload-time = "2023-02-03T09:25:40.564Z" },
+    { url = "https://files.pythonhosted.org/packages/0a/c3/9407c0266ac93a60851fc592337fc21235ac3b6af00dfe5da9163201ac9f/pysqlite3_wheels-0.5.0-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:bf59830b4d505f5e90b727ae4e842421698646f1f85e3d0a7d6c3016032479cd", size = 3965687, upload-time = "2023-02-03T09:25:42.415Z" },
+    { url = "https://files.pythonhosted.org/packages/03/15/8b7e415143089899e628131695a011c2638c215e9587f4bf79321d84a9db/pysqlite3_wheels-0.5.0-cp311-cp311-win32.whl", hash = "sha256:2f13a35a5c80d01c3ad10879de8d5b260103a4dd573381db26f0d117f7eeabc9", size = 662955, upload-time = "2023-02-03T09:25:44.085Z" },
+    { url = "https://files.pythonhosted.org/packages/6a/a5/ae104822f98c783c722aabb4d48a6f975fd07e9bb7aa5525983bc261631f/pysqlite3_wheels-0.5.0-cp311-cp311-win_amd64.whl", hash = "sha256:6195a652707009f36fc9394c5d4bdff04b42e8bca369d80d1555cbad59ed7328", size = 805488, upload-time = "2023-02-03T09:25:45.232Z" },
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 source = { registry = "https://pypi.org/simple" }
@@ -1865,6 +1879,7 @@ dependencies = [
     { name = "pandas" },
     { name = "plotly" },
     { name = "pydantic" },
+    { name = "pysqlite3-wheels" },
     { name = "python-dotenv" },
     { name = "python-multipart" },
     { name = "requests" },
@@ -1884,6 +1899,7 @@ requires-dist = [
     { name = "pandas", specifier = "==2.2.3" },
     { name = "plotly", specifier = ">=6.7.0" },
     { name = "pydantic", specifier = ">=2.13.3" },
+    { name = "pysqlite3-wheels", specifier = ">=0.5.0" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
     { name = "python-multipart", specifier = "==0.0.9" },
     { name = "requests", specifier = ">=2.33.1" },
