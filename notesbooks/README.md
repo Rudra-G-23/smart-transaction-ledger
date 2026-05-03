@@ -6,7 +6,6 @@
 
 ### 1.1.  Merchant Name
 Assumptions:
-
 - We don't know store means 
 - That is the Local Store
   
@@ -26,7 +25,6 @@ Assumptions:
 - Forward Filling
 
 ## 2.2. Income
-
 - Nan value treat as the under 45k.
 - Then Category the income group Mapping
   
@@ -47,3 +45,22 @@ Assumptions:
 
 ### 3.1 amount_range
 - any that fill with >20000	
+
+---
+
+## 4. Fin Txn DB
+
+### 4.1. Date
+- Fix the date format
+
+## 4.2. amount 
+- Make everything +ve
+- Using bins make the category
+  
+## 4.3. Desc
+- From desc extract the Merchant name
+
+## 4.4. category 
+- Refund feature creation
+
+---
