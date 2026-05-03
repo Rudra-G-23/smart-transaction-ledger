@@ -58,7 +58,7 @@ start_date = datetime(2024, 1, 1)
 
 for i in range(1, num_rows + 1):
     m_info = random.choice(merchants)
-    u_id = f"U{str(random.randint(1, 20)).zfill(3)}"
+    u_id = f"U{str(random.randint(1, 50)).zfill(3)}"
     
     # Random Date Formats
     curr_date = start_date + timedelta(days=random.randint(0, 90))

@@ -1,1001 +1,1001 @@
 transaction_id,user_id,date,amount,description,merchant_name,location,payment_mode,category
-TXN0001,U019,11/03/2024,6614.32,Starbucks *Order#99,Starbucks,BBSR,UPI,other
-TXN0002,U017,2024/01/31,14567.58,Amazon  purchase,Amazon,local shop,Cash,refund
-TXN0003,U007,2024-01-13,12937.22,Local Shop  purchase,Local Shop,,UPI,shopping
-TXN0004,U013,2024-02-13,5755.79,Starbucks !!!,Starbucks,BBSR,Card,shopping
-TXN0005,U018,2024-01-13,29978.48,Apple  purchase,Apple,BBSR,UPI,refund
-TXN0006,U013,08/01/2024,74.64,Big Bazaar  0412,Big Bazaar,Online,Card,refund
-TXN0007,U007,07/02/2024,17379.62,Flipkart,Flipkart,Bhubaneswar,UPI,grocery
-TXN0008,U017,11/01/2024,17855.1,Starbucks,Starbucks,Bhubaneswar,Cash,food
-TXN0009,U003,2024/02/23,6135.73,Unknown Store ???,Unknown Store,Online,UPI,electronics
-TXN0010,U011,2024-01-10,18638.57,Apple  0412,,local shop,UPI,grocery
-TXN0011,U003,2024/02/01,4740.83,DMart ???,DMart,local shop,Cash,electronics
-TXN0012,U005,2024-02-03,22275.08,Amazon,Amazon,BBSR,Cash,electronics
-TXN0013,U016,2024-02-02,19032.19,Swiggy,,Bhubaneshwar,UPI,electronics
-TXN0014,U015,11-03-2024,299.99,Flipkart *Order#99,Flipkart,BBSR,Cash,
-TXN0015,U019,11/03/2024,3832.09,DMart  0412,DMart,Bhubaneswar,Card,transport
-TXN0016,U012,12-03-2024,22486.83,Amazon *Order#99,Amazon,BBSR,UPI,food
-TXN0017,U011,22/02/2024,4784.34,Flipkart ???,Flipkart,Bhubaneswar,Card,refund
-TXN0018,U010,30/01/2024,19804.4,DMart,DMart,Bhubaneswar,Card,Food & Beverage
-TXN0019,U011,2024-01-04,5365.25,Swiggy ???,Swiggy,Bhubaneswar,Cash,other
-TXN0020,U020,2024-03-06,26986.15,Local Shop  0412,,Online,UPI,transport
-TXN0021,U014,2024/01/09,9424.33,DMart *Order#99,DMart,Bhubaneshwar,Cash,Food & Beverage
-TXN0022,U013,2024/03/30,3827.36,DMart *Order#99,DMart,,Cash,electronics
-TXN0023,U018,2024/01/01,6313.38,Local Shop ???,Local Shop,Bhubaneshwar,Card,transport
-TXN0024,U016,2024-01-22,15468.41,Swiggy ???,Swiggy,BBSR,Cash,transport
-TXN0025,U001,06/01/2024,18342.11,Flipkart  0412,Flipkart,,Cash,Food & Beverage
-TXN0026,U013,01/02/2024,20631.8,Apple  purchase,Apple,Bhubaneswar,Card,refund
-TXN0027,U018,2024-02-01,4008.84,Starbucks  0412,Starbucks,local shop,Cash,refund
-TXN0028,U017,24-02-2024,22312.23,Unknown Store !!!,Unknown Store,BBSR,Cash,refund
-TXN0029,U009,2024-02-26,8578.99,Big Bazaar  purchase,Big Bazaar,local shop,UPI,transport
-TXN0030,U005,31/03/2024,12451.89,Local Shop,Local Shop,Bhubaneswar,UPI,Food & Beverage
-TXN0031,U001,14-03-2024,186.82,Unknown Store  0412,Unknown Store,Online,Cash,transport
-TXN0032,U008,04-02-2024,880.45,Apple  0412,Apple,Online,Cash,refund
-TXN0033,U020,2024-03-09,17760.86,Flipkart  0412,,Online,UPI,grocery
-TXN0034,U009,2024/02/18,13646.43,Starbucks !!!,Starbucks,Bhubaneshwar,Card,shopping
-TXN0035,U001,2024-03-10,6734.42,Apple ???,Apple,Bhubaneswar,UPI,transport
-TXN0036,U020,20/01/2024,14212.1,Starbucks !!!,Starbucks,Online,Cash,other
-TXN0037,U020,2024-03-18,24580.84,Flipkart  fee,Flipkart,Bhubaneswar,Card,Food & Beverage
-TXN0038,U007,10/01/2024,20918.82,Local Shop,Local Shop,Bhubaneswar,Cash,other
-TXN0039,U014,2024/03/25,15183.76,Swiggy,Swiggy,Online,UPI,other
-TXN0040,U005,25/02/2024,15657.18,Apple  purchase,Apple,local shop,Card,electronics
-TXN0041,U008,2024/01/12,7323.46,DMart  0412,DMart,Online,Card,
-TXN0042,U006,03/03/2024,23936.99,DMart ???,DMart,,Card,transport
-TXN0043,U008,22-02-2024,22747.36,Amazon *Order#99,Amazon,Online,Card,shopping
-TXN0044,U008,21/02/2024,19922.16,OLA ???,OLA,Bhubaneshwar,Card,other
-TXN0045,U015,2024/02/04,6923.84,DMart ???,DMart,,Cash,grocery
-TXN0046,U007,2024/03/02,17691.71,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,UPI,other
-TXN0047,U010,02/01/2024,1375.02,Flipkart ???,Flipkart,BBSR,Cash,refund
-TXN0048,U001,2024/03/14,14366.64,Amazon  0412,Amazon,Bhubaneshwar,Card,shopping
-TXN0049,U016,2024-01-10,4484.44,Local Shop !!!,Local Shop,BBSR,UPI,Food & Beverage
-TXN0050,U020,20/03/2024,15681.95,Unknown Store  fee,Unknown Store,local shop,Card,food
-TXN0051,U004,27/01/2024,19816.24,Unknown Store ???,Unknown Store,Bhubaneswar,UPI,
-TXN0052,U020,2024/03/01,6951.97,Apple,Apple,Online,UPI,electronics
-TXN0053,U007,2024-02-24,6752.04,Unknown Store *Order#99,Unknown Store,BBSR,UPI,electronics
-TXN0054,U019,06-02-2024,14066.25,Unknown Store,Unknown Store,Bhubaneshwar,Cash,refund
-TXN0055,U020,06-01-2024,9676.42,Amazon  purchase,,,Cash,food
-TXN0056,U019,06/01/2024,15573.73,OLA  0412,OLA,local shop,Card,refund
-TXN0057,U016,14-02-2024,9638.54,Amazon ???,Amazon,Online,Cash,Food & Beverage
-TXN0058,U002,2024-02-28,7579.44,Swiggy ???,Swiggy,local shop,UPI,refund
-TXN0059,U002,2024/01/25,22695.73,Local Shop *Order#99,Local Shop,BBSR,Card,electronics
-TXN0060,U016,2024-01-16,18270.06,Apple  purchase,Apple,local shop,UPI,shopping
-TXN0061,U004,2024-02-29,24965.97,Big Bazaar  purchase,Big Bazaar,local shop,Cash,refund
-TXN0062,U008,28/02/2024,5726.41,Apple  0412,Apple,BBSR,UPI,Food & Beverage
-TXN0063,U017,2024-02-04,21784.27,DMart ???,DMart,,Card,refund
-TXN0064,U016,2024/02/14,22888.55,Swiggy *Order#99,Swiggy,BBSR,Cash,Food & Beverage
-TXN0065,U014,2024/01/06,14194.56,Big Bazaar  purchase,Big Bazaar,,Cash,refund
-TXN0066,U005,2024/03/05,3019.93,Starbucks  fee,,Online,UPI,Food & Beverage
-TXN0067,U003,2024/03/01,18701.55,Flipkart ???,,Bhubaneshwar,Cash,Food & Beverage
-TXN0068,U016,2024-03-10,2061.94,DMart *Order#99,DMart,BBSR,Cash,shopping
-TXN0069,U015,2024/01/22,1389.27,Amazon,Amazon,Bhubaneshwar,Card,Food & Beverage
-TXN0070,U006,22/01/2024,18288.66,Unknown Store,Unknown Store,Online,Cash,refund
-TXN0071,U015,2024-02-02,13962.95,OLA  fee,OLA,Bhubaneswar,Card,electronics
-TXN0072,U009,2024/02/28,29981.21,Local Shop !!!,Local Shop,Online,Cash,electronics
-TXN0073,U001,25-03-2024,252.86,OLA ???,OLA,Bhubaneswar,Cash,electronics
-TXN0074,U020,15/02/2024,5712.06,Big Bazaar  purchase,Big Bazaar,,Cash,shopping
-TXN0075,U010,2024-02-26,10952.19,Starbucks *Order#99,Starbucks,Bhubaneshwar,Cash,transport
-TXN0076,U018,2024/02/16,4944.69,Flipkart  fee,Flipkart,Bhubaneshwar,Cash,shopping
-TXN0077,U003,19/01/2024,20292.95,Apple  fee,Apple,local shop,Card,Food & Beverage
-TXN0078,U009,2024-03-09,11063.88,Starbucks  0412,Starbucks,Online,Cash,shopping
-TXN0079,U016,2024/01/04,6648.8,Big Bazaar *Order#99,Big Bazaar,,Card,shopping
-TXN0080,U002,2024/01/05,3492.45,Flipkart  0412,Flipkart,Online,Card,Food & Beverage
-TXN0081,U005,2024-02-23,14685.52,Unknown Store  fee,Unknown Store,Bhubaneswar,Cash,refund
-TXN0082,U008,2024-02-16,11026.38,Apple  purchase,Apple,Bhubaneswar,Card,shopping
-TXN0083,U003,25/03/2024,19188.39,Apple  purchase,,Bhubaneshwar,UPI,transport
-TXN0084,U018,27/01/2024,26092.17,Amazon  fee,Amazon,local shop,UPI,grocery
-TXN0085,U018,02/02/2024,-19835.12,Flipkart,,BBSR,Cash,grocery
-TXN0086,U002,17-01-2024,3418.34,OLA *Order#99,OLA,Bhubaneshwar,Cash,refund
-TXN0087,U008,2024-03-19,23498.98,Swiggy  purchase,Swiggy,Online,Cash,food
-TXN0088,U013,2024-02-24,21374.92,Apple  0412,Apple,Bhubaneshwar,Cash,grocery
-TXN0089,U020,2024/03/22,29838.89,OLA  0412,OLA,local shop,Card,shopping
-TXN0090,U007,25-02-2024,12420.27,Swiggy !!!,Swiggy,,UPI,other
-TXN0091,U012,20-01-2024,2745.83,OLA,OLA,,Cash,grocery
-TXN0092,U002,2024/03/16,3675.72,Swiggy  purchase,Swiggy,Online,Cash,electronics
-TXN0093,U010,2024-02-15,15227.3,Unknown Store *Order#99,Unknown Store,Bhubaneswar,Card,other
-TXN0094,U009,14/03/2024,12879.08,Amazon  fee,Amazon,local shop,Cash,food
-TXN0095,U009,04/01/2024,21083.94,Unknown Store ???,Unknown Store,Bhubaneswar,UPI,Food & Beverage
-TXN0096,U005,2024-03-22,22385.89,Amazon,Amazon,Bhubaneshwar,UPI,other
-TXN0097,U020,2024-01-11,4730.72,Unknown Store !!!,Unknown Store,Bhubaneshwar,Card,refund
-TXN0098,U015,2024/02/23,22650.74,Unknown Store !!!,Unknown Store,Bhubaneshwar,Cash,refund
-TXN0099,U010,06/01/2024,29533.53,Swiggy  0412,Swiggy,BBSR,UPI,electronics
-TXN0100,U004,01-01-2024,12925.34,DMart  purchase,DMart,BBSR,Cash,other
-TXN0101,U013,06-01-2024,13798.03,Amazon,Amazon,Online,Cash,Food & Beverage
-TXN0102,U004,2024-02-21,5164.48,OLA ???,OLA,,Card,shopping
-TXN0103,U014,16-03-2024,2368.63,Big Bazaar *Order#99,Big Bazaar,BBSR,Card,shopping
-TXN0104,U004,08/03/2024,10487.76,Swiggy  fee,Swiggy,BBSR,UPI,electronics
-TXN0105,U006,18/03/2024,22776.98,Big Bazaar  fee,Big Bazaar,,Card,refund
-TXN0106,U020,2024/02/11,13198.49,Unknown Store !!!,Unknown Store,Bhubaneshwar,Cash,shopping
-TXN0107,U015,2024-02-27,11068.44,OLA,OLA,Bhubaneswar,Cash,Food & Beverage
-TXN0108,U019,2024-03-11,27272.41,Apple  0412,Apple,local shop,Card,food
-TXN0109,U004,2024-02-13,-19387.35,Apple *Order#99,Apple,Online,Cash,grocery
-TXN0110,U012,06-02-2024,23236.2,DMart  0412,,,Cash,other
-TXN0111,U018,27-03-2024,7567.35,Amazon ???,Amazon,local shop,UPI,grocery
-TXN0112,U010,24-03-2024,17855.29,DMart !!!,DMart,Online,Cash,grocery
-TXN0113,U003,23-03-2024,10861.22,Swiggy *Order#99,Swiggy,BBSR,Card,refund
-TXN0114,U008,18/01/2024,8880.81,Big Bazaar,Big Bazaar,local shop,Cash,food
-TXN0115,U020,17-01-2024,4875.79,DMart !!!,DMart,BBSR,Cash,Food & Beverage
-TXN0116,U008,2024/02/26,22458.61,DMart  fee,DMart,Bhubaneshwar,Card,transport
-TXN0117,U019,26-02-2024,8460.33,DMart  fee,DMart,BBSR,UPI,grocery
-TXN0118,U002,23-03-2024,11142.65,OLA  fee,OLA,local shop,UPI,grocery
-TXN0119,U015,06/03/2024,13129.8,OLA  fee,OLA,Online,Card,Food & Beverage
-TXN0120,U013,2024/03/05,11591.12,Starbucks !!!,Starbucks,Bhubaneshwar,UPI,other
-TXN0121,U005,2024/01/05,14178.92,Flipkart  fee,Flipkart,Online,Card,shopping
-TXN0122,U009,28/01/2024,28207.38,Starbucks *Order#99,Starbucks,Bhubaneshwar,UPI,food
-TXN0123,U014,22-03-2024,3334.63,Big Bazaar,Big Bazaar,Bhubaneswar,Cash,transport
-TXN0124,U010,2024-02-24,10590.95,Flipkart *Order#99,Flipkart,,UPI,other
-TXN0125,U017,2024-03-10,-26201.21,Amazon  0412,Amazon,Bhubaneshwar,Card,other
-TXN0126,U012,2024-01-31,17461.28,Amazon  fee,Amazon,Bhubaneshwar,Cash,grocery
-TXN0127,U016,21/03/2024,4054.23,Apple  fee,Apple,Bhubaneswar,Card,transport
-TXN0128,U011,09-02-2024,16295.49,Starbucks  fee,Starbucks,BBSR,Card,food
-TXN0129,U009,2024/01/16,26685.7,DMart  0412,DMart,Online,Card,refund
-TXN0130,U012,2024/03/07,2487.52,Apple  fee,Apple,BBSR,Cash,shopping
-TXN0131,U011,2024/03/25,13383.01,Amazon ???,Amazon,Online,Card,other
-TXN0132,U014,2024-02-05,20138.8,Unknown Store,Unknown Store,,Cash,food
-TXN0133,U020,27-03-2024,3795.64,Flipkart,Flipkart,Bhubaneshwar,Card,food
-TXN0134,U005,27-03-2024,11166.68,Unknown Store ???,Unknown Store,local shop,Card,electronics
-TXN0135,U004,04/01/2024,15537.18,Big Bazaar  0412,Big Bazaar,Bhubaneshwar,Cash,electronics
-TXN0136,U007,16/01/2024,2230.82,Apple  fee,Apple,Bhubaneswar,Cash,other
-TXN0137,U003,2024/03/11,25542.35,DMart ???,DMart,,UPI,transport
-TXN0138,U007,18/01/2024,14825.72,Amazon  fee,Amazon,Online,Cash,shopping
-TXN0139,U010,20-02-2024,12329.75,Amazon *Order#99,Amazon,BBSR,Card,refund
-TXN0140,U017,14/02/2024,23410.09,Apple  fee,Apple,BBSR,Card,food
-TXN0141,U017,2024/01/20,4867.39,Amazon !!!,Amazon,local shop,Card,electronics
-TXN0142,U018,05/02/2024,9091.71,Big Bazaar  purchase,Big Bazaar,BBSR,Cash,grocery
-TXN0143,U020,2024/03/18,-27718.65,Flipkart  fee,Flipkart,Bhubaneswar,UPI,electronics
-TXN0144,U019,2024-02-23,26671.02,Big Bazaar  0412,Big Bazaar,Bhubaneshwar,Card,Food & Beverage
-TXN0145,U015,2024-01-10,13193.77,OLA !!!,OLA,local shop,UPI,other
-TXN0146,U013,2024/01/17,16853.92,DMart *Order#99,DMart,Bhubaneshwar,Card,shopping
-TXN0147,U010,19-02-2024,28880.95,Starbucks !!!,Starbucks,local shop,Cash,grocery
-TXN0148,U017,29-02-2024,14926.13,Apple ???,Apple,Online,UPI,other
-TXN0149,U002,06-02-2024,26471.36,Starbucks *Order#99,Starbucks,local shop,UPI,Food & Beverage
-TXN0150,U009,16-02-2024,1366.82,Flipkart ???,Flipkart,Bhubaneshwar,Cash,Food & Beverage
-TXN0151,U015,2024/03/11,29672.83,Swiggy  fee,Swiggy,Bhubaneswar,Card,other
-TXN0152,U012,19/01/2024,15278.58,Swiggy *Order#99,,BBSR,Cash,refund
-TXN0153,U015,20/01/2024,27941.75,Swiggy ???,Swiggy,local shop,Cash,other
-TXN0154,U017,09-03-2024,16892.1,Swiggy  purchase,,Bhubaneshwar,Cash,Food & Beverage
-TXN0155,U010,2024-03-29,14242.96,Unknown Store *Order#99,Unknown Store,local shop,Cash,food
-TXN0156,U016,22-01-2024,24651.62,Unknown Store !!!,Unknown Store,,UPI,refund
-TXN0157,U014,20-01-2024,6124.71,DMart  purchase,DMart,Online,Cash,grocery
-TXN0158,U007,2024/03/12,14356.35,Swiggy  purchase,Swiggy,Online,Cash,other
-TXN0159,U020,02/03/2024,8377.4,OLA !!!,OLA,Bhubaneshwar,Card,refund
-TXN0160,U016,2024/02/14,3665.0,DMart ???,DMart,Online,Card,grocery
-TXN0161,U002,2024-02-06,27721.05,OLA ???,OLA,BBSR,UPI,electronics
-TXN0162,U009,2024-01-18,22229.32,Swiggy *Order#99,,local shop,UPI,food
-TXN0163,U014,12-02-2024,20438.95,Amazon,Amazon,BBSR,Card,refund
-TXN0164,U007,2024/02/06,19380.48,Apple ???,,local shop,UPI,food
-TXN0165,U014,2024-01-23,11915.87,Flipkart  fee,Flipkart,Bhubaneshwar,UPI,
-TXN0166,U020,2024/01/14,13635.93,Unknown Store ???,Unknown Store,BBSR,Cash,transport
-TXN0167,U011,21-01-2024,7725.37,Amazon  purchase,Amazon,Bhubaneshwar,Cash,transport
-TXN0168,U020,22-03-2024,12836.82,Flipkart  fee,Flipkart,Bhubaneswar,UPI,refund
-TXN0169,U008,2024/01/01,7073.28,DMart  0412,DMart,Bhubaneshwar,Cash,food
-TXN0170,U012,29/03/2024,20036.91,OLA,OLA,,Cash,electronics
-TXN0171,U010,17/02/2024,28721.24,Amazon !!!,Amazon,local shop,Card,refund
-TXN0172,U007,2024-02-01,13407.97,Swiggy *Order#99,,local shop,UPI,transport
-TXN0173,U018,20/01/2024,25636.04,Unknown Store ???,Unknown Store,,Cash,refund
-TXN0174,U015,17-01-2024,16921.7,Starbucks  0412,Starbucks,Bhubaneshwar,Cash,
-TXN0175,U001,2024-01-28,12716.68,OLA,OLA,Bhubaneswar,UPI,refund
-TXN0176,U010,22/02/2024,4071.51,Starbucks  fee,Starbucks,Online,Card,Food & Beverage
-TXN0177,U013,2024-02-18,28924.69,Apple  purchase,Apple,Bhubaneshwar,UPI,Food & Beverage
-TXN0178,U005,2024-01-29,691.83,Swiggy  fee,Swiggy,local shop,Card,transport
-TXN0179,U015,14/02/2024,5662.53,Big Bazaar ???,Big Bazaar,Bhubaneswar,Cash,food
-TXN0180,U007,2024-01-09,1016.95,Big Bazaar *Order#99,Big Bazaar,Bhubaneswar,UPI,Food & Beverage
-TXN0181,U008,10/03/2024,25913.27,Apple  fee,Apple,Bhubaneshwar,UPI,other
-TXN0182,U020,2024/03/27,9059.92,Unknown Store !!!,Unknown Store,BBSR,Card,food
-TXN0183,U019,23-01-2024,14873.67,Swiggy *Order#99,Swiggy,,Card,other
-TXN0184,U014,2024/01/20,5524.53,Local Shop  0412,Local Shop,BBSR,Card,grocery
-TXN0185,U002,12-03-2024,16723.03,Apple  0412,Apple,BBSR,Card,refund
-TXN0186,U003,09/03/2024,8061.16,DMart,DMart,Bhubaneswar,UPI,transport
-TXN0187,U007,2024/02/12,6362.12,Apple,Apple,,Card,transport
-TXN0188,U008,2024/03/11,8498.95,Local Shop  fee,Local Shop,Bhubaneshwar,Card,refund
-TXN0189,U004,2024/03/01,11127.44,Apple !!!,Apple,BBSR,Cash,electronics
-TXN0190,U019,15-03-2024,4580.82,Swiggy ???,Swiggy,BBSR,Card,other
-TXN0191,U016,23-03-2024,5055.33,OLA  0412,OLA,,Cash,food
-TXN0192,U002,2024-01-10,201.45,Swiggy  fee,Swiggy,Bhubaneswar,Cash,transport
-TXN0193,U015,2024-02-17,19135.48,Swiggy *Order#99,Swiggy,,Card,
-TXN0194,U018,2024-02-22,15887.24,Swiggy,Swiggy,Bhubaneswar,Cash,Food & Beverage
-TXN0195,U004,13/01/2024,5766.04,Flipkart !!!,Flipkart,Bhubaneshwar,Card,Food & Beverage
-TXN0196,U019,01/02/2024,20524.41,Apple ???,Apple,,UPI,Food & Beverage
-TXN0197,U018,2024-03-01,293.41,Local Shop  purchase,Local Shop,Online,Cash,shopping
-TXN0198,U002,30/01/2024,20771.71,Swiggy  fee,Swiggy,Bhubaneswar,Cash,food
-TXN0199,U011,03/01/2024,4334.3,Flipkart *Order#99,Flipkart,Bhubaneswar,Card,transport
-TXN0200,U013,2024/03/27,22670.72,Unknown Store  0412,Unknown Store,,UPI,other
-TXN0201,U004,25/02/2024,2289.79,Starbucks  fee,Starbucks,local shop,Card,other
-TXN0202,U009,27-02-2024,10680.78,Starbucks !!!,Starbucks,,Cash,shopping
-TXN0203,U010,2024-02-01,8046.48,Unknown Store,Unknown Store,BBSR,Cash,other
-TXN0204,U003,2024/01/01,10803.93,Amazon  0412,Amazon,BBSR,Card,Food & Beverage
-TXN0205,U001,2024/01/12,2801.0,Amazon *Order#99,Amazon,Online,UPI,Food & Beverage
-TXN0206,U018,01/02/2024,11428.15,Amazon  purchase,Amazon,Online,UPI,Food & Beverage
-TXN0207,U014,08-02-2024,2316.87,OLA  fee,OLA,,Card,transport
-TXN0208,U004,2024/01/18,28465.22,Apple,Apple,Bhubaneshwar,Card,grocery
-TXN0209,U011,18/03/2024,9432.36,OLA  0412,OLA,Bhubaneshwar,Cash,refund
-TXN0210,U008,11-02-2024,24496.67,Unknown Store ???,Unknown Store,local shop,UPI,grocery
-TXN0211,U001,29/02/2024,23932.59,Swiggy  0412,,Online,Cash,electronics
-TXN0212,U009,25/03/2024,12699.61,Big Bazaar  purchase,Big Bazaar,local shop,Card,Food & Beverage
-TXN0213,U002,2024-02-16,23070.93,Swiggy,Swiggy,,Cash,
-TXN0214,U011,2024-02-25,2967.21,Local Shop,Local Shop,local shop,Cash,transport
-TXN0215,U012,20-02-2024,20389.87,Apple  fee,Apple,Bhubaneswar,Card,Food & Beverage
-TXN0216,U004,2024/01/19,10298.57,Amazon ???,Amazon,Bhubaneshwar,Card,refund
-TXN0217,U003,2024-02-08,-21326.26,DMart  fee,DMart,Bhubaneswar,Cash,transport
-TXN0218,U006,11/03/2024,16799.87,Swiggy ???,Swiggy,Online,Cash,Food & Beverage
-TXN0219,U001,19/03/2024,17770.17,Local Shop  0412,Local Shop,BBSR,Card,shopping
-TXN0220,U004,09/03/2024,9786.29,Unknown Store ???,Unknown Store,Online,Cash,other
-TXN0221,U013,19-03-2024,3435.82,Unknown Store *Order#99,Unknown Store,BBSR,Cash,electronics
-TXN0222,U019,11/01/2024,3544.67,Unknown Store ???,Unknown Store,,UPI,Food & Beverage
-TXN0223,U005,14-03-2024,5580.75,Unknown Store  0412,Unknown Store,,UPI,refund
-TXN0224,U005,2024/01/24,13535.52,OLA  fee,OLA,Bhubaneswar,Card,Food & Beverage
-TXN0225,U017,24-03-2024,20544.05,Swiggy  0412,Swiggy,Online,UPI,food
-TXN0226,U010,2024/01/05,16132.88,Big Bazaar !!!,Big Bazaar,,Card,shopping
-TXN0227,U004,2024/02/04,-24680.1,Unknown Store *Order#99,Unknown Store,local shop,UPI,shopping
-TXN0228,U010,05-01-2024,10463.82,Big Bazaar ???,Big Bazaar,Bhubaneswar,UPI,other
-TXN0229,U014,22/01/2024,6206.52,Unknown Store  fee,,Bhubaneshwar,Cash,grocery
-TXN0230,U010,2024/02/07,15437.31,DMart  fee,DMart,BBSR,Card,electronics
-TXN0231,U005,01/02/2024,9669.68,Flipkart  purchase,Flipkart,Online,Card,electronics
-TXN0232,U013,2024-02-27,23840.01,Local Shop  purchase,Local Shop,,Card,other
-TXN0233,U016,2024-02-11,23226.32,Apple  fee,Apple,Online,Cash,other
-TXN0234,U018,20/02/2024,24747.18,Amazon  0412,Amazon,Bhubaneshwar,Card,grocery
-TXN0235,U016,2024-02-13,2996.25,Unknown Store,Unknown Store,Bhubaneswar,UPI,food
-TXN0236,U007,29/03/2024,9062.95,Local Shop  purchase,Local Shop,Bhubaneswar,Cash,shopping
-TXN0237,U006,07-01-2024,9172.22,DMart  purchase,DMart,,UPI,food
-TXN0238,U016,10/01/2024,6793.46,Big Bazaar *Order#99,,,Card,Food & Beverage
-TXN0239,U016,10/01/2024,2689.04,Flipkart  0412,Flipkart,Bhubaneshwar,Card,grocery
-TXN0240,U003,2024-03-08,19504.11,Flipkart *Order#99,Flipkart,,Cash,Food & Beverage
-TXN0241,U015,2024-01-28,4208.99,Unknown Store,Unknown Store,Bhubaneshwar,Card,grocery
-TXN0242,U009,2024-03-23,16606.36,Big Bazaar !!!,Big Bazaar,,UPI,electronics
-TXN0243,U017,18/03/2024,11758.61,Big Bazaar  purchase,Big Bazaar,BBSR,Card,transport
-TXN0244,U020,2024-01-10,28018.39,Apple ???,Apple,local shop,Card,grocery
-TXN0245,U003,2024-01-03,-7872.94,Apple,,Online,Cash,Food & Beverage
-TXN0246,U013,11/01/2024,2517.08,Local Shop ???,Local Shop,BBSR,Cash,shopping
-TXN0247,U014,2024-01-31,2595.52,OLA !!!,OLA,local shop,UPI,grocery
-TXN0248,U001,31/03/2024,350.4,Amazon  purchase,Amazon,local shop,Cash,other
-TXN0249,U009,2024-01-16,24215.16,Flipkart ???,,,Cash,refund
-TXN0250,U017,2024-02-16,25782.2,Apple  0412,Apple,Bhubaneswar,Cash,shopping
-TXN0251,U017,2024-01-01,25889.23,Big Bazaar  fee,Big Bazaar,Online,UPI,food
-TXN0252,U014,2024/01/29,12493.54,Swiggy !!!,Swiggy,Bhubaneswar,Cash,food
-TXN0253,U008,2024-03-07,2077.1,Flipkart  0412,Flipkart,Bhubaneshwar,Card,refund
-TXN0254,U012,2024/01/26,23537.37,Starbucks *Order#99,Starbucks,Bhubaneshwar,Cash,transport
-TXN0255,U008,2024-01-20,727.07,Swiggy  0412,Swiggy,,UPI,food
-TXN0256,U010,14/01/2024,29493.64,Local Shop *Order#99,Local Shop,BBSR,Cash,food
-TXN0257,U017,2024/02/22,29236.9,Big Bazaar  0412,,BBSR,Cash,shopping
-TXN0258,U019,08-01-2024,28926.91,Unknown Store  purchase,Unknown Store,Bhubaneshwar,Card,other
-TXN0259,U015,04/02/2024,28307.21,DMart,DMart,Bhubaneswar,UPI,refund
-TXN0260,U011,2024-02-22,10755.04,Apple *Order#99,Apple,Online,Card,shopping
-TXN0261,U010,2024-03-31,25079.38,Flipkart !!!,,BBSR,Card,food
-TXN0262,U009,2024-01-23,25639.49,OLA  0412,OLA,Bhubaneswar,Card,grocery
-TXN0263,U001,08/01/2024,5952.01,Amazon !!!,Amazon,,UPI,electronics
-TXN0264,U001,09/01/2024,13308.51,Amazon  purchase,Amazon,Bhubaneshwar,UPI,
-TXN0265,U002,22-01-2024,21735.68,Apple  fee,Apple,Online,UPI,grocery
-TXN0266,U009,27/02/2024,18427.06,OLA,OLA,Online,Card,refund
-TXN0267,U003,05-02-2024,12582.85,Starbucks !!!,Starbucks,BBSR,Cash,food
-TXN0268,U012,02-03-2024,27381.18,Local Shop ???,Local Shop,BBSR,UPI,transport
-TXN0269,U009,08-01-2024,10729.41,Starbucks *Order#99,Starbucks,BBSR,UPI,transport
-TXN0270,U018,08/01/2024,25396.69,OLA *Order#99,OLA,BBSR,UPI,other
-TXN0271,U019,2024/01/04,16912.56,DMart *Order#99,DMart,Online,Cash,refund
-TXN0272,U003,08/01/2024,6572.08,Starbucks *Order#99,,local shop,UPI,other
-TXN0273,U011,2024-01-08,17602.41,Flipkart !!!,Flipkart,local shop,Card,other
-TXN0274,U019,2024/01/13,9684.87,Local Shop ???,Local Shop,Online,Cash,other
-TXN0275,U018,2024/03/29,19969.29,Flipkart !!!,Flipkart,,Cash,grocery
-TXN0276,U019,2024-02-20,18075.64,Starbucks !!!,Starbucks,BBSR,Cash,refund
-TXN0277,U011,10/01/2024,29471.57,Flipkart ???,Flipkart,Bhubaneswar,Cash,other
-TXN0278,U001,03/02/2024,20798.35,Apple !!!,Apple,,UPI,
-TXN0279,U014,22-01-2024,26454.3,Apple  0412,Apple,Online,Cash,transport
-TXN0280,U015,2024-01-10,612.14,Flipkart ???,Flipkart,Bhubaneshwar,UPI,grocery
-TXN0281,U018,2024/01/12,29558.43,Amazon *Order#99,Amazon,Online,Cash,Food & Beverage
-TXN0282,U002,2024/01/13,29232.21,Flipkart !!!,Flipkart,,Cash,electronics
-TXN0283,U008,2024-01-13,17157.38,OLA  0412,OLA,Bhubaneshwar,UPI,electronics
-TXN0284,U016,2024-01-26,6216.52,Unknown Store,Unknown Store,Online,UPI,Food & Beverage
-TXN0285,U016,2024/03/25,19259.57,Apple,Apple,Online,Card,food
-TXN0286,U015,2024/02/29,25113.99,OLA !!!,OLA,,Cash,other
-TXN0287,U014,16/03/2024,1838.9,Swiggy *Order#99,Swiggy,local shop,Cash,refund
-TXN0288,U008,2024/03/01,11850.18,Unknown Store,,local shop,Cash,grocery
-TXN0289,U015,23/01/2024,24255.74,Amazon !!!,Amazon,,Card,grocery
-TXN0290,U009,2024-02-10,11649.09,Unknown Store,Unknown Store,Bhubaneshwar,Cash,food
-TXN0291,U019,07-03-2024,12439.13,Unknown Store,Unknown Store,Bhubaneswar,UPI,shopping
-TXN0292,U018,14-02-2024,11497.47,OLA ???,OLA,Bhubaneswar,UPI,grocery
-TXN0293,U020,28-03-2024,11879.82,Unknown Store,Unknown Store,Bhubaneswar,Cash,electronics
-TXN0294,U001,2024/02/13,8417.6,DMart ???,DMart,Bhubaneswar,UPI,refund
-TXN0295,U009,2024-02-23,13257.08,DMart !!!,DMart,Online,Cash,food
-TXN0296,U006,2024/01/09,15208.79,Swiggy  purchase,Swiggy,local shop,UPI,transport
-TXN0297,U008,05-01-2024,27541.75,Starbucks,Starbucks,Online,Cash,shopping
-TXN0298,U008,17-02-2024,13388.64,Starbucks *Order#99,Starbucks,local shop,Card,electronics
-TXN0299,U010,04-01-2024,4895.59,Amazon,Amazon,BBSR,Cash,transport
-TXN0300,U014,2024-03-06,23411.31,OLA  fee,,BBSR,Cash,food
-TXN0301,U009,2024/03/18,29011.06,Big Bazaar  purchase,Big Bazaar,Online,Card,transport
-TXN0302,U010,27-03-2024,3078.34,Apple *Order#99,Apple,Bhubaneshwar,Cash,electronics
-TXN0303,U004,2024-03-02,29650.95,OLA ???,OLA,Bhubaneshwar,Cash,electronics
-TXN0304,U005,07/03/2024,24164.84,Big Bazaar,Big Bazaar,,Card,food
-TXN0305,U010,03-02-2024,-11654.36,Apple  0412,Apple,local shop,UPI,transport
-TXN0306,U016,2024/03/26,9012.84,Swiggy *Order#99,Swiggy,local shop,UPI,refund
-TXN0307,U009,12/03/2024,26988.74,Flipkart  purchase,Flipkart,BBSR,Cash,Food & Beverage
-TXN0308,U012,2024/02/03,25537.9,DMart  0412,DMart,local shop,Cash,shopping
-TXN0309,U007,2024-03-05,20424.13,Apple  fee,Apple,BBSR,UPI,other
-TXN0310,U019,28/02/2024,25873.19,Local Shop ???,,Bhubaneshwar,Cash,other
-TXN0311,U001,2024/02/27,22838.19,Starbucks !!!,Starbucks,Online,UPI,Food & Beverage
-TXN0312,U013,24-02-2024,150.03,Local Shop  0412,Local Shop,Bhubaneswar,Card,transport
-TXN0313,U001,21/03/2024,20808.81,Starbucks !!!,Starbucks,Online,Cash,grocery
-TXN0314,U002,2024/02/08,21837.68,Amazon  0412,Amazon,,UPI,refund
-TXN0315,U007,22-01-2024,6860.26,DMart,DMart,,UPI,grocery
-TXN0316,U012,2024-03-24,26297.56,Amazon  0412,Amazon,Bhubaneswar,Cash,shopping
-TXN0317,U002,2024-03-29,13334.99,Starbucks  0412,Starbucks,,UPI,food
-TXN0318,U014,2024-03-25,15614.07,OLA  purchase,OLA,Online,UPI,shopping
-TXN0319,U004,14-01-2024,18273.96,OLA !!!,OLA,BBSR,Card,electronics
-TXN0320,U002,11-03-2024,20649.24,Flipkart !!!,Flipkart,Bhubaneswar,Cash,shopping
-TXN0321,U016,2024-01-20,15356.04,Unknown Store  fee,Unknown Store,Bhubaneshwar,Cash,electronics
-TXN0322,U015,2024-01-07,-5249.31,OLA  fee,OLA,,Card,shopping
-TXN0323,U002,02/01/2024,19419.49,Amazon  purchase,Amazon,local shop,Card,shopping
-TXN0324,U011,2024-01-24,12013.5,DMart  0412,DMart,,Card,grocery
-TXN0325,U005,2024-03-30,4790.27,Amazon  fee,Amazon,local shop,Cash,Food & Beverage
-TXN0326,U020,04/01/2024,27612.74,DMart  0412,DMart,Bhubaneswar,UPI,other
-TXN0327,U017,14/03/2024,26195.58,Starbucks  purchase,Starbucks,local shop,UPI,transport
-TXN0328,U012,25-03-2024,25172.6,Apple !!!,Apple,Bhubaneswar,UPI,grocery
-TXN0329,U016,04/03/2024,22545.39,Swiggy,Swiggy,Bhubaneshwar,UPI,Food & Beverage
-TXN0330,U008,11-01-2024,24039.83,Local Shop  0412,Local Shop,Online,Card,refund
-TXN0331,U004,21-02-2024,-16718.36,Starbucks,,local shop,Cash,transport
-TXN0332,U011,2024-02-16,6695.31,Apple  fee,Apple,local shop,Cash,other
-TXN0333,U004,13/01/2024,10247.3,Apple,Apple,Bhubaneshwar,Cash,shopping
-TXN0334,U006,04/03/2024,21508.51,Starbucks  fee,Starbucks,local shop,UPI,Food & Beverage
-TXN0335,U015,2024/01/25,-22716.91,Big Bazaar,Big Bazaar,,Cash,refund
-TXN0336,U019,05/03/2024,140.09,Apple  0412,Apple,Online,Cash,grocery
-TXN0337,U006,2024-01-17,19729.08,Unknown Store  0412,Unknown Store,Online,Card,transport
-TXN0338,U013,2024/02/13,24145.86,OLA  0412,OLA,,Cash,other
-TXN0339,U007,26/01/2024,21434.39,Swiggy *Order#99,Swiggy,BBSR,Cash,grocery
-TXN0340,U018,2024/03/29,3471.0,Swiggy  purchase,Swiggy,local shop,Cash,electronics
-TXN0341,U001,2024-03-07,11432.3,Local Shop,,Bhubaneshwar,UPI,electronics
-TXN0342,U002,2024/03/29,-22610.28,Flipkart !!!,Flipkart,Bhubaneswar,Cash,transport
-TXN0343,U013,2024/01/31,19938.16,Swiggy  purchase,Swiggy,,Card,food
-TXN0344,U009,26-01-2024,6774.2,Starbucks  fee,Starbucks,Bhubaneshwar,Cash,transport
-TXN0345,U010,27/02/2024,2243.33,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Card,
-TXN0346,U018,03/02/2024,17523.74,OLA !!!,OLA,,UPI,
-TXN0347,U020,2024/01/07,23699.35,DMart  0412,,,Card,grocery
-TXN0348,U003,05/03/2024,16296.97,Swiggy  0412,Swiggy,BBSR,Cash,other
-TXN0349,U007,20-03-2024,24712.42,OLA *Order#99,,,Card,transport
-TXN0350,U011,2024-02-18,7705.15,Starbucks  0412,,local shop,Card,refund
-TXN0351,U002,07/02/2024,15421.7,Apple ???,Apple,local shop,Cash,
-TXN0352,U007,26/03/2024,20565.3,Amazon  fee,Amazon,,Cash,shopping
-TXN0353,U001,2024/02/28,2634.75,Flipkart,Flipkart,local shop,UPI,transport
-TXN0354,U014,19-02-2024,12139.4,OLA  purchase,OLA,Bhubaneswar,Cash,
-TXN0355,U003,2024-03-15,25449.05,Unknown Store  purchase,Unknown Store,Bhubaneshwar,Cash,shopping
-TXN0356,U015,18-02-2024,19825.09,OLA  fee,OLA,BBSR,Cash,electronics
-TXN0357,U010,2024/03/27,16610.19,Flipkart,Flipkart,Bhubaneswar,Cash,shopping
-TXN0358,U007,14/02/2024,27169.78,OLA  0412,OLA,BBSR,UPI,electronics
-TXN0359,U004,2024-01-24,22533.74,Big Bazaar  fee,Big Bazaar,,Cash,shopping
-TXN0360,U004,26-01-2024,10720.58,OLA ???,OLA,Bhubaneshwar,Cash,transport
-TXN0361,U016,2024/02/27,19786.07,DMart *Order#99,DMart,local shop,Card,Food & Beverage
-TXN0362,U001,10/02/2024,6653.56,Flipkart  fee,Flipkart,Bhubaneshwar,UPI,other
-TXN0363,U015,2024/02/27,9171.1,Apple  fee,Apple,local shop,UPI,grocery
-TXN0364,U007,2024-02-03,-2271.24,Swiggy  purchase,Swiggy,Bhubaneswar,Cash,transport
-TXN0365,U018,03-02-2024,23258.17,Starbucks  purchase,Starbucks,local shop,Cash,grocery
-TXN0366,U017,2024-03-06,-10922.33,Apple  0412,Apple,local shop,Cash,grocery
-TXN0367,U006,23/01/2024,21962.81,Apple  purchase,,Online,UPI,other
-TXN0368,U002,26/03/2024,27232.71,Big Bazaar *Order#99,Big Bazaar,Online,UPI,
-TXN0369,U004,2024/03/31,22259.87,DMart  fee,DMart,Online,Cash,shopping
-TXN0370,U009,18/02/2024,12181.21,Swiggy *Order#99,Swiggy,Online,Cash,
-TXN0371,U015,22/01/2024,15441.09,Flipkart,Flipkart,BBSR,Card,shopping
-TXN0372,U014,2024-02-12,20260.13,Big Bazaar  0412,Big Bazaar,,Card,
-TXN0373,U005,14/03/2024,-18889.92,Starbucks !!!,Starbucks,Bhubaneswar,UPI,grocery
-TXN0374,U013,2024-03-17,21841.95,Swiggy  purchase,Swiggy,BBSR,Card,refund
-TXN0375,U006,29-01-2024,4289.94,Apple *Order#99,Apple,local shop,Cash,grocery
-TXN0376,U015,2024-03-17,11352.56,DMart !!!,,local shop,Cash,grocery
-TXN0377,U004,23-01-2024,17998.42,Unknown Store *Order#99,Unknown Store,Bhubaneswar,UPI,grocery
-TXN0378,U018,01-01-2024,12626.31,Unknown Store *Order#99,Unknown Store,Online,UPI,refund
-TXN0379,U012,2024-03-16,4025.15,Local Shop  0412,Local Shop,Bhubaneswar,Card,Food & Beverage
-TXN0380,U007,2024-01-01,15680.99,OLA *Order#99,OLA,BBSR,Cash,Food & Beverage
-TXN0381,U004,20-01-2024,17565.25,DMart  purchase,DMart,local shop,Card,Food & Beverage
-TXN0382,U014,11-03-2024,11112.69,Big Bazaar !!!,Big Bazaar,Bhubaneshwar,Cash,Food & Beverage
-TXN0383,U004,30-01-2024,20982.35,Flipkart  fee,Flipkart,Online,Card,food
-TXN0384,U013,2024-03-22,2741.75,Flipkart  fee,Flipkart,Online,UPI,transport
-TXN0385,U003,2024-03-18,11535.94,DMart  purchase,DMart,local shop,Card,food
-TXN0386,U016,2024-02-26,25518.52,Flipkart !!!,Flipkart,BBSR,UPI,transport
-TXN0387,U006,2024-03-27,-7185.31,Unknown Store ???,Unknown Store,Bhubaneshwar,Card,Food & Beverage
-TXN0388,U019,2024-01-26,21111.62,Local Shop  purchase,Local Shop,,Cash,other
-TXN0389,U009,29/01/2024,27892.12,DMart  0412,DMart,Online,Cash,shopping
-TXN0390,U010,2024-02-13,15403.47,Swiggy  fee,Swiggy,local shop,Card,Food & Beverage
-TXN0391,U016,2024/02/01,13770.86,Unknown Store  fee,Unknown Store,Bhubaneswar,Card,shopping
-TXN0392,U008,27/03/2024,9478.76,Local Shop  fee,Local Shop,Bhubaneswar,Cash,transport
-TXN0393,U003,2024/02/21,16641.0,OLA,OLA,BBSR,Cash,transport
-TXN0394,U007,31/01/2024,7969.51,Apple  fee,Apple,local shop,Card,shopping
-TXN0395,U003,27-03-2024,208.64,Amazon *Order#99,Amazon,Online,Card,refund
-TXN0396,U009,03/03/2024,27481.04,Unknown Store  fee,Unknown Store,local shop,UPI,Food & Beverage
-TXN0397,U018,2024/01/05,25813.4,Apple  0412,Apple,Bhubaneswar,Cash,other
-TXN0398,U001,27/03/2024,17434.44,Starbucks  0412,Starbucks,Bhubaneshwar,UPI,transport
-TXN0399,U016,2024/03/19,5525.57,OLA ???,OLA,Bhubaneshwar,Card,electronics
-TXN0400,U006,14/03/2024,20583.5,Apple *Order#99,Apple,BBSR,Cash,Food & Beverage
-TXN0401,U005,20-01-2024,302.17,Big Bazaar  fee,Big Bazaar,,Cash,other
-TXN0402,U010,2024-02-02,2978.25,Apple  0412,Apple,Bhubaneshwar,Card,shopping
-TXN0403,U011,2024/02/03,16814.9,Apple ???,Apple,Bhubaneswar,Card,transport
-TXN0404,U019,24/03/2024,8545.42,Unknown Store  fee,Unknown Store,,Card,Food & Beverage
-TXN0405,U010,29/02/2024,5035.59,Unknown Store  fee,Unknown Store,,Cash,shopping
-TXN0406,U006,13/02/2024,9513.18,Amazon ???,Amazon,,Card,refund
-TXN0407,U019,07-03-2024,5027.87,DMart  0412,DMart,BBSR,Cash,shopping
-TXN0408,U006,2024-02-20,1923.13,Big Bazaar,Big Bazaar,Bhubaneswar,Card,shopping
-TXN0409,U009,20/03/2024,19648.43,Amazon,Amazon,BBSR,Cash,grocery
-TXN0410,U017,2024-01-22,19909.84,Flipkart,Flipkart,Online,Card,electronics
-TXN0411,U015,18/01/2024,17931.55,Swiggy *Order#99,Swiggy,local shop,Card,electronics
-TXN0412,U016,10/03/2024,2695.73,DMart  fee,DMart,BBSR,Card,
-TXN0413,U005,2024/02/14,16057.62,Swiggy  0412,Swiggy,Online,Card,
-TXN0414,U010,17/03/2024,226.47,Local Shop  fee,Local Shop,local shop,Card,grocery
-TXN0415,U013,2024/01/29,12672.96,Local Shop,Local Shop,local shop,Cash,electronics
-TXN0416,U009,22/02/2024,2063.23,Swiggy  fee,Swiggy,Online,Cash,refund
-TXN0417,U011,03/01/2024,-29091.79,Big Bazaar,Big Bazaar,Bhubaneshwar,Card,refund
-TXN0418,U008,12/01/2024,14812.45,Starbucks,Starbucks,Online,Card,food
-TXN0419,U003,2024-01-19,23271.83,DMart ???,DMart,BBSR,Card,food
-TXN0420,U008,19-02-2024,-22131.19,Amazon !!!,Amazon,Bhubaneswar,Cash,transport
-TXN0421,U013,2024/03/28,4766.76,Apple ???,Apple,local shop,Cash,refund
-TXN0422,U007,2024-02-16,20004.18,OLA  fee,OLA,Online,Card,
-TXN0423,U019,16-01-2024,7300.25,OLA  fee,OLA,,Card,grocery
-TXN0424,U003,01/02/2024,2751.13,DMart  0412,DMart,,UPI,grocery
-TXN0425,U004,17-01-2024,9509.02,Swiggy !!!,Swiggy,Bhubaneshwar,Card,food
-TXN0426,U012,2024/01/18,14564.21,Local Shop,Local Shop,,Card,grocery
-TXN0427,U012,11-02-2024,26031.18,Swiggy ???,Swiggy,BBSR,UPI,refund
-TXN0428,U009,2024/03/10,31.59,OLA  0412,OLA,BBSR,UPI,other
-TXN0429,U008,2024-02-11,29015.22,Unknown Store  purchase,Unknown Store,,Card,grocery
-TXN0430,U010,11-02-2024,9667.5,Unknown Store  purchase,Unknown Store,Bhubaneswar,UPI,food
-TXN0431,U004,03/03/2024,964.2,Big Bazaar,Big Bazaar,Online,Cash,electronics
-TXN0432,U012,2024-01-29,27907.03,Starbucks,Starbucks,Bhubaneswar,Card,food
-TXN0433,U018,2024/02/23,21255.93,DMart  fee,DMart,Bhubaneswar,Cash,electronics
-TXN0434,U007,2024-03-07,21757.91,Amazon,Amazon,local shop,Cash,grocery
-TXN0435,U018,2024-02-23,19162.34,Swiggy  fee,Swiggy,,Card,grocery
-TXN0436,U018,2024/02/21,4753.71,Flipkart  purchase,Flipkart,Bhubaneshwar,Card,other
-TXN0437,U014,22-03-2024,21778.77,DMart  fee,DMart,BBSR,Card,electronics
-TXN0438,U015,27-02-2024,21792.14,DMart,DMart,local shop,UPI,electronics
-TXN0439,U010,29/01/2024,9453.99,Starbucks  fee,Starbucks,Bhubaneshwar,Cash,grocery
-TXN0440,U002,2024/02/28,4160.86,Amazon !!!,Amazon,BBSR,Card,shopping
-TXN0441,U013,13/03/2024,2325.27,Unknown Store  purchase,Unknown Store,Online,Cash,shopping
-TXN0442,U010,05-01-2024,23405.86,Unknown Store,Unknown Store,Online,Card,shopping
-TXN0443,U020,02-01-2024,-9150.45,Big Bazaar,Big Bazaar,BBSR,Card,transport
-TXN0444,U002,27-03-2024,22587.68,Flipkart  0412,,Online,Card,grocery
-TXN0445,U011,11-01-2024,22362.0,Flipkart *Order#99,Flipkart,Online,Cash,grocery
-TXN0446,U016,12/03/2024,11865.61,Flipkart  0412,Flipkart,,Cash,shopping
-TXN0447,U014,2024-02-11,20155.71,OLA,OLA,Bhubaneshwar,Card,food
-TXN0448,U006,14-02-2024,-4383.1,OLA *Order#99,OLA,BBSR,Cash,shopping
-TXN0449,U002,01/02/2024,24975.02,Amazon  fee,Amazon,Bhubaneswar,Card,food
-TXN0450,U007,09/03/2024,16397.26,DMart !!!,DMart,local shop,Cash,food
-TXN0451,U019,2024-03-25,5117.89,Local Shop ???,Local Shop,local shop,Card,food
-TXN0452,U013,2024/03/25,25563.97,Amazon  purchase,Amazon,Bhubaneswar,Card,Food & Beverage
-TXN0453,U013,2024-03-06,14545.02,Big Bazaar ???,,BBSR,Cash,food
-TXN0454,U008,2024/03/08,14703.09,Starbucks ???,,,Card,electronics
-TXN0455,U017,2024-02-05,7737.8,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Cash,transport
-TXN0456,U011,20/02/2024,21899.39,Flipkart,Flipkart,,Cash,transport
-TXN0457,U005,2024/02/24,9885.25,Unknown Store *Order#99,Unknown Store,BBSR,Cash,transport
-TXN0458,U010,29/03/2024,29870.62,Flipkart  0412,Flipkart,local shop,UPI,shopping
-TXN0459,U011,2024-01-19,9567.44,Flipkart  fee,Flipkart,Bhubaneshwar,Card,electronics
-TXN0460,U007,14/01/2024,795.68,Flipkart !!!,Flipkart,local shop,Cash,transport
-TXN0461,U001,2024-02-15,23396.99,Big Bazaar  purchase,Big Bazaar,Online,Cash,grocery
-TXN0462,U016,01/03/2024,-5805.86,Local Shop !!!,Local Shop,Bhubaneswar,Card,transport
-TXN0463,U007,09/01/2024,26015.2,Big Bazaar  0412,Big Bazaar,Online,UPI,food
-TXN0464,U013,10-02-2024,28174.78,Unknown Store *Order#99,Unknown Store,,Cash,shopping
-TXN0465,U015,06/01/2024,16140.7,Apple *Order#99,,Online,Cash,food
-TXN0466,U010,26-02-2024,23212.57,Big Bazaar ???,Big Bazaar,Bhubaneshwar,Cash,grocery
-TXN0467,U015,2024-01-12,23364.15,Apple !!!,Apple,BBSR,Card,refund
-TXN0468,U006,28/02/2024,2714.49,Starbucks  0412,Starbucks,,UPI,shopping
-TXN0469,U004,31-03-2024,10894.67,Amazon  purchase,Amazon,local shop,Cash,Food & Beverage
-TXN0470,U013,06/01/2024,16969.09,Swiggy ???,Swiggy,BBSR,UPI,food
-TXN0471,U010,09-02-2024,18797.32,Local Shop ???,Local Shop,BBSR,UPI,electronics
-TXN0472,U015,04-03-2024,24225.56,Starbucks *Order#99,Starbucks,BBSR,Cash,refund
-TXN0473,U015,2024-01-11,26466.21,Local Shop !!!,Local Shop,BBSR,UPI,food
-TXN0474,U002,2024-01-19,17347.0,DMart  purchase,DMart,Bhubaneswar,UPI,grocery
-TXN0475,U010,19/03/2024,22482.55,Flipkart  0412,,Bhubaneshwar,Card,Food & Beverage
-TXN0476,U014,2024-03-11,14129.8,Amazon ???,Amazon,Bhubaneshwar,Cash,transport
-TXN0477,U020,2024-01-08,21894.56,Big Bazaar *Order#99,Big Bazaar,Online,Cash,electronics
-TXN0478,U020,2024/02/10,17258.53,Local Shop *Order#99,Local Shop,local shop,Cash,refund
-TXN0479,U006,19/03/2024,8721.74,Apple  purchase,Apple,Online,Cash,transport
-TXN0480,U014,2024-02-22,10496.0,Unknown Store ???,Unknown Store,,UPI,electronics
-TXN0481,U010,2024/02/08,193.88,Amazon  fee,Amazon,,Cash,food
-TXN0482,U007,2024/02/12,14378.46,Flipkart  purchase,,BBSR,Card,refund
-TXN0483,U011,29-02-2024,1690.11,Swiggy  purchase,Swiggy,,Card,food
-TXN0484,U019,2024/03/28,27486.43,Big Bazaar  fee,,BBSR,Card,other
-TXN0485,U018,22-01-2024,17859.8,Local Shop !!!,Local Shop,,Card,electronics
-TXN0486,U003,04/03/2024,13562.67,Local Shop ???,Local Shop,Bhubaneshwar,UPI,food
-TXN0487,U003,2024-02-26,14485.07,Big Bazaar  fee,Big Bazaar,Online,Cash,electronics
-TXN0488,U005,13/01/2024,21739.87,DMart !!!,DMart,local shop,UPI,
-TXN0489,U020,2024/01/12,26676.68,Starbucks  0412,Starbucks,,Card,
-TXN0490,U007,11/02/2024,8604.16,OLA !!!,OLA,,UPI,grocery
-TXN0491,U004,2024-01-02,16280.44,OLA !!!,OLA,,Card,grocery
-TXN0492,U010,2024/03/19,13314.99,Amazon *Order#99,Amazon,,UPI,food
-TXN0493,U014,20/02/2024,17887.68,Amazon  purchase,Amazon,,Card,electronics
-TXN0494,U007,2024-03-26,22935.2,DMart  fee,,,Card,electronics
-TXN0495,U016,30/01/2024,25834.28,Apple !!!,Apple,Online,UPI,other
-TXN0496,U015,2024-03-03,14265.28,DMart,DMart,BBSR,Card,grocery
-TXN0497,U004,2024-02-21,16688.93,Swiggy ???,Swiggy,Online,Card,transport
-TXN0498,U008,11/03/2024,11520.66,Unknown Store  0412,Unknown Store,local shop,Card,Food & Beverage
-TXN0499,U011,10/03/2024,19881.74,Unknown Store !!!,Unknown Store,local shop,Card,refund
-TXN0500,U018,13-01-2024,9247.99,DMart !!!,DMart,,Cash,Food & Beverage
-TXN0501,U016,2024-03-23,6536.18,DMart,DMart,,UPI,grocery
-TXN0502,U018,07-02-2024,17342.16,Apple *Order#99,Apple,Bhubaneshwar,Card,electronics
-TXN0503,U012,2024-01-12,29592.79,Local Shop *Order#99,Local Shop,Bhubaneshwar,UPI,food
-TXN0504,U018,2024-02-15,-8473.46,Starbucks  fee,Starbucks,local shop,Card,Food & Beverage
-TXN0505,U013,25/02/2024,5210.57,Local Shop  purchase,Local Shop,Bhubaneshwar,Card,grocery
-TXN0506,U001,2024-01-10,21642.96,Flipkart !!!,Flipkart,BBSR,UPI,Food & Beverage
-TXN0507,U020,24/02/2024,15287.35,Apple  0412,Apple,Bhubaneshwar,UPI,food
-TXN0508,U016,2024/01/31,27797.67,Unknown Store  0412,,Bhubaneswar,Cash,other
-TXN0509,U019,2024-03-02,21908.26,Amazon !!!,Amazon,Bhubaneshwar,Card,shopping
-TXN0510,U016,2024-03-21,19014.29,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Card,food
-TXN0511,U015,06-03-2024,22017.1,Apple *Order#99,Apple,Bhubaneshwar,Card,electronics
-TXN0512,U009,08-01-2024,5080.69,Unknown Store *Order#99,Unknown Store,,Cash,
-TXN0513,U003,2024-01-17,23515.05,Apple  fee,Apple,Bhubaneshwar,Card,
-TXN0514,U020,23/01/2024,13405.13,Amazon  purchase,Amazon,,UPI,food
-TXN0515,U003,19/01/2024,14883.49,DMart  fee,DMart,BBSR,Cash,grocery
-TXN0516,U019,2024-02-14,7939.22,Big Bazaar  purchase,,Online,Card,refund
-TXN0517,U008,18-02-2024,7886.13,Swiggy  0412,Swiggy,Bhubaneshwar,Card,other
-TXN0518,U002,2024/01/13,12959.26,Swiggy  fee,Swiggy,Bhubaneshwar,Card,shopping
-TXN0519,U019,20-02-2024,20261.98,OLA  fee,OLA,BBSR,Cash,grocery
-TXN0520,U018,2024-01-02,2047.88,DMart  fee,DMart,,Card,electronics
-TXN0521,U007,2024-01-05,2767.32,OLA *Order#99,OLA,BBSR,Cash,shopping
-TXN0522,U020,17-01-2024,22918.09,Amazon  purchase,Amazon,BBSR,UPI,electronics
-TXN0523,U015,2024-03-25,13608.78,OLA  purchase,OLA,,Cash,other
-TXN0524,U006,2024/01/10,1881.0,OLA  fee,OLA,Bhubaneshwar,Card,shopping
-TXN0525,U007,19-03-2024,19368.04,Apple !!!,Apple,Online,UPI,shopping
-TXN0526,U009,2024-01-14,2121.67,Apple,Apple,Bhubaneswar,Card,food
-TXN0527,U013,04/02/2024,9901.63,Starbucks  purchase,,,Card,Food & Beverage
-TXN0528,U018,2024-01-29,28625.12,Amazon  0412,Amazon,local shop,Cash,other
-TXN0529,U010,2024-02-21,29910.5,DMart  purchase,DMart,Bhubaneshwar,UPI,electronics
-TXN0530,U006,2024-03-11,19825.42,Big Bazaar  0412,Big Bazaar,Bhubaneswar,Cash,refund
-TXN0531,U015,25/01/2024,5800.85,Amazon,Amazon,Online,Card,electronics
-TXN0532,U018,2024-02-27,10185.16,Apple,Apple,Online,UPI,refund
-TXN0533,U005,15/03/2024,1115.96,Swiggy,Swiggy,Online,Cash,
-TXN0534,U001,2024-01-23,24623.97,Flipkart ???,Flipkart,local shop,UPI,shopping
-TXN0535,U016,17/03/2024,24135.56,Amazon,Amazon,,Cash,shopping
-TXN0536,U018,2024/01/18,28941.12,Unknown Store  fee,,BBSR,Card,electronics
-TXN0537,U014,2024/01/22,4958.53,Flipkart *Order#99,Flipkart,BBSR,UPI,Food & Beverage
-TXN0538,U001,2024-03-03,226.65,Flipkart,Flipkart,local shop,Card,refund
-TXN0539,U007,2024/01/19,13518.07,Flipkart *Order#99,Flipkart,,UPI,refund
-TXN0540,U003,2024/03/21,12569.39,Unknown Store ???,Unknown Store,local shop,UPI,transport
-TXN0541,U007,2024-02-05,3389.25,Apple !!!,Apple,Online,Card,food
-TXN0542,U012,06/02/2024,7548.94,Starbucks  0412,Starbucks,Online,UPI,food
-TXN0543,U006,2024-01-21,15451.96,Swiggy  0412,Swiggy,Online,Cash,Food & Beverage
-TXN0544,U011,2024-01-30,6841.18,Big Bazaar ???,Big Bazaar,BBSR,Card,shopping
-TXN0545,U019,2024-03-03,4356.79,Apple  0412,Apple,Online,Card,transport
-TXN0546,U009,2024/01/26,972.52,DMart !!!,DMart,Bhubaneswar,Card,grocery
-TXN0547,U008,07/02/2024,23839.02,DMart  fee,DMart,local shop,Cash,shopping
-TXN0548,U017,03/03/2024,14209.93,Local Shop *Order#99,,Online,Cash,transport
-TXN0549,U014,15/03/2024,28388.11,DMart *Order#99,DMart,Online,UPI,
-TXN0550,U017,05-01-2024,11835.66,Apple *Order#99,Apple,Bhubaneswar,Card,shopping
-TXN0551,U001,29-03-2024,3990.03,Swiggy !!!,Swiggy,Bhubaneswar,UPI,electronics
-TXN0552,U015,2024-03-14,13918.18,Flipkart  0412,Flipkart,BBSR,Card,food
-TXN0553,U013,2024/03/29,991.1,Amazon *Order#99,Amazon,local shop,Cash,transport
-TXN0554,U020,2024-02-12,28360.21,Amazon *Order#99,Amazon,Bhubaneswar,Card,food
-TXN0555,U012,2024-01-23,21283.02,DMart *Order#99,DMart,BBSR,Cash,refund
-TXN0556,U007,2024/01/29,26939.01,Unknown Store ???,Unknown Store,Bhubaneswar,UPI,refund
-TXN0557,U017,2024-03-08,21297.66,Apple  0412,Apple,Bhubaneshwar,Card,shopping
-TXN0558,U015,2024-01-12,26939.4,Big Bazaar  0412,Big Bazaar,Bhubaneswar,UPI,grocery
-TXN0559,U005,2024-01-27,12501.93,Apple ???,Apple,Online,Card,food
-TXN0560,U007,2024-01-09,24061.65,OLA  fee,OLA,Bhubaneshwar,Card,other
-TXN0561,U019,26-03-2024,9129.43,Apple  0412,Apple,BBSR,Card,other
-TXN0562,U002,2024/01/19,13683.24,OLA ???,OLA,,Cash,grocery
-TXN0563,U006,2024-01-31,29813.25,Flipkart,Flipkart,Bhubaneshwar,UPI,food
-TXN0564,U012,2024/01/19,16200.6,DMart  0412,DMart,Bhubaneswar,Card,grocery
-TXN0565,U011,2024-01-20,16388.91,Apple  purchase,Apple,Bhubaneshwar,Card,grocery
-TXN0566,U015,2024-02-13,-14374.65,Unknown Store  purchase,Unknown Store,Bhubaneswar,Card,
-TXN0567,U008,2024/02/27,9797.73,Unknown Store,Unknown Store,local shop,UPI,electronics
-TXN0568,U001,11-01-2024,20150.02,Big Bazaar  purchase,Big Bazaar,BBSR,Card,food
-TXN0569,U013,19-01-2024,-11589.52,DMart ???,DMart,Bhubaneshwar,Card,shopping
-TXN0570,U015,23-02-2024,4922.07,Big Bazaar ???,Big Bazaar,,Card,shopping
-TXN0571,U007,08-02-2024,15763.78,Flipkart  fee,Flipkart,local shop,Card,Food & Beverage
-TXN0572,U014,23-01-2024,17041.81,OLA  purchase,OLA,Online,Card,food
-TXN0573,U019,08-02-2024,22198.28,OLA *Order#99,OLA,BBSR,Card,refund
-TXN0574,U010,23/02/2024,27204.73,Amazon  0412,,Bhubaneshwar,Card,shopping
-TXN0575,U012,15-03-2024,13087.69,Unknown Store *Order#99,Unknown Store,,UPI,food
-TXN0576,U006,2024-03-15,9597.24,OLA !!!,OLA,BBSR,UPI,Food & Beverage
-TXN0577,U002,2024/02/07,19172.01,DMart *Order#99,DMart,,UPI,grocery
-TXN0578,U011,2024/02/10,20566.46,Swiggy ???,,local shop,Card,food
-TXN0579,U017,2024/02/06,14552.12,Flipkart  fee,Flipkart,Bhubaneswar,UPI,transport
-TXN0580,U018,2024-03-19,13820.14,Big Bazaar  0412,Big Bazaar,Bhubaneswar,Card,other
-TXN0581,U015,2024/03/17,-21299.75,Flipkart !!!,Flipkart,BBSR,UPI,grocery
-TXN0582,U010,17/01/2024,29433.48,Big Bazaar !!!,Big Bazaar,Bhubaneswar,UPI,
-TXN0583,U014,06/01/2024,993.45,Apple,Apple,Online,UPI,food
-TXN0584,U010,2024-03-26,2904.14,Amazon  fee,Amazon,local shop,UPI,other
-TXN0585,U003,2024/01/19,10441.62,Starbucks *Order#99,Starbucks,,Cash,shopping
-TXN0586,U019,02/01/2024,5754.51,Amazon  purchase,Amazon,local shop,UPI,shopping
-TXN0587,U017,31-03-2024,20947.01,Big Bazaar ???,Big Bazaar,Bhubaneswar,UPI,Food & Beverage
-TXN0588,U007,06/03/2024,3394.24,Local Shop  0412,Local Shop,Bhubaneswar,Cash,other
-TXN0589,U018,2024-01-06,14816.45,OLA ???,OLA,,Card,refund
-TXN0590,U018,2024/02/22,12844.57,Big Bazaar  fee,Big Bazaar,Online,Cash,food
-TXN0591,U004,20-02-2024,19759.86,Apple *Order#99,Apple,Online,Cash,shopping
-TXN0592,U003,16/02/2024,6015.9,Flipkart ???,Flipkart,BBSR,Card,electronics
-TXN0593,U019,04-02-2024,14280.03,Unknown Store ???,Unknown Store,Online,Cash,refund
-TXN0594,U004,02-02-2024,6932.35,Amazon  0412,,,UPI,refund
-TXN0595,U006,2024/02/18,9089.55,Starbucks !!!,Starbucks,,Cash,refund
-TXN0596,U010,25-03-2024,15148.79,Big Bazaar  0412,Big Bazaar,local shop,Cash,
-TXN0597,U014,16-01-2024,9443.63,Starbucks  0412,Starbucks,Bhubaneswar,UPI,electronics
-TXN0598,U016,25/02/2024,21474.54,Flipkart ???,Flipkart,,Card,refund
-TXN0599,U018,2024-01-21,7909.1,Apple  0412,Apple,,Card,electronics
-TXN0600,U002,2024-01-04,25109.66,DMart !!!,DMart,Bhubaneswar,Cash,shopping
-TXN0601,U012,15-02-2024,1702.91,Local Shop ???,Local Shop,Bhubaneshwar,Cash,shopping
-TXN0602,U004,13/02/2024,-16157.12,OLA,OLA,Online,Cash,Food & Beverage
-TXN0603,U001,30-03-2024,676.87,OLA *Order#99,OLA,Bhubaneshwar,Cash,refund
-TXN0604,U007,13-02-2024,24345.6,Amazon *Order#99,Amazon,Bhubaneshwar,Card,transport
-TXN0605,U003,09/03/2024,7962.0,Apple ???,Apple,BBSR,Cash,shopping
-TXN0606,U004,2024/03/16,2027.42,Unknown Store ???,Unknown Store,BBSR,Card,electronics
-TXN0607,U010,2024/02/25,12435.28,Swiggy !!!,Swiggy,,Cash,food
-TXN0608,U006,14-03-2024,19827.58,Swiggy !!!,Swiggy,Bhubaneshwar,Cash,Food & Beverage
-TXN0609,U002,07/03/2024,13879.98,Unknown Store ???,Unknown Store,Bhubaneshwar,Card,shopping
-TXN0610,U014,2024/02/04,4825.92,Big Bazaar  purchase,Big Bazaar,BBSR,UPI,food
-TXN0611,U010,29-02-2024,29738.88,Big Bazaar *Order#99,Big Bazaar,BBSR,UPI,food
-TXN0612,U009,25/03/2024,25577.11,OLA  purchase,OLA,Bhubaneswar,UPI,shopping
-TXN0613,U020,2024-02-08,26904.23,DMart  0412,DMart,Online,Cash,transport
-TXN0614,U019,2024-03-05,19929.87,Amazon *Order#99,Amazon,local shop,Card,shopping
-TXN0615,U020,2024/01/16,24971.7,Big Bazaar ???,Big Bazaar,,UPI,transport
-TXN0616,U004,23/01/2024,13189.87,Flipkart ???,Flipkart,Online,Cash,shopping
-TXN0617,U018,24-02-2024,7397.94,DMart  purchase,DMart,BBSR,Card,other
-TXN0618,U001,2024-03-23,22186.1,OLA  fee,,,UPI,Food & Beverage
-TXN0619,U012,2024-03-28,26009.92,OLA *Order#99,OLA,Online,Card,transport
-TXN0620,U007,21-01-2024,9522.36,OLA  purchase,OLA,Bhubaneswar,Card,refund
-TXN0621,U014,12-02-2024,3020.86,Apple  fee,Apple,Bhubaneswar,Card,other
-TXN0622,U001,07/01/2024,13307.72,Apple  purchase,,BBSR,Cash,shopping
-TXN0623,U006,01/02/2024,17824.54,Amazon  fee,Amazon,Online,Card,grocery
-TXN0624,U006,2024/03/28,8461.1,OLA  fee,OLA,Online,Card,transport
-TXN0625,U001,12/03/2024,29224.09,Starbucks,Starbucks,BBSR,UPI,Food & Beverage
-TXN0626,U009,2024-01-20,5111.99,Unknown Store ???,,local shop,Card,refund
-TXN0627,U004,29/01/2024,28382.11,Apple !!!,Apple,,Card,Food & Beverage
-TXN0628,U020,2024/01/28,20318.89,Big Bazaar  purchase,Big Bazaar,BBSR,UPI,electronics
-TXN0629,U020,27/02/2024,17491.26,Big Bazaar ???,,Online,UPI,Food & Beverage
-TXN0630,U013,31-03-2024,17919.91,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Card,refund
-TXN0631,U020,2024-03-26,7617.17,DMart,DMart,Online,Cash,food
-TXN0632,U006,03/02/2024,14790.27,Unknown Store *Order#99,Unknown Store,Bhubaneswar,Card,Food & Beverage
-TXN0633,U009,2024/01/15,29355.71,Flipkart,Flipkart,Bhubaneshwar,Cash,Food & Beverage
-TXN0634,U009,2024/03/19,9397.18,OLA *Order#99,OLA,Online,UPI,refund
-TXN0635,U007,2024-01-20,5502.41,Starbucks !!!,Starbucks,Online,Card,refund
-TXN0636,U015,15-02-2024,14794.73,Starbucks  0412,Starbucks,Bhubaneswar,Card,electronics
-TXN0637,U006,2024/03/06,26727.93,Flipkart *Order#99,Flipkart,Bhubaneswar,Cash,grocery
-TXN0638,U003,01-02-2024,2838.21,Local Shop  purchase,Local Shop,,UPI,shopping
-TXN0639,U005,2024-01-04,24922.67,DMart  0412,DMart,Bhubaneshwar,Cash,other
-TXN0640,U020,2024/02/27,29994.64,Starbucks  purchase,Starbucks,BBSR,UPI,electronics
-TXN0641,U002,10-01-2024,11971.77,DMart,DMart,Online,UPI,
-TXN0642,U006,19-02-2024,19418.57,Big Bazaar ???,Big Bazaar,Bhubaneshwar,Card,electronics
-TXN0643,U005,2024-02-15,11030.03,Unknown Store  fee,Unknown Store,Online,Card,Food & Beverage
-TXN0644,U014,17/02/2024,18924.28,Amazon  0412,Amazon,Online,Cash,grocery
-TXN0645,U017,2024-03-21,14051.89,Apple ???,Apple,Bhubaneshwar,UPI,electronics
-TXN0646,U017,2024/02/24,1441.37,Big Bazaar *Order#99,,Bhubaneswar,Cash,shopping
-TXN0647,U019,2024/02/02,17571.18,Apple ???,,,Cash,grocery
-TXN0648,U002,11-01-2024,8936.45,Local Shop  purchase,Local Shop,,Card,electronics
-TXN0649,U006,28/01/2024,22413.41,DMart,DMart,Bhubaneswar,Card,food
-TXN0650,U004,02/01/2024,14318.83,Local Shop  purchase,Local Shop,,Cash,electronics
-TXN0651,U020,16-02-2024,9086.67,Unknown Store  fee,,Bhubaneswar,UPI,transport
-TXN0652,U007,02/03/2024,7260.99,Starbucks  purchase,Starbucks,local shop,UPI,refund
-TXN0653,U016,2024-02-24,4991.5,Flipkart,Flipkart,Online,Card,
-TXN0654,U019,01/02/2024,17087.22,Apple ???,,Bhubaneswar,UPI,Food & Beverage
-TXN0655,U016,2024/03/15,14630.02,Local Shop,Local Shop,local shop,Cash,refund
-TXN0656,U002,2024-03-08,17296.34,Big Bazaar  0412,Big Bazaar,,Card,shopping
-TXN0657,U020,2024/03/23,-20928.46,Apple  0412,Apple,BBSR,Card,transport
-TXN0658,U008,2024/03/16,25605.08,Swiggy *Order#99,Swiggy,Bhubaneshwar,Cash,Food & Beverage
-TXN0659,U016,21/01/2024,20724.02,DMart ???,DMart,BBSR,UPI,refund
-TXN0660,U014,2024/03/04,-6290.89,Amazon !!!,,Bhubaneshwar,Card,grocery
-TXN0661,U002,2024/01/09,3427.94,Swiggy  0412,Swiggy,Online,Card,other
-TXN0662,U018,04/02/2024,20707.17,Starbucks  fee,Starbucks,,UPI,refund
-TXN0663,U004,2024-01-14,16878.56,Apple  fee,Apple,Bhubaneswar,UPI,grocery
-TXN0664,U015,05-03-2024,26116.08,OLA  purchase,OLA,BBSR,UPI,refund
-TXN0665,U001,01-02-2024,8609.88,Local Shop ???,Local Shop,,Card,transport
-TXN0666,U017,23/02/2024,24055.04,Flipkart !!!,Flipkart,Online,Cash,other
-TXN0667,U015,2024-01-19,24189.34,Starbucks  purchase,,Bhubaneshwar,Card,grocery
-TXN0668,U002,2024-02-20,27676.34,Local Shop  purchase,Local Shop,,Cash,electronics
-TXN0669,U013,2024/03/28,22283.5,Local Shop  purchase,,Bhubaneshwar,Cash,grocery
-TXN0670,U015,23/03/2024,18734.55,Local Shop *Order#99,Local Shop,Bhubaneshwar,Cash,transport
-TXN0671,U003,2024/01/05,21755.71,OLA  0412,OLA,local shop,Card,electronics
-TXN0672,U011,22/03/2024,846.46,Swiggy,Swiggy,BBSR,Card,shopping
-TXN0673,U012,2024/02/03,1441.51,Starbucks,Starbucks,Bhubaneshwar,Cash,refund
-TXN0674,U008,15/03/2024,8983.06,DMart ???,DMart,local shop,Cash,Food & Beverage
-TXN0675,U008,2024/01/14,17475.25,Swiggy *Order#99,Swiggy,Bhubaneswar,UPI,Food & Beverage
-TXN0676,U003,08-01-2024,14292.83,Amazon !!!,Amazon,local shop,Card,Food & Beverage
-TXN0677,U019,04-03-2024,20673.65,OLA  0412,OLA,Online,UPI,grocery
-TXN0678,U015,2024-01-17,6387.15,Apple  purchase,Apple,local shop,Card,shopping
-TXN0679,U014,2024-01-15,-17157.22,Unknown Store ???,Unknown Store,Bhubaneshwar,Card,electronics
-TXN0680,U016,04/01/2024,23515.94,OLA !!!,OLA,Bhubaneshwar,Card,refund
-TXN0681,U004,2024/03/11,26114.09,Starbucks,Starbucks,local shop,Card,Food & Beverage
-TXN0682,U020,17/01/2024,19097.44,Apple *Order#99,Apple,BBSR,Cash,Food & Beverage
-TXN0683,U008,2024/02/20,1384.13,Local Shop *Order#99,Local Shop,Bhubaneshwar,Cash,grocery
-TXN0684,U019,2024/03/21,19358.34,Starbucks *Order#99,,local shop,Cash,food
-TXN0685,U017,25-01-2024,26906.96,Unknown Store *Order#99,Unknown Store,BBSR,UPI,transport
-TXN0686,U019,2024-02-26,16010.98,Big Bazaar  fee,Big Bazaar,Online,UPI,grocery
-TXN0687,U001,2024/03/08,7722.76,Local Shop  0412,,BBSR,Card,electronics
-TXN0688,U005,09-02-2024,5084.04,Amazon  purchase,Amazon,Bhubaneswar,Cash,Food & Beverage
-TXN0689,U011,19-01-2024,7745.45,Amazon ???,Amazon,Bhubaneswar,UPI,transport
-TXN0690,U017,05-03-2024,8085.93,Apple,Apple,Bhubaneswar,Card,
-TXN0691,U001,2024-02-04,22891.72,Big Bazaar !!!,Big Bazaar,local shop,Card,transport
-TXN0692,U012,10/03/2024,7362.39,Flipkart  fee,Flipkart,local shop,Card,
-TXN0693,U020,07/02/2024,1814.65,Apple,Apple,Bhubaneshwar,Cash,other
-TXN0694,U019,2024/03/06,4850.87,Big Bazaar,,Bhubaneswar,Card,grocery
-TXN0695,U009,25/02/2024,15149.56,Swiggy *Order#99,Swiggy,Bhubaneshwar,Cash,refund
-TXN0696,U008,2024/03/25,6326.61,OLA ???,OLA,,UPI,food
-TXN0697,U016,2024-01-01,5214.35,Unknown Store  purchase,Unknown Store,Online,Card,shopping
-TXN0698,U001,26-03-2024,3711.23,Swiggy  purchase,Swiggy,local shop,Card,food
-TXN0699,U015,17/02/2024,290.81,Amazon  0412,Amazon,,Cash,shopping
-TXN0700,U010,29/01/2024,-29019.22,Unknown Store  0412,Unknown Store,,Cash,food
-TXN0701,U013,2024/01/15,15014.77,Big Bazaar *Order#99,Big Bazaar,,Cash,grocery
-TXN0702,U019,2024-01-17,7796.14,Amazon !!!,Amazon,local shop,Cash,transport
-TXN0703,U018,2024/03/19,16807.88,Starbucks  purchase,Starbucks,,Cash,food
-TXN0704,U014,2024/02/22,20408.4,DMart,DMart,Bhubaneswar,Cash,electronics
-TXN0705,U018,2024/02/27,11761.85,Local Shop,Local Shop,Bhubaneswar,Cash,Food & Beverage
-TXN0706,U008,26/01/2024,9331.07,Amazon ???,,Online,Card,other
-TXN0707,U008,14-01-2024,28764.49,OLA !!!,OLA,local shop,UPI,refund
-TXN0708,U015,2024-03-15,29236.02,Amazon,Amazon,,UPI,food
-TXN0709,U002,08-02-2024,3063.81,Apple,,Online,Card,Food & Beverage
-TXN0710,U020,2024-03-25,11523.76,Big Bazaar  0412,Big Bazaar,local shop,UPI,food
-TXN0711,U017,12/02/2024,3089.66,Apple,,BBSR,Cash,electronics
-TXN0712,U014,02-03-2024,7302.14,DMart !!!,,Bhubaneshwar,Cash,other
-TXN0713,U019,10/03/2024,14091.02,OLA !!!,OLA,Bhubaneswar,Cash,grocery
-TXN0714,U008,2024-03-05,10321.04,Starbucks  0412,Starbucks,BBSR,UPI,refund
-TXN0715,U020,2024/03/29,17356.54,Apple  fee,Apple,Online,Card,refund
-TXN0716,U016,2024-01-29,6698.52,Starbucks  purchase,Starbucks,BBSR,Card,other
-TXN0717,U007,21/02/2024,29696.44,Local Shop  fee,,Bhubaneswar,Cash,electronics
-TXN0718,U007,2024/03/21,29259.53,Apple,Apple,BBSR,Card,other
-TXN0719,U008,23/01/2024,5290.56,Swiggy,Swiggy,,UPI,shopping
-TXN0720,U007,09-02-2024,11095.52,DMart !!!,DMart,local shop,Cash,shopping
-TXN0721,U005,17/01/2024,15981.32,Amazon !!!,Amazon,Online,Cash,food
-TXN0722,U019,2024/01/25,4465.52,Unknown Store  fee,Unknown Store,Bhubaneshwar,UPI,refund
-TXN0723,U003,2024-03-01,15263.33,Big Bazaar !!!,Big Bazaar,local shop,Card,refund
-TXN0724,U011,17-02-2024,28673.0,Flipkart  purchase,Flipkart,,Cash,transport
-TXN0725,U007,27/02/2024,6565.63,Big Bazaar  0412,Big Bazaar,BBSR,Card,shopping
-TXN0726,U003,07-02-2024,10553.73,Flipkart *Order#99,Flipkart,local shop,Card,refund
-TXN0727,U014,17-02-2024,-8197.85,Local Shop ???,Local Shop,Bhubaneshwar,Cash,shopping
-TXN0728,U017,2024-03-06,8299.98,OLA  fee,OLA,Bhubaneshwar,UPI,other
-TXN0729,U011,2024/02/02,24468.79,Big Bazaar  purchase,Big Bazaar,,Cash,electronics
-TXN0730,U010,2024/02/06,29905.3,Starbucks  fee,Starbucks,,UPI,grocery
-TXN0731,U008,30/01/2024,7019.36,Local Shop  0412,Local Shop,Online,Cash,other
-TXN0732,U011,25-01-2024,28258.47,Amazon  fee,Amazon,local shop,UPI,grocery
-TXN0733,U001,2024/03/04,6772.46,OLA ???,OLA,,Cash,food
-TXN0734,U002,18/01/2024,17050.04,Unknown Store ???,Unknown Store,local shop,Card,transport
-TXN0735,U003,09-03-2024,14248.58,Local Shop !!!,Local Shop,,Card,shopping
-TXN0736,U006,05-01-2024,5608.9,Swiggy,Swiggy,Bhubaneshwar,UPI,shopping
-TXN0737,U002,2024-02-17,9809.89,Apple !!!,Apple,Bhubaneswar,UPI,refund
-TXN0738,U013,27/01/2024,6178.25,Amazon  fee,Amazon,Online,UPI,electronics
-TXN0739,U007,05-03-2024,6059.06,Unknown Store ???,Unknown Store,Online,Cash,other
-TXN0740,U016,28-02-2024,1182.15,Unknown Store *Order#99,Unknown Store,Online,Card,electronics
-TXN0741,U020,23-01-2024,5395.55,Local Shop !!!,Local Shop,Online,Cash,shopping
-TXN0742,U002,31/01/2024,26477.85,Local Shop ???,Local Shop,Bhubaneswar,Cash,transport
-TXN0743,U014,2024-03-11,2305.24,Apple ???,Apple,Bhubaneshwar,Card,electronics
-TXN0744,U017,06-01-2024,2205.13,Big Bazaar,Big Bazaar,Online,Card,transport
-TXN0745,U002,2024/01/02,21275.9,Local Shop,Local Shop,Online,Card,shopping
-TXN0746,U008,26/02/2024,24614.6,Swiggy  0412,Swiggy,Bhubaneswar,Cash,electronics
-TXN0747,U018,20/02/2024,-20145.05,Amazon,Amazon,Online,Card,food
-TXN0748,U007,2024-02-26,19047.36,Swiggy  fee,Swiggy,,UPI,electronics
-TXN0749,U002,2024-03-17,23174.57,Apple,Apple,Bhubaneshwar,UPI,food
-TXN0750,U001,2024/01/02,5772.63,Local Shop  fee,Local Shop,Bhubaneswar,Cash,grocery
-TXN0751,U014,2024-03-06,9820.97,Starbucks  fee,Starbucks,BBSR,Cash,Food & Beverage
-TXN0752,U008,2024-01-28,-9707.8,Amazon ???,Amazon,Bhubaneswar,Card,transport
-TXN0753,U009,2024/03/24,2029.26,Amazon,Amazon,local shop,Card,shopping
-TXN0754,U019,2024/01/22,18000.02,Swiggy,Swiggy,,Cash,grocery
-TXN0755,U016,2024/01/09,18259.91,DMart,DMart,,Cash,food
-TXN0756,U001,2024-03-19,7099.53,Big Bazaar ???,Big Bazaar,Bhubaneswar,UPI,refund
-TXN0757,U007,20-01-2024,19264.75,OLA !!!,OLA,Online,Cash,grocery
-TXN0758,U011,2024-03-23,23755.48,OLA *Order#99,OLA,Bhubaneswar,UPI,other
-TXN0759,U008,2024-01-27,29651.4,DMart  purchase,DMart,BBSR,Cash,other
-TXN0760,U015,2024-03-21,26097.3,Flipkart,Flipkart,,UPI,grocery
-TXN0761,U006,16/03/2024,15227.66,Amazon !!!,Amazon,BBSR,Cash,Food & Beverage
-TXN0762,U020,2024/02/01,17296.89,Flipkart ???,Flipkart,Online,UPI,other
-TXN0763,U013,22-01-2024,12686.69,Local Shop  0412,Local Shop,BBSR,Card,
-TXN0764,U014,2024/01/11,16120.56,Local Shop *Order#99,Local Shop,Online,Card,electronics
-TXN0765,U018,18-03-2024,10003.69,Local Shop,Local Shop,BBSR,UPI,
-TXN0766,U012,03-03-2024,28209.15,Swiggy  0412,Swiggy,Online,Card,shopping
-TXN0767,U002,16-01-2024,4879.25,Local Shop *Order#99,Local Shop,,Card,refund
-TXN0768,U002,24-03-2024,22072.57,DMart  0412,,Bhubaneshwar,Cash,food
-TXN0769,U009,18-03-2024,4429.55,Flipkart  purchase,Flipkart,,UPI,
-TXN0770,U013,2024-02-20,27299.37,Amazon *Order#99,Amazon,Online,Card,Food & Beverage
-TXN0771,U010,2024-02-22,19089.05,Unknown Store,Unknown Store,BBSR,Card,Food & Beverage
-TXN0772,U001,22-01-2024,2915.15,OLA,OLA,Online,Cash,Food & Beverage
-TXN0773,U006,17/02/2024,4038.62,Flipkart  purchase,Flipkart,Bhubaneswar,Card,transport
-TXN0774,U007,08/01/2024,22777.35,Flipkart  fee,Flipkart,Online,Card,shopping
-TXN0775,U003,2024-02-07,3749.2,Flipkart  0412,,BBSR,Card,shopping
-TXN0776,U002,2024-02-04,17477.54,Starbucks  purchase,,local shop,UPI,electronics
-TXN0777,U016,13-02-2024,11129.85,Apple ???,Apple,BBSR,Card,Food & Beverage
-TXN0778,U002,2024/02/15,3014.32,Unknown Store  fee,Unknown Store,,UPI,
-TXN0779,U017,05/02/2024,13563.02,Amazon ???,Amazon,local shop,Card,food
-TXN0780,U001,2024/03/22,1382.17,DMart  fee,DMart,Online,UPI,Food & Beverage
-TXN0781,U003,14-02-2024,29606.28,Unknown Store  0412,Unknown Store,,Card,transport
-TXN0782,U017,2024-03-14,14942.77,Flipkart !!!,Flipkart,local shop,Card,refund
-TXN0783,U016,25/03/2024,6357.11,Amazon !!!,Amazon,Bhubaneswar,UPI,food
-TXN0784,U011,2024/02/19,21578.06,Flipkart !!!,Flipkart,,UPI,refund
-TXN0785,U011,2024-01-29,10303.34,Amazon  purchase,Amazon,,Card,Food & Beverage
-TXN0786,U008,2024-02-03,2639.53,Big Bazaar ???,Big Bazaar,BBSR,Cash,other
-TXN0787,U011,2024-02-18,1865.93,Flipkart ???,Flipkart,Online,Card,grocery
-TXN0788,U020,16/03/2024,11865.42,Swiggy,Swiggy,BBSR,Card,refund
-TXN0789,U005,2024/03/17,22414.33,Apple !!!,Apple,Bhubaneswar,Cash,shopping
-TXN0790,U019,02/03/2024,8751.94,OLA  0412,,Bhubaneshwar,UPI,transport
-TXN0791,U002,23-01-2024,11760.32,Big Bazaar  purchase,Big Bazaar,BBSR,UPI,other
-TXN0792,U016,14-02-2024,2163.98,Local Shop  0412,Local Shop,BBSR,Cash,Food & Beverage
-TXN0793,U005,2024-02-11,28037.92,Amazon  fee,Amazon,local shop,UPI,refund
-TXN0794,U005,27/01/2024,22453.99,OLA  fee,,,Cash,grocery
-TXN0795,U014,27/03/2024,2890.47,Local Shop,Local Shop,Bhubaneswar,UPI,other
-TXN0796,U014,20-01-2024,1029.44,Unknown Store !!!,Unknown Store,,Cash,Food & Beverage
-TXN0797,U015,24-03-2024,18973.68,Amazon ???,,Bhubaneswar,UPI,transport
-TXN0798,U019,14-03-2024,20814.84,Starbucks ???,Starbucks,Online,Card,Food & Beverage
-TXN0799,U019,2024-01-17,1914.31,OLA ???,OLA,BBSR,Card,food
-TXN0800,U018,09-03-2024,15571.84,Local Shop,Local Shop,,UPI,transport
-TXN0801,U006,17/03/2024,16646.11,Amazon,Amazon,BBSR,Cash,grocery
-TXN0802,U018,2024-02-02,29398.05,Amazon,Amazon,local shop,UPI,food
-TXN0803,U010,2024/01/06,16027.73,Big Bazaar  purchase,Big Bazaar,Bhubaneshwar,Cash,other
-TXN0804,U018,06/03/2024,2979.28,Unknown Store  purchase,Unknown Store,BBSR,UPI,transport
-TXN0805,U020,11/03/2024,10778.36,Flipkart *Order#99,Flipkart,Bhubaneswar,Cash,Food & Beverage
-TXN0806,U013,2024-02-28,20299.0,Flipkart ???,Flipkart,BBSR,UPI,electronics
-TXN0807,U012,13/03/2024,24648.82,Big Bazaar  0412,Big Bazaar,Online,UPI,transport
-TXN0808,U009,2024-01-16,16455.58,Amazon  purchase,Amazon,Bhubaneshwar,Card,grocery
-TXN0809,U009,2024-01-02,29384.76,Big Bazaar  0412,Big Bazaar,Bhubaneswar,UPI,electronics
-TXN0810,U016,2024/01/13,17169.02,Unknown Store  purchase,Unknown Store,Bhubaneswar,UPI,Food & Beverage
-TXN0811,U012,27-03-2024,17773.38,Flipkart  0412,Flipkart,,UPI,grocery
-TXN0812,U019,2024-02-04,19179.41,Local Shop  purchase,Local Shop,,Cash,refund
-TXN0813,U015,15-02-2024,8611.72,Flipkart *Order#99,Flipkart,,UPI,shopping
-TXN0814,U014,2024-02-10,2393.45,OLA  purchase,OLA,BBSR,Cash,electronics
-TXN0815,U016,02-01-2024,15265.38,Swiggy  purchase,Swiggy,local shop,Cash,shopping
-TXN0816,U001,19/03/2024,22380.06,Local Shop  fee,Local Shop,,Card,food
-TXN0817,U015,22/01/2024,2262.92,Unknown Store !!!,Unknown Store,Bhubaneswar,Card,grocery
-TXN0818,U004,13/02/2024,16178.2,DMart  fee,DMart,Bhubaneshwar,Card,transport
-TXN0819,U019,20/02/2024,27873.98,Starbucks ???,Starbucks,Bhubaneswar,Card,refund
-TXN0820,U012,01-01-2024,8957.54,Starbucks ???,Starbucks,,UPI,food
-TXN0821,U014,03/03/2024,15877.61,Amazon,Amazon,Online,UPI,electronics
-TXN0822,U016,2024/02/20,10941.23,Big Bazaar ???,Big Bazaar,Bhubaneshwar,UPI,refund
-TXN0823,U005,15-02-2024,10783.51,Flipkart,Flipkart,BBSR,Card,
-TXN0824,U014,2024-02-12,19989.48,Local Shop !!!,Local Shop,Bhubaneshwar,UPI,refund
-TXN0825,U011,21-02-2024,3300.89,Flipkart !!!,,BBSR,Card,transport
-TXN0826,U011,2024-02-24,14410.99,Starbucks  0412,,Online,UPI,grocery
-TXN0827,U009,2024/01/15,7428.16,Big Bazaar  purchase,Big Bazaar,,UPI,grocery
-TXN0828,U019,21/03/2024,3622.63,Big Bazaar !!!,Big Bazaar,BBSR,UPI,transport
-TXN0829,U002,18-02-2024,9200.31,Amazon *Order#99,Amazon,Bhubaneshwar,Card,Food & Beverage
-TXN0830,U010,2024/01/15,8423.87,Starbucks ???,Starbucks,Bhubaneshwar,UPI,food
-TXN0831,U011,2024/01/28,8411.98,Starbucks  0412,Starbucks,Bhubaneshwar,Card,electronics
-TXN0832,U004,2024-03-26,16557.53,Amazon  purchase,Amazon,,Card,other
-TXN0833,U009,27-01-2024,26616.94,Big Bazaar,Big Bazaar,Bhubaneswar,UPI,transport
-TXN0834,U015,2024-01-13,18574.12,Big Bazaar *Order#99,Big Bazaar,BBSR,Cash,food
-TXN0835,U007,2024/02/23,25604.61,Flipkart  fee,Flipkart,Bhubaneshwar,Card,shopping
-TXN0836,U003,02-03-2024,27940.66,Local Shop *Order#99,,local shop,Card,grocery
-TXN0837,U002,2024-03-13,29174.5,OLA  fee,OLA,Online,Cash,shopping
-TXN0838,U015,06-03-2024,23383.37,Flipkart *Order#99,Flipkart,BBSR,UPI,transport
-TXN0839,U001,06-03-2024,21235.54,Unknown Store *Order#99,Unknown Store,BBSR,Card,shopping
-TXN0840,U008,06/01/2024,1182.33,Flipkart ???,Flipkart,BBSR,Card,food
-TXN0841,U007,2024-03-09,19462.88,Big Bazaar,Big Bazaar,Bhubaneshwar,UPI,electronics
-TXN0842,U014,2024/03/19,29557.99,Flipkart ???,,Bhubaneshwar,UPI,electronics
-TXN0843,U009,2024-01-03,22375.64,Flipkart  purchase,Flipkart,,Cash,transport
-TXN0844,U008,2024/02/11,17454.1,Apple !!!,Apple,BBSR,Card,Food & Beverage
-TXN0845,U005,2024-03-02,5453.59,DMart  0412,DMart,BBSR,Cash,grocery
-TXN0846,U001,09/02/2024,24526.8,OLA !!!,OLA,BBSR,UPI,refund
-TXN0847,U004,08/03/2024,-22515.82,Local Shop  purchase,,Online,UPI,food
-TXN0848,U005,2024-02-01,4287.64,Starbucks ???,,Bhubaneswar,UPI,other
-TXN0849,U007,18-01-2024,16889.91,Amazon  fee,Amazon,Bhubaneshwar,Card,food
-TXN0850,U009,2024-03-21,24749.5,Swiggy,Swiggy,local shop,Card,transport
-TXN0851,U008,24-02-2024,10605.76,Starbucks !!!,Starbucks,,Card,shopping
-TXN0852,U006,15/01/2024,28694.43,Apple,,Bhubaneshwar,UPI,shopping
-TXN0853,U020,20/01/2024,15919.11,Starbucks  0412,Starbucks,BBSR,Cash,electronics
-TXN0854,U004,04-02-2024,11079.68,DMart  purchase,DMart,Bhubaneswar,UPI,grocery
-TXN0855,U011,19-01-2024,21643.09,Flipkart  0412,Flipkart,Bhubaneswar,UPI,electronics
-TXN0856,U003,11/02/2024,23028.39,Flipkart !!!,Flipkart,Online,Cash,other
-TXN0857,U008,19-02-2024,14918.1,Flipkart *Order#99,Flipkart,BBSR,Card,Food & Beverage
-TXN0858,U019,29/03/2024,2626.63,Swiggy  purchase,Swiggy,Bhubaneswar,Card,grocery
-TXN0859,U002,2024/02/14,25481.38,Amazon  fee,Amazon,Online,UPI,Food & Beverage
-TXN0860,U007,2024-01-29,4142.66,Big Bazaar  purchase,Big Bazaar,Online,Cash,
-TXN0861,U012,2024-01-07,17452.4,Local Shop  purchase,Local Shop,BBSR,UPI,grocery
-TXN0862,U008,2024-01-10,24933.73,Amazon *Order#99,Amazon,Online,Cash,electronics
-TXN0863,U014,13-02-2024,-19348.97,Apple  fee,Apple,Bhubaneswar,Cash,
-TXN0864,U017,2024-01-21,24982.08,Flipkart  0412,Flipkart,local shop,Cash,electronics
-TXN0865,U014,2024/01/21,15649.82,Big Bazaar,Big Bazaar,BBSR,Card,transport
-TXN0866,U006,2024-03-12,20775.87,Local Shop  fee,Local Shop,Online,Card,other
-TXN0867,U007,2024-02-04,2343.48,Local Shop,Local Shop,Bhubaneswar,UPI,shopping
-TXN0868,U007,2024-03-17,27291.51,Amazon  fee,Amazon,Bhubaneswar,UPI,food
-TXN0869,U016,2024-01-06,2805.4,Unknown Store ???,Unknown Store,Bhubaneshwar,Card,other
-TXN0870,U012,2024-01-17,12224.52,Local Shop ???,Local Shop,BBSR,UPI,Food & Beverage
-TXN0871,U019,2024/01/05,4554.62,Apple !!!,Apple,Bhubaneswar,Cash,transport
-TXN0872,U006,2024/03/05,23562.7,Flipkart  0412,Flipkart,Online,UPI,Food & Beverage
-TXN0873,U007,2024-03-19,17011.36,Big Bazaar !!!,,Bhubaneswar,UPI,electronics
-TXN0874,U003,2024-03-04,9418.42,Swiggy  0412,Swiggy,Bhubaneshwar,Cash,shopping
-TXN0875,U006,31-03-2024,29584.44,Amazon ???,Amazon,Online,Cash,shopping
-TXN0876,U016,2024/01/06,8605.89,Unknown Store  fee,Unknown Store,,UPI,other
-TXN0877,U003,28-03-2024,13508.27,DMart *Order#99,DMart,Bhubaneswar,Cash,food
-TXN0878,U018,02/01/2024,3167.89,Big Bazaar  fee,Big Bazaar,Bhubaneswar,UPI,refund
-TXN0879,U012,29-02-2024,16058.12,Amazon  purchase,Amazon,BBSR,Cash,Food & Beverage
-TXN0880,U007,2024/02/21,9525.37,Local Shop,Local Shop,,Cash,electronics
-TXN0881,U002,10/03/2024,4373.96,Apple  0412,Apple,local shop,Card,other
-TXN0882,U016,2024-01-28,26041.94,Local Shop !!!,Local Shop,Bhubaneshwar,Card,shopping
-TXN0883,U003,05-02-2024,8957.12,Flipkart,Flipkart,local shop,UPI,electronics
-TXN0884,U002,12-01-2024,28901.34,Flipkart ???,Flipkart,Online,Card,grocery
-TXN0885,U012,29-03-2024,307.85,Local Shop  fee,Local Shop,Bhubaneswar,Cash,grocery
-TXN0886,U011,02/01/2024,28015.24,DMart  0412,DMart,,Card,food
-TXN0887,U005,22-03-2024,29084.03,Apple  purchase,Apple,BBSR,Card,grocery
-TXN0888,U013,2024/01/28,28571.78,Unknown Store !!!,Unknown Store,Bhubaneswar,Card,food
-TXN0889,U010,2024-03-05,14978.93,OLA  purchase,OLA,Bhubaneshwar,Card,Food & Beverage
-TXN0890,U011,15/01/2024,12857.22,Swiggy  0412,Swiggy,local shop,Card,Food & Beverage
-TXN0891,U020,2024-01-13,25118.66,OLA  fee,,Online,UPI,shopping
-TXN0892,U017,2024-03-15,8704.23,Apple  purchase,Apple,Online,Cash,transport
-TXN0893,U004,14-02-2024,27240.73,Apple  0412,Apple,Online,UPI,transport
-TXN0894,U010,2024/02/04,25156.14,Swiggy ???,Swiggy,BBSR,UPI,Food & Beverage
-TXN0895,U001,04/01/2024,11238.43,Starbucks  fee,Starbucks,local shop,Card,Food & Beverage
-TXN0896,U018,20/02/2024,19336.59,Big Bazaar *Order#99,Big Bazaar,local shop,Card,Food & Beverage
-TXN0897,U013,10/02/2024,6936.78,Flipkart  0412,Flipkart,Bhubaneswar,Cash,Food & Beverage
-TXN0898,U018,2024/01/21,-2806.7,OLA !!!,,local shop,UPI,
-TXN0899,U003,14-03-2024,22272.77,Swiggy,Swiggy,,Card,transport
-TXN0900,U007,09/03/2024,23403.07,OLA  purchase,OLA,,UPI,grocery
-TXN0901,U019,2024-01-14,27816.7,Starbucks  0412,Starbucks,Bhubaneshwar,UPI,refund
-TXN0902,U007,2024-02-20,23865.29,DMart  0412,DMart,,UPI,Food & Beverage
-TXN0903,U011,22-03-2024,4841.5,Local Shop  fee,Local Shop,,Cash,food
-TXN0904,U011,14-02-2024,-18003.79,Amazon *Order#99,Amazon,Bhubaneshwar,UPI,food
-TXN0905,U001,07/03/2024,26007.56,Swiggy !!!,Swiggy,Bhubaneshwar,UPI,grocery
-TXN0906,U009,02/03/2024,10463.12,OLA,OLA,,Card,Food & Beverage
-TXN0907,U009,23/01/2024,25382.61,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Cash,electronics
-TXN0908,U007,03-03-2024,12717.88,Flipkart  0412,Flipkart,local shop,UPI,Food & Beverage
-TXN0909,U019,2024/02/15,24582.06,Big Bazaar  purchase,Big Bazaar,local shop,Card,electronics
-TXN0910,U017,15-02-2024,3448.35,Unknown Store,Unknown Store,BBSR,Card,transport
-TXN0911,U012,2024/01/19,298.89,DMart,DMart,BBSR,Card,other
-TXN0912,U018,09-01-2024,18058.04,Big Bazaar ???,Big Bazaar,Bhubaneshwar,Cash,shopping
-TXN0913,U014,28-03-2024,24403.7,Unknown Store ???,,Online,Card,
-TXN0914,U014,2024-01-16,5142.48,OLA  0412,OLA,local shop,UPI,food
-TXN0915,U010,17-01-2024,26875.93,Apple,,,UPI,shopping
-TXN0916,U010,2024/02/05,10381.28,Local Shop  fee,Local Shop,Online,Cash,
-TXN0917,U015,2024-03-04,11223.44,OLA  fee,,Bhubaneswar,UPI,other
-TXN0918,U008,2024-01-22,21726.0,Local Shop !!!,Local Shop,local shop,UPI,food
-TXN0919,U002,2024-01-15,2260.51,OLA ???,OLA,Online,Card,grocery
-TXN0920,U015,16/01/2024,25858.23,Unknown Store ???,Unknown Store,Online,Cash,shopping
-TXN0921,U017,31-01-2024,14708.21,Swiggy  purchase,Swiggy,Online,UPI,electronics
-TXN0922,U012,12/03/2024,19417.56,Amazon  purchase,Amazon,Bhubaneswar,Card,food
-TXN0923,U015,19/02/2024,3145.0,Big Bazaar  0412,Big Bazaar,local shop,Cash,electronics
-TXN0924,U005,2024-03-05,6571.36,Apple !!!,Apple,local shop,Cash,Food & Beverage
-TXN0925,U003,05-02-2024,20591.12,Big Bazaar !!!,Big Bazaar,Bhubaneswar,UPI,shopping
-TXN0926,U008,03-01-2024,8010.03,Amazon !!!,Amazon,Bhubaneshwar,Card,shopping
-TXN0927,U014,28/01/2024,15070.69,DMart  0412,,Bhubaneshwar,Card,Food & Beverage
-TXN0928,U007,07/02/2024,5307.59,Local Shop  0412,Local Shop,local shop,Card,food
-TXN0929,U004,2024-01-29,26852.8,Big Bazaar,Big Bazaar,local shop,UPI,Food & Beverage
-TXN0930,U013,13/01/2024,24723.82,Local Shop  purchase,Local Shop,BBSR,UPI,electronics
-TXN0931,U010,2024-01-01,15102.17,Unknown Store !!!,Unknown Store,Bhubaneshwar,Cash,other
-TXN0932,U006,2024/01/24,-4263.59,Amazon  0412,Amazon,Bhubaneshwar,UPI,electronics
-TXN0933,U006,2024-03-27,10570.79,Amazon *Order#99,,BBSR,Card,food
-TXN0934,U010,30/01/2024,4406.02,Unknown Store  fee,Unknown Store,,Card,other
-TXN0935,U009,25-03-2024,-10935.04,Swiggy ???,Swiggy,,Card,refund
-TXN0936,U009,2024-03-28,29359.34,Amazon !!!,Amazon,BBSR,Card,transport
-TXN0937,U014,16/02/2024,2687.33,Unknown Store  purchase,Unknown Store,Bhubaneswar,Card,refund
-TXN0938,U006,2024/02/03,11736.88,Swiggy ???,Swiggy,Bhubaneshwar,UPI,
-TXN0939,U011,2024-03-19,23862.03,Swiggy  0412,Swiggy,Bhubaneshwar,Card,food
-TXN0940,U005,29/02/2024,29000.48,Apple *Order#99,Apple,Bhubaneshwar,Card,electronics
-TXN0941,U015,06/01/2024,24765.86,Starbucks ???,Starbucks,Bhubaneswar,Card,food
-TXN0942,U009,2024/01/18,23560.05,Starbucks ???,Starbucks,local shop,UPI,electronics
-TXN0943,U007,2024-02-25,6573.54,Flipkart ???,Flipkart,,Cash,Food & Beverage
-TXN0944,U009,2024/02/08,16921.59,Amazon !!!,Amazon,local shop,UPI,transport
-TXN0945,U005,23/02/2024,9156.83,OLA ???,OLA,Online,Cash,Food & Beverage
-TXN0946,U005,08-03-2024,9404.68,Amazon  purchase,Amazon,Online,Card,Food & Beverage
-TXN0947,U015,2024-01-04,12633.35,Local Shop  fee,Local Shop,Bhubaneshwar,UPI,other
-TXN0948,U020,2024/03/10,22662.5,Flipkart,Flipkart,Bhubaneswar,Card,refund
-TXN0949,U003,2024/01/08,29585.34,Starbucks  fee,Starbucks,Bhubaneshwar,Cash,other
-TXN0950,U004,2024-03-15,6159.88,Starbucks  purchase,Starbucks,Online,UPI,grocery
-TXN0951,U010,01-01-2024,20636.36,OLA *Order#99,,local shop,UPI,transport
-TXN0952,U004,2024-03-01,15179.08,Big Bazaar  fee,Big Bazaar,Bhubaneshwar,Card,grocery
-TXN0953,U018,03-02-2024,19748.2,Big Bazaar  fee,Big Bazaar,Bhubaneswar,UPI,transport
-TXN0954,U017,30/03/2024,14419.19,Flipkart  0412,Flipkart,local shop,Card,electronics
-TXN0955,U013,2024-03-30,12512.73,Local Shop  0412,,Online,UPI,food
-TXN0956,U010,05-01-2024,27244.17,Unknown Store,Unknown Store,,Card,grocery
-TXN0957,U017,05/03/2024,27077.49,DMart ???,DMart,BBSR,Cash,other
-TXN0958,U005,2024/02/05,2055.62,Apple  0412,Apple,Online,Cash,electronics
-TXN0959,U011,2024/03/16,18528.08,Flipkart *Order#99,,,UPI,shopping
-TXN0960,U016,11/02/2024,24258.58,Apple  fee,Apple,BBSR,Cash,Food & Beverage
-TXN0961,U002,2024/03/19,1132.17,Amazon,Amazon,Bhubaneshwar,Cash,food
-TXN0962,U011,14-01-2024,4005.17,Flipkart  0412,Flipkart,BBSR,Card,electronics
-TXN0963,U007,21-01-2024,15860.6,Big Bazaar  fee,,Bhubaneswar,Cash,shopping
-TXN0964,U002,2024-01-18,23233.83,Big Bazaar ???,Big Bazaar,Bhubaneshwar,UPI,refund
-TXN0965,U007,14-03-2024,10569.66,Big Bazaar *Order#99,Big Bazaar,BBSR,UPI,Food & Beverage
-TXN0966,U019,11/01/2024,15522.23,Amazon  fee,Amazon,Bhubaneswar,Cash,food
-TXN0967,U010,02-02-2024,10743.58,Big Bazaar  purchase,Big Bazaar,Bhubaneshwar,UPI,transport
-TXN0968,U020,2024/03/05,18563.16,Swiggy  0412,Swiggy,local shop,Card,electronics
-TXN0969,U002,13-02-2024,6023.33,Starbucks ???,,BBSR,Cash,other
-TXN0970,U008,2024-03-04,28440.45,Starbucks  fee,Starbucks,Bhubaneswar,Card,Food & Beverage
-TXN0971,U020,11-01-2024,-8122.55,Unknown Store !!!,,local shop,UPI,Food & Beverage
-TXN0972,U010,2024-01-30,800.35,Apple,Apple,local shop,Card,food
-TXN0973,U016,07-01-2024,11323.06,Swiggy  fee,Swiggy,local shop,UPI,shopping
-TXN0974,U012,15/02/2024,13101.38,Unknown Store ???,Unknown Store,local shop,UPI,food
-TXN0975,U008,2024-01-08,3810.21,Starbucks,,Bhubaneshwar,Cash,transport
-TXN0976,U005,18-03-2024,19730.91,OLA  0412,,local shop,UPI,other
-TXN0977,U015,2024/02/08,16546.66,Big Bazaar  fee,Big Bazaar,Bhubaneshwar,Card,shopping
-TXN0978,U012,22-02-2024,2362.6,Starbucks ???,Starbucks,local shop,UPI,transport
-TXN0979,U012,2024-01-19,20953.27,Amazon !!!,Amazon,Bhubaneswar,UPI,food
-TXN0980,U009,16-03-2024,24817.09,OLA ???,OLA,local shop,Card,Food & Beverage
-TXN0981,U015,06/01/2024,11386.02,Local Shop !!!,Local Shop,,Card,
-TXN0982,U001,2024/03/18,27224.41,DMart  fee,DMart,Bhubaneswar,Card,Food & Beverage
-TXN0983,U002,14-01-2024,27974.86,Local Shop  purchase,Local Shop,local shop,Card,electronics
-TXN0984,U013,29/02/2024,27232.3,Flipkart !!!,Flipkart,Bhubaneshwar,UPI,electronics
-TXN0985,U019,2024-02-20,8235.35,DMart *Order#99,DMart,,Cash,
-TXN0986,U019,2024/03/25,7942.88,OLA  fee,OLA,Online,UPI,other
-TXN0987,U018,28-01-2024,17391.31,Apple,Apple,local shop,Card,refund
-TXN0988,U009,2024/02/05,14852.92,Flipkart  fee,Flipkart,local shop,Cash,
-TXN0989,U002,24-01-2024,9526.86,Amazon *Order#99,Amazon,,Card,food
-TXN0990,U018,06/01/2024,3283.81,DMart ???,DMart,Bhubaneswar,UPI,other
-TXN0991,U003,23-03-2024,4300.95,Local Shop ???,Local Shop,Bhubaneshwar,Card,other
-TXN0992,U010,2024-03-20,11055.37,Apple !!!,Apple,local shop,UPI,transport
-TXN0993,U017,2024/03/06,11371.4,DMart !!!,DMart,BBSR,Card,shopping
-TXN0994,U008,13-03-2024,21994.04,Amazon *Order#99,Amazon,Bhubaneswar,Cash,refund
-TXN0995,U009,2024/01/25,9867.25,DMart !!!,DMart,BBSR,Card,shopping
-TXN0996,U015,2024/02/22,10566.02,Big Bazaar,Big Bazaar,,Card,refund
-TXN0997,U008,13/03/2024,7355.87,Local Shop *Order#99,Local Shop,,UPI,electronics
-TXN0998,U011,2024-01-16,12636.47,DMart  0412,DMart,,UPI,refund
-TXN0999,U006,16-01-2024,22967.63,Starbucks ???,Starbucks,Bhubaneswar,UPI,Food & Beverage
-TXN1000,U006,10/01/2024,26007.73,Starbucks *Order#99,Starbucks,Bhubaneshwar,UPI,transport
+TXN0001,U038,11/03/2024,6614.32,Starbucks *Order#99,Starbucks,BBSR,UPI,other
+TXN0002,U033,2024/01/31,14567.58,Amazon  purchase,Amazon,local shop,Cash,refund
+TXN0003,U013,2024-01-13,12937.22,Local Shop  purchase,Local Shop,,UPI,shopping
+TXN0004,U026,2024-02-13,5755.79,Starbucks !!!,Starbucks,BBSR,Card,shopping
+TXN0005,U036,2024-01-13,29978.48,Apple  purchase,Apple,BBSR,UPI,refund
+TXN0006,U026,08/01/2024,74.64,Big Bazaar  0412,Big Bazaar,Online,Card,refund
+TXN0007,U013,07/02/2024,17379.62,Flipkart,Flipkart,Bhubaneswar,UPI,grocery
+TXN0008,U033,11/01/2024,17855.1,Starbucks,Starbucks,Bhubaneswar,Cash,food
+TXN0009,U006,2024/02/23,6135.73,Unknown Store ???,Unknown Store,Online,UPI,electronics
+TXN0010,U021,2024-01-10,18638.57,Apple  0412,,local shop,UPI,grocery
+TXN0011,U005,2024/02/01,4740.83,DMart ???,DMart,local shop,Cash,electronics
+TXN0012,U009,2024-02-03,22275.08,Amazon,Amazon,BBSR,Cash,electronics
+TXN0013,U032,2024-02-02,19032.19,Swiggy,,Bhubaneshwar,UPI,electronics
+TXN0014,U048,26-02-2024,299.99,Flipkart *Order#99,Flipkart,BBSR,Cash,
+TXN0015,U038,11/03/2024,3832.09,DMart  0412,DMart,Bhubaneswar,Card,transport
+TXN0016,U023,12-03-2024,22486.83,Amazon *Order#99,Amazon,BBSR,UPI,food
+TXN0017,U048,12-02-2024,20100.51,Flipkart  fee,Flipkart,BBSR,Cash,food
+TXN0018,U015,26-01-2024,9162.67,Apple ???,Apple,Bhubaneswar,Cash,other
+TXN0019,U005,2024/02/05,15287.08,OLA  purchase,OLA,Bhubaneshwar,UPI,electronics
+TXN0020,U038,2024-02-03,17901.17,Flipkart,Flipkart,Online,Cash,shopping
+TXN0021,U037,2024/01/25,-21266.47,Local Shop,Local Shop,local shop,Cash,transport
+TXN0022,U028,2024/01/09,9424.33,DMart *Order#99,DMart,Bhubaneshwar,Cash,Food & Beverage
+TXN0023,U026,2024/03/30,3827.36,DMart *Order#99,DMart,,Cash,electronics
+TXN0024,U036,2024/01/01,6313.38,Local Shop ???,Local Shop,Bhubaneshwar,Card,transport
+TXN0025,U031,2024-01-22,15468.41,Swiggy ???,Swiggy,BBSR,Cash,transport
+TXN0026,U002,06/01/2024,18342.11,Flipkart  0412,Flipkart,,Cash,Food & Beverage
+TXN0027,U026,01/02/2024,20631.8,Apple  purchase,Apple,Bhubaneswar,Card,refund
+TXN0028,U036,2024-02-01,4008.84,Starbucks  0412,Starbucks,local shop,Cash,refund
+TXN0029,U047,05-03-2024,27206.57,Unknown Store  fee,Unknown Store,Online,Card,transport
+TXN0030,U050,07-03-2024,7184.98,OLA  purchase,OLA,BBSR,Card,shopping
+TXN0031,U010,30-01-2024,4592.63,Flipkart  purchase,Flipkart,Bhubaneshwar,Cash,food
+TXN0032,U027,2024-02-19,26420.89,Big Bazaar  fee,Big Bazaar,Bhubaneshwar,Card,Food & Beverage
+TXN0033,U048,10/03/2024,6590.45,Swiggy  0412,,Bhubaneshwar,Cash,Food & Beverage
+TXN0034,U030,2024-01-17,17760.86,Flipkart  0412,,Online,UPI,grocery
+TXN0035,U017,2024/02/18,13646.43,Starbucks !!!,Starbucks,Bhubaneshwar,Card,shopping
+TXN0036,U002,2024-03-10,6734.42,Apple ???,Apple,Bhubaneswar,UPI,transport
+TXN0037,U040,20/01/2024,14212.1,Starbucks !!!,Starbucks,Online,Cash,other
+TXN0038,U039,2024-03-18,24580.84,Flipkart  fee,Flipkart,Bhubaneswar,Card,Food & Beverage
+TXN0039,U046,2024-01-26,20721.53,Local Shop *Order#99,Local Shop,Bhubaneshwar,Cash,shopping
+TXN0040,U003,14-02-2024,11123.42,Unknown Store  purchase,Unknown Store,Online,Card,other
+TXN0041,U046,20-01-2024,22016.52,Apple !!!,Apple,local shop,Card,electronics
+TXN0042,U016,2024/01/12,7323.46,DMart  0412,DMart,Online,Card,
+TXN0043,U012,03/03/2024,23936.99,DMart ???,DMart,,Card,transport
+TXN0044,U016,22-02-2024,22747.36,Amazon *Order#99,Amazon,Online,Card,shopping
+TXN0045,U015,21/02/2024,19922.16,OLA ???,OLA,Bhubaneshwar,Card,other
+TXN0046,U045,2024/02/28,7549.6,DMart ???,DMart,Bhubaneswar,Cash,grocery
+TXN0047,U014,2024/03/02,17691.71,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,UPI,other
+TXN0048,U020,02/01/2024,1375.02,Flipkart ???,Flipkart,BBSR,Cash,refund
+TXN0049,U001,2024/03/14,14366.64,Amazon  0412,Amazon,Bhubaneshwar,Card,shopping
+TXN0050,U032,2024-01-10,4484.44,Local Shop !!!,Local Shop,BBSR,UPI,Food & Beverage
+TXN0051,U039,20/03/2024,15681.95,Unknown Store  fee,Unknown Store,local shop,Card,food
+TXN0052,U048,13/01/2024,6338.65,Unknown Store  purchase,Unknown Store,BBSR,Cash,food
+TXN0053,U029,29-03-2024,988.87,Local Shop ???,Local Shop,Online,UPI,electronics
+TXN0054,U043,26-01-2024,16341.43,Unknown Store,Unknown Store,BBSR,UPI,electronics
+TXN0055,U048,2024/03/13,3739.37,Unknown Store  0412,Unknown Store,Bhubaneshwar,Cash,refund
+TXN0056,U039,06-01-2024,9676.42,Amazon  purchase,,,Cash,food
+TXN0057,U037,06/01/2024,15573.73,OLA  0412,OLA,local shop,Card,refund
+TXN0058,U031,14-02-2024,9638.54,Amazon ???,Amazon,Online,Cash,Food & Beverage
+TXN0059,U003,2024-02-28,7579.44,Swiggy ???,Swiggy,local shop,UPI,refund
+TXN0060,U004,2024/01/25,22695.73,Local Shop *Order#99,Local Shop,BBSR,Card,electronics
+TXN0061,U045,2024-03-03,29194.67,Apple,Apple,BBSR,Card,Food & Beverage
+TXN0062,U015,15-01-2024,19434.81,Amazon,Amazon,Bhubaneshwar,Cash,Food & Beverage
+TXN0063,U031,01-02-2024,4347.81,Apple *Order#99,Apple,,UPI,electronics
+TXN0064,U022,2024/03/05,86.93,Local Shop  fee,Local Shop,local shop,Cash,grocery
+TXN0065,U035,2024/03/02,16562.0,Apple ???,Apple,Bhubaneshwar,UPI,transport
+TXN0066,U025,30-01-2024,9552.11,Unknown Store,Unknown Store,Online,Card,grocery
+TXN0067,U003,2024/01/17,3019.93,Apple  fee,,Online,UPI,Food & Beverage
+TXN0068,U005,2024/03/01,18701.55,Flipkart ???,,Bhubaneshwar,Cash,Food & Beverage
+TXN0069,U041,2024-03-03,2061.94,DMart *Order#99,DMart,BBSR,Cash,shopping
+TXN0070,U029,2024/01/22,1389.27,Amazon,Amazon,Bhubaneshwar,Card,Food & Beverage
+TXN0071,U044,24/01/2024,2378.26,Unknown Store !!!,Unknown Store,BBSR,Card,grocery
+TXN0072,U030,2024/03/22,-7667.25,Big Bazaar  0412,Big Bazaar,Bhubaneshwar,Cash,shopping
+TXN0073,U023,2024/03/16,28861.25,Apple  purchase,Apple,Bhubaneshwar,UPI,refund
+TXN0074,U016,2024/02/18,8883.21,Amazon *Order#99,,,Card,food
+TXN0075,U048,2024/03/04,23967.81,Unknown Store  fee,Unknown Store,,UPI,grocery
+TXN0076,U041,2024-03-23,-23660.43,Amazon ???,Amazon,BBSR,UPI,other
+TXN0077,U012,26/01/2024,16186.84,Local Shop  fee,Local Shop,Bhubaneshwar,UPI,refund
+TXN0078,U048,2024-02-13,28887.17,OLA  0412,OLA,,Cash,Food & Beverage
+TXN0079,U024,12-01-2024,7941.11,Swiggy,Swiggy,,Cash,Food & Beverage
+TXN0080,U007,27/03/2024,760.49,DMart  0412,DMart,local shop,UPI,refund
+TXN0081,U042,2024-02-22,-1369.95,OLA !!!,OLA,Bhubaneswar,UPI,grocery
+TXN0082,U030,17-02-2024,22270.65,Local Shop *Order#99,Local Shop,Bhubaneswar,Card,electronics
+TXN0083,U045,17/02/2024,13346.43,Starbucks  0412,Starbucks,,Card,other
+TXN0084,U026,05/02/2024,28470.83,Starbucks,,BBSR,Cash,food
+TXN0085,U022,01/02/2024,16941.69,Starbucks  fee,Starbucks,BBSR,Cash,transport
+TXN0086,U050,2024-01-19,25753.6,DMart ???,DMart,Bhubaneshwar,UPI,food
+TXN0087,U001,15/02/2024,9719.91,Flipkart *Order#99,,,Card,shopping
+TXN0088,U029,2024-02-16,15120.12,Apple  0412,,,Cash,food
+TXN0089,U031,21-02-2024,3247.78,Starbucks  purchase,Starbucks,Bhubaneswar,Card,shopping
+TXN0090,U018,2024/03/20,29838.89,Flipkart  0412,Flipkart,local shop,Card,shopping
+TXN0091,U047,28-01-2024,26643.85,Swiggy  0412,Swiggy,Online,Card,other
+TXN0092,U021,2024/03/26,28608.24,Local Shop ???,Local Shop,Bhubaneswar,UPI,shopping
+TXN0093,U009,2024-03-12,28699.17,DMart *Order#99,DMart,Online,Card,Food & Beverage
+TXN0094,U019,2024/03/17,3116.98,Starbucks ???,Starbucks,Online,UPI,other
+TXN0095,U024,2024/01/15,6792.51,Swiggy *Order#99,Swiggy,local shop,Cash,food
+TXN0096,U043,2024/03/29,5420.68,Unknown Store,Unknown Store,Bhubaneshwar,Card,
+TXN0097,U037,25-03-2024,4264.82,Flipkart,,,Cash,Food & Beverage
+TXN0098,U022,2024/01/21,21650.66,Apple ???,Apple,Bhubaneswar,UPI,food
+TXN0099,U018,26-02-2024,18216.21,Amazon  0412,Amazon,local shop,UPI,shopping
+TXN0100,U044,27-03-2024,-20017.31,OLA *Order#99,OLA,local shop,UPI,
+TXN0101,U014,2024/01/18,-9850.39,OLA ???,OLA,BBSR,UPI,transport
+TXN0102,U036,2024/03/26,11918.16,Swiggy,Swiggy,Online,UPI,Food & Beverage
+TXN0103,U026,31-03-2024,-3464.05,Unknown Store ???,Unknown Store,local shop,Card,other
+TXN0104,U028,14/01/2024,17670.25,Amazon  0412,Amazon,Bhubaneshwar,Cash,other
+TXN0105,U005,2024-03-06,15303.46,Flipkart *Order#99,Flipkart,,Cash,transport
+TXN0106,U010,02/02/2024,18075.95,Amazon !!!,Amazon,BBSR,Cash,refund
+TXN0107,U042,2024/03/22,29129.48,Unknown Store  fee,Unknown Store,Online,Card,electronics
+TXN0108,U004,2024-02-15,-13857.66,Unknown Store ???,Unknown Store,Bhubaneshwar,UPI,shopping
+TXN0109,U039,05-03-2024,17414.08,Unknown Store  0412,Unknown Store,Bhubaneswar,Card,transport
+TXN0110,U039,01/03/2024,13521.19,DMart,DMart,,UPI,grocery
+TXN0111,U016,31-03-2024,15726.82,Starbucks  0412,Starbucks,Bhubaneshwar,Card,other
+TXN0112,U004,2024/03/21,9897.43,Unknown Store,Unknown Store,Bhubaneshwar,Cash,grocery
+TXN0113,U006,15/03/2024,9313.85,DMart ???,DMart,BBSR,Cash,shopping
+TXN0114,U036,2024/02/18,3842.53,OLA  fee,OLA,,Cash,Food & Beverage
+TXN0115,U024,2024/01/03,5416.09,Swiggy ???,Swiggy,Online,UPI,grocery
+TXN0116,U005,2024-02-07,23128.53,Flipkart *Order#99,Flipkart,Bhubaneswar,Cash,grocery
+TXN0117,U025,20/01/2024,24942.04,Unknown Store !!!,Unknown Store,BBSR,Cash,Food & Beverage
+TXN0118,U044,31-01-2024,8554.99,DMart *Order#99,DMart,local shop,UPI,refund
+TXN0119,U024,27-03-2024,23085.46,Big Bazaar  0412,Big Bazaar,Online,UPI,grocery
+TXN0120,U004,23-03-2024,11142.65,OLA  fee,OLA,local shop,UPI,grocery
+TXN0121,U029,06/03/2024,13129.8,OLA  fee,OLA,Online,Card,Food & Beverage
+TXN0122,U026,2024/03/05,11591.12,Starbucks !!!,Starbucks,Bhubaneshwar,UPI,other
+TXN0123,U009,2024/01/05,14178.92,Flipkart  fee,Flipkart,Online,Card,shopping
+TXN0124,U017,28/01/2024,28207.38,Starbucks *Order#99,Starbucks,Bhubaneshwar,UPI,food
+TXN0125,U027,22-03-2024,3334.63,Big Bazaar,Big Bazaar,Bhubaneswar,Cash,transport
+TXN0126,U019,2024-02-24,10590.95,Flipkart *Order#99,Flipkart,,UPI,other
+TXN0127,U034,2024-03-10,-26201.21,Amazon  0412,Amazon,Bhubaneshwar,Card,other
+TXN0128,U023,2024-01-31,17461.28,Amazon  fee,Amazon,Bhubaneshwar,Cash,grocery
+TXN0129,U045,02/03/2024,4054.23,Apple  fee,Apple,Bhubaneswar,Card,transport
+TXN0130,U021,09-02-2024,16295.49,Starbucks  fee,Starbucks,BBSR,Card,food
+TXN0131,U018,2024/01/16,26685.7,DMart  0412,DMart,Online,Card,refund
+TXN0132,U024,2024/03/07,2487.52,Apple  fee,Apple,BBSR,Cash,shopping
+TXN0133,U021,2024/03/25,13383.01,Amazon ???,Amazon,Online,Card,other
+TXN0134,U028,2024-02-05,20138.8,Unknown Store,Unknown Store,,Cash,food
+TXN0135,U039,27-03-2024,3795.64,Flipkart,Flipkart,Bhubaneshwar,Card,food
+TXN0136,U010,27-03-2024,11166.68,Unknown Store ???,Unknown Store,local shop,Card,electronics
+TXN0137,U008,04/01/2024,15537.18,Big Bazaar  0412,Big Bazaar,Bhubaneshwar,Cash,electronics
+TXN0138,U013,16/01/2024,2230.82,Apple  fee,Apple,Bhubaneswar,Cash,other
+TXN0139,U046,2024/01/09,25542.35,DMart ???,DMart,,UPI,transport
+TXN0140,U013,18/01/2024,14825.72,Amazon  fee,Amazon,Online,Cash,shopping
+TXN0141,U020,20-02-2024,12329.75,Amazon *Order#99,Amazon,BBSR,Card,refund
+TXN0142,U044,2024/03/07,26340.02,Apple !!!,Apple,BBSR,UPI,food
+TXN0143,U034,2024/01/20,4867.39,Amazon !!!,Amazon,local shop,Card,electronics
+TXN0144,U041,2024/03/11,18754.42,Big Bazaar !!!,,,UPI,grocery
+TXN0145,U043,2024/03/20,-27718.65,Flipkart  fee,Flipkart,Bhubaneswar,UPI,electronics
+TXN0146,U050,14-03-2024,19173.35,Big Bazaar *Order#99,Big Bazaar,Bhubaneshwar,Cash,refund
+TXN0147,U044,2024/02/21,2198.46,Big Bazaar  0412,Big Bazaar,Online,Card,grocery
+TXN0148,U046,2024/02/10,3931.68,DMart  0412,DMart,Bhubaneshwar,UPI,electronics
+TXN0149,U016,2024-01-19,8713.46,Apple,Apple,BBSR,UPI,other
+TXN0150,U049,21-01-2024,14009.79,Big Bazaar *Order#99,Big Bazaar,Bhubaneswar,Card,transport
+TXN0151,U038,2024-02-15,8447.88,Big Bazaar,Big Bazaar,,Card,food
+TXN0152,U028,2024/01/18,10979.67,Amazon  purchase,,Bhubaneswar,Cash,other
+TXN0153,U019,10-01-2024,13516.13,Swiggy *Order#99,Swiggy,local shop,Cash,grocery
+TXN0154,U026,2024/02/17,28169.07,Amazon *Order#99,Amazon,local shop,Card,food
+TXN0155,U009,12-02-2024,13715.09,Starbucks *Order#99,Starbucks,Bhubaneshwar,Cash,Food & Beverage
+TXN0156,U048,2024/02/08,24850.4,Unknown Store *Order#99,Unknown Store,Bhubaneshwar,Card,other
+TXN0157,U044,15-01-2024,9237.26,DMart *Order#99,DMart,,UPI,electronics
+TXN0158,U037,2024-01-30,14418.66,Unknown Store *Order#99,Unknown Store,Online,UPI,transport
+TXN0159,U037,2024-03-30,577.93,Starbucks !!!,Starbucks,,UPI,refund
+TXN0160,U046,18/01/2024,9758.24,Starbucks *Order#99,Starbucks,Bhubaneshwar,UPI,other
+TXN0161,U023,2024/03/27,14530.56,Swiggy *Order#99,Swiggy,Bhubaneshwar,UPI,electronics
+TXN0162,U046,27-01-2024,14399.3,OLA ???,OLA,,Card,Food & Beverage
+TXN0163,U023,2024/01/19,8636.03,Local Shop,Local Shop,Online,Cash,refund
+TXN0164,U013,2024/03/09,20888.18,Big Bazaar *Order#99,Big Bazaar,local shop,UPI,transport
+TXN0165,U004,13-01-2024,21523.57,Big Bazaar ???,Big Bazaar,Bhubaneswar,Cash,grocery
+TXN0166,U042,01-03-2024,5991.68,Local Shop  purchase,Local Shop,,UPI,shopping
+TXN0167,U015,2024-03-09,12542.37,Unknown Store !!!,Unknown Store,Bhubaneswar,Card,grocery
+TXN0168,U003,2024/01/02,18087.46,OLA *Order#99,OLA,Online,Cash,refund
+TXN0169,U033,2024/02/29,24266.33,Flipkart !!!,Flipkart,,Card,food
+TXN0170,U019,13/03/2024,18332.53,DMart !!!,DMart,Online,Cash,Food & Beverage
+TXN0171,U012,18-01-2024,-28075.4,Amazon ???,Amazon,Online,Card,electronics
+TXN0172,U047,2024-03-14,19613.96,Unknown Store ???,,Bhubaneswar,Card,Food & Beverage
+TXN0173,U046,2024-02-09,27484.75,Swiggy  purchase,Swiggy,BBSR,UPI,refund
+TXN0174,U024,23-02-2024,16130.16,Unknown Store  fee,Unknown Store,BBSR,Cash,shopping
+TXN0175,U029,2024/03/08,27518.17,Swiggy,Swiggy,local shop,UPI,grocery
+TXN0176,U021,07-03-2024,20412.05,Flipkart,Flipkart,local shop,Card,refund
+TXN0177,U033,23-02-2024,1741.53,Flipkart *Order#99,Flipkart,,UPI,food
+TXN0178,U038,2024-01-10,10342.42,Big Bazaar  0412,Big Bazaar,Bhubaneswar,Card,
+TXN0179,U012,18-01-2024,29785.77,Local Shop ???,Local Shop,Online,Card,grocery
+TXN0180,U008,23-01-2024,3829.14,DMart *Order#99,DMart,Bhubaneswar,Card,Food & Beverage
+TXN0181,U025,30/01/2024,10391.33,Swiggy  0412,Swiggy,,UPI,
+TXN0182,U040,03/01/2024,2028.05,Local Shop !!!,Local Shop,,Cash,transport
+TXN0183,U026,26/02/2024,6525.9,Starbucks *Order#99,,local shop,Card,other
+TXN0184,U039,2024/03/27,9059.92,Unknown Store !!!,Unknown Store,BBSR,Card,food
+TXN0185,U038,23-01-2024,14873.67,Swiggy *Order#99,Swiggy,,Card,other
+TXN0186,U027,2024/01/20,5524.53,Local Shop  0412,Local Shop,BBSR,Card,grocery
+TXN0187,U004,12-03-2024,16723.03,Apple  0412,Apple,BBSR,Card,refund
+TXN0188,U006,09/03/2024,8061.16,DMart,DMart,Bhubaneswar,UPI,transport
+TXN0189,U014,2024/02/12,6362.12,Apple,Apple,,Card,transport
+TXN0190,U016,2024/03/11,8498.95,Local Shop  fee,Local Shop,Bhubaneshwar,Card,refund
+TXN0191,U007,2024/03/01,11127.44,Apple !!!,Apple,BBSR,Cash,electronics
+TXN0192,U038,15-03-2024,4580.82,Swiggy ???,Swiggy,BBSR,Card,other
+TXN0193,U049,03-03-2024,5055.33,OLA  0412,OLA,,Cash,food
+TXN0194,U003,2024-01-10,201.45,Swiggy  fee,Swiggy,Bhubaneswar,Cash,transport
+TXN0195,U030,2024-02-17,19135.48,Swiggy *Order#99,Swiggy,,Card,
+TXN0196,U036,2024-02-22,15887.24,Swiggy,Swiggy,Bhubaneswar,Cash,Food & Beverage
+TXN0197,U007,13/01/2024,5766.04,Flipkart !!!,Flipkart,Bhubaneshwar,Card,Food & Beverage
+TXN0198,U037,01/02/2024,20524.41,Apple ???,Apple,,UPI,Food & Beverage
+TXN0199,U036,2024-03-01,293.41,Local Shop  purchase,Local Shop,Online,Cash,shopping
+TXN0200,U003,30/01/2024,20771.71,Swiggy  fee,Swiggy,Bhubaneswar,Cash,food
+TXN0201,U021,03/01/2024,4334.3,Flipkart *Order#99,Flipkart,Bhubaneswar,Card,transport
+TXN0202,U025,2024/03/27,22670.72,Unknown Store  0412,Unknown Store,,UPI,other
+TXN0203,U007,25/02/2024,2289.79,Starbucks  fee,Starbucks,local shop,Card,other
+TXN0204,U041,04-02-2024,6851.87,Starbucks  0412,Starbucks,BBSR,Cash,Food & Beverage
+TXN0205,U050,2024/03/20,7401.03,Amazon  fee,Amazon,Online,Cash,grocery
+TXN0206,U021,2024-02-16,165.8,Local Shop,Local Shop,Bhubaneshwar,UPI,grocery
+TXN0207,U029,12-03-2024,797.59,Local Shop,,local shop,Card,food
+TXN0208,U027,2024-02-19,27035.07,OLA  purchase,OLA,local shop,Cash,Food & Beverage
+TXN0209,U009,2024/02/04,14798.79,Flipkart ???,Flipkart,Online,Card,shopping
+TXN0210,U017,01-02-2024,18503.9,DMart *Order#99,DMart,Bhubaneswar,Card,Food & Beverage
+TXN0211,U029,12-02-2024,24707.82,DMart  fee,DMart,Bhubaneshwar,Card,transport
+TXN0212,U021,23-01-2024,8750.53,Apple ???,Apple,local shop,UPI,electronics
+TXN0213,U024,15/01/2024,29917.98,Local Shop *Order#99,Local Shop,Bhubaneswar,Cash,transport
+TXN0214,U019,2024-03-29,25435.16,Apple  fee,Apple,BBSR,Cash,electronics
+TXN0215,U046,24-02-2024,13477.51,Flipkart,Flipkart,local shop,Cash,Food & Beverage
+TXN0216,U003,2024-02-16,23070.93,Swiggy,Swiggy,,Cash,
+TXN0217,U049,12-02-2024,326.33,Local Shop,Local Shop,local shop,Cash,transport
+TXN0218,U024,20-02-2024,20389.87,Apple  fee,Apple,Bhubaneswar,Card,Food & Beverage
+TXN0219,U008,2024/01/19,10298.57,Amazon ???,Amazon,Bhubaneshwar,Card,refund
+TXN0220,U005,2024-02-08,-21326.26,DMart  fee,DMart,Bhubaneswar,Cash,transport
+TXN0221,U012,11/03/2024,16799.87,Swiggy ???,Swiggy,Online,Cash,Food & Beverage
+TXN0222,U002,19/03/2024,17770.17,Local Shop  0412,Local Shop,BBSR,Card,shopping
+TXN0223,U007,09/03/2024,9786.29,Unknown Store ???,Unknown Store,Online,Cash,other
+TXN0224,U025,19-03-2024,3435.82,Unknown Store *Order#99,Unknown Store,BBSR,Cash,electronics
+TXN0225,U038,11/01/2024,3544.67,Unknown Store ???,Unknown Store,,UPI,Food & Beverage
+TXN0226,U009,14-03-2024,5580.75,Unknown Store  0412,Unknown Store,,UPI,refund
+TXN0227,U009,2024/01/24,13535.52,OLA  fee,OLA,Bhubaneswar,Card,Food & Beverage
+TXN0228,U033,24-03-2024,20544.05,Swiggy  0412,Swiggy,Online,UPI,food
+TXN0229,U019,2024/01/05,16132.88,Big Bazaar !!!,Big Bazaar,,Card,shopping
+TXN0230,U008,2024/02/04,-24680.1,Unknown Store *Order#99,Unknown Store,local shop,UPI,shopping
+TXN0231,U020,05-01-2024,10463.82,Big Bazaar ???,Big Bazaar,Bhubaneswar,UPI,other
+TXN0232,U041,24/02/2024,4185.66,Unknown Store *Order#99,Unknown Store,Bhubaneswar,Cash,electronics
+TXN0233,U035,2024/01/22,8786.11,Unknown Store  purchase,Unknown Store,local shop,Cash,grocery
+TXN0234,U004,05/02/2024,25983.7,Local Shop  purchase,Local Shop,BBSR,Cash,grocery
+TXN0235,U041,04-02-2024,13565.23,Unknown Store  0412,Unknown Store,Bhubaneswar,Card,electronics
+TXN0236,U030,2024/03/03,84.17,DMart *Order#99,DMart,,Card,other
+TXN0237,U035,20/02/2024,24747.18,Amazon  0412,Amazon,Bhubaneshwar,Card,grocery
+TXN0238,U032,2024-02-13,2996.25,Unknown Store,Unknown Store,Bhubaneswar,UPI,food
+TXN0239,U013,29/03/2024,9062.95,Local Shop  purchase,Local Shop,Bhubaneswar,Cash,shopping
+TXN0240,U043,24/03/2024,11896.28,DMart,DMart,BBSR,Card,shopping
+TXN0241,U014,2024-03-02,17814.45,Starbucks !!!,Starbucks,Bhubaneswar,Cash,shopping
+TXN0242,U045,17-01-2024,6876.12,Local Shop,Local Shop,Bhubaneswar,Card,electronics
+TXN0243,U025,18/01/2024,-15919.94,Flipkart,Flipkart,Online,Card,grocery
+TXN0244,U040,28-03-2024,6525.17,Local Shop  fee,Local Shop,Bhubaneswar,Cash,other
+TXN0245,U021,18/01/2024,19342.17,Local Shop ???,Local Shop,,Cash,food
+TXN0246,U014,07/03/2024,11758.61,OLA  purchase,OLA,BBSR,Card,transport
+TXN0247,U041,2024-03-17,-26662.85,Apple *Order#99,Apple,Bhubaneshwar,UPI,Food & Beverage
+TXN0248,U035,28/03/2024,14135.73,DMart  fee,,local shop,UPI,
+TXN0249,U003,08-01-2024,8601.77,Big Bazaar *Order#99,Big Bazaar,Online,Cash,grocery
+TXN0250,U006,2024-02-09,27628.54,OLA *Order#99,OLA,Bhubaneshwar,Card,shopping
+TXN0251,U045,25/02/2024,7341.95,OLA,OLA,local shop,Cash,grocery
+TXN0252,U001,31/03/2024,350.4,Amazon  purchase,Amazon,local shop,Cash,other
+TXN0253,U048,2024-02-04,26997.92,Flipkart  fee,Flipkart,local shop,UPI,shopping
+TXN0254,U030,2024/03/06,14993.3,Apple,Apple,Bhubaneshwar,UPI,shopping
+TXN0255,U048,2024-03-06,-25762.08,Big Bazaar,,Bhubaneshwar,Card,grocery
+TXN0256,U036,24-03-2024,9660.84,Starbucks !!!,Starbucks,Bhubaneshwar,UPI,shopping
+TXN0257,U044,07/01/2024,24132.1,Swiggy !!!,Swiggy,Bhubaneswar,Card,electronics
+TXN0258,U006,11-03-2024,11073.89,DMart,DMart,,Cash,other
+TXN0259,U032,26/01/2024,201.27,Unknown Store !!!,Unknown Store,Bhubaneshwar,Cash,food
+TXN0260,U001,25-03-2024,22145.1,DMart  fee,DMart,BBSR,Card,food
+TXN0261,U046,2024-02-05,27639.02,Flipkart,Flipkart,,Card,shopping
+TXN0262,U007,05/03/2024,24600.69,Unknown Store  purchase,Unknown Store,Online,Cash,transport
+TXN0263,U017,10-02-2024,24958.68,OLA  purchase,OLA,BBSR,UPI,grocery
+TXN0264,U007,2024-01-20,13492.51,Unknown Store !!!,Unknown Store,Bhubaneshwar,UPI,refund
+TXN0265,U008,12/01/2024,20584.78,OLA  fee,OLA,Bhubaneswar,UPI,other
+TXN0266,U006,2024/02/01,15408.66,Flipkart  0412,Flipkart,BBSR,UPI,refund
+TXN0267,U048,11/03/2024,13866.68,Swiggy,Swiggy,Bhubaneswar,UPI,transport
+TXN0268,U013,2024/02/21,18912.62,Flipkart  purchase,Flipkart,Bhubaneshwar,UPI,
+TXN0269,U013,23-03-2024,3872.46,Amazon  fee,Amazon,Bhubaneshwar,UPI,
+TXN0270,U004,22-01-2024,21735.68,Apple  fee,Apple,Online,UPI,grocery
+TXN0271,U018,27/02/2024,18427.06,OLA,OLA,Online,Card,refund
+TXN0272,U006,05-02-2024,12582.85,Starbucks !!!,Starbucks,BBSR,Cash,food
+TXN0273,U046,15-02-2024,23445.24,Local Shop *Order#99,Local Shop,Bhubaneshwar,Card,food
+TXN0274,U039,2024-01-29,23358.36,DMart  fee,DMart,local shop,Card,transport
+TXN0275,U007,01/02/2024,16015.35,Flipkart ???,Flipkart,BBSR,Cash,Food & Beverage
+TXN0276,U012,23/01/2024,9546.95,DMart *Order#99,DMart,local shop,UPI,other
+TXN0277,U037,19/01/2024,29640.31,Unknown Store  fee,Unknown Store,Bhubaneshwar,UPI,shopping
+TXN0278,U015,18/03/2024,-15798.19,Starbucks,Starbucks,BBSR,UPI,grocery
+TXN0279,U004,03/01/2024,21143.84,DMart *Order#99,DMart,local shop,Card,other
+TXN0280,U038,2024/01/13,9684.87,Local Shop ???,Local Shop,Online,Cash,other
+TXN0281,U046,2024/03/12,19969.29,Flipkart !!!,Flipkart,,Cash,grocery
+TXN0282,U045,14-03-2024,29828.55,Starbucks  fee,,local shop,Card,transport
+TXN0283,U007,04/03/2024,22362.85,Unknown Store ???,Unknown Store,BBSR,Cash,shopping
+TXN0284,U029,2024/01/02,7493.73,DMart !!!,DMart,Bhubaneswar,Cash,
+TXN0285,U029,23/02/2024,14797.53,Local Shop  0412,Local Shop,Bhubaneswar,Card,transport
+TXN0286,U029,2024-01-10,612.14,Flipkart ???,Flipkart,Bhubaneshwar,UPI,grocery
+TXN0287,U036,2024/01/12,29558.43,Amazon *Order#99,Amazon,Online,Cash,Food & Beverage
+TXN0288,U004,2024/01/13,29232.21,Flipkart !!!,Flipkart,,Cash,electronics
+TXN0289,U016,2024-01-13,17157.38,OLA  0412,OLA,Bhubaneshwar,UPI,electronics
+TXN0290,U031,2024-01-26,6216.52,Unknown Store,Unknown Store,Online,UPI,Food & Beverage
+TXN0291,U032,2024/03/25,19259.57,Apple,Apple,Online,Card,food
+TXN0292,U029,2024/02/29,25113.99,OLA !!!,OLA,,Cash,other
+TXN0293,U027,16/03/2024,1838.9,Swiggy *Order#99,Swiggy,local shop,Cash,refund
+TXN0294,U016,2024/03/01,11850.18,Unknown Store,,local shop,Cash,grocery
+TXN0295,U049,27/02/2024,29165.22,Amazon !!!,Amazon,Online,UPI,Food & Beverage
+TXN0296,U041,2024/01/19,27325.03,Big Bazaar ???,,Online,Cash,other
+TXN0297,U034,2024-02-28,21015.36,OLA  fee,OLA,Bhubaneswar,Card,shopping
+TXN0298,U037,2024/01/13,16073.65,Amazon  fee,Amazon,Online,Cash,refund
+TXN0299,U012,05-02-2024,18551.15,Starbucks !!!,Starbucks,Online,Card,food
+TXN0300,U018,2024-02-17,24523.4,Apple ???,Apple,Online,Cash,transport
+TXN0301,U020,2024/02/26,21866.69,Flipkart ???,,Online,UPI,Food & Beverage
+TXN0302,U049,2024/03/07,1695.61,Apple  fee,,,Cash,food
+TXN0303,U013,2024-01-26,1001.8,Flipkart !!!,Flipkart,BBSR,Card,refund
+TXN0304,U026,2024-03-22,926.59,Swiggy  purchase,Swiggy,BBSR,Card,other
+TXN0305,U011,2024-02-03,-833.24,DMart ???,DMart,BBSR,UPI,transport
+TXN0306,U042,2024-02-22,23411.31,OLA  fee,,BBSR,Cash,food
+TXN0307,U017,2024/03/18,29011.06,Big Bazaar  purchase,Big Bazaar,Online,Card,transport
+TXN0308,U020,27-03-2024,3078.34,Apple *Order#99,Apple,Bhubaneshwar,Cash,electronics
+TXN0309,U044,14-01-2024,10095.15,OLA,OLA,Bhubaneshwar,Card,electronics
+TXN0310,U010,07/03/2024,24164.84,Big Bazaar,Big Bazaar,,Card,food
+TXN0311,U019,03-02-2024,-11654.36,Apple  0412,Apple,local shop,UPI,transport
+TXN0312,U041,2024/03/01,9012.84,Swiggy *Order#99,Swiggy,local shop,UPI,refund
+TXN0313,U048,03/02/2024,26988.74,Flipkart  purchase,Flipkart,BBSR,Cash,Food & Beverage
+TXN0314,U024,2024/02/03,25537.9,DMart  0412,DMart,local shop,Cash,shopping
+TXN0315,U013,2024-03-05,20424.13,Apple  fee,Apple,BBSR,UPI,other
+TXN0316,U037,28/02/2024,25873.19,Local Shop ???,,Bhubaneshwar,Cash,other
+TXN0317,U001,2024/02/27,22838.19,Starbucks !!!,Starbucks,Online,UPI,Food & Beverage
+TXN0318,U026,24-02-2024,150.03,Local Shop  0412,Local Shop,Bhubaneswar,Card,transport
+TXN0319,U044,01/01/2024,20808.81,Starbucks !!!,Starbucks,Online,Cash,grocery
+TXN0320,U003,2024/02/08,21837.68,Amazon  0412,Amazon,,UPI,refund
+TXN0321,U049,25/01/2024,12107.72,DMart  fee,DMart,BBSR,UPI,grocery
+TXN0322,U024,2024-03-24,26297.56,Amazon  0412,Amazon,Bhubaneswar,Cash,shopping
+TXN0323,U004,2024-03-29,13334.99,Starbucks  0412,Starbucks,,UPI,food
+TXN0324,U027,2024-03-25,15614.07,OLA  purchase,OLA,Online,UPI,shopping
+TXN0325,U008,14-01-2024,18273.96,OLA !!!,OLA,BBSR,Card,electronics
+TXN0326,U003,11-03-2024,20649.24,Flipkart !!!,Flipkart,Bhubaneswar,Cash,shopping
+TXN0327,U043,04/03/2024,23387.99,Unknown Store,Unknown Store,Bhubaneshwar,Cash,electronics
+TXN0328,U030,2024-01-07,-5249.31,OLA  fee,OLA,,Card,shopping
+TXN0329,U049,2024-01-06,4160.45,Amazon  fee,Amazon,Online,Cash,shopping
+TXN0330,U022,2024-01-24,12013.5,DMart  0412,DMart,,Card,grocery
+TXN0331,U009,2024-03-30,4790.27,Amazon  fee,Amazon,local shop,Cash,Food & Beverage
+TXN0332,U040,04/01/2024,27612.74,DMart  0412,DMart,Bhubaneswar,UPI,other
+TXN0333,U046,27/03/2024,26195.58,Starbucks  purchase,Starbucks,local shop,UPI,transport
+TXN0334,U023,25-03-2024,25172.6,Apple !!!,Apple,Bhubaneswar,UPI,grocery
+TXN0335,U031,04/03/2024,22545.39,Swiggy,Swiggy,Bhubaneshwar,UPI,Food & Beverage
+TXN0336,U016,11-01-2024,24039.83,Local Shop  0412,Local Shop,Online,Card,refund
+TXN0337,U007,21-02-2024,-16718.36,Starbucks,,local shop,Cash,transport
+TXN0338,U022,2024-02-16,6695.31,Apple  fee,Apple,local shop,Cash,other
+TXN0339,U008,13/01/2024,10247.3,Apple,Apple,Bhubaneshwar,Cash,shopping
+TXN0340,U011,04/03/2024,21508.51,Starbucks  fee,Starbucks,local shop,UPI,Food & Beverage
+TXN0341,U030,2024/01/25,-22716.91,Big Bazaar,Big Bazaar,,Cash,refund
+TXN0342,U043,16/03/2024,140.09,Apple  0412,Apple,Online,Cash,grocery
+TXN0343,U012,2024-01-17,19729.08,Unknown Store  0412,Unknown Store,Online,Card,transport
+TXN0344,U026,2024/02/13,24145.86,OLA  0412,OLA,,Cash,other
+TXN0345,U041,28/01/2024,18728.79,Swiggy !!!,Swiggy,,UPI,grocery
+TXN0346,U035,2024/03/29,3471.0,Swiggy  purchase,Swiggy,local shop,Cash,electronics
+TXN0347,U001,2024-03-07,11432.3,Local Shop,,Bhubaneshwar,UPI,electronics
+TXN0348,U004,2024/03/29,-22610.28,Flipkart !!!,Flipkart,Bhubaneswar,Cash,transport
+TXN0349,U025,2024/01/31,19938.16,Swiggy  purchase,Swiggy,,Card,food
+TXN0350,U048,02/02/2024,26066.81,Starbucks *Order#99,Starbucks,BBSR,Cash,other
+TXN0351,U035,18/03/2024,21750.19,Unknown Store  fee,Unknown Store,,UPI,grocery
+TXN0352,U008,2024-02-18,8380.58,Swiggy  0412,Swiggy,Bhubaneshwar,UPI,grocery
+TXN0353,U010,2024-02-11,27972.13,Starbucks  fee,Starbucks,Online,Cash,shopping
+TXN0354,U034,29/01/2024,2054.61,DMart *Order#99,DMart,local shop,Card,transport
+TXN0355,U043,2024/02/12,8814.29,Big Bazaar ???,Big Bazaar,Online,Cash,food
+TXN0356,U043,14-02-2024,27135.85,Amazon !!!,Amazon,Bhubaneswar,Cash,Food & Beverage
+TXN0357,U025,2024/02/02,27340.96,Amazon,Amazon,local shop,Card,electronics
+TXN0358,U021,2024-03-06,5030.17,Big Bazaar,Big Bazaar,Bhubaneswar,Cash,transport
+TXN0359,U007,27-01-2024,24504.46,Local Shop  purchase,Local Shop,Bhubaneswar,Card,food
+TXN0360,U005,07/01/2024,7564.72,Amazon  fee,Amazon,Bhubaneshwar,Card,Food & Beverage
+TXN0361,U021,03-01-2024,-3557.99,Local Shop  purchase,Local Shop,Bhubaneswar,Cash,shopping
+TXN0362,U033,2024/01/14,20579.5,DMart  fee,DMart,Online,Card,food
+TXN0363,U011,09/03/2024,22405.15,Apple !!!,Apple,Bhubaneshwar,Cash,other
+TXN0364,U036,12/03/2024,1262.78,Starbucks,Starbucks,local shop,UPI,other
+TXN0365,U027,23/03/2024,5527.94,Big Bazaar !!!,Big Bazaar,Bhubaneswar,UPI,food
+TXN0366,U030,2024-03-23,20153.84,Swiggy ???,Swiggy,local shop,Card,other
+TXN0367,U043,24/03/2024,8561.26,Flipkart,Flipkart,Online,Card,electronics
+TXN0368,U010,2024/03/13,9496.83,Unknown Store  fee,,BBSR,UPI,Food & Beverage
+TXN0369,U024,2024/01/18,13890.82,OLA  0412,OLA,local shop,UPI,shopping
+TXN0370,U009,09/03/2024,22009.0,OLA ???,OLA,Bhubaneswar,Cash,Food & Beverage
+TXN0371,U014,2024/01/05,26820.64,Unknown Store *Order#99,Unknown Store,BBSR,Card,electronics
+TXN0372,U030,2024-03-05,-10922.33,Flipkart  0412,Flipkart,local shop,Cash,grocery
+TXN0373,U011,23/01/2024,21962.81,Apple  purchase,,Online,UPI,other
+TXN0374,U003,26/03/2024,27232.71,Big Bazaar *Order#99,Big Bazaar,Online,UPI,
+TXN0375,U007,2024/03/31,22259.87,DMart  fee,DMart,Online,Cash,shopping
+TXN0376,U017,18/02/2024,12181.21,Swiggy *Order#99,Swiggy,Online,Cash,
+TXN0377,U029,22/01/2024,15441.09,Flipkart,Flipkart,BBSR,Card,shopping
+TXN0378,U027,2024-02-12,20260.13,Big Bazaar  0412,Big Bazaar,,Card,
+TXN0379,U009,14/03/2024,-18889.92,Starbucks !!!,Starbucks,Bhubaneswar,UPI,grocery
+TXN0380,U026,2024-03-17,21841.95,Swiggy  purchase,Swiggy,BBSR,Card,refund
+TXN0381,U011,29-01-2024,4289.94,Apple *Order#99,Apple,local shop,Cash,grocery
+TXN0382,U030,2024-03-17,11352.56,DMart !!!,,local shop,Cash,grocery
+TXN0383,U007,23-01-2024,17998.42,Unknown Store *Order#99,Unknown Store,Bhubaneswar,UPI,grocery
+TXN0384,U035,01-01-2024,12626.31,Unknown Store *Order#99,Unknown Store,Online,UPI,refund
+TXN0385,U023,2024-03-16,4025.15,Local Shop  0412,Local Shop,Bhubaneswar,Card,Food & Beverage
+TXN0386,U013,2024-01-01,15680.99,OLA *Order#99,OLA,BBSR,Cash,Food & Beverage
+TXN0387,U007,20-01-2024,17565.25,DMart  purchase,DMart,local shop,Card,Food & Beverage
+TXN0388,U027,11-03-2024,11112.69,Big Bazaar !!!,Big Bazaar,Bhubaneshwar,Cash,Food & Beverage
+TXN0389,U043,16/01/2024,23495.45,Flipkart  0412,Flipkart,local shop,Card,food
+TXN0390,U025,2024-03-22,2741.75,Flipkart  fee,Flipkart,Online,UPI,transport
+TXN0391,U006,2024-03-18,11535.94,DMart  purchase,DMart,local shop,Card,food
+TXN0392,U041,04-03-2024,6059.2,Flipkart,Flipkart,Bhubaneshwar,UPI,
+TXN0393,U033,07/03/2024,-5092.79,Unknown Store *Order#99,Unknown Store,Bhubaneswar,UPI,electronics
+TXN0394,U023,26-03-2024,17586.54,Local Shop  0412,Local Shop,Bhubaneswar,UPI,other
+TXN0395,U018,29/01/2024,27892.12,DMart  0412,DMart,Online,Cash,shopping
+TXN0396,U019,2024-02-13,15403.47,Swiggy  fee,Swiggy,local shop,Card,Food & Beverage
+TXN0397,U031,2024/02/01,13770.86,Unknown Store  fee,Unknown Store,Bhubaneswar,Card,shopping
+TXN0398,U041,29/01/2024,9478.76,Local Shop  fee,Local Shop,Bhubaneswar,Cash,transport
+TXN0399,U006,2024/02/21,16641.0,OLA,OLA,BBSR,Cash,transport
+TXN0400,U048,26/01/2024,7269.27,Apple  purchase,Apple,BBSR,Cash,shopping
+TXN0401,U006,27-03-2024,208.64,Amazon *Order#99,Amazon,Online,Card,refund
+TXN0402,U018,03/03/2024,27481.04,Unknown Store  fee,Unknown Store,local shop,UPI,Food & Beverage
+TXN0403,U035,2024/01/05,25813.4,Apple  0412,Apple,Bhubaneswar,Cash,other
+TXN0404,U001,27/03/2024,17434.44,Starbucks  0412,Starbucks,Bhubaneshwar,UPI,transport
+TXN0405,U031,2024/03/19,5525.57,OLA ???,OLA,Bhubaneshwar,Card,electronics
+TXN0406,U012,14/03/2024,20583.5,Apple *Order#99,Apple,BBSR,Cash,Food & Beverage
+TXN0407,U010,20-01-2024,302.17,Big Bazaar  fee,Big Bazaar,,Cash,other
+TXN0408,U020,2024-02-02,2978.25,Apple  0412,Apple,Bhubaneshwar,Card,shopping
+TXN0409,U048,2024/02/12,10815.59,Apple ???,Apple,Bhubaneshwar,UPI,other
+TXN0410,U013,14/03/2024,8545.42,Unknown Store  fee,Unknown Store,,Card,Food & Beverage
+TXN0411,U019,29/02/2024,5035.59,Unknown Store  fee,Unknown Store,,Cash,shopping
+TXN0412,U011,13/02/2024,9513.18,Amazon ???,Amazon,,Card,refund
+TXN0413,U048,16-03-2024,5027.87,DMart  0412,DMart,BBSR,Cash,shopping
+TXN0414,U011,2024-02-20,1923.13,Big Bazaar,Big Bazaar,Bhubaneswar,Card,shopping
+TXN0415,U017,20/03/2024,19648.43,Amazon,Amazon,BBSR,Cash,grocery
+TXN0416,U034,2024-01-22,19909.84,Flipkart,Flipkart,Online,Card,electronics
+TXN0417,U029,18/01/2024,17931.55,Swiggy *Order#99,Swiggy,local shop,Card,electronics
+TXN0418,U031,10/03/2024,2695.73,DMart  fee,DMart,BBSR,Card,
+TXN0419,U049,2024/01/18,-14081.25,Swiggy ???,Swiggy,Online,Card,
+TXN0420,U019,17/03/2024,226.47,Local Shop  fee,Local Shop,local shop,Card,grocery
+TXN0421,U025,2024/01/29,12672.96,Local Shop,Local Shop,local shop,Cash,electronics
+TXN0422,U018,22/02/2024,2063.23,Swiggy  fee,Swiggy,Online,Cash,refund
+TXN0423,U021,03/01/2024,-29091.79,Big Bazaar,Big Bazaar,Bhubaneshwar,Card,refund
+TXN0424,U015,12/01/2024,14812.45,Starbucks,Starbucks,Online,Card,food
+TXN0425,U006,2024-01-19,23271.83,DMart ???,DMart,BBSR,Card,food
+TXN0426,U050,01-02-2024,29249.42,Amazon  fee,Amazon,BBSR,Card,shopping
+TXN0427,U043,27-01-2024,20446.46,Swiggy  0412,Swiggy,,Cash,
+TXN0428,U034,2024/01/16,19159.22,Swiggy  0412,Swiggy,,UPI,transport
+TXN0429,U021,02/01/2024,8290.24,Local Shop  fee,Local Shop,Bhubaneswar,UPI,refund
+TXN0430,U010,2024-02-17,4739.38,Unknown Store !!!,Unknown Store,,UPI,grocery
+TXN0431,U007,17-01-2024,9509.02,Swiggy !!!,Swiggy,Bhubaneshwar,Card,food
+TXN0432,U023,2024/01/18,14564.21,Local Shop,Local Shop,,Card,grocery
+TXN0433,U023,11-02-2024,26031.18,Swiggy ???,Swiggy,BBSR,UPI,refund
+TXN0434,U017,2024/03/10,31.59,OLA  0412,OLA,BBSR,UPI,other
+TXN0435,U016,2024-02-11,29015.22,Unknown Store  purchase,Unknown Store,,Card,grocery
+TXN0436,U019,11-02-2024,9667.5,Unknown Store  purchase,Unknown Store,Bhubaneswar,UPI,food
+TXN0437,U007,03/03/2024,964.2,Big Bazaar,Big Bazaar,Online,Cash,electronics
+TXN0438,U024,2024-01-29,27907.03,Starbucks,Starbucks,Bhubaneswar,Card,food
+TXN0439,U036,2024/02/23,21255.93,DMart  fee,DMart,Bhubaneswar,Cash,electronics
+TXN0440,U014,2024-03-07,21757.91,Amazon,Amazon,local shop,Cash,grocery
+TXN0441,U048,12-03-2024,3174.37,Swiggy  purchase,Swiggy,Online,Cash,shopping
+TXN0442,U012,11-03-2024,10132.01,Flipkart *Order#99,Flipkart,Online,Card,other
+TXN0443,U027,22-03-2024,21778.77,DMart  fee,DMart,BBSR,Card,electronics
+TXN0444,U029,27-02-2024,21792.14,DMart,DMart,local shop,UPI,electronics
+TXN0445,U020,29/01/2024,9453.99,Starbucks  fee,Starbucks,Bhubaneshwar,Cash,grocery
+TXN0446,U003,2024/02/28,4160.86,Amazon !!!,Amazon,BBSR,Card,shopping
+TXN0447,U026,13/03/2024,2325.27,Unknown Store  purchase,Unknown Store,Online,Cash,shopping
+TXN0448,U042,2024-02-08,24252.15,Unknown Store  purchase,Unknown Store,Bhubaneshwar,Card,Food & Beverage
+TXN0449,U008,2024-01-30,23324.78,Local Shop  purchase,Local Shop,Bhubaneswar,Card,grocery
+TXN0450,U033,30/03/2024,1525.09,DMart !!!,DMart,Online,Cash,shopping
+TXN0451,U028,07-02-2024,3974.35,Big Bazaar !!!,Big Bazaar,Bhubaneswar,Cash,shopping
+TXN0452,U033,25/02/2024,4054.77,Local Shop  fee,Local Shop,,Cash,transport
+TXN0453,U005,04-02-2024,20545.29,Big Bazaar ???,Big Bazaar,Online,Card,transport
+TXN0454,U023,2024-03-17,9151.52,DMart  fee,DMart,Online,Cash,food
+TXN0455,U013,2024/03/28,22734.44,Big Bazaar !!!,Big Bazaar,Bhubaneswar,UPI,grocery
+TXN0456,U001,2024-02-13,-13507.35,OLA ???,OLA,local shop,UPI,electronics
+TXN0457,U031,20/03/2024,-20965.67,Swiggy  purchase,Swiggy,,Cash,
+TXN0458,U004,06/02/2024,20898.84,Flipkart  fee,Flipkart,Bhubaneswar,UPI,electronics
+TXN0459,U007,2024/01/03,26503.24,DMart  fee,DMart,local shop,Cash,other
+TXN0460,U039,2024-03-09,5974.27,Apple !!!,Apple,,UPI,
+TXN0461,U020,12-02-2024,-22334.28,Swiggy  0412,Swiggy,Bhubaneshwar,Cash,electronics
+TXN0462,U041,02-02-2024,29710.94,Starbucks  fee,Starbucks,BBSR,UPI,Food & Beverage
+TXN0463,U006,18/02/2024,7218.42,Flipkart  0412,Flipkart,local shop,Card,grocery
+TXN0464,U042,18/01/2024,4151.91,Big Bazaar  fee,Big Bazaar,BBSR,Card,grocery
+TXN0465,U011,2024-02-10,15993.52,Unknown Store *Order#99,Unknown Store,BBSR,Cash,
+TXN0466,U027,2024/02/22,22370.84,DMart  0412,DMart,,Card,transport
+TXN0467,U009,2024-01-24,29578.81,Amazon  fee,Amazon,local shop,UPI,transport
+TXN0468,U023,11-01-2024,15074.71,Starbucks !!!,Starbucks,Bhubaneshwar,UPI,refund
+TXN0469,U009,21/01/2024,976.56,Apple !!!,,Bhubaneshwar,Card,transport
+TXN0470,U005,23-01-2024,18515.61,Big Bazaar  fee,Big Bazaar,BBSR,Card,food
+TXN0471,U048,2024/02/18,18349.03,Unknown Store  0412,Unknown Store,local shop,Cash,food
+TXN0472,U007,27-02-2024,26334.23,Swiggy  fee,Swiggy,local shop,Card,food
+TXN0473,U025,2024-03-07,8742.47,Swiggy !!!,Swiggy,Bhubaneshwar,Card,electronics
+TXN0474,U004,29/03/2024,24898.51,Unknown Store  0412,Unknown Store,Bhubaneswar,UPI,grocery
+TXN0475,U027,11-02-2024,5374.57,Local Shop,Local Shop,BBSR,Card,other
+TXN0476,U046,2024-01-16,21189.74,Flipkart,,,Card,grocery
+TXN0477,U036,2024-02-18,5134.84,Local Shop  fee,Local Shop,BBSR,UPI,grocery
+TXN0478,U027,2024/02/09,23061.23,Starbucks  purchase,Starbucks,Bhubaneswar,UPI,food
+TXN0479,U049,2024-02-02,14933.85,Unknown Store  0412,Unknown Store,local shop,Card,refund
+TXN0480,U027,2024-02-26,18007.06,Apple *Order#99,Apple,local shop,Cash,transport
+TXN0481,U012,2024-01-19,10477.1,Starbucks  purchase,,local shop,Cash,shopping
+TXN0482,U007,23/02/2024,20165.99,Starbucks !!!,Starbucks,local shop,Cash,grocery
+TXN0483,U048,2024/03/15,2802.86,Apple,Apple,Online,UPI,shopping
+TXN0484,U031,2024-01-18,25783.64,OLA  purchase,OLA,BBSR,Cash,food
+TXN0485,U037,2024-03-21,21724.98,Amazon  0412,Amazon,,Card,other
+TXN0486,U034,2024/03/14,18432.56,OLA !!!,OLA,Online,Card,transport
+TXN0487,U013,2024-01-01,13951.92,OLA,OLA,BBSR,Cash,Food & Beverage
+TXN0488,U022,14/02/2024,19222.14,Starbucks,Starbucks,Bhubaneswar,Card,other
+TXN0489,U008,2024/03/28,11887.52,Starbucks ???,Starbucks,BBSR,UPI,other
+TXN0490,U031,05/01/2024,4670.03,Apple  0412,Apple,Bhubaneshwar,Card,Food & Beverage
+TXN0491,U034,2024/02/08,16081.21,Starbucks *Order#99,Starbucks,Bhubaneshwar,UPI,electronics
+TXN0492,U022,18/02/2024,18174.62,Starbucks *Order#99,Starbucks,Bhubaneshwar,Cash,food
+TXN0493,U027,12-01-2024,11153.79,OLA !!!,OLA,local shop,Card,other
+TXN0494,U050,2024-01-26,15184.78,Starbucks  0412,Starbucks,BBSR,UPI,refund
+TXN0495,U020,11/02/2024,26155.25,Swiggy  fee,Swiggy,,UPI,food
+TXN0496,U025,2024-03-07,-9336.33,Apple,Apple,Bhubaneswar,Card,food
+TXN0497,U034,2024/03/25,17331.02,Amazon,Amazon,Bhubaneshwar,UPI,electronics
+TXN0498,U021,2024-02-26,4488.13,Swiggy ???,,local shop,Cash,transport
+TXN0499,U023,2024/03/11,4255.29,Swiggy ???,Swiggy,BBSR,UPI,other
+TXN0500,U029,07/01/2024,14127.36,Swiggy,Swiggy,Bhubaneswar,UPI,grocery
+TXN0501,U038,21-03-2024,10675.17,Unknown Store *Order#99,Unknown Store,,Cash,refund
+TXN0502,U009,12-01-2024,13672.97,Unknown Store,Unknown Store,Online,Card,transport
+TXN0503,U040,2024/02/03,5508.76,Flipkart  0412,Flipkart,Bhubaneshwar,Card,shopping
+TXN0504,U008,14-02-2024,25374.53,Apple  0412,Apple,local shop,UPI,Food & Beverage
+TXN0505,U021,2024-03-12,9070.52,Amazon  fee,Amazon,BBSR,Cash,grocery
+TXN0506,U025,2024/01/09,24419.33,Apple !!!,Apple,Online,Cash,transport
+TXN0507,U043,2024-03-26,27926.59,Flipkart  purchase,Flipkart,local shop,Cash,shopping
+TXN0508,U012,09-02-2024,17951.79,Apple,Apple,Online,Card,food
+TXN0509,U014,2024-01-18,4410.29,Amazon  fee,Amazon,Online,Cash,transport
+TXN0510,U044,2024/02/10,23832.46,Big Bazaar *Order#99,Big Bazaar,Online,Cash,other
+TXN0511,U038,02-01-2024,3835.4,Amazon  fee,Amazon,local shop,UPI,
+TXN0512,U023,2024/01/15,945.23,Swiggy  fee,Swiggy,,Card,Food & Beverage
+TXN0513,U028,10/03/2024,5210.57,Local Shop  purchase,Local Shop,Bhubaneshwar,Card,grocery
+TXN0514,U001,2024-01-10,21642.96,Flipkart !!!,Flipkart,BBSR,UPI,Food & Beverage
+TXN0515,U045,18-03-2024,5402.12,Apple *Order#99,Apple,Online,Card,grocery
+TXN0516,U039,01-01-2024,21930.09,Local Shop  fee,Local Shop,local shop,Cash,food
+TXN0517,U031,2024/03/31,17412.26,Unknown Store,,,Cash,electronics
+TXN0518,U034,2024-01-11,14178.82,Apple !!!,Apple,Bhubaneswar,Cash,electronics
+TXN0519,U004,2024-02-13,13626.5,Unknown Store  0412,Unknown Store,Bhubaneshwar,Card,electronics
+TXN0520,U011,2024/01/05,23552.8,OLA  purchase,OLA,local shop,UPI,electronics
+TXN0521,U002,06-02-2024,3813.37,Unknown Store,Unknown Store,Bhubaneshwar,UPI,electronics
+TXN0522,U001,15/01/2024,22171.63,OLA *Order#99,OLA,BBSR,Card,transport
+TXN0523,U012,2024-03-08,29522.31,Apple ???,Apple,BBSR,Card,Food & Beverage
+TXN0524,U016,25-03-2024,19130.86,Local Shop  purchase,Local Shop,Bhubaneshwar,UPI,shopping
+TXN0525,U011,29-02-2024,9048.0,Starbucks  0412,Starbucks,local shop,UPI,Food & Beverage
+TXN0526,U017,19-01-2024,8670.88,Apple,Apple,Bhubaneshwar,Cash,food
+TXN0527,U035,2024/03/22,12959.26,Amazon  fee,Amazon,Bhubaneshwar,Card,shopping
+TXN0528,U042,15-03-2024,23196.8,OLA  0412,OLA,local shop,UPI,grocery
+TXN0529,U036,2024-01-02,2047.88,DMart  fee,DMart,,Card,electronics
+TXN0530,U013,2024-01-05,2767.32,OLA *Order#99,OLA,BBSR,Cash,shopping
+TXN0531,U039,17-01-2024,22918.09,Amazon  purchase,Amazon,BBSR,UPI,electronics
+TXN0532,U030,2024-03-25,13608.78,OLA  purchase,OLA,,Cash,other
+TXN0533,U011,2024/01/10,1881.0,OLA  fee,OLA,Bhubaneshwar,Card,shopping
+TXN0534,U013,19-03-2024,19368.04,Apple !!!,Apple,Online,UPI,shopping
+TXN0535,U046,2024-02-03,2196.86,Apple,Apple,Online,UPI,grocery
+TXN0536,U003,26-03-2024,4556.71,Starbucks ???,Starbucks,Bhubaneswar,Cash,refund
+TXN0537,U028,2024-02-21,6783.15,Apple *Order#99,Apple,Online,UPI,other
+TXN0538,U044,08-02-2024,18971.85,DMart,,local shop,Card,refund
+TXN0539,U042,26/01/2024,1189.54,OLA *Order#99,OLA,,Card,other
+TXN0540,U006,21-03-2024,-5692.04,Apple  purchase,,local shop,UPI,shopping
+TXN0541,U042,09-02-2024,28948.97,Swiggy *Order#99,Swiggy,Bhubaneswar,UPI,other
+TXN0542,U026,16/01/2024,19618.96,Starbucks  fee,Starbucks,local shop,UPI,transport
+TXN0543,U003,19-01-2024,581.7,Amazon  purchase,Amazon,BBSR,Cash,food
+TXN0544,U041,2024/01/07,23812.98,Flipkart  fee,Flipkart,local shop,UPI,shopping
+TXN0545,U032,17/03/2024,24135.56,Amazon,Amazon,,Cash,shopping
+TXN0546,U035,2024/01/18,28941.12,Unknown Store  fee,,BBSR,Card,electronics
+TXN0547,U049,23/02/2024,11104.12,Flipkart  purchase,Flipkart,local shop,UPI,Food & Beverage
+TXN0548,U002,2024-03-03,226.65,Flipkart,Flipkart,local shop,Card,refund
+TXN0549,U014,2024/01/19,13518.07,Flipkart *Order#99,Flipkart,,UPI,refund
+TXN0550,U006,2024/03/21,12569.39,Unknown Store ???,Unknown Store,local shop,UPI,transport
+TXN0551,U050,21/03/2024,1601.54,Apple ???,Apple,Online,Card,food
+TXN0552,U042,2024/02/16,13045.8,Starbucks !!!,Starbucks,Online,UPI,food
+TXN0553,U012,2024-01-21,15451.96,Swiggy  0412,Swiggy,Online,Cash,Food & Beverage
+TXN0554,U048,2024/03/27,23371.47,Big Bazaar !!!,,,Card,Food & Beverage
+TXN0555,U005,01-03-2024,26715.76,Big Bazaar,Big Bazaar,Online,UPI,grocery
+TXN0556,U047,2024/01/25,6074.3,Apple ???,Apple,Bhubaneswar,Card,refund
+TXN0557,U027,2024/01/22,26593.41,Apple !!!,Apple,,Cash,transport
+TXN0558,U027,07-03-2024,29869.97,Amazon  fee,Amazon,Bhubaneshwar,UPI,transport
+TXN0559,U021,25/02/2024,28388.11,Big Bazaar *Order#99,Big Bazaar,Online,UPI,
+TXN0560,U047,2024-03-05,15938.34,Apple  0412,Apple,Bhubaneswar,Card,shopping
+TXN0561,U049,02-01-2024,3990.03,Swiggy !!!,Swiggy,Bhubaneswar,UPI,electronics
+TXN0562,U046,2024-02-28,13918.18,Flipkart  0412,Flipkart,BBSR,Card,food
+TXN0563,U025,2024/03/29,991.1,Amazon *Order#99,Amazon,local shop,Cash,transport
+TXN0564,U040,2024-02-12,28360.21,Amazon *Order#99,Amazon,Bhubaneswar,Card,food
+TXN0565,U024,2024-01-23,21283.02,DMart *Order#99,DMart,BBSR,Cash,refund
+TXN0566,U045,27/01/2024,10587.82,Unknown Store ???,Unknown Store,Bhubaneshwar,UPI,other
+TXN0567,U032,2024-03-05,21297.66,Apple  0412,Apple,Bhubaneshwar,Card,shopping
+TXN0568,U030,2024-01-12,26939.4,Big Bazaar  0412,Big Bazaar,Bhubaneswar,UPI,grocery
+TXN0569,U010,2024-01-27,12501.93,Apple ???,Apple,Online,Card,food
+TXN0570,U013,2024-01-09,24061.65,OLA  fee,OLA,Bhubaneshwar,Card,other
+TXN0571,U038,26-03-2024,9129.43,Apple  0412,Apple,BBSR,Card,other
+TXN0572,U050,07/01/2024,8538.62,OLA ???,OLA,BBSR,Cash,grocery
+TXN0573,U046,29/03/2024,-7144.78,Flipkart !!!,Flipkart,BBSR,Card,grocery
+TXN0574,U036,2024-03-31,9515.14,Big Bazaar  purchase,Big Bazaar,local shop,UPI,shopping
+TXN0575,U026,04/03/2024,27835.06,Starbucks  0412,Starbucks,local shop,Cash,electronics
+TXN0576,U019,14/03/2024,16961.29,Apple  fee,Apple,,UPI,food
+TXN0577,U044,2024-03-11,753.62,Flipkart ???,Flipkart,Bhubaneshwar,UPI,transport
+TXN0578,U034,2024/01/29,686.23,Unknown Store !!!,Unknown Store,,UPI,Food & Beverage
+TXN0579,U032,2024-02-10,10838.34,Big Bazaar  purchase,Big Bazaar,Bhubaneshwar,Card,electronics
+TXN0580,U023,09-02-2024,16835.38,DMart  fee,DMart,,Card,electronics
+TXN0581,U047,24-02-2024,25066.99,Flipkart !!!,Flipkart,Bhubaneshwar,Card,other
+TXN0582,U038,2024-02-18,12289.72,Amazon,Amazon,local shop,Card,grocery
+TXN0583,U012,2024/02/18,14722.66,Big Bazaar *Order#99,Big Bazaar,local shop,Card,refund
+TXN0584,U002,01/01/2024,9012.08,Big Bazaar ???,Big Bazaar,Bhubaneswar,Cash,electronics
+TXN0585,U012,03/03/2024,3589.45,Local Shop,Local Shop,Bhubaneswar,Cash,refund
+TXN0586,U028,03-02-2024,24550.24,Unknown Store  purchase,Unknown Store,Bhubaneswar,Card,food
+TXN0587,U021,29/02/2024,4907.63,Flipkart ???,Flipkart,Bhubaneshwar,UPI,shopping
+TXN0588,U013,21/03/2024,2844.31,Swiggy  fee,Swiggy,Bhubaneshwar,Cash,electronics
+TXN0589,U007,2024/03/09,4320.09,DMart  fee,DMart,Online,Card,grocery
+TXN0590,U014,20/01/2024,5660.62,Amazon  fee,Amazon,local shop,Cash,shopping
+TXN0591,U030,2024-01-10,-3945.65,Local Shop  fee,Local Shop,,Card,refund
+TXN0592,U034,13/02/2024,9147.48,Unknown Store  purchase,Unknown Store,BBSR,Cash,transport
+TXN0593,U009,27/01/2024,12749.9,OLA,OLA,Bhubaneswar,Card,food
+TXN0594,U007,2024-01-05,3576.48,Big Bazaar  0412,,,UPI,shopping
+TXN0595,U014,16/03/2024,-20121.31,Unknown Store !!!,Unknown Store,,Card,other
+TXN0596,U011,05/03/2024,17111.36,DMart *Order#99,DMart,Bhubaneswar,Cash,transport
+TXN0597,U011,2024-03-09,2969.58,OLA  purchase,OLA,,Card,grocery
+TXN0598,U044,14/01/2024,10651.12,Apple  fee,Apple,BBSR,Card,other
+TXN0599,U030,15/01/2024,22870.59,Amazon  0412,Amazon,Bhubaneswar,UPI,shopping
+TXN0600,U019,2024/02/28,29285.61,Local Shop  purchase,Local Shop,Bhubaneshwar,Card,shopping
+TXN0601,U044,17/02/2024,29961.71,Apple,Apple,Online,Cash,shopping
+TXN0602,U010,20-02-2024,17720.81,Amazon  purchase,Amazon,BBSR,UPI,transport
+TXN0603,U013,17-03-2024,6993.76,DMart,DMart,,Cash,Food & Beverage
+TXN0604,U031,26-03-2024,15347.32,DMart  0412,DMart,Bhubaneswar,Card,transport
+TXN0605,U002,2024-01-13,2056.18,Flipkart  fee,Flipkart,Online,Cash,grocery
+TXN0606,U040,2024-03-20,2304.75,OLA  fee,OLA,Online,UPI,refund
+TXN0607,U033,2024/02/03,25791.57,Apple  fee,Apple,Bhubaneswar,Card,shopping
+TXN0608,U029,10-02-2024,-13795.09,Local Shop  0412,Local Shop,Bhubaneshwar,Cash,Food & Beverage
+TXN0609,U020,19-02-2024,3290.37,Flipkart  fee,Flipkart,,Cash,refund
+TXN0610,U011,2024-03-05,7909.1,Swiggy  0412,Swiggy,,Card,electronics
+TXN0611,U004,2024-01-04,25109.66,DMart !!!,DMart,Bhubaneswar,Cash,shopping
+TXN0612,U023,15-02-2024,1702.91,Local Shop ???,Local Shop,Bhubaneshwar,Cash,shopping
+TXN0613,U008,13/02/2024,-16157.12,OLA,OLA,Online,Cash,Food & Beverage
+TXN0614,U002,30-03-2024,676.87,OLA *Order#99,OLA,Bhubaneshwar,Cash,refund
+TXN0615,U045,27/03/2024,14906.97,Amazon ???,Amazon,BBSR,Cash,Food & Beverage
+TXN0616,U032,2024-03-22,25511.53,Big Bazaar  fee,Big Bazaar,Bhubaneshwar,Cash,transport
+TXN0617,U048,2024-01-12,10111.77,Unknown Store *Order#99,Unknown Store,Online,Card,shopping
+TXN0618,U033,08-02-2024,16203.03,OLA  purchase,OLA,local shop,Cash,grocery
+TXN0619,U041,31/03/2024,14981.12,Starbucks *Order#99,Starbucks,Online,Card,Food & Beverage
+TXN0620,U047,2024-03-21,6027.43,Unknown Store *Order#99,Unknown Store,,Cash,Food & Beverage
+TXN0621,U021,09/01/2024,12379.03,Local Shop  fee,Local Shop,Bhubaneshwar,Cash,Food & Beverage
+TXN0622,U008,20/01/2024,7375.14,Big Bazaar,Big Bazaar,local shop,Card,food
+TXN0623,U011,04/02/2024,7759.32,Big Bazaar,Big Bazaar,BBSR,Cash,refund
+TXN0624,U004,2024/01/11,8946.4,Starbucks *Order#99,Starbucks,Bhubaneshwar,Cash,shopping
+TXN0625,U047,18/01/2024,17133.49,Local Shop,Local Shop,,Cash,electronics
+TXN0626,U006,2024-01-31,24202.55,Apple  fee,Apple,Online,Cash,Food & Beverage
+TXN0627,U010,14/01/2024,29098.01,Big Bazaar !!!,Big Bazaar,local shop,UPI,other
+TXN0628,U021,10-03-2024,20485.33,Amazon  0412,Amazon,BBSR,Card,other
+TXN0629,U002,2024-03-23,22186.1,OLA  fee,,,UPI,Food & Beverage
+TXN0630,U041,2024/03/30,20560.6,OLA  fee,OLA,Online,Card,
+TXN0631,U017,2024-02-08,22702.47,Local Shop  fee,Local Shop,BBSR,Card,Food & Beverage
+TXN0632,U018,11-01-2024,22110.89,Starbucks  0412,Starbucks,Online,UPI,electronics
+TXN0633,U005,15-02-2024,21879.66,Swiggy *Order#99,Swiggy,,UPI,grocery
+TXN0634,U042,2024-01-18,6010.26,Apple  0412,Apple,Bhubaneswar,UPI,grocery
+TXN0635,U044,2024/02/22,14356.18,Unknown Store  0412,Unknown Store,,Cash,electronics
+TXN0636,U006,2024/02/23,11810.89,Big Bazaar !!!,Big Bazaar,local shop,UPI,
+TXN0637,U036,23/03/2024,29224.09,Starbucks,Starbucks,BBSR,UPI,Food & Beverage
+TXN0638,U017,2024-01-20,5111.99,Unknown Store ???,,local shop,Card,refund
+TXN0639,U008,29/01/2024,28382.11,Apple !!!,Apple,,Card,Food & Beverage
+TXN0640,U039,2024/01/28,20318.89,Big Bazaar  purchase,Big Bazaar,BBSR,UPI,electronics
+TXN0641,U040,27/02/2024,17491.26,Big Bazaar ???,,Online,UPI,Food & Beverage
+TXN0642,U046,19-02-2024,17919.91,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Card,refund
+TXN0643,U039,2024-03-26,7617.17,DMart,DMart,Online,Cash,food
+TXN0644,U012,03/02/2024,14790.27,Unknown Store *Order#99,Unknown Store,Bhubaneswar,Card,Food & Beverage
+TXN0645,U017,2024/01/15,29355.71,Flipkart,Flipkart,Bhubaneshwar,Cash,Food & Beverage
+TXN0646,U017,2024/03/19,9397.18,OLA *Order#99,OLA,Online,UPI,refund
+TXN0647,U013,2024-01-20,5502.41,Starbucks !!!,Starbucks,Online,Card,refund
+TXN0648,U029,15-02-2024,14794.73,Starbucks  0412,Starbucks,Bhubaneswar,Card,electronics
+TXN0649,U011,2024/03/06,26727.93,Flipkart *Order#99,Flipkart,Bhubaneswar,Cash,grocery
+TXN0650,U005,01-02-2024,2838.21,Local Shop  purchase,Local Shop,,UPI,shopping
+TXN0651,U010,2024-01-04,24922.67,DMart  0412,DMart,Bhubaneshwar,Cash,other
+TXN0652,U042,20-03-2024,28423.08,Starbucks ???,Starbucks,local shop,UPI,food
+TXN0653,U021,2024-01-08,28557.49,OLA *Order#99,OLA,BBSR,UPI,Food & Beverage
+TXN0654,U002,27/01/2024,23386.98,Amazon  0412,Amazon,,UPI,refund
+TXN0655,U048,09/02/2024,19968.95,Local Shop ???,Local Shop,Online,Card,refund
+TXN0656,U037,17-03-2024,22697.15,OLA,OLA,Online,Cash,food
+TXN0657,U022,29/02/2024,20590.23,Swiggy  purchase,Swiggy,,Cash,electronics
+TXN0658,U028,11-01-2024,4466.71,Apple ???,Apple,BBSR,Cash,food
+TXN0659,U005,2024-01-06,12753.16,Swiggy *Order#99,Swiggy,local shop,Card,shopping
+TXN0660,U002,15-01-2024,23587.45,Swiggy !!!,,Online,Cash,refund
+TXN0661,U040,2024/02/03,24302.08,Apple  fee,,local shop,Card,shopping
+TXN0662,U035,2024-01-03,3509.18,Local Shop  0412,Local Shop,,Card,refund
+TXN0663,U040,2024/03/19,20217.36,OLA  purchase,OLA,Bhubaneshwar,UPI,food
+TXN0664,U008,03/01/2024,814.19,Big Bazaar  fee,Big Bazaar,BBSR,Card,transport
+TXN0665,U020,29/02/2024,12662.16,Amazon  0412,Amazon,,Cash,refund
+TXN0666,U002,27/02/2024,8851.99,Apple !!!,Apple,Bhubaneshwar,UPI,Food & Beverage
+TXN0667,U032,2024/03/15,14630.02,Local Shop,Local Shop,local shop,Cash,refund
+TXN0668,U046,2024-01-08,17296.34,Big Bazaar  0412,Big Bazaar,,Card,shopping
+TXN0669,U040,2024/03/23,-20928.46,Apple  0412,Apple,BBSR,Card,transport
+TXN0670,U015,2024/03/16,25605.08,Swiggy *Order#99,Swiggy,Bhubaneshwar,Cash,Food & Beverage
+TXN0671,U031,21/01/2024,20724.02,DMart ???,DMart,BBSR,UPI,refund
+TXN0672,U027,2024/03/04,-6290.89,Amazon !!!,,Bhubaneshwar,Card,grocery
+TXN0673,U003,2024/01/09,3427.94,Swiggy  0412,Swiggy,Online,Card,other
+TXN0674,U050,2024/03/12,25603.71,Starbucks !!!,Starbucks,Bhubaneswar,Cash,refund
+TXN0675,U049,2024-01-15,18321.07,Apple  fee,Apple,local shop,UPI,grocery
+TXN0676,U014,16/02/2024,8770.77,Amazon  purchase,Amazon,,UPI,other
+TXN0677,U009,16/01/2024,29089.4,DMart  0412,,Online,Card,grocery
+TXN0678,U018,17-02-2024,18886.92,Amazon ???,Amazon,local shop,Card,grocery
+TXN0679,U027,22-02-2024,15489.5,Local Shop  fee,Local Shop,Online,UPI,shopping
+TXN0680,U022,10-02-2024,4938.1,Amazon  fee,Amazon,,Cash,food
+TXN0681,U019,23-02-2024,21026.7,Swiggy  purchase,Swiggy,Bhubaneshwar,Card,
+TXN0682,U034,19/03/2024,12124.1,OLA  purchase,OLA,local shop,Cash,other
+TXN0683,U050,2024/01/26,1118.74,Local Shop,Local Shop,,UPI,electronics
+TXN0684,U006,2024/03/06,10227.86,Big Bazaar *Order#99,,local shop,Cash,electronics
+TXN0685,U033,2024-01-15,11195.64,Local Shop  fee,Local Shop,Bhubaneswar,Cash,refund
+TXN0686,U037,01-01-2024,29488.69,OLA ???,OLA,local shop,Cash,transport
+TXN0687,U020,06/02/2024,11336.2,DMart  purchase,DMart,local shop,Cash,other
+TXN0688,U007,19-01-2024,12367.47,Apple  fee,Apple,BBSR,Card,shopping
+TXN0689,U044,08-03-2024,16773.46,DMart *Order#99,DMart,local shop,Card,refund
+TXN0690,U047,23/02/2024,15178.52,Apple !!!,Apple,,Cash,shopping
+TXN0691,U030,2024-03-01,4713.62,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Cash,shopping
+TXN0692,U024,2024/03/14,15688.1,Amazon,Amazon,Bhubaneshwar,Card,food
+TXN0693,U010,16-03-2024,28105.25,Flipkart,Flipkart,BBSR,Cash,shopping
+TXN0694,U023,2024-01-09,14440.48,Swiggy  0412,Swiggy,Bhubaneshwar,Card,grocery
+TXN0695,U033,22-03-2024,13503.38,Flipkart  fee,Flipkart,Bhubaneshwar,UPI,Food & Beverage
+TXN0696,U015,2024/02/20,1384.13,Local Shop *Order#99,Local Shop,Bhubaneshwar,Cash,grocery
+TXN0697,U037,2024/03/21,19358.34,Starbucks *Order#99,,local shop,Cash,food
+TXN0698,U034,25-01-2024,26906.96,Unknown Store *Order#99,Unknown Store,BBSR,UPI,transport
+TXN0699,U046,15-03-2024,24209.56,Big Bazaar,Big Bazaar,Bhubaneswar,Card,food
+TXN0700,U028,24-01-2024,25790.86,DMart,DMart,Bhubaneswar,UPI,electronics
+TXN0701,U012,2024-02-02,9210.76,Flipkart !!!,Flipkart,local shop,Card,food
+TXN0702,U025,2024/01/13,12390.56,OLA !!!,OLA,Bhubaneswar,UPI,transport
+TXN0703,U033,05-03-2024,8085.93,Apple,Apple,Bhubaneswar,Card,
+TXN0704,U002,2024-02-04,22891.72,Big Bazaar !!!,Big Bazaar,local shop,Card,transport
+TXN0705,U024,10/03/2024,7362.39,Flipkart  fee,Flipkart,local shop,Card,
+TXN0706,U040,07/02/2024,1814.65,Apple,Apple,Bhubaneshwar,Cash,other
+TXN0707,U038,2024/03/06,4850.87,Big Bazaar,,Bhubaneswar,Card,grocery
+TXN0708,U018,25/02/2024,15149.56,Swiggy *Order#99,Swiggy,Bhubaneshwar,Cash,refund
+TXN0709,U016,2024/03/25,6326.61,OLA ???,OLA,,UPI,food
+TXN0710,U031,2024-01-01,5214.35,Unknown Store  purchase,Unknown Store,Online,Card,shopping
+TXN0711,U002,26-03-2024,3711.23,Swiggy  purchase,Swiggy,local shop,Card,food
+TXN0712,U030,17/02/2024,290.81,Amazon  0412,Amazon,,Cash,shopping
+TXN0713,U041,08/02/2024,29403.77,Unknown Store !!!,,Online,Cash,transport
+TXN0714,U013,22-03-2024,26098.79,Starbucks,Starbucks,local shop,UPI,grocery
+TXN0715,U038,2024-01-17,7796.14,Amazon !!!,Amazon,local shop,Cash,transport
+TXN0716,U045,2024/03/27,16807.88,Starbucks  purchase,Starbucks,,Cash,food
+TXN0717,U028,2024/02/22,20408.4,DMart,DMart,Bhubaneswar,Cash,electronics
+TXN0718,U035,2024/02/27,11761.85,Local Shop,Local Shop,Bhubaneswar,Cash,Food & Beverage
+TXN0719,U016,26/01/2024,9331.07,Amazon ???,,Online,Card,other
+TXN0720,U016,14-01-2024,28764.49,OLA !!!,OLA,local shop,UPI,refund
+TXN0721,U041,2024-02-27,29236.02,Amazon,Amazon,,UPI,food
+TXN0722,U004,08-02-2024,3063.81,Apple,,Online,Card,Food & Beverage
+TXN0723,U039,2024-03-25,11523.76,Big Bazaar  0412,Big Bazaar,local shop,UPI,food
+TXN0724,U034,12/02/2024,3089.66,Apple,,BBSR,Cash,electronics
+TXN0725,U027,02-03-2024,7302.14,DMart !!!,,Bhubaneshwar,Cash,other
+TXN0726,U038,10/03/2024,14091.02,OLA !!!,OLA,Bhubaneswar,Cash,grocery
+TXN0727,U016,2024-03-05,10321.04,Starbucks  0412,Starbucks,BBSR,UPI,refund
+TXN0728,U039,2024/03/29,17356.54,Apple  fee,Apple,Online,Card,refund
+TXN0729,U032,2024-01-29,6698.52,Starbucks  purchase,Starbucks,BBSR,Card,other
+TXN0730,U014,21/02/2024,29696.44,Local Shop  fee,,Bhubaneswar,Cash,electronics
+TXN0731,U013,2024/03/21,29259.53,Apple,Apple,BBSR,Card,other
+TXN0732,U016,23/01/2024,5290.56,Swiggy,Swiggy,,UPI,shopping
+TXN0733,U014,09-02-2024,11095.52,DMart !!!,DMart,local shop,Cash,shopping
+TXN0734,U010,17/01/2024,15981.32,Amazon !!!,Amazon,Online,Cash,food
+TXN0735,U038,2024/01/25,4465.52,Unknown Store  fee,Unknown Store,Bhubaneshwar,UPI,refund
+TXN0736,U047,11-01-2024,19908.43,Big Bazaar  fee,Big Bazaar,,Cash,refund
+TXN0737,U021,17-02-2024,28673.0,Flipkart  purchase,Flipkart,,Cash,transport
+TXN0738,U013,27/02/2024,6565.63,Big Bazaar  0412,Big Bazaar,BBSR,Card,shopping
+TXN0739,U049,2024/01/11,15569.43,Flipkart  0412,,local shop,Cash,refund
+TXN0740,U028,2024/02/22,14931.32,Apple  fee,,Online,UPI,shopping
+TXN0741,U006,2024-02-07,8299.98,DMart  fee,DMart,Bhubaneshwar,UPI,other
+TXN0742,U044,2024/02/12,22358.89,Big Bazaar ???,Big Bazaar,BBSR,Cash,grocery
+TXN0743,U017,2024/01/02,24671.04,Swiggy ???,Swiggy,Online,Cash,food
+TXN0744,U042,06/03/2024,11931.18,Apple  fee,Apple,Online,UPI,refund
+TXN0745,U022,2024/01/11,5643.52,Apple  fee,Apple,BBSR,Card,food
+TXN0746,U009,14/03/2024,-28301.19,DMart ???,DMart,Bhubaneshwar,Card,Food & Beverage
+TXN0747,U049,2024/03/29,17612.78,Local Shop ???,,BBSR,UPI,other
+TXN0748,U041,18-03-2024,6134.1,Unknown Store  0412,Unknown Store,BBSR,Card,refund
+TXN0749,U006,2024-01-22,-16591.67,OLA  purchase,OLA,Online,UPI,shopping
+TXN0750,U019,27/01/2024,19790.5,Local Shop ???,,local shop,UPI,Food & Beverage
+TXN0751,U011,15/01/2024,12558.21,Local Shop *Order#99,Local Shop,BBSR,UPI,electronics
+TXN0752,U046,26-03-2024,18115.25,Local Shop !!!,Local Shop,local shop,Cash,electronics
+TXN0753,U001,19-01-2024,24739.23,Big Bazaar,Big Bazaar,Bhubaneshwar,Cash,refund
+TXN0754,U037,2024-01-06,19392.51,Apple ???,Apple,,Card,grocery
+TXN0755,U016,23-01-2024,11546.1,Local Shop  0412,Local Shop,Bhubaneswar,Card,food
+TXN0756,U011,2024/02/05,27489.73,Big Bazaar  purchase,Big Bazaar,BBSR,Card,shopping
+TXN0757,U005,2024/01/14,13533.57,DMart  0412,DMart,Online,UPI,refund
+TXN0758,U022,21/02/2024,1142.86,Local Shop  0412,Local Shop,BBSR,Card,refund
+TXN0759,U030,2024-01-09,19714.11,Apple *Order#99,Apple,Online,Card,grocery
+TXN0760,U039,13/01/2024,3733.3,Starbucks ???,Starbucks,,UPI,grocery
+TXN0761,U023,23/01/2024,1043.0,Apple  purchase,Apple,,UPI,shopping
+TXN0762,U045,09-02-2024,-17950.18,Local Shop,Local Shop,BBSR,UPI,transport
+TXN0763,U006,03-01-2024,29678.83,Big Bazaar,Big Bazaar,,UPI,shopping
+TXN0764,U047,2024-01-22,15379.88,Flipkart  0412,Flipkart,,UPI,Food & Beverage
+TXN0765,U008,30/01/2024,10703.72,Local Shop,Local Shop,Bhubaneshwar,UPI,refund
+TXN0766,U005,2024/03/25,-18721.04,Big Bazaar  purchase,Big Bazaar,Online,Card,refund
+TXN0767,U046,09/03/2024,28771.45,Amazon ???,Amazon,,Card,grocery
+TXN0768,U012,2024/03/22,19994.45,DMart  fee,,local shop,Card,transport
+TXN0769,U038,2024-03-31,646.19,Swiggy !!!,Swiggy,BBSR,Cash,transport
+TXN0770,U006,08/01/2024,14966.81,Unknown Store ???,Unknown Store,,UPI,refund
+TXN0771,U009,2024/02/05,-23611.26,DMart  purchase,DMart,Online,Cash,food
+TXN0772,U047,2024/02/12,6182.46,Big Bazaar !!!,Big Bazaar,BBSR,Cash,transport
+TXN0773,U025,2024/03/07,-13276.4,Unknown Store !!!,Unknown Store,Bhubaneswar,UPI,grocery
+TXN0774,U009,12/01/2024,16469.92,Big Bazaar *Order#99,Big Bazaar,local shop,UPI,refund
+TXN0775,U011,26/01/2024,5301.3,OLA  0412,OLA,Online,Cash,refund
+TXN0776,U024,20-02-2024,14126.7,Amazon !!!,Amazon,Online,UPI,refund
+TXN0777,U049,18-02-2024,2506.15,Starbucks  fee,Starbucks,local shop,UPI,grocery
+TXN0778,U025,2024/02/29,8503.94,OLA  0412,OLA,Bhubaneshwar,UPI,transport
+TXN0779,U013,2024-01-01,15025.99,Flipkart  fee,Flipkart,Online,Card,other
+TXN0780,U032,2024-02-09,26551.14,Local Shop  0412,Local Shop,local shop,UPI,Food & Beverage
+TXN0781,U050,14-02-2024,20657.8,OLA  purchase,OLA,Online,Cash,refund
+TXN0782,U024,2024-03-21,19973.61,Starbucks  purchase,Starbucks,,UPI,grocery
+TXN0783,U008,12-01-2024,21185.03,Starbucks  0412,,BBSR,Card,Food & Beverage
+TXN0784,U045,08-02-2024,9246.29,OLA *Order#99,OLA,,UPI,other
+TXN0785,U018,27-01-2024,9249.93,Flipkart  purchase,Flipkart,Bhubaneswar,UPI,Food & Beverage
+TXN0786,U027,2024/03/24,12934.18,Swiggy  purchase,Swiggy,BBSR,UPI,shopping
+TXN0787,U037,28/01/2024,1778.87,Apple !!!,Apple,Bhubaneshwar,Card,shopping
+TXN0788,U006,2024-02-07,3749.2,Flipkart  0412,,BBSR,Card,shopping
+TXN0789,U004,2024-02-04,17477.54,Starbucks  purchase,,local shop,UPI,electronics
+TXN0790,U031,13-02-2024,11129.85,Apple ???,Apple,BBSR,Card,Food & Beverage
+TXN0791,U004,2024/02/15,3014.32,Unknown Store  fee,Unknown Store,,UPI,
+TXN0792,U034,05/02/2024,13563.02,Amazon ???,Amazon,local shop,Card,food
+TXN0793,U002,2024/03/22,1382.17,DMart  fee,DMart,Online,UPI,Food & Beverage
+TXN0794,U006,14-02-2024,29606.28,Unknown Store  0412,Unknown Store,,Card,transport
+TXN0795,U034,2024-03-14,14942.77,Flipkart !!!,Flipkart,local shop,Card,refund
+TXN0796,U031,25/03/2024,6357.11,Amazon !!!,Amazon,Bhubaneswar,UPI,food
+TXN0797,U021,2024/02/19,21578.06,Flipkart !!!,Flipkart,,UPI,refund
+TXN0798,U045,12/02/2024,22992.46,Amazon *Order#99,Amazon,Online,Cash,Food & Beverage
+TXN0799,U028,30/01/2024,3479.54,Swiggy ???,,,Cash,shopping
+TXN0800,U024,2024/01/17,-17311.74,Unknown Store  0412,,local shop,UPI,Food & Beverage
+TXN0801,U050,16/02/2024,19915.65,DMart *Order#99,DMart,Bhubaneswar,Cash,other
+TXN0802,U019,29-01-2024,13678.98,Flipkart  purchase,Flipkart,,Cash,
+TXN0803,U020,2024-03-05,29905.49,DMart ???,DMart,BBSR,Card,Food & Beverage
+TXN0804,U022,20/01/2024,21982.42,Starbucks  fee,Starbucks,Bhubaneswar,UPI,Food & Beverage
+TXN0805,U043,2024-01-21,11774.64,OLA *Order#99,OLA,Bhubaneshwar,Card,electronics
+TXN0806,U045,25-01-2024,3935.71,OLA,OLA,Bhubaneswar,Cash,grocery
+TXN0807,U009,26-02-2024,26917.57,Unknown Store ???,Unknown Store,BBSR,Cash,other
+TXN0808,U007,27/03/2024,28512.44,Unknown Store  0412,Unknown Store,Bhubaneswar,UPI,refund
+TXN0809,U004,2024/01/16,13020.3,Flipkart *Order#99,Flipkart,BBSR,UPI,Food & Beverage
+TXN0810,U020,29/03/2024,22358.56,Apple  purchase,Apple,,Cash,refund
+TXN0811,U018,21-03-2024,357.96,Local Shop ???,Local Shop,,Cash,transport
+TXN0812,U038,14-03-2024,20814.84,Starbucks ???,Starbucks,Online,Card,Food & Beverage
+TXN0813,U037,2024-01-17,1914.31,OLA ???,OLA,BBSR,Card,food
+TXN0814,U036,09-03-2024,15571.84,Local Shop,Local Shop,,UPI,transport
+TXN0815,U012,17/03/2024,16646.11,Amazon,Amazon,BBSR,Cash,grocery
+TXN0816,U036,2024-02-02,29398.05,Amazon,Amazon,local shop,UPI,food
+TXN0817,U020,2024/01/06,16027.73,Big Bazaar  purchase,Big Bazaar,Bhubaneshwar,Cash,other
+TXN0818,U035,06/03/2024,2979.28,Unknown Store  purchase,Unknown Store,BBSR,UPI,transport
+TXN0819,U039,11/03/2024,10778.36,Flipkart *Order#99,Flipkart,Bhubaneswar,Cash,Food & Beverage
+TXN0820,U026,2024-02-28,20299.0,Flipkart ???,Flipkart,BBSR,UPI,electronics
+TXN0821,U046,17/02/2024,24648.82,Big Bazaar  0412,Big Bazaar,Online,UPI,transport
+TXN0822,U018,2024-01-16,16455.58,Amazon  purchase,Amazon,Bhubaneshwar,Card,grocery
+TXN0823,U018,2024-01-02,29384.76,Big Bazaar  0412,Big Bazaar,Bhubaneswar,UPI,electronics
+TXN0824,U032,2024/01/13,17169.02,Unknown Store  purchase,Unknown Store,Bhubaneswar,UPI,Food & Beverage
+TXN0825,U023,27-03-2024,17773.38,Flipkart  0412,Flipkart,,UPI,grocery
+TXN0826,U037,2024-02-04,19179.41,Local Shop  purchase,Local Shop,,Cash,refund
+TXN0827,U029,15-02-2024,8611.72,Flipkart *Order#99,Flipkart,,UPI,shopping
+TXN0828,U027,2024-02-10,2393.45,OLA  purchase,OLA,BBSR,Cash,electronics
+TXN0829,U032,02-01-2024,15265.38,Swiggy  purchase,Swiggy,local shop,Cash,shopping
+TXN0830,U001,19/03/2024,22380.06,Local Shop  fee,Local Shop,,Card,food
+TXN0831,U029,22/01/2024,2262.92,Unknown Store !!!,Unknown Store,Bhubaneswar,Card,grocery
+TXN0832,U008,13/02/2024,16178.2,DMart  fee,DMart,Bhubaneshwar,Card,transport
+TXN0833,U048,21-03-2024,27692.46,Starbucks !!!,Starbucks,local shop,UPI,refund
+TXN0834,U023,01-01-2024,8957.54,Starbucks ???,Starbucks,,UPI,food
+TXN0835,U028,03/03/2024,15877.61,Amazon,Amazon,Online,UPI,electronics
+TXN0836,U031,2024/02/20,10941.23,Big Bazaar ???,Big Bazaar,Bhubaneshwar,UPI,refund
+TXN0837,U009,15-02-2024,10783.51,Flipkart,Flipkart,BBSR,Card,
+TXN0838,U027,2024-02-12,19989.48,Local Shop !!!,Local Shop,Bhubaneshwar,UPI,refund
+TXN0839,U021,21-02-2024,3300.89,Flipkart !!!,,BBSR,Card,transport
+TXN0840,U044,13-02-2024,22125.57,Starbucks *Order#99,Starbucks,Online,UPI,transport
+TXN0841,U010,06/03/2024,8441.35,Unknown Store !!!,Unknown Store,,UPI,Food & Beverage
+TXN0842,U031,2024-03-31,21916.4,Big Bazaar  purchase,Big Bazaar,local shop,Cash,transport
+TXN0843,U009,2024-02-21,29712.06,Amazon ???,Amazon,local shop,UPI,food
+TXN0844,U027,2024/03/08,19002.97,Local Shop  purchase,Local Shop,Online,UPI,food
+TXN0845,U008,2024/02/04,28290.53,OLA ???,OLA,Bhubaneswar,UPI,
+TXN0846,U043,11/02/2024,14167.02,Starbucks ???,Starbucks,BBSR,Card,other
+TXN0847,U020,2024-01-15,419.71,DMart  purchase,DMart,Bhubaneshwar,Card,other
+TXN0848,U034,2024/03/18,19510.95,Unknown Store !!!,Unknown Store,Bhubaneswar,UPI,shopping
+TXN0849,U038,24/03/2024,21142.76,Starbucks !!!,,local shop,Cash,refund
+TXN0850,U035,2024-01-20,5759.28,Big Bazaar !!!,Big Bazaar,local shop,Card,refund
+TXN0851,U028,09-01-2024,15717.65,Amazon  0412,Amazon,BBSR,Cash,grocery
+TXN0852,U003,2024-03-13,29174.5,OLA  fee,OLA,Online,Cash,shopping
+TXN0853,U029,06-03-2024,23383.37,Flipkart *Order#99,Flipkart,BBSR,UPI,transport
+TXN0854,U045,02-01-2024,21235.54,Unknown Store *Order#99,Unknown Store,BBSR,Card,shopping
+TXN0855,U015,06/01/2024,1182.33,Flipkart ???,Flipkart,BBSR,Card,food
+TXN0856,U014,2024-03-09,19462.88,Big Bazaar,Big Bazaar,Bhubaneshwar,UPI,electronics
+TXN0857,U027,2024/03/19,29557.99,Flipkart ???,,Bhubaneshwar,UPI,electronics
+TXN0858,U017,2024-01-03,22375.64,Flipkart  purchase,Flipkart,,Cash,transport
+TXN0859,U015,2024/02/11,17454.1,Apple !!!,Apple,BBSR,Card,Food & Beverage
+TXN0860,U010,2024-03-02,5453.59,DMart  0412,DMart,BBSR,Cash,grocery
+TXN0861,U002,09/02/2024,24526.8,OLA !!!,OLA,BBSR,UPI,refund
+TXN0862,U007,08/03/2024,-22515.82,Local Shop  purchase,,Online,UPI,food
+TXN0863,U009,2024-02-01,4287.64,Starbucks ???,,Bhubaneswar,UPI,other
+TXN0864,U013,18-01-2024,16889.91,Amazon  fee,Amazon,Bhubaneshwar,Card,food
+TXN0865,U045,2024-02-04,24749.5,Swiggy,Swiggy,local shop,Card,transport
+TXN0866,U015,24-02-2024,10605.76,Starbucks !!!,Starbucks,,Card,shopping
+TXN0867,U011,15/01/2024,28694.43,Apple,,Bhubaneshwar,UPI,shopping
+TXN0868,U039,20/01/2024,15919.11,Starbucks  0412,Starbucks,BBSR,Cash,electronics
+TXN0869,U007,04-02-2024,11079.68,DMart  purchase,DMart,Bhubaneswar,UPI,grocery
+TXN0870,U021,19-01-2024,21643.09,Flipkart  0412,Flipkart,Bhubaneswar,UPI,electronics
+TXN0871,U006,11/02/2024,23028.39,Flipkart !!!,Flipkart,Online,Cash,other
+TXN0872,U042,01-02-2024,16484.68,Flipkart  0412,Flipkart,local shop,UPI,Food & Beverage
+TXN0873,U037,29/03/2024,2626.63,Swiggy  purchase,Swiggy,Bhubaneswar,Card,grocery
+TXN0874,U004,2024/02/14,25481.38,Amazon  fee,Amazon,Online,UPI,Food & Beverage
+TXN0875,U014,2024-01-29,4142.66,Big Bazaar  purchase,Big Bazaar,Online,Cash,
+TXN0876,U024,2024-01-07,17452.4,Local Shop  purchase,Local Shop,BBSR,UPI,grocery
+TXN0877,U016,2024-01-10,24933.73,Amazon *Order#99,Amazon,Online,Cash,electronics
+TXN0878,U027,13-02-2024,-19348.97,Apple  fee,Apple,Bhubaneswar,Cash,
+TXN0879,U033,2024-01-21,24982.08,Flipkart  0412,Flipkart,local shop,Cash,electronics
+TXN0880,U028,2024/01/21,15649.82,Big Bazaar,Big Bazaar,BBSR,Card,transport
+TXN0881,U012,2024-03-12,20775.87,Local Shop  fee,Local Shop,Online,Card,other
+TXN0882,U013,2024-02-04,2343.48,Local Shop,Local Shop,Bhubaneswar,UPI,shopping
+TXN0883,U014,2024-03-17,27291.51,Amazon  fee,Amazon,Bhubaneswar,UPI,food
+TXN0884,U031,2024-01-06,2805.4,Unknown Store ???,Unknown Store,Bhubaneshwar,Card,other
+TXN0885,U047,15/02/2024,20243.85,Local Shop  purchase,Local Shop,local shop,UPI,grocery
+TXN0886,U038,18-02-2024,-26065.68,Starbucks *Order#99,Starbucks,,Card,shopping
+TXN0887,U014,28/03/2024,21559.45,Big Bazaar  fee,Big Bazaar,,Cash,other
+TXN0888,U009,2024/02/13,18707.89,Apple ???,,,Cash,transport
+TXN0889,U039,10/01/2024,18837.41,Unknown Store *Order#99,Unknown Store,BBSR,Card,shopping
+TXN0890,U007,2024/02/28,28022.34,Apple !!!,Apple,Bhubaneshwar,Card,grocery
+TXN0891,U017,2024/03/01,26300.97,Apple  fee,Apple,Bhubaneswar,Cash,other
+TXN0892,U026,22/02/2024,11008.3,OLA  0412,OLA,Bhubaneshwar,UPI,refund
+TXN0893,U044,2024-01-06,23719.81,OLA  purchase,OLA,BBSR,UPI,grocery
+TXN0894,U026,10/01/2024,26226.02,Unknown Store  0412,Unknown Store,Online,Cash,refund
+TXN0895,U006,2024-01-24,23048.82,Amazon  0412,Amazon,Bhubaneshwar,Card,refund
+TXN0896,U045,2024-03-01,13642.81,Big Bazaar ???,Big Bazaar,BBSR,Cash,food
+TXN0897,U050,2024-02-18,10851.17,Unknown Store  fee,Unknown Store,Bhubaneswar,UPI,Food & Beverage
+TXN0898,U017,22/03/2024,4260.72,OLA,,,Card,transport
+TXN0899,U012,2024-01-07,10267.15,OLA  0412,OLA,Bhubaneshwar,Card,grocery
+TXN0900,U023,29-03-2024,307.85,Local Shop  fee,Local Shop,Bhubaneswar,Cash,grocery
+TXN0901,U043,2024-02-10,26896.07,DMart !!!,DMart,Bhubaneshwar,UPI,Food & Beverage
+TXN0902,U034,01-01-2024,25719.44,OLA  fee,OLA,local shop,UPI,
+TXN0903,U027,30/03/2024,11332.92,Big Bazaar *Order#99,Big Bazaar,,Cash,other
+TXN0904,U002,2024/02/08,24573.36,DMart *Order#99,DMart,Online,Card,other
+TXN0905,U028,2024/03/07,27791.2,Swiggy,Swiggy,local shop,Cash,Food & Beverage
+TXN0906,U019,25-03-2024,8504.62,Local Shop  purchase,Local Shop,Bhubaneswar,UPI,shopping
+TXN0907,U042,03-01-2024,14897.18,Amazon,Amazon,Bhubaneswar,Cash,food
+TXN0908,U027,28/01/2024,13644.35,OLA  fee,OLA,Online,UPI,refund
+TXN0909,U042,31-03-2024,28189.11,Local Shop,Local Shop,Bhubaneshwar,Cash,Food & Beverage
+TXN0910,U001,2024-02-23,797.14,Big Bazaar,Big Bazaar,local shop,Cash,other
+TXN0911,U037,25/02/2024,29204.97,Flipkart *Order#99,Flipkart,Bhubaneswar,Cash,Food & Beverage
+TXN0912,U026,10/02/2024,6936.78,Flipkart  0412,Flipkart,Bhubaneswar,Cash,Food & Beverage
+TXN0913,U036,2024/01/21,-2806.7,OLA !!!,,local shop,UPI,
+TXN0914,U006,14-03-2024,22272.77,Swiggy,Swiggy,,Card,transport
+TXN0915,U013,09/03/2024,23403.07,OLA  purchase,OLA,,UPI,grocery
+TXN0916,U041,2024-03-15,13779.24,Starbucks,Starbucks,Bhubaneshwar,Card,shopping
+TXN0917,U032,16/02/2024,3029.14,Amazon  0412,Amazon,Online,Cash,Food & Beverage
+TXN0918,U021,22-03-2024,4841.5,Local Shop  fee,Local Shop,,Cash,food
+TXN0919,U022,14-02-2024,-18003.79,Amazon *Order#99,Amazon,Bhubaneshwar,UPI,food
+TXN0920,U002,07/03/2024,26007.56,Swiggy !!!,Swiggy,Bhubaneshwar,UPI,grocery
+TXN0921,U018,02/03/2024,10463.12,OLA,OLA,,Card,Food & Beverage
+TXN0922,U017,23/01/2024,25382.61,Big Bazaar  purchase,Big Bazaar,Bhubaneswar,Cash,electronics
+TXN0923,U014,03-03-2024,12717.88,Flipkart  0412,Flipkart,local shop,UPI,Food & Beverage
+TXN0924,U037,2024/02/15,24582.06,Big Bazaar  purchase,Big Bazaar,local shop,Card,electronics
+TXN0925,U042,2024/03/08,907.9,Unknown Store  0412,Unknown Store,BBSR,Card,transport
+TXN0926,U024,2024/01/19,298.89,DMart,DMart,BBSR,Card,other
+TXN0927,U036,09-01-2024,18058.04,Big Bazaar ???,Big Bazaar,Bhubaneshwar,Cash,shopping
+TXN0928,U042,23-02-2024,24403.7,Unknown Store ???,,Online,Card,
+TXN0929,U027,2024-01-16,5142.48,OLA  0412,OLA,local shop,UPI,food
+TXN0930,U019,17-01-2024,26875.93,Apple,,,UPI,shopping
+TXN0931,U047,2024/02/08,22613.23,Local Shop ???,Local Shop,Bhubaneshwar,Card,Food & Beverage
+TXN0932,U045,28-02-2024,19236.5,OLA  fee,OLA,local shop,UPI,
+TXN0933,U001,2024-01-18,25843.05,Starbucks ???,Starbucks,Bhubaneswar,UPI,other
+TXN0934,U001,2024-03-29,-26500.75,Swiggy ???,,Bhubaneshwar,UPI,Food & Beverage
+TXN0935,U045,22/01/2024,13826.21,OLA *Order#99,OLA,local shop,Card,shopping
+TXN0936,U034,31-01-2024,14708.21,Swiggy  purchase,Swiggy,Online,UPI,electronics
+TXN0937,U023,12/03/2024,19417.56,Amazon  purchase,Amazon,Bhubaneswar,Card,food
+TXN0938,U030,19/02/2024,3145.0,Big Bazaar  0412,Big Bazaar,local shop,Cash,electronics
+TXN0939,U042,2024-01-20,6571.36,Apple !!!,Apple,local shop,Cash,Food & Beverage
+TXN0940,U005,05-02-2024,20591.12,Big Bazaar !!!,Big Bazaar,Bhubaneswar,UPI,shopping
+TXN0941,U016,03-01-2024,8010.03,Amazon !!!,Amazon,Bhubaneshwar,Card,shopping
+TXN0942,U028,28/01/2024,15070.69,DMart  0412,,Bhubaneshwar,Card,Food & Beverage
+TXN0943,U013,07/02/2024,5307.59,Local Shop  0412,Local Shop,local shop,Card,food
+TXN0944,U008,2024-01-29,26852.8,Big Bazaar,Big Bazaar,local shop,UPI,Food & Beverage
+TXN0945,U026,13/01/2024,24723.82,Local Shop  purchase,Local Shop,BBSR,UPI,electronics
+TXN0946,U019,2024-01-01,15102.17,Unknown Store !!!,Unknown Store,Bhubaneshwar,Cash,other
+TXN0947,U011,2024/01/24,-4263.59,Amazon  0412,Amazon,Bhubaneshwar,UPI,electronics
+TXN0948,U011,2024-03-27,10570.79,Amazon *Order#99,,BBSR,Card,food
+TXN0949,U044,07/02/2024,15099.36,Unknown Store *Order#99,Unknown Store,Bhubaneswar,Card,other
+TXN0950,U032,2024/02/14,14599.93,Apple  purchase,,Bhubaneshwar,Card,refund
+TXN0951,U018,2024-03-28,29359.34,Amazon !!!,Amazon,BBSR,Card,transport
+TXN0952,U048,30-03-2024,6197.16,Unknown Store ???,Unknown Store,Online,Cash,electronics
+TXN0953,U029,08/03/2024,27310.72,Swiggy ???,Swiggy,local shop,Card,electronics
+TXN0954,U013,2024/01/06,18374.9,OLA  fee,OLA,Bhubaneshwar,Card,food
+TXN0955,U044,19-01-2024,4515.33,Apple  purchase,Apple,,UPI,electronics
+TXN0956,U019,02-01-2024,6527.59,Amazon,Amazon,Online,Card,
+TXN0957,U043,2024-01-01,4140.19,DMart ???,DMart,local shop,Cash,grocery
+TXN0958,U046,04/02/2024,5909.86,Amazon  purchase,,BBSR,UPI,other
+TXN0959,U044,22-03-2024,11979.42,Big Bazaar  0412,Big Bazaar,Bhubaneshwar,Cash,Food & Beverage
+TXN0960,U038,18/01/2024,4079.37,DMart ???,DMart,Bhubaneswar,Card,refund
+TXN0961,U012,18-02-2024,4166.91,Swiggy,Swiggy,,Cash,other
+TXN0962,U030,23-02-2024,839.91,Local Shop  0412,Local Shop,Online,UPI,electronics
+TXN0963,U038,2024/03/06,18630.48,Big Bazaar !!!,Big Bazaar,Bhubaneswar,Card,food
+TXN0964,U049,07-03-2024,1639.84,Apple  fee,Apple,,UPI,shopping
+TXN0965,U037,2024/03/02,1835.33,OLA  fee,OLA,,Cash,transport
+TXN0966,U010,12-03-2024,6714.07,Swiggy !!!,Swiggy,Bhubaneshwar,Cash,food
+TXN0967,U040,29/03/2024,2023.59,Apple,Apple,local shop,UPI,shopping
+TXN0968,U002,05-03-2024,1679.04,Apple  0412,Apple,BBSR,UPI,electronics
+TXN0969,U044,2024-02-26,-4395.93,Unknown Store  0412,Unknown Store,,Cash,transport
+TXN0970,U031,2024/02/07,3009.59,Apple  purchase,Apple,Bhubaneshwar,Card,shopping
+TXN0971,U027,24/02/2024,8509.83,Apple,Apple,local shop,Card,
+TXN0972,U029,2024/01/06,14042.53,Unknown Store !!!,Unknown Store,BBSR,Card,transport
+TXN0973,U046,08-03-2024,1892.35,DMart *Order#99,DMart,,Cash,grocery
+TXN0974,U049,2024/03/25,2055.62,OLA  0412,OLA,Online,Cash,electronics
+TXN0975,U045,2024/02/11,18528.08,Flipkart *Order#99,,,UPI,shopping
+TXN0976,U044,2024/03/01,6953.72,Apple  fee,Apple,BBSR,UPI,grocery
+TXN0977,U049,2024-02-23,18360.99,Local Shop,Local Shop,Bhubaneswar,Card,food
+TXN0978,U021,14-01-2024,4005.17,Flipkart  0412,Flipkart,BBSR,Card,electronics
+TXN0979,U013,21-01-2024,15860.6,Big Bazaar  fee,,Bhubaneswar,Cash,shopping
+TXN0980,U003,2024-01-18,23233.83,Big Bazaar ???,Big Bazaar,Bhubaneshwar,UPI,refund
+TXN0981,U014,14-03-2024,10569.66,Big Bazaar *Order#99,Big Bazaar,BBSR,UPI,Food & Beverage
+TXN0982,U037,11/01/2024,15522.23,Amazon  fee,Amazon,Bhubaneswar,Cash,food
+TXN0983,U019,02-02-2024,10743.58,Big Bazaar  purchase,Big Bazaar,Bhubaneshwar,UPI,transport
+TXN0984,U040,2024/03/05,18563.16,Swiggy  0412,Swiggy,local shop,Card,electronics
+TXN0985,U003,13-02-2024,6023.33,Starbucks ???,,BBSR,Cash,other
+TXN0986,U016,2024-03-04,28440.45,Starbucks  fee,Starbucks,Bhubaneswar,Card,Food & Beverage
+TXN0987,U048,2024-03-19,14368.36,Unknown Store *Order#99,Unknown Store,Bhubaneswar,UPI,transport
+TXN0988,U028,2024/03/02,25496.51,DMart  fee,,Bhubaneswar,UPI,transport
+TXN0989,U039,2024-02-18,14470.38,Swiggy *Order#99,Swiggy,BBSR,Card,grocery
+TXN0990,U029,2024/01/16,5817.43,Amazon ???,,BBSR,UPI,transport
+TXN0991,U048,2024-03-09,456.81,Local Shop  fee,Local Shop,Bhubaneswar,UPI,grocery
+TXN0992,U003,2024/02/10,19659.72,OLA *Order#99,OLA,local shop,Card,shopping
+TXN0993,U005,02/02/2024,21160.6,Amazon  0412,Amazon,BBSR,Card,other
+TXN0994,U019,24/03/2024,26790.42,Swiggy *Order#99,Swiggy,Bhubaneswar,UPI,Food & Beverage
+TXN0995,U032,2024-02-05,27362.36,Unknown Store !!!,Unknown Store,Bhubaneshwar,Cash,shopping
+TXN0996,U047,2024-01-19,20953.27,DMart !!!,DMart,Bhubaneswar,UPI,food
+TXN0997,U018,16-03-2024,24817.09,OLA ???,OLA,local shop,Card,Food & Beverage
+TXN0998,U029,06/01/2024,11386.02,Local Shop !!!,Local Shop,,Card,
+TXN0999,U002,2024/03/18,27224.41,DMart  fee,DMart,Bhubaneswar,Card,Food & Beverage
+TXN1000,U047,2024-01-08,11649.44,Local Shop *Order#99,Local Shop,local shop,Card,electronics
