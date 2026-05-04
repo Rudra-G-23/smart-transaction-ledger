@@ -1,19 +1,18 @@
 # Smart Transaction Ledger
 
 ## Description
+
 Smart Transaction Ledger is an AI-powered financial transaction cleaner and fraud detector. It helps working professionals and small business owners automatically clean, categorize, and monitor their messy financial transaction data for fraud. This allows users to clearly understand their spending and detect suspicious activities without manual effort.
 
-### Interface
+## Interface
 
-<!-- 
-[![Watch the demo](https://img.youtube.com/vi/DR4vruOE8zM/maxresdefault.jpg)](https://youtu.be/DR4vruOE8zM)
--->
+https://github.com/user-attachments/assets/7a3e7fd6-6781-4963-9ec7-b0ce73eca2ec
 
 ---
 
-### Architecture & Data Flow
+## Architecture & Data Flow
 
-![img](assets\data-flow.png)
+![img](assets/data-flow.png)
 
 <details>
 <summary>Mermaid Diagram</summary>
@@ -118,7 +117,7 @@ To see how the data was transformed, explore the Jupyter Notebooks inside the `n
 
 4. **API key for LLM Query:** 
    - [Hugging Face Repo](https://huggingface.co/spaces/Rudra-G-23/smart-transaction-ledger-api/tree/main)
-    - [FastAPI Doc](https://rudra-g-23-smart-transaction-ledger-api.hf.space/docs)
+   - [FastAPI Doc](https://rudra-g-23-smart-transaction-ledger-api.hf.space/docs)
 
 
 ## Tech Stack
