@@ -3,905 +3,1043 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Fraud & Behavior Analytics Dashboard</title>
+<title>Smart Transaction Ledger — Analytics Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
-  :root {
-    --bg: #0a0c10;
-    --surface: #111318;
-    --surface2: #181c24;
-    --border: #1f2432;
-    --accent: #00e5ff;
-    --accent2: #ff4d6d;
-    --accent3: #b4ff6e;
-    --accent4: #ffb84d;
-    --text: #e8eaf0;
-    --muted: #5a6180;
-    --danger: #ff4d6d;
-    --safe: #b4ff6e;
-    --warn: #ffb84d;
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Mono', monospace;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-  /* GRID BG */
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(0,229,255,0.03) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(0,229,255,0.03) 1px, transparent 1px);
-    background-size: 40px 40px;
-    pointer-events: none;
-    z-index: 0;
-  }
+:root {
+  --primary: #5e17eb;
+  --primary-light: #7c3aed;
+  --primary-glow: rgba(94,23,235,0.25);
+  --accent: #f0abfc;
+  --accent2: #38bdf8;
+  --danger: #f43f5e;
+  --warn: #fb923c;
+  --success: #34d399;
 
-  /* HEADER */
-  .header {
-    position: relative;
-    z-index: 10;
-    padding: 28px 40px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px solid var(--border);
-    padding-bottom: 20px;
-  }
-  .logo {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 1.4rem;
-    letter-spacing: -0.02em;
-  }
-  .logo span { color: var(--accent); }
-  .badge {
-    font-size: 0.65rem;
-    background: rgba(0,229,255,0.1);
-    color: var(--accent);
-    border: 1px solid rgba(0,229,255,0.25);
-    padding: 3px 10px;
-    border-radius: 20px;
-    letter-spacing: 0.08em;
-  }
+  --bg: #0d0d14;
+  --bg2: #13131f;
+  --bg3: #1a1a2e;
+  --card: #16162a;
+  --card2: #1e1e35;
+  --border: rgba(94,23,235,0.18);
+  --border2: rgba(255,255,255,0.07);
+  --text: #e8e8f0;
+  --text2: #9494b0;
+  --text3: #5c5c7a;
+  --glass: rgba(22,22,42,0.85);
+}
+[data-theme="light"] {
+  --bg: #f3f0ff;
+  --bg2: #ede9ff;
+  --bg3: #e4deff;
+  --card: #ffffff;
+  --card2: #f8f5ff;
+  --border: rgba(94,23,235,0.15);
+  --border2: rgba(94,23,235,0.08);
+  --text: #1a0b3b;
+  --text2: #5a4a7a;
+  --text3: #9a8aba;
+  --glass: rgba(255,255,255,0.9);
+}
 
-  /* TABS */
-  .tabs {
-    position: relative;
-    z-index: 10;
-    display: flex;
-    gap: 0;
-    padding: 0 40px;
-    border-bottom: 1px solid var(--border);
-    margin-top: 0;
-  }
-  .tab {
-    font-family: 'Syne', sans-serif;
-    font-weight: 600;
-    font-size: 0.85rem;
-    letter-spacing: 0.06em;
-    padding: 16px 28px;
-    cursor: pointer;
-    color: var(--muted);
-    border-bottom: 2px solid transparent;
-    transition: all 0.2s;
-    text-transform: uppercase;
-  }
-  .tab:hover { color: var(--text); }
-  .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  font-family:'DM Sans',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  min-height:100vh;
+  overflow-x:hidden;
+  transition:background 0.3s,color 0.3s;
+}
 
-  /* CONTENT */
-  .content {
-    position: relative;
-    z-index: 10;
-    padding: 32px 40px;
-    display: none;
-    animation: fadeIn 0.3s ease;
-  }
-  .content.active { display: block; }
-  @keyframes fadeIn { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:translateY(0); } }
+/* ── BACKGROUND MESH ── */
+body::before{
+  content:'';position:fixed;inset:0;
+  background:
+    radial-gradient(ellipse 80% 60% at 15% 10%, rgba(94,23,235,0.12) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 85% 80%, rgba(56,189,248,0.07) 0%, transparent 55%),
+    radial-gradient(ellipse 40% 40% at 50% 50%, rgba(240,171,252,0.04) 0%, transparent 60%);
+  pointer-events:none;z-index:0;
+}
+[data-theme="light"] body::before{
+  background:
+    radial-gradient(ellipse 80% 60% at 15% 10%, rgba(94,23,235,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 85% 80%, rgba(56,189,248,0.05) 0%, transparent 55%);
+}
 
-  /* KPI GRID */
-  .kpi-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 16px;
-    margin-bottom: 36px;
-  }
-  .kpi-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    transition: border-color 0.2s;
-  }
-  .kpi-card::before {
-    content: '';
-    position: absolute;
-    top: 0; left: 0; right: 0;
-    height: 2px;
-    background: var(--kpi-color, var(--accent));
-  }
-  .kpi-card:hover { border-color: var(--kpi-color, var(--accent)); }
-  .kpi-label {
-    font-size: 0.68rem;
-    color: var(--muted);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  .kpi-value {
-    font-family: 'Syne', sans-serif;
-    font-size: 1.8rem;
-    font-weight: 800;
-    color: var(--kpi-color, var(--accent));
-    line-height: 1;
-  }
-  .kpi-sub {
-    font-size: 0.65rem;
-    color: var(--muted);
-    margin-top: 4px;
-  }
+/* ── TOPBAR ── */
+.topbar{
+  position:sticky;top:0;z-index:100;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:0 28px;height:60px;
+  background:var(--glass);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+}
+.logo{
+  display:flex;align-items:center;gap:10px;
+  font-family:'Syne',sans-serif;font-weight:800;font-size:1.1rem;
+  color:var(--text);letter-spacing:-0.01em;
+}
+.logo-dot{
+  width:28px;height:28px;border-radius:8px;
+  background:var(--primary);
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;box-shadow:0 0 16px var(--primary-glow);
+}
+.topbar-right{display:flex;align-items:center;gap:12px;}
+.theme-btn{
+  width:36px;height:36px;border-radius:10px;
+  border:1px solid var(--border);background:var(--card);
+  color:var(--text2);cursor:pointer;
+  display:flex;align-items:center;justify-content:center;font-size:16px;
+  transition:all 0.2s;
+}
+.theme-btn:hover{background:var(--primary);color:#fff;border-color:var(--primary);}
 
-  /* CHARTS GRID */
-  .charts-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  .chart-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 24px;
-    position: relative;
-  }
-  .chart-card.wide { grid-column: span 2; }
-  .chart-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    color: var(--text);
-    margin-bottom: 4px;
-  }
-  .chart-subtitle {
-    font-size: 0.65rem;
-    color: var(--muted);
-    margin-bottom: 18px;
-    letter-spacing: 0.06em;
-  }
-  .chart-container { position: relative; height: 260px; }
-  .chart-container.tall { height: 320px; }
+/* ── TABS ── */
+.tabs-wrapper{
+  padding:24px 28px 0;
+  display:flex;gap:8px;
+  position:relative;z-index:1;
+}
+.tab-btn{
+  font-family:'Syne',sans-serif;font-weight:700;font-size:0.82rem;
+  letter-spacing:0.06em;text-transform:uppercase;
+  padding:10px 26px;border-radius:12px;
+  border:2px solid var(--border2);
+  background:var(--card);color:var(--text2);
+  cursor:pointer;transition:all 0.25s;
+}
+.tab-btn:hover{border-color:var(--primary);color:var(--primary);}
+.tab-btn.active{
+  background:var(--primary);color:#fff;
+  border-color:var(--primary);
+  box-shadow:0 4px 24px var(--primary-glow);
+}
 
-  /* SECTION TITLE */
-  .section-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 0.7rem;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-  }
-  .section-title::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: var(--border);
-  }
+/* ── MAIN ── */
+.main{padding:24px 28px 120px;position:relative;z-index:1;}
+.tab-panel{display:none;}
+.tab-panel.active{display:block;}
 
-  /* RISK TAGS */
-  .risk-tag {
-    display: inline-block;
-    padding: 2px 8px;
-    border-radius: 4px;
-    font-size: 0.6rem;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-  }
-  .risk-low { background: rgba(180,255,110,0.12); color: var(--safe); }
-  .risk-med { background: rgba(255,184,77,0.12); color: var(--warn); }
-  .risk-high { background: rgba(255,77,109,0.12); color: var(--danger); }
+/* ── SECTION TITLE ── */
+.section-title{
+  font-family:'Syne',sans-serif;font-weight:800;font-size:1.35rem;
+  color:var(--text);margin-bottom:6px;letter-spacing:-0.02em;
+}
+.section-sub{font-size:0.82rem;color:var(--text3);margin-bottom:20px;}
 
-  /* RESPONSIVE */
-  @media (max-width: 900px) {
-    .header { padding: 20px; }
-    .tabs { padding: 0 20px; }
-    .content { padding: 20px; }
-    .charts-grid { grid-template-columns: 1fr; }
-    .chart-card.wide { grid-column: span 1; }
-  }
+/* ── KPI GRID ── */
+.kpi-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(170px,1fr));
+  gap:14px;margin-bottom:28px;
+}
+.kpi-card{
+  background:var(--card);
+  border:1px solid var(--border2);
+  border-radius:16px;padding:18px 20px;
+  position:relative;overflow:hidden;
+  transition:transform 0.2s,box-shadow 0.2s;
+}
+.kpi-card:hover{transform:translateY(-2px);box-shadow:0 8px 32px rgba(94,23,235,0.15);}
+.kpi-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--primary),var(--accent2));
+}
+.kpi-label{font-size:0.72rem;color:var(--text3);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:8px;}
+.kpi-value{font-family:'Syne',sans-serif;font-weight:800;font-size:1.5rem;color:var(--text);line-height:1;}
+.kpi-icon{position:absolute;top:16px;right:16px;font-size:20px;opacity:0.4;}
+.kpi-card.danger::before{background:linear-gradient(90deg,var(--danger),#ff6b6b);}
+.kpi-card.warn::before{background:linear-gradient(90deg,var(--warn),#fbbf24);}
+.kpi-card.success::before{background:linear-gradient(90deg,var(--success),#6ee7b7);}
+
+/* ── CHART GRID ── */
+.chart-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:18px;margin-bottom:18px;
+}
+.chart-grid.cols3{grid-template-columns:repeat(3,1fr);}
+.chart-grid.cols1{grid-template-columns:1fr;}
+
+.chart-card{
+  background:var(--card);
+  border:1px solid var(--border2);
+  border-radius:18px;padding:20px 22px;
+  position:relative;
+}
+.chart-title{
+  font-family:'Syne',sans-serif;font-weight:700;font-size:0.88rem;
+  color:var(--text);margin-bottom:2px;
+}
+.chart-desc{font-size:0.75rem;color:var(--text3);margin-bottom:16px;}
+.chart-wrap{position:relative;width:100%;}
+.chart-wrap canvas{max-height:240px;}
+.chart-wrap.tall canvas{max-height:280px;}
+
+/* side-by-side row */
+.row-duo{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-bottom:18px;}
+
+/* ── CHATBOT ── */
+#chat-fab{
+  position:fixed;bottom:24px;right:24px;z-index:1000;
+  display:flex;flex-direction:column;align-items:flex-end;gap:8px;
+}
+.chat-trigger{
+  display:flex;align-items:center;gap:10px;
+  background:var(--primary);
+  color:#fff;border:none;border-radius:50px;
+  padding:12px 20px 12px 14px;cursor:pointer;
+  font-family:'Syne',sans-serif;font-weight:700;font-size:0.82rem;
+  box-shadow:0 8px 32px var(--primary-glow);
+  transition:all 0.25s;letter-spacing:0.03em;
+}
+.chat-trigger:hover{background:var(--primary-light);transform:scale(1.04);}
+.chat-orb{
+  width:32px;height:32px;border-radius:50%;
+  background:rgba(255,255,255,0.2);
+  display:flex;align-items:center;justify-content:center;font-size:16px;
+}
+
+.chat-window{
+  width:360px;
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:20px;
+  overflow:hidden;
+  box-shadow:0 24px 80px rgba(0,0,0,0.4);
+  display:flex;flex-direction:column;
+  max-height:520px;
+  transform-origin:bottom right;
+  transform:scale(0) translateY(20px);
+  opacity:0;
+  transition:transform 0.3s cubic-bezier(0.34,1.56,0.64,1),opacity 0.3s ease;
+}
+.chat-window.open{transform:scale(1) translateY(0);opacity:1;}
+
+.chat-header{
+  padding:14px 16px;
+  background:var(--primary);
+  display:flex;align-items:center;gap:10px;
+}
+.giti-avatar{
+  width:38px;height:38px;border-radius:50%;
+  background:rgba(255,255,255,0.2);
+  display:flex;align-items:center;justify-content:center;
+  font-size:22px;flex-shrink:0;
+}
+.giti-info .name{font-family:'Syne',sans-serif;font-weight:700;font-size:0.9rem;color:#fff;}
+.giti-info .status{font-size:0.7rem;color:rgba(255,255,255,0.7);}
+.chat-close{margin-left:auto;background:none;border:none;color:rgba(255,255,255,0.7);cursor:pointer;font-size:18px;padding:2px 6px;}
+.chat-close:hover{color:#fff;}
+
+.chat-messages{
+  flex:1;overflow-y:auto;padding:16px;
+  display:flex;flex-direction:column;gap:10px;
+}
+.chat-messages::-webkit-scrollbar{width:4px;}
+.chat-messages::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px;}
+
+.msg{max-width:85%;font-size:0.82rem;line-height:1.5;}
+.msg.bot{align-self:flex-start;}
+.msg.user{align-self:flex-end;}
+.msg-bubble{
+  padding:10px 14px;border-radius:14px;
+}
+.msg.bot .msg-bubble{background:var(--card2);color:var(--text);border-bottom-left-radius:4px;}
+.msg.user .msg-bubble{background:var(--primary);color:#fff;border-bottom-right-radius:4px;}
+
+.chat-options{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;}
+.chat-opt{
+  font-size:0.72rem;padding:5px 10px;border-radius:20px;
+  border:1px solid var(--border);background:var(--card2);
+  color:var(--text2);cursor:pointer;transition:all 0.2s;white-space:nowrap;
+}
+.chat-opt:hover{background:var(--primary);color:#fff;border-color:var(--primary);}
+
+.chat-input-row{
+  padding:12px 14px;border-top:1px solid var(--border2);
+  display:flex;gap:8px;align-items:center;
+}
+.chat-input{
+  flex:1;background:var(--card2);border:1px solid var(--border2);
+  border-radius:10px;padding:9px 12px;font-size:0.8rem;
+  color:var(--text);font-family:'DM Sans',sans-serif;outline:none;
+  transition:border-color 0.2s;
+}
+.chat-input:focus{border-color:var(--primary);}
+.chat-input::placeholder{color:var(--text3);}
+.chat-send{
+  width:34px;height:34px;border-radius:10px;
+  background:var(--primary);border:none;color:#fff;
+  cursor:pointer;font-size:16px;transition:background 0.2s;
+  display:flex;align-items:center;justify-content:center;
+}
+.chat-send:hover{background:var(--primary-light);}
+
+.typing-dots{display:flex;gap:4px;padding:4px 0;}
+.typing-dots span{width:6px;height:6px;border-radius:50%;background:var(--text3);animation:dot 1.2s infinite;}
+.typing-dots span:nth-child(2){animation-delay:0.2s;}
+.typing-dots span:nth-child(3){animation-delay:0.4s;}
+@keyframes dot{0%,60%,100%{transform:translateY(0);opacity:0.4;}30%{transform:translateY(-5px);opacity:1;}}
+
+/* word cloud badge */
+.wc-badge{
+  font-size:0.65rem;color:rgba(255,255,255,0.6);
+  text-align:center;padding-bottom:2px;letter-spacing:0.05em;
+}
+
+/* ── RESPONSIVE ── */
+@media(max-width:768px){
+  .topbar{padding:0 16px;}
+  .tabs-wrapper{padding:16px 16px 0;gap:6px;}
+  .tab-btn{padding:8px 16px;font-size:0.75rem;}
+  .main{padding:16px 16px 120px;}
+  .kpi-grid{grid-template-columns:repeat(2,1fr);}
+  .chart-grid,.chart-grid.cols3{grid-template-columns:1fr;}
+  .row-duo{grid-template-columns:1fr;}
+  .chat-window{width:calc(100vw - 32px);right:0;}
+  #chat-fab{right:16px;bottom:16px;}
+}
+
+/* ── LOADING ANIM ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+.kpi-card,.chart-card{animation:fadeUp 0.5s ease both;}
+.kpi-card:nth-child(1){animation-delay:0.05s;}
+.kpi-card:nth-child(2){animation-delay:0.1s;}
+.kpi-card:nth-child(3){animation-delay:0.15s;}
+.kpi-card:nth-child(4){animation-delay:0.2s;}
+.kpi-card:nth-child(5){animation-delay:0.25s;}
+.kpi-card:nth-child(6){animation-delay:0.3s;}
+
+/* Hint animation */
+@keyframes hintSlide{0%{opacity:0;transform:translateX(6px);}50%{opacity:1;transform:translateX(0);}90%{opacity:1;}100%{opacity:0;}}
+.hint-anim{animation:hintSlide 2.5s ease forwards;}
 </style>
 </head>
-<body>
+<body data-theme="dark">
 
-<header class="header">
-  <div class="logo">FRAUD<span>SCOPE</span> <span style="font-size:0.7rem;color:var(--muted);font-weight:400">Analytics</span></div>
-  <div style="display:flex;gap:10px;align-items:center">
-    <span class="badge">LIVE DEMO</span>
-    <span class="badge" style="background:rgba(180,255,110,0.08);color:var(--accent3);border-color:rgba(180,255,110,0.2)">50 USERS · 10 MERCHANTS</span>
+<!-- TOPBAR -->
+<header class="topbar">
+  <div class="logo">
+    <div class="logo-dot">⚡</div>
+    Smart Ledger Analytics
+  </div>
+  <div class="topbar-right">
+    <button class="theme-btn" id="themeToggle" title="Toggle theme">🌙</button>
   </div>
 </header>
 
-<nav class="tabs">
-  <div class="tab active" onclick="switchTab('user',this)">👤 User Analytics</div>
-  <div class="tab" onclick="switchTab('merchant',this)">🏪 Merchant Analytics</div>
-</nav>
-
-<!-- USER TAB -->
-<div id="tab-user" class="content active">
-
-  <div class="section-title">Key Performance Indicators</div>
-  <div class="kpi-grid" id="user-kpis"></div>
-
-  <div class="section-title">Behavioral Charts</div>
-  <div class="charts-grid">
-
-    <div class="chart-card">
-      <div class="chart-title">Spending Distribution</div>
-      <div class="chart-subtitle">HISTOGRAM — TOTAL SPEND PER USER</div>
-      <div class="chart-container"><canvas id="c-spend-hist"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Risk Score Distribution</div>
-      <div class="chart-subtitle">COUNT OF USERS BY RISK SCORE</div>
-      <div class="chart-container"><canvas id="c-risk-dist"></canvas></div>
-    </div>
-
-    <div class="chart-card wide">
-      <div class="chart-title">Income vs Spending ⚠️ Key Fraud Signal</div>
-      <div class="chart-subtitle">SCATTER — INCOME RANGE vs TOTAL SPENT (size = risk score)</div>
-      <div class="chart-container"><canvas id="c-income-spend"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">City-wise Spending</div>
-      <div class="chart-subtitle">TOTAL SPEND & AVG RISK PER CITY</div>
-      <div class="chart-container"><canvas id="c-city"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Category Behavior</div>
-      <div class="chart-subtitle">USERS & AVG SPEND BY CATEGORY</div>
-      <div class="chart-container"><canvas id="c-category"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Activity vs Spending</div>
-      <div class="chart-subtitle">SCATTER — ACTIVE DAYS vs TOTAL SPENT</div>
-      <div class="chart-container"><canvas id="c-activity"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Weekend Spending vs Risk</div>
-      <div class="chart-subtitle">SCATTER — WEEKEND SPEND vs RISK SCORE</div>
-      <div class="chart-container"><canvas id="c-weekend"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Risk Segmentation</div>
-      <div class="chart-subtitle">DONUT — LOW / MEDIUM / HIGH RISK USERS</div>
-      <div class="chart-container"><canvas id="c-risk-seg"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Anomaly Flags</div>
-      <div class="chart-subtitle">USERS EXCEEDING SPENDING LIMIT</div>
-      <div class="chart-container"><canvas id="c-anomaly"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Payment Method Mix</div>
-      <div class="chart-subtitle">STACKED BAR — UPI vs CASH RATIO BY CITY</div>
-      <div class="chart-container tall"><canvas id="c-payment"></canvas></div>
-    </div>
-
-  </div>
+<!-- TABS -->
+<div class="tabs-wrapper">
+  <button class="tab-btn active" data-tab="users">👤 User Analytics</button>
+  <button class="tab-btn" data-tab="merchants">🏪 Merchant Analytics</button>
 </div>
 
-<!-- MERCHANT TAB -->
-<div id="tab-merchant" class="content">
+<!-- MAIN -->
+<div class="main">
 
-  <div class="section-title">Merchant KPIs</div>
-  <div class="kpi-grid" id="merchant-kpis"></div>
+  <!-- ═══ TAB 1: USER ═══ -->
+  <div class="tab-panel active" id="tab-users">
+    <div class="section-title">User Analytics</div>
+    <div class="section-sub">Aggregated insights across all registered users</div>
 
-  <div class="section-title">Merchant Risk Charts</div>
-  <div class="charts-grid">
+    <div class="kpi-grid" id="user-kpis"></div>
 
-    <div class="chart-card wide">
-      <div class="chart-title">🔥 Fraud Ratio by Merchant</div>
-      <div class="chart-subtitle">MOST IMPORTANT — DIRECT FRAUD DETECTION</div>
-      <div class="chart-container"><canvas id="c-fraud-ratio"></canvas></div>
+    <!-- Row 1: Spending Distribution + Risk Score Distribution -->
+    <div class="chart-grid">
+      <div class="chart-card">
+        <div class="chart-title">Spending Distribution</div>
+        <div class="chart-desc">Normal vs abnormal users — outliers signal fraud</div>
+        <div class="chart-wrap"><canvas id="c-spend-dist"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Risk Score Distribution</div>
+        <div class="chart-desc">Are most users safe or risky?</div>
+        <div class="chart-wrap"><canvas id="c-risk-dist"></canvas></div>
+      </div>
     </div>
 
-    <div class="chart-card">
-      <div class="chart-title">Risk Score vs Total Transactions</div>
-      <div class="chart-subtitle">SCATTER — VOLUME vs RISK (size = fraud count)</div>
-      <div class="chart-container"><canvas id="c-risk-txn"></canvas></div>
+    <!-- Row 2: Income vs Spending scatter + Payment Behavior -->
+    <div class="chart-grid">
+      <div class="chart-card">
+        <div class="chart-title">Income vs Spending</div>
+        <div class="chart-desc">Low income + high spend = 🚨 fraud signal</div>
+        <div class="chart-wrap tall"><canvas id="c-income-spend"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Payment Behavior by City</div>
+        <div class="chart-desc">UPI vs Cash ratio mix — abnormal patterns</div>
+        <div class="chart-wrap tall"><canvas id="c-payment-behavior"></canvas></div>
+      </div>
     </div>
 
-    <div class="chart-card">
-      <div class="chart-title">High Value Transaction Analysis</div>
-      <div class="chart-subtitle">BAR — HIGH VALUE RATIO PER MERCHANT</div>
-      <div class="chart-container"><canvas id="c-hv"></canvas></div>
+    <!-- Row 3: City Spending + Category Behavior -->
+    <div class="chart-grid">
+      <div class="chart-card">
+        <div class="chart-title">City-wise Spending & Risk</div>
+        <div class="chart-desc">Which city carries the highest risk exposure?</div>
+        <div class="chart-wrap"><canvas id="c-city-spend"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Category Behavior</div>
+        <div class="chart-desc">Which category drives the most spending?</div>
+        <div class="chart-wrap"><canvas id="c-category"></canvas></div>
+      </div>
     </div>
 
-    <div class="chart-card">
-      <div class="chart-title">Rule-Based Hit Analysis</div>
-      <div class="chart-subtitle">BAR — RULE HIT RATIO PER MERCHANT</div>
-      <div class="chart-container"><canvas id="c-rule"></canvas></div>
+    <!-- Row 4: Activity vs Spending + Weekend Impact -->
+    <div class="chart-grid">
+      <div class="chart-card">
+        <div class="chart-title">Activity vs Spending</div>
+        <div class="chart-desc">Low activity + high spend = 🚨 anomaly</div>
+        <div class="chart-wrap"><canvas id="c-activity-spend"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Weekend Spending Impact</div>
+        <div class="chart-desc">Unusual weekend spikes vs risk score</div>
+        <div class="chart-wrap"><canvas id="c-weekend"></canvas></div>
+      </div>
     </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Category-wise Risk</div>
-      <div class="chart-subtitle">AVG RISK SCORE BY MERCHANT CATEGORY</div>
-      <div class="chart-container"><canvas id="c-cat-risk"></canvas></div>
-    </div>
-
-    <div class="chart-card">
-      <div class="chart-title">Fraud vs Total Transactions</div>
-      <div class="chart-subtitle">BUBBLE — TXN VOLUME vs FRAUD COUNT (size = fraud ratio)</div>
-      <div class="chart-container"><canvas id="c-bubble"></canvas></div>
-    </div>
-
   </div>
+
+  <!-- ═══ TAB 2: MERCHANT ═══ -->
+  <div class="tab-panel" id="tab-merchants">
+    <div class="section-title">Merchant Analytics</div>
+    <div class="section-sub">Fraud detection & risk profiling across merchants</div>
+
+    <div class="kpi-grid" id="merchant-kpis"></div>
+
+    <!-- Row 1: Fraud Ratio + Bubble (side by side) -->
+    <div class="row-duo">
+      <div class="chart-card">
+        <div class="chart-title">🔥 Fraud Ratio by Merchant</div>
+        <div class="chart-desc">MOST IMPORTANT — Direct fraud detection</div>
+        <div class="chart-wrap tall"><canvas id="c-fraud-ratio"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Fraud vs Total Transactions</div>
+        <div class="chart-desc">Bubble — TXN Volume vs Fraud Count (size = fraud ratio)</div>
+        <div class="chart-wrap tall"><canvas id="c-fraud-bubble"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Row 2: Risk Score vs Transactions + High Value Analysis -->
+    <div class="chart-grid">
+      <div class="chart-card">
+        <div class="chart-title">Risk Score vs Transaction Volume</div>
+        <div class="chart-desc">High volume + high risk = 🚨</div>
+        <div class="chart-wrap"><canvas id="c-risk-txn"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">High Value Transaction Analysis</div>
+        <div class="chart-desc">Abnormal high-value transaction patterns</div>
+        <div class="chart-wrap"><canvas id="c-high-value"></canvas></div>
+      </div>
+    </div>
+
+    <!-- Row 3: Rule Hit + Category Risk -->
+    <div class="chart-grid">
+      <div class="chart-card">
+        <div class="chart-title">Rule-Based Hit Analysis</div>
+        <div class="chart-desc">System detection effectiveness per merchant</div>
+        <div class="chart-wrap"><canvas id="c-rule-hit"></canvas></div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">Category-wise Risk</div>
+        <div class="chart-desc">Which industry carries the most fraud risk?</div>
+        <div class="chart-wrap"><canvas id="c-cat-risk"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ═══ CHAT FAB ═══ -->
+<div id="chat-fab">
+  <div class="chat-window" id="chatWindow">
+    <div class="chat-header">
+      <div class="giti-avatar">👩‍💻</div>
+      <div class="giti-info">
+        <div class="name">Giti</div>
+        <div class="status">● Online — Data Assistant</div>
+      </div>
+      <button class="chat-close" id="chatClose">✕</button>
+    </div>
+    <div class="chat-messages" id="chatMessages">
+      <div class="msg bot">
+        <div class="msg-bubble">Hello! My name is <strong>Giti</strong> 👋 How can I help you today?</div>
+        <div class="chat-options" id="quickOptions">
+          <button class="chat-opt" data-q="Total Customers?">Total Customers?</button>
+          <button class="chat-opt" data-q="Total Spending?">Total Spending?</button>
+          <button class="chat-opt" data-q="Which category sells most?">Top Category?</button>
+          <button class="chat-opt" data-q="Who are the high risk users?">High Risk Users?</button>
+          <button class="chat-opt" data-q="Which merchant has highest fraud?">Top Fraud Merchant?</button>
+        </div>
+      </div>
+    </div>
+    <div class="chat-input-row">
+      <input class="chat-input" id="chatInput" type="text" placeholder="Ask about your data…" autocomplete="off"/>
+      <button class="chat-send" id="chatSend">➤</button>
+    </div>
+    <div class="wc-badge">Chat with your Data ✦</div>
+  </div>
+  <button class="chat-trigger" id="chatToggle">
+    <div class="chat-orb">💬</div>
+    Chat with your Data
+  </button>
 </div>
 
 <script>
-// ─────────────────────────────────────────────
-// RAW DATA
-// ─────────────────────────────────────────────
-const users = [
-  {id:'U001',spent:255869,avg_txn:17057.9,max_txn:26500.75,txn_count:15,active_days:15,weekend:350.4,upi_r:0.467,cash_r:0.2,category:'Food & Beverage',city:'BSSR',limit:10000,income:'Under 45k',risk:0.1},
-  {id:'U002',spent:268640,avg_txn:13432,max_txn:27224.41,txn_count:20,active_days:20,weekend:96501,upi_r:0.45,cash_r:0.25,category:'Food & Beverage',city:'BBSR',limit:15000,income:'Over 100k',risk:0.5},
-  {id:'U003',spent:252994,avg_txn:13315,max_txn:29174.5,txn_count:19,active_days:17,weekend:19659,upi_r:0.263,cash_r:0.526,category:'refund',city:'BBSR',limit:10000,income:'Under 45k',risk:0.5},
-  {id:'U004',spent:385418,avg_txn:17519,max_txn:29232,txn_count:22,active_days:18,weekend:79375,upi_r:0.455,cash_r:0.318,category:'grocery',city:'BSSR',limit:10000,income:'50k - 70k',risk:0.5},
-  {id:'U005',spent:283306,avg_txn:16665,max_txn:26715,txn_count:17,active_days:14,weekend:54396,upi_r:0.353,cash_r:0.294,category:'grocery',city:'BSSR',limit:50000,income:'Over 100k',risk:0.5},
-  {id:'U006',spent:384825,avg_txn:14800,max_txn:29678,txn_count:26,active_days:23,weekend:38307,upi_r:0.385,cash_r:0.269,category:'shopping',city:'BBSR',limit:10000,income:'70k - 90k',risk:0.5},
-  {id:'U007',spent:399118,avg_txn:15350,max_txn:28512,txn_count:26,active_days:23,weekend:112028,upi_r:0.269,cash_r:0.385,category:'grocery',city:'CTC',limit:50000,income:'Over 100k',risk:0.1},
-  {id:'U008',spent:328357,avg_txn:16417,max_txn:28382,txn_count:20,active_days:15,weekend:97247,upi_r:0.4,cash_r:0.15,category:'Food & Beverage',city:'BBSR',limit:10000,income:'50k - 70k',risk:0.5},
-  {id:'U009',spent:403331,avg_txn:17536,max_txn:29712,txn_count:23,active_days:19,weekend:77599,upi_r:0.261,cash_r:0.304,category:'Food & Beverage',city:'BSSR',limit:15000,income:'Under 45k',risk:0.5},
-  {id:'U010',spent:249449,avg_txn:14673,max_txn:29098,txn_count:17,active_days:17,weekend:108172,upi_r:0.294,cash_r:0.529,category:'food',city:'BSSR',limit:10000,income:'Under 45k',risk:0.5},
-  {id:'U011',spent:284266,avg_txn:12921,max_txn:28694,txn_count:22,active_days:19,weekend:49960,upi_r:0.364,cash_r:0.318,category:'electronics',city:'BSSR',limit:20000,income:'50k - 70k',risk:0.1},
-  {id:'U012',spent:380894,avg_txn:16560,max_txn:29785,txn_count:23,active_days:19,weekend:103571,upi_r:0.087,cash_r:0.304,category:'Food & Beverage',city:'CTC',limit:50000,income:'50k - 70k',risk:0.1},
-  {id:'U013',spent:403115,avg_txn:13437,max_txn:29259,txn_count:30,active_days:24,weekend:110176,upi_r:0.367,cash_r:0.3,category:'shopping',city:'BSSR',limit:50000,income:'45k - 55k',risk:0.1},
-  {id:'U014',spent:301072,avg_txn:15053,max_txn:29696,txn_count:20,active_days:17,weekend:120760,upi_r:0.4,cash_r:0.4,category:'other',city:'BSSR',limit:20000,income:'Under 45k',risk:0.3},
-  {id:'U015',spent:147904,avg_txn:13445,max_txn:25605,txn_count:11,active_days:11,weekend:67389,upi_r:0.091,cash_r:0.364,category:'Food & Beverage',city:'BSSR',limit:10000,income:'Under 45k',risk:0.3},
-  {id:'U016',spent:306050,avg_txn:15302,max_txn:29015,txn_count:20,active_days:18,weekend:99547,upi_r:0.35,cash_r:0.1,category:'refund',city:'BSSR',limit:15000,income:'Under 45k',risk:0.3},
-  {id:'U017',spent:324417,avg_txn:18023,max_txn:29355,txn_count:18,active_days:17,weekend:84137,upi_r:0.222,cash_r:0.444,category:'Food & Beverage',city:'BSSR',limit:25000,income:'45k - 55k',risk:0.3},
-  {id:'U018',spent:351362,avg_txn:19520,max_txn:29838,txn_count:18,active_days:16,weekend:130571,upi_r:0.278,cash_r:0.278,category:'Food & Beverage',city:'BSSR',limit:20000,income:'Over 100k',risk:0.1},
-  {id:'U019',spent:324399,avg_txn:14745,max_txn:29285,txn_count:22,active_days:21,weekend:81837,upi_r:0.455,cash_r:0.273,category:'shopping',city:'BSSR',limit:10000,income:'Under 45k',risk:0.1},
-  {id:'U020',spent:206035,avg_txn:12877,max_txn:29905,txn_count:16,active_days:16,weekend:42182,upi_r:0.188,cash_r:0.563,category:'refund',city:'BBSR',limit:50000,income:'70k - 90k',risk:0.1},
-  {id:'U021',spent:368218,avg_txn:14162,max_txn:29091,txn_count:26,active_days:24,weekend:81551,upi_r:0.385,cash_r:0.308,category:'transport',city:'CTC',limit:25000,income:'Over 100k',risk:0.1},
-  {id:'U022',spent:167085,avg_txn:12852,max_txn:21982,txn_count:13,active_days:12,weekend:66745,upi_r:0.231,cash_r:0.462,category:'food',city:'CTC',limit:15000,income:'Under 45k',risk:0.3},
-  {id:'U023',spent:289260,avg_txn:13148,max_txn:28861,txn_count:22,active_days:19,weekend:68069,upi_r:0.5,cash_r:0.227,category:'grocery',city:'BBSR',limit:10000,income:'50k - 70k',risk:0.3},
-  {id:'U024',spent:319290,avg_txn:15964,max_txn:29917,txn_count:20,active_days:18,weekend:76650,upi_r:0.35,cash_r:0.4,category:'shopping',city:'BSSR',limit:10000,income:'45k - 55k',risk:0.1},
-  {id:'U025',spent:227265,avg_txn:13368,max_txn:27340,txn_count:17,active_days:14,weekend:37332,upi_r:0.353,cash_r:0.294,category:'transport',city:'BSSR',limit:15000,income:'70k - 90k',risk:0.1},
-  {id:'U026',spent:294548,avg_txn:14026,max_txn:28470,txn_count:21,active_days:20,weekend:89113,upi_r:0.238,cash_r:0.333,category:'other',city:'CTC',limit:15000,income:'45k - 55k',risk:0.1},
-  {id:'U027',spent:445817,avg_txn:14860,max_txn:29869,txn_count:30,active_days:26,weekend:74382,upi_r:0.367,cash_r:0.333,category:'transport',city:'BBSR',limit:10000,income:'Over 100k',risk:0.1},
-  {id:'U028',spent:283411,avg_txn:14916,max_txn:27791,txn_count:19,active_days:17,weekend:119525,upi_r:0.263,cash_r:0.526,category:'Food & Beverage',city:'BBSR',limit:25000,income:'Under 45k',risk:0.5},
-  {id:'U029',spent:322365,avg_txn:13431,max_txn:27518,txn_count:24,active_days:18,weekend:53351,upi_r:0.333,cash_r:0.167,category:'electronics',city:'BBSR',limit:15000,income:'Under 45k',risk:0.5},
-  {id:'U030',spent:248374,avg_txn:12418,max_txn:26939,txn_count:20,active_days:18,weekend:78536,upi_r:0.25,cash_r:0.4,category:'shopping',city:'BSSR',limit:10000,income:'50k - 70k',risk:0.5},
-  {id:'U031',spent:249733,avg_txn:11351,max_txn:25783,txn_count:22,active_days:20,weekend:65553,upi_r:0.273,cash_r:0.273,category:'Food & Beverage',city:'BBSR',limit:10000,income:'Under 45k',risk:0.5},
-  {id:'U032',spent:253062,avg_txn:14886,max_txn:27362,txn_count:17,active_days:17,weekend:52142,upi_r:0.294,cash_r:0.412,category:'Food & Beverage',city:'BSSR',limit:25000,income:'70k - 90k',risk:0.5},
-  {id:'U033',spent:209988,avg_txn:13999,max_txn:25791,txn_count:15,active_days:15,weekend:97477,upi_r:0.267,cash_r:0.467,category:'food',city:'CTC',limit:50000,income:'70k - 90k',risk:0.1},
-  {id:'U034',spent:299630,avg_txn:14981,max_txn:26906,txn_count:20,active_days:18,weekend:31068,upi_r:0.4,cash_r:0.2,category:'electronics',city:'BSSR',limit:10000,income:'70k - 90k',risk:0.3},
-  {id:'U035',spent:193801,avg_txn:13842,max_txn:28941,txn_count:14,active_days:14,weekend:22321,upi_r:0.357,cash_r:0.286,category:'grocery',city:'BSSR',limit:20000,income:'Under 45k',risk:0.3},
-  {id:'U036',spent:245736,avg_txn:12933,max_txn:29978,txn_count:19,active_days:18,weekend:105734,upi_r:0.526,cash_r:0.368,category:'Food & Beverage',city:'BSSR',limit:25000,income:'50k - 70k',risk:0.1},
-  {id:'U037',spent:357518,avg_txn:16250,max_txn:29640,txn_count:22,active_days:20,weekend:126313,upi_r:0.182,cash_r:0.5,category:'food',city:'BSSR',limit:10000,income:'45k - 55k',risk:0.1},
-  {id:'U038',spent:238334,avg_txn:10362,max_txn:26065,txn_count:23,active_days:20,weekend:101821,upi_r:0.174,cash_r:0.304,category:'other',city:'BBSR',limit:50000,income:'70k - 90k',risk:0.5},
-  {id:'U039',spent:288465,avg_txn:14423,max_txn:24580,txn_count:20,active_days:19,weekend:70092,upi_r:0.3,cash_r:0.25,category:'food',city:'BSSR',limit:10000,income:'Under 45k',risk:0.5},
-  {id:'U040',spent:191892,avg_txn:13706,max_txn:28360,txn_count:14,active_days:13,weekend:64951,upi_r:0.357,cash_r:0.286,category:'other',city:'BSSR',limit:15000,income:'Over 100k',risk:0.5},
-  {id:'U041',spent:333965,avg_txn:16698,max_txn:29710,txn_count:20,active_days:19,weekend:155071,upi_r:0.45,cash_r:0.3,category:'Food & Beverage',city:'BSSR',limit:25000,income:'70k - 90k',risk:0.5},
-  {id:'U042',spent:292506,avg_txn:15395,max_txn:29129,txn_count:19,active_days:17,weekend:34760,upi_r:0.474,cash_r:0.211,category:'Food & Beverage',city:'BSSR',limit:20000,income:'50k - 70k',risk:0.5},
-  {id:'U043',spent:258262,avg_txn:16141,max_txn:27926,txn_count:16,active_days:15,weekend:93881,upi_r:0.188,cash_r:0.438,category:'electronics',city:'BBSR',limit:50000,income:'50k - 70k',risk:0.5},
-  {id:'U044',spent:350210,avg_txn:14592,max_txn:29961,txn_count:24,active_days:23,weekend:122392,upi_r:0.375,cash_r:0.292,category:'grocery',city:'CTC',limit:10000,income:'50k - 70k',risk:0.5},
-  {id:'U045',spent:311239,avg_txn:14820,max_txn:29828,txn_count:21,active_days:19,weekend:107802,upi_r:0.238,cash_r:0.333,category:'grocery',city:'CTC',limit:50000,income:'Over 100k',risk:0.5},
-  {id:'U046',spent:417794,avg_txn:17408,max_txn:28771,txn_count:24,active_days:24,weekend:115352,upi_r:0.333,cash_r:0.208,category:'grocery',city:'CTC',limit:50000,income:'Under 45k',risk:0.5},
-  {id:'U047',spent:275814,avg_txn:17238,max_txn:27206,txn_count:16,active_days:15,weekend:51710,upi_r:0.188,cash_r:0.313,category:'Food & Beverage',city:'CTC',limit:10000,income:'Over 100k',risk:0.3},
-  {id:'U048',spent:384062,avg_txn:14771,max_txn:28887,txn_count:26,active_days:25,weekend:96946,upi_r:0.308,cash_r:0.5,category:'shopping',city:'BSSR',limit:25000,income:'Under 45k',risk:0.3},
-  {id:'U049',spent:186695,avg_txn:10371,max_txn:29165,txn_count:18,active_days:16,weekend:25731,upi_r:0.444,cash_r:0.333,category:'food',city:'BSSR',limit:25000,income:'45k - 55k',risk:0.3},
-  {id:'U050',spent:192234,avg_txn:14787,max_txn:29249,txn_count:13,active_days:12,weekend:19389,upi_r:0.308,cash_r:0.462,category:'refund',city:'BBSR',limit:10000,income:'Over 100k',risk:0.3}
+// ═══════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════
+const USERS = [
+{id:"U001",spent:255869,avg:17057,max:26500,txn:15,days:15,weekend:350,upi:7,cash:3,cat:"Food & Beverage",div:7,upiR:0.467,cashR:0.2,city:"BSSR",income:"Under 45k",risk:0.1},
+{id:"U002",spent:268640,avg:13432,max:27224,txn:20,days:20,weekend:96501,upi:9,cash:5,cat:"Food & Beverage",div:8,upiR:0.45,cashR:0.25,city:"BBSR",income:"Over 100k",risk:0.5},
+{id:"U003",spent:252994,avg:13315,max:29174,txn:19,days:17,weekend:19659,upi:5,cash:10,cat:"refund",div:7,upiR:0.263,cashR:0.526,city:"BBSR",income:"Under 45k",risk:0.5},
+{id:"U004",spent:385418,avg:17519,max:29232,txn:22,days:18,weekend:79375,upi:10,cash:7,cat:"grocery",div:8,upiR:0.455,cashR:0.318,city:"BSSR",income:"50k - 70k",risk:0.5},
+{id:"U005",spent:283306,avg:16665,max:26715,txn:17,days:14,weekend:54396,upi:6,cash:5,cat:"grocery",div:8,upiR:0.353,cashR:0.294,city:"BSSR",income:"Over 100k",risk:0.5},
+{id:"U006",spent:384825,avg:14800,max:29678,txn:26,days:23,weekend:38307,upi:10,cash:7,cat:"shopping",div:8,upiR:0.385,cashR:0.269,city:"BBSR",income:"70k - 90k",risk:0.5},
+{id:"U007",spent:399118,avg:15350,max:28512,txn:26,days:23,weekend:112028,upi:7,cash:10,cat:"grocery",div:8,upiR:0.269,cashR:0.385,city:"CTC",income:"Over 100k",risk:0.1},
+{id:"U008",spent:328357,avg:16417,max:28382,txn:20,days:15,weekend:97247,upi:8,cash:3,cat:"Food & Beverage",div:8,upiR:0.4,cashR:0.15,city:"BBSR",income:"50k - 70k",risk:0.5},
+{id:"U009",spent:403331,avg:17536,max:29712,txn:23,days:19,weekend:77599,upi:6,cash:7,cat:"Food & Beverage",div:8,upiR:0.261,cashR:0.304,city:"BSSR",income:"Under 45k",risk:0.5},
+{id:"U010",spent:249449,avg:14673,max:29098,txn:17,days:17,weekend:108172,upi:5,cash:9,cat:"food",div:8,upiR:0.294,cashR:0.529,city:"BSSR",income:"Under 45k",risk:0.5},
+{id:"U011",spent:284266,avg:12921,max:28694,txn:22,days:19,weekend:49960,upi:8,cash:7,cat:"electronics",div:8,upiR:0.364,cashR:0.318,city:"BSSR",income:"50k - 70k",risk:0.1},
+{id:"U012",spent:380894,avg:16560,max:29785,txn:23,days:19,weekend:103571,upi:2,cash:7,cat:"Food & Beverage",div:8,upiR:0.087,cashR:0.304,city:"CTC",income:"50k - 70k",risk:0.1},
+{id:"U013",spent:403115,avg:13437,max:29259,txn:30,days:24,weekend:110176,upi:11,cash:9,cat:"shopping",div:8,upiR:0.367,cashR:0.3,city:"BSSR",income:"45k - 55k",risk:0.1},
+{id:"U014",spent:301072,avg:15053,max:29696,txn:20,days:17,weekend:120760,upi:8,cash:8,cat:"other",div:8,upiR:0.4,cashR:0.4,city:"BSSR",income:"Under 45k",risk:0.3},
+{id:"U015",spent:147904,avg:13445,max:25605,txn:11,days:11,weekend:67389,upi:1,cash:4,cat:"Food & Beverage",div:5,upiR:0.091,cashR:0.364,city:"BSSR",income:"Under 45k",risk:0.3},
+{id:"U016",spent:306050,avg:15302,max:29015,txn:20,days:18,weekend:99547,upi:7,cash:2,cat:"refund",div:7,upiR:0.35,cashR:0.1,city:"BSSR",income:"Under 45k",risk:0.3},
+{id:"U017",spent:324417,avg:18023,max:29355,txn:18,days:17,weekend:84137,upi:4,cash:8,cat:"Food & Beverage",div:8,upiR:0.222,cashR:0.444,city:"BSSR",income:"45k - 55k",risk:0.3},
+{id:"U018",spent:351362,avg:19520,max:29838,txn:18,days:16,weekend:130571,upi:5,cash:5,cat:"Food & Beverage",div:6,upiR:0.278,cashR:0.278,city:"BSSR",income:"Over 100k",risk:0.1},
+{id:"U019",spent:324399,avg:14745,max:29285,txn:22,days:21,weekend:81837,upi:10,cash:6,cat:"shopping",div:7,upiR:0.455,cashR:0.273,city:"BSSR",income:"Under 45k",risk:0.1},
+{id:"U020",spent:206035,avg:12877,max:29905,txn:16,days:16,weekend:42182,upi:3,cash:9,cat:"refund",div:7,upiR:0.188,cashR:0.563,city:"BBSR",income:"70k - 90k",risk:0.1},
+{id:"U021",spent:368218,avg:14162,max:29091,txn:26,days:24,weekend:81551,upi:10,cash:8,cat:"transport",div:8,upiR:0.385,cashR:0.308,city:"CTC",income:"Over 100k",risk:0.1},
+{id:"U022",spent:167085,avg:12852,max:21982,txn:13,days:12,weekend:66745,upi:3,cash:6,cat:"food",div:7,upiR:0.231,cashR:0.462,city:"CTC",income:"Under 45k",risk:0.3},
+{id:"U023",spent:289260,avg:13148,max:28861,txn:22,days:19,weekend:68069,upi:11,cash:5,cat:"grocery",div:7,upiR:0.5,cashR:0.227,city:"BBSR",income:"50k - 70k",risk:0.3},
+{id:"U024",spent:319290,avg:15964,max:29917,txn:20,days:18,weekend:76650,upi:7,cash:8,cat:"shopping",div:7,upiR:0.35,cashR:0.4,city:"BSSR",income:"45k - 55k",risk:0.1},
+{id:"U025",spent:227265,avg:13368,max:27340,txn:17,days:14,weekend:37332,upi:6,cash:5,cat:"transport",div:6,upiR:0.353,cashR:0.294,city:"BSSR",income:"70k - 90k",risk:0.1},
+{id:"U026",spent:294548,avg:14026,max:28470,txn:21,days:20,weekend:89113,upi:5,cash:7,cat:"other",div:7,upiR:0.238,cashR:0.333,city:"CTC",income:"45k - 55k",risk:0.1},
+{id:"U027",spent:445817,avg:14860,max:29869,txn:30,days:26,weekend:74382,upi:11,cash:10,cat:"transport",div:8,upiR:0.367,cashR:0.333,city:"BBSR",income:"Over 100k",risk:0.1},
+{id:"U028",spent:283411,avg:14916,max:27791,txn:19,days:17,weekend:119525,upi:5,cash:10,cat:"Food & Beverage",div:7,upiR:0.263,cashR:0.526,city:"BBSR",income:"Under 45k",risk:0.5},
+{id:"U029",spent:322365,avg:13431,max:27518,txn:24,days:18,weekend:53351,upi:8,cash:4,cat:"electronics",div:7,upiR:0.333,cashR:0.167,city:"BBSR",income:"Under 45k",risk:0.5},
+{id:"U030",spent:248374,avg:12418,max:26939,txn:20,days:18,weekend:78536,upi:5,cash:8,cat:"shopping",div:5,upiR:0.25,cashR:0.4,city:"BSSR",income:"50k - 70k",risk:0.5},
+{id:"U031",spent:249733,avg:11351,max:25783,txn:22,days:20,weekend:65553,upi:6,cash:6,cat:"Food & Beverage",div:7,upiR:0.273,cashR:0.273,city:"BBSR",income:"Under 45k",risk:0.5},
+{id:"U032",spent:253062,avg:14886,max:27362,txn:17,days:17,weekend:52142,upi:5,cash:7,cat:"Food & Beverage",div:7,upiR:0.294,cashR:0.412,city:"BSSR",income:"70k - 90k",risk:0.5},
+{id:"U033",spent:209988,avg:13999,max:25791,txn:15,days:15,weekend:97477,upi:4,cash:7,cat:"food",div:7,upiR:0.267,cashR:0.467,city:"CTC",income:"70k - 90k",risk:0.1},
+{id:"U034",spent:299630,avg:14981,max:26906,txn:20,days:18,weekend:31068,upi:8,cash:4,cat:"electronics",div:7,upiR:0.4,cashR:0.2,city:"BSSR",income:"70k - 90k",risk:0.3},
+{id:"U035",spent:193801,avg:13842,max:28941,txn:14,days:14,weekend:22321,upi:5,cash:4,cat:"grocery",div:7,upiR:0.357,cashR:0.286,city:"BSSR",income:"Under 45k",risk:0.3},
+{id:"U036",spent:245736,avg:12933,max:29978,txn:19,days:18,weekend:105734,upi:10,cash:7,cat:"Food & Beverage",div:8,upiR:0.526,cashR:0.368,city:"BSSR",income:"50k - 70k",risk:0.1},
+{id:"U037",spent:357518,avg:16250,max:29640,txn:22,days:20,weekend:126313,upi:4,cash:11,cat:"food",div:8,upiR:0.182,cashR:0.5,city:"BSSR",income:"45k - 55k",risk:0.1},
+{id:"U038",spent:238334,avg:10362,max:26065,txn:23,days:20,weekend:101821,upi:4,cash:7,cat:"other",div:7,upiR:0.174,cashR:0.304,city:"BBSR",income:"70k - 90k",risk:0.5},
+{id:"U039",spent:288465,avg:14423,max:24580,txn:20,days:19,weekend:70092,upi:6,cash:5,cat:"food",div:7,upiR:0.3,cashR:0.25,city:"BSSR",income:"Under 45k",risk:0.5},
+{id:"U040",spent:191892,avg:13706,max:28360,txn:14,days:13,weekend:64951,upi:5,cash:4,cat:"other",div:7,upiR:0.357,cashR:0.286,city:"BSSR",income:"Over 100k",risk:0.5},
+{id:"U041",spent:333965,avg:16698,max:29710,txn:20,days:19,weekend:155071,upi:9,cash:6,cat:"Food & Beverage",div:8,upiR:0.45,cashR:0.3,city:"BSSR",income:"70k - 90k",risk:0.5},
+{id:"U042",spent:292506,avg:15395,max:29129,txn:19,days:17,weekend:34760,upi:9,cash:4,cat:"Food & Beverage",div:8,upiR:0.474,cashR:0.211,city:"BSSR",income:"50k - 70k",risk:0.5},
+{id:"U043",spent:258262,avg:16141,max:27926,txn:16,days:15,weekend:93881,upi:3,cash:7,cat:"electronics",div:6,upiR:0.188,cashR:0.438,city:"BBSR",income:"50k - 70k",risk:0.5},
+{id:"U044",spent:350210,avg:14592,max:29961,txn:24,days:23,weekend:122392,upi:9,cash:7,cat:"grocery",div:8,upiR:0.375,cashR:0.292,city:"CTC",income:"50k - 70k",risk:0.5},
+{id:"U045",spent:311239,avg:14820,max:29828,txn:21,days:19,weekend:107802,upi:5,cash:7,cat:"grocery",div:7,upiR:0.238,cashR:0.333,city:"CTC",income:"Over 100k",risk:0.5},
+{id:"U046",spent:417794,avg:17408,max:28771,txn:24,days:24,weekend:115352,upi:8,cash:5,cat:"grocery",div:8,upiR:0.333,cashR:0.208,city:"CTC",income:"Under 45k",risk:0.5},
+{id:"U047",spent:275814,avg:17238,max:27206,txn:16,days:15,weekend:51710,upi:3,cash:5,cat:"Food & Beverage",div:8,upiR:0.188,cashR:0.313,city:"CTC",income:"Over 100k",risk:0.3},
+{id:"U048",spent:384062,avg:14771,max:28887,txn:26,days:25,weekend:96946,upi:8,cash:13,cat:"shopping",div:8,upiR:0.308,cashR:0.5,city:"BSSR",income:"Under 45k",risk:0.3},
+{id:"U049",spent:186695,avg:10371,max:29165,txn:18,days:16,weekend:25731,upi:8,cash:6,cat:"food",div:8,upiR:0.444,cashR:0.333,city:"BSSR",income:"45k - 55k",risk:0.3},
+{id:"U050",spent:192234,avg:14787,max:29249,txn:13,days:12,weekend:19389,upi:4,cash:6,cat:"refund",div:7,upiR:0.308,cashR:0.462,city:"BBSR",income:"Over 100k",risk:0.3}
 ];
 
-const merchants = [
-  {name:'Amazon',fraud_txn:0,hv_txn:56,avg_amt:15838,rule_hits:0,total_txn:104,fraud_ratio:0.0,hv_ratio:0.538,rule_hit_ratio:0.0,risk:0.108,category:'Shopping'},
-  {name:'Apple',fraud_txn:0,hv_txn:54,avg_amt:13980,rule_hits:0,total_txn:115,fraud_ratio:0.0,hv_ratio:0.470,rule_hit_ratio:0.0,risk:0.094,category:'Electronics'},
-  {name:'Big Bazaar',fraud_txn:98,hv_txn:55,avg_amt:15726,rule_hits:83,total_txn:98,fraud_ratio:1.0,hv_ratio:0.561,rule_hit_ratio:0.847,risk:0.866,category:'Grocery'},
-  {name:'DMart',fraud_txn:0,hv_txn:48,avg_amt:14675,rule_hits:0,total_txn:96,fraud_ratio:0.0,hv_ratio:0.5,rule_hit_ratio:0.0,risk:0.1,category:'Grocery'},
-  {name:'Flipkart',fraud_txn:100,hv_txn:53,avg_amt:15063,rule_hits:69,total_txn:100,fraud_ratio:1.0,hv_ratio:0.53,rule_hit_ratio:0.69,risk:0.813,category:'E-commerce'},
-  {name:'Local Shop',fraud_txn:0,hv_txn:178,avg_amt:13508,rule_hits:0,total_txn:424,fraud_ratio:0.0,hv_ratio:0.420,rule_hit_ratio:0.0,risk:0.084,category:'Others'},
-  {name:'OLA',fraud_txn:0,hv_txn:48,avg_amt:14725,rule_hits:96,total_txn:98,fraud_ratio:0.0,hv_ratio:0.490,rule_hit_ratio:0.980,risk:0.392,category:'Transport'},
-  {name:'Starbucks',fraud_txn:0,hv_txn:49,avg_amt:15988,rule_hits:0,total_txn:89,fraud_ratio:0.0,hv_ratio:0.551,rule_hit_ratio:0.0,risk:0.110,category:'Food & Beverage'},
-  {name:'Swiggy',fraud_txn:0,hv_txn:44,avg_amt:14728,rule_hits:0,total_txn:88,fraud_ratio:0.0,hv_ratio:0.5,rule_hit_ratio:0.0,risk:0.1,category:'Food & Beverage'}
+const MERCHANTS = [
+{name:"Amazon",fraud:0,hv:56,avg:15838,ruleHits:0,total:104,fraudR:0,hvR:0.538,ruleR:0,risk:0.108,cat:"Shopping"},
+{name:"Apple",fraud:0,hv:54,avg:13980,ruleHits:0,total:115,fraudR:0,hvR:0.47,ruleR:0,risk:0.094,cat:"Electronics"},
+{name:"Big Bazaar",fraud:98,hv:55,avg:15726,ruleHits:83,total:98,fraudR:1.0,hvR:0.561,ruleR:0.847,risk:0.866,cat:"Grocery"},
+{name:"DMart",fraud:0,hv:48,avg:14675,ruleHits:0,total:96,fraudR:0,hvR:0.5,ruleR:0,risk:0.1,cat:"Grocery"},
+{name:"Flipkart",fraud:100,hv:53,avg:15063,ruleHits:69,total:100,fraudR:1.0,hvR:0.53,ruleR:0.69,risk:0.813,cat:"E-commerce"},
+{name:"Local Shop",fraud:0,hv:178,avg:13508,ruleHits:0,total:424,fraudR:0,hvR:0.42,ruleR:0,risk:0.084,cat:"Others"},
+{name:"OLA",fraud:0,hv:48,avg:14725,ruleHits:96,total:98,fraudR:0,hvR:0.49,ruleR:0.98,risk:0.392,cat:"Transport"},
+{name:"Starbucks",fraud:0,hv:49,avg:15988,ruleHits:0,total:89,fraudR:0,hvR:0.551,ruleR:0,risk:0.11,cat:"Food & Beverage"},
+{name:"Swiggy",fraud:0,hv:44,avg:14728,ruleHits:0,total:88,fraudR:0,hvR:0.5,ruleR:0,risk:0.1,cat:"Food & Beverage"}
 ];
 
-// ─────────────────────────────────────────────
+// ═══════════════════════════════════════════
+// THEME
+// ═══════════════════════════════════════════
+const themeBtn = document.getElementById('themeToggle');
+let darkMode = true;
+themeBtn.addEventListener('click', () => {
+  darkMode = !darkMode;
+  document.body.setAttribute('data-theme', darkMode ? 'dark' : 'light');
+  themeBtn.textContent = darkMode ? '🌙' : '☀️';
+  Chart.instances && Object.values(Chart.instances).forEach(c => {
+    c.options.plugins.legend.labels.color = darkMode ? '#9494b0' : '#5a4a7a';
+    c.options.scales && Object.values(c.options.scales).forEach(s => {
+      if(s.ticks) s.ticks.color = darkMode ? '#9494b0' : '#5a4a7a';
+      if(s.grid) s.grid.color = darkMode ? 'rgba(255,255,255,0.05)' : 'rgba(94,23,235,0.07)';
+    });
+    c.update();
+  });
+});
+
+// ═══════════════════════════════════════════
+// TABS
+// ═══════════════════════════════════════════
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+  });
+});
+
+// ═══════════════════════════════════════════
 // CHART DEFAULTS
-// ─────────────────────────────────────────────
-Chart.defaults.color = '#5a6180';
-Chart.defaults.font.family = "'DM Mono', monospace";
+// ═══════════════════════════════════════════
+Chart.defaults.color = '#9494b0';
+Chart.defaults.font.family = "'DM Sans', sans-serif";
 Chart.defaults.font.size = 11;
 
-const grid = { color: 'rgba(255,255,255,0.04)', borderColor: 'transparent' };
-const tickStyle = { color: '#5a6180' };
+const gridColor = () => darkMode ? 'rgba(255,255,255,0.05)' : 'rgba(94,23,235,0.07)';
+const tickColor = () => darkMode ? '#9494b0' : '#5a4a7a';
 
-function mkChart(id, config) {
-  const ctx = document.getElementById(id).getContext('2d');
-  return new Chart(ctx, config);
+function baseScales(xTitle='', yTitle='') {
+  return {
+    x: {
+      grid: { color: gridColor() },
+      ticks: { color: tickColor() },
+      title: xTitle ? { display:true, text:xTitle, color:tickColor() } : undefined
+    },
+    y: {
+      grid: { color: gridColor() },
+      ticks: { color: tickColor() },
+      title: yTitle ? { display:true, text:yTitle, color:tickColor() } : undefined
+    }
+  };
 }
 
-// ─────────────────────────────────────────────
-// USER KPIs
-// ─────────────────────────────────────────────
-function buildUserKPIs() {
-  const total = users.length;
-  const totalSpent = users.reduce((s,u)=>s+u.spent,0);
-  const avgSpent = totalSpent/total;
-  const avgRisk = users.reduce((s,u)=>s+u.risk,0)/total;
-  const highRisk = users.filter(u=>u.risk>0.4).length;
-  const avgTxn = users.reduce((s,u)=>s+u.txn_count,0)/total;
+const P = '#5e17eb';
+const palette = ['#5e17eb','#7c3aed','#38bdf8','#f0abfc','#34d399','#fb923c','#f43f5e','#a78bfa','#fbbf24'];
+const dangerPalette = (vals, hi=0.5) => vals.map(v => v >= hi ? '#f43f5e' : v >= 0.3 ? '#fb923c' : '#34d399');
 
-  const kpis = [
-    {label:'Total Users',value:total,sub:'in dataset',color:'#00e5ff'},
-    {label:'Total Spend',value:'₹'+fmt(totalSpent),sub:'across all users',color:'#b4ff6e'},
-    {label:'Avg Spend/User',value:'₹'+fmt(avgSpent),sub:'mean spending',color:'#ffb84d'},
-    {label:'Avg Risk Score',value:avgRisk.toFixed(3),sub:'0=safe 1=risky',color:'#ff4d6d'},
-    {label:'High Risk Users',value:highRisk,sub:'risk > 0.4',color:'#ff4d6d'},
-    {label:'Avg Transactions',value:avgTxn.toFixed(1),sub:'per user',color:'#a78bfa'}
-  ];
-  const el = document.getElementById('user-kpis');
-  el.innerHTML = kpis.map(k=>`
-    <div class="kpi-card" style="--kpi-color:${k.color}">
-      <div class="kpi-label">${k.label}</div>
-      <div class="kpi-value">${k.value}</div>
-      <div class="kpi-sub">${k.sub}</div>
-    </div>`).join('');
+// ═══════════════════════════════════════════
+// KPI RENDER
+// ═══════════════════════════════════════════
+function kpi(label, value, icon, cls='') {
+  return `<div class="kpi-card ${cls}">
+    <div class="kpi-label">${label}</div>
+    <div class="kpi-value">${value}</div>
+    <div class="kpi-icon">${icon}</div>
+  </div>`;
+}
+function fmt(n) {
+  if(n>=1e7) return '₹'+(n/1e7).toFixed(1)+'Cr';
+  if(n>=1e5) return '₹'+(n/1e5).toFixed(1)+'L';
+  return '₹'+n.toFixed(0);
 }
 
-function fmt(n){
-  if(n>=1e6) return (n/1e6).toFixed(1)+'M';
-  if(n>=1e3) return (n/1e3).toFixed(0)+'K';
-  return n.toFixed(0);
-}
+// User KPIs
+const totalSpend = USERS.reduce((a,u)=>a+u.spent,0);
+const avgSpend = totalSpend/USERS.length;
+const avgRisk = USERS.reduce((a,u)=>a+u.risk,0)/USERS.length;
+const highRisk = USERS.filter(u=>u.risk>0.4).length;
+const avgTxn = USERS.reduce((a,u)=>a+u.txn,0)/USERS.length;
 
-// ─────────────────────────────────────────────
+document.getElementById('user-kpis').innerHTML =
+  kpi('Total Users', USERS.length, '👤') +
+  kpi('Total Spend', fmt(totalSpend), '💰') +
+  kpi('Avg Spend/User', fmt(avgSpend), '📊') +
+  kpi('Avg Risk Score', avgRisk.toFixed(2), '🎯', avgRisk>0.4?'danger':'warn') +
+  kpi('High Risk Users', highRisk, '🚨', 'danger') +
+  kpi('Avg Transactions', avgTxn.toFixed(1), '🔄');
+
+// Merchant KPIs
+const totalTxn = MERCHANTS.reduce((a,m)=>a+m.total,0);
+const totalFraud = MERCHANTS.reduce((a,m)=>a+m.fraud,0);
+const avgFraudR = MERCHANTS.reduce((a,m)=>a+m.fraudR,0)/MERCHANTS.length;
+const highRiskM = MERCHANTS.filter(m=>m.risk>0.5).length;
+
+document.getElementById('merchant-kpis').innerHTML =
+  kpi('Total Merchants', MERCHANTS.length, '🏪') +
+  kpi('Total Transactions', totalTxn.toLocaleString(), '🔄') +
+  kpi('Total Fraud Txn', totalFraud, '⚠️', 'danger') +
+  kpi('Avg Fraud Ratio', (avgFraudR*100).toFixed(1)+'%', '📉', 'danger') +
+  kpi('High Risk Merchants', highRiskM, '🚨', 'danger');
+
+// ═══════════════════════════════════════════
 // USER CHARTS
-// ─────────────────────────────────────────────
-function buildUserCharts() {
+// ═══════════════════════════════════════════
 
-  // 1. Spending Histogram
-  const bins = [100000,150000,200000,250000,300000,350000,400000,450000,500000];
-  const hist = Array(bins.length-1).fill(0);
-  users.forEach(u=>{
-    for(let i=0;i<bins.length-1;i++){
-      if(u.spent>=bins[i]&&u.spent<bins[i+1]){hist[i]++;break;}
-    }
+// 1. Spending Distribution (histogram buckets)
+(function(){
+  const buckets = [100000,150000,200000,250000,300000,350000,400000,450000,500000];
+  const labels = ['<150k','150-200k','200-250k','250-300k','300-350k','350-400k','400-450k','450k+'];
+  const counts = Array(labels.length).fill(0);
+  USERS.forEach(u=>{
+    const i = buckets.findIndex(b=>u.spent<b);
+    if(i>=0) counts[i]++;
+    else counts[counts.length-1]++;
   });
-  mkChart('c-spend-hist',{
+  new Chart(document.getElementById('c-spend-dist'),{
     type:'bar',
-    data:{
-      labels:bins.slice(0,-1).map(b=>'₹'+fmt(b)),
-      datasets:[{
-        label:'Users',
-        data:hist,
-        backgroundColor:'rgba(0,229,255,0.25)',
-        borderColor:'#00e5ff',
-        borderWidth:1,
-        borderRadius:4
-      }]
-    },
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-      scales:{x:{grid,ticks:tickStyle},y:{grid,ticks:tickStyle}}}
+    data:{labels,datasets:[{label:'Users',data:counts,
+      backgroundColor:palette[0]+'bb',borderColor:palette[0],borderWidth:1,borderRadius:6}]},
+    options:{plugins:{legend:{display:false}},scales:baseScales('Spend Range','# Users'),responsive:true,maintainAspectRatio:true}
   });
+})();
 
-  // 2. Risk Distribution
-  const riskBuckets = {'0.1':0,'0.3':0,'0.5':0};
-  users.forEach(u=>{
-    const k = u.risk.toFixed(1);
-    if(riskBuckets[k]!==undefined) riskBuckets[k]++;
-  });
-  mkChart('c-risk-dist',{
-    type:'bar',
-    data:{
-      labels:['Low (0.1)','Medium (0.3)','High (0.5)'],
-      datasets:[{
-        label:'Users',
-        data:Object.values(riskBuckets),
-        backgroundColor:['rgba(180,255,110,0.3)','rgba(255,184,77,0.3)','rgba(255,77,109,0.3)'],
-        borderColor:['#b4ff6e','#ffb84d','#ff4d6d'],
-        borderWidth:1,borderRadius:6
-      }]
-    },
-    options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},
-      scales:{x:{grid,ticks:tickStyle},y:{grid,ticks:tickStyle}}}
-  });
-
-  // 3. Income vs Spending Scatter
-  const incomeMap = {'Under 45k':1,'45k - 55k':2,'50k - 70k':3,'70k - 90k':4,'Over 100k':5};
-  mkChart('c-income-spend',{
-    type:'scatter',
-    data:{
-      datasets:[{
-        label:'Users',
-        data:users.map(u=>({x:incomeMap[u.income]||3,y:u.spent,r:u.risk*30})),
-        backgroundColor:users.map(u=>u.risk>0.4?'rgba(255,77,109,0.6)':u.risk>0.2?'rgba(255,184,77,0.6)':'rgba(180,255,110,0.6)'),
-        borderColor:'transparent',
-        pointRadius:users.map(u=>6+u.risk*14),
-        pointHoverRadius:12
-      }]
-    },
-    options:{
-      responsive:true,maintainAspectRatio:false,
-      plugins:{
-        legend:{display:false},
-        tooltip:{callbacks:{label:d=>{
-          const u=users[d.dataIndex];
-          return [`User: ${u.id}`,`Income: ${u.income}`,`Spent: ₹${fmt(u.spent)}`,`Risk: ${u.risk}`];
-        }}}
-      },
-      scales:{
-        x:{grid,ticks:{...tickStyle,callback:v=>['','<45k','45-55k','50-70k','70-90k','>100k'][v]||''},title:{display:true,text:'Income Range',color:'#5a6180'}},
-        y:{grid,ticks:{...tickStyle,callback:v=>'₹'+fmt(v)},title:{display:true,text:'Total Spent',color:'#5a6180'}}
-      }
-    }
-  });
-
-  // 4. City-wise spending
-  const cityData = {};
-  users.forEach(u=>{
-    if(!cityData[u.city]) cityData[u.city]={spent:0,risk:0,count:0};
-    cityData[u.city].spent+=u.spent;
-    cityData[u.city].risk+=u.risk;
-    cityData[u.city].count++;
-  });
-  const cities = Object.keys(cityData);
-  mkChart('c-city',{
-    type:'bar',
-    data:{
-      labels:cities,
-      datasets:[
-        {label:'Total Spend',data:cities.map(c=>cityData[c].spent),backgroundColor:'rgba(0,229,255,0.2)',borderColor:'#00e5ff',borderWidth:1,borderRadius:4,yAxisID:'y'},
-        {label:'Avg Risk',data:cities.map(c=>(cityData[c].risk/cityData[c].count).toFixed(3)),type:'line',borderColor:'#ff4d6d',backgroundColor:'rgba(255,77,109,0.1)',borderWidth:2,tension:0.4,yAxisID:'y1',pointBackgroundColor:'#ff4d6d',pointRadius:5}
-      ]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{color:'#5a6180',boxWidth:12}}},
-      scales:{
-        x:{grid,ticks:tickStyle},
-        y:{grid,ticks:{...tickStyle,callback:v=>'₹'+fmt(v)},title:{display:true,text:'Spend',color:'#5a6180'}},
-        y1:{position:'right',grid:{display:false},ticks:tickStyle,title:{display:true,text:'Avg Risk',color:'#5a6180'}}
-      }}
-  });
-
-  // 5. Category behavior
-  const catData = {};
-  users.forEach(u=>{
-    const c=u.category.toLowerCase();
-    if(!catData[c]) catData[c]={count:0,spent:0};
-    catData[c].count++;
-    catData[c].spent+=u.spent;
-  });
-  const cats = Object.keys(catData).sort((a,b)=>catData[b].count-catData[a].count);
-  mkChart('c-category',{
-    type:'bar',
-    data:{
-      labels:cats,
-      datasets:[
-        {label:'User Count',data:cats.map(c=>catData[c].count),backgroundColor:'rgba(167,139,250,0.3)',borderColor:'#a78bfa',borderWidth:1,borderRadius:4,yAxisID:'y'},
-        {label:'Avg Spend',data:cats.map(c=>(catData[c].spent/catData[c].count).toFixed(0)),type:'line',borderColor:'#ffb84d',borderWidth:2,tension:0.4,yAxisID:'y1',pointBackgroundColor:'#ffb84d',pointRadius:5}
-      ]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{color:'#5a6180',boxWidth:12}}},
-      scales:{
-        x:{grid,ticks:{...tickStyle,maxRotation:40}},
-        y:{grid,ticks:tickStyle},
-        y1:{position:'right',grid:{display:false},ticks:{...tickStyle,callback:v=>'₹'+fmt(v)}}
-      }}
-  });
-
-  // 6. Activity vs Spending scatter
-  mkChart('c-activity',{
-    type:'scatter',
-    data:{datasets:[{
-      label:'Users',
-      data:users.map(u=>({x:u.active_days,y:u.spent})),
-      backgroundColor:users.map(u=>u.risk>0.4?'rgba(255,77,109,0.7)':'rgba(0,229,255,0.5)'),
-      borderColor:'transparent',
-      pointRadius:6,pointHoverRadius:10
-    }]},
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},
-        tooltip:{callbacks:{label:d=>{
-          const u=users[d.dataIndex];
-          return [`${u.id}`,`Days: ${u.active_days}`,`Spent: ₹${fmt(u.spent)}`,`Risk: ${u.risk}`];
-        }}}},
-      scales:{
-        x:{grid,ticks:tickStyle,title:{display:true,text:'Active Days',color:'#5a6180'}},
-        y:{grid,ticks:{...tickStyle,callback:v=>'₹'+fmt(v)},title:{display:true,text:'Total Spent',color:'#5a6180'}}
-      }}
-  });
-
-  // 7. Weekend spending vs Risk
-  mkChart('c-weekend',{
-    type:'scatter',
-    data:{datasets:[{
-      label:'Users',
-      data:users.map(u=>({x:u.weekend,y:u.risk})),
-      backgroundColor:users.map(u=>u.risk>0.4?'rgba(255,77,109,0.7)':'rgba(180,255,110,0.5)'),
-      borderColor:'transparent',
-      pointRadius:6
-    }]},
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false}},
-      scales:{
-        x:{grid,ticks:{...tickStyle,callback:v=>'₹'+fmt(v)},title:{display:true,text:'Weekend Spend',color:'#5a6180'}},
-        y:{grid,ticks:tickStyle,title:{display:true,text:'Risk Score',color:'#5a6180'}}
-      }}
-  });
-
-  // 8. Risk Segmentation Donut
-  const low=users.filter(u=>u.risk<0.2).length;
-  const med=users.filter(u=>u.risk>=0.2&&u.risk<=0.5).length;
-  const high=users.filter(u=>u.risk>0.5).length;
-  // redefine with threshold 0.4
-  const low2=users.filter(u=>u.risk<0.2).length;
-  const med2=users.filter(u=>u.risk>=0.2&&u.risk<=0.4).length;
-  const high2=users.filter(u=>u.risk>0.4).length;
-  mkChart('c-risk-seg',{
+// 2. Risk Score Distribution
+(function(){
+  const buckets={0.1:0,0.3:0,0.5:0};
+  USERS.forEach(u=>{ buckets[u.risk]=(buckets[u.risk]||0)+1; });
+  new Chart(document.getElementById('c-risk-dist'),{
     type:'doughnut',
     data:{
-      labels:['Low Risk (<0.2)','Medium (0.2–0.4)','High Risk (>0.4)'],
-      datasets:[{
-        data:[low2,med2,high2],
-        backgroundColor:['rgba(180,255,110,0.6)','rgba(255,184,77,0.6)','rgba(255,77,109,0.6)'],
-        borderColor:['#b4ff6e','#ffb84d','#ff4d6d'],
-        borderWidth:2,
-        hoverOffset:8
-      }]
+      labels:['Low (0.1)','Medium (0.3)','High (0.5)'],
+      datasets:[{data:[buckets[0.1],buckets[0.3],buckets[0.5]],
+        backgroundColor:['#34d399','#fb923c','#f43f5e'],
+        borderColor:'transparent',hoverOffset:6}]
     },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{color:'#8892b0',boxWidth:12,padding:16}}},
-      cutout:'65%'
+    options:{plugins:{legend:{position:'bottom',labels:{color:tickColor(),padding:14}}},responsive:true,maintainAspectRatio:true}
+  });
+})();
+
+// 3. Income vs Spending (bubble)
+(function(){
+  const incomeOrder = ['Under 45k','45k - 55k','50k - 70k','70k - 90k','Over 100k'];
+  const data = USERS.map(u=>({
+    x: incomeOrder.indexOf(u.income)+1+(Math.random()-0.5)*0.3,
+    y: u.spent,
+    r: Math.max(5, u.risk*20)
+  }));
+  new Chart(document.getElementById('c-income-spend'),{
+    type:'bubble',
+    data:{datasets:[{label:'Users',data,
+      backgroundColor: USERS.map(u=>u.risk>=0.5?'rgba(244,63,94,0.6)':u.risk>=0.3?'rgba(251,146,60,0.6)':'rgba(52,211,153,0.6)'),
+      borderColor: USERS.map(u=>u.risk>=0.5?'#f43f5e':u.risk>=0.3?'#fb923c':'#34d399'),
+    }]},
+    options:{
+      plugins:{legend:{display:false},tooltip:{callbacks:{
+        label:p=>{
+          const u=USERS[p.dataIndex];
+          return [`User: ${u.id}`,`Income: ${u.income}`,`Spent: ₹${u.spent.toLocaleString()}`,`Risk: ${u.risk}`];
+        }
+      }}},
+      scales:{
+        x:{...baseScales().x,ticks:{...baseScales().x.ticks,callback:(v)=>incomeOrder[Math.round(v)-1]||''},title:{display:true,text:'Income Range',color:tickColor()}},
+        y:{...baseScales().y,title:{display:true,text:'Total Spent (₹)',color:tickColor()}}
+      },responsive:true,maintainAspectRatio:true
     }
   });
+})();
 
-  // 9. Anomaly - users exceeding limit
-  const normal=users.filter(u=>u.spent<=u.limit).length;
-  const anomaly=users.filter(u=>u.spent>u.limit).length;
-  mkChart('c-anomaly',{
+// 4. Payment Behavior by City
+(function(){
+  const cities={};
+  USERS.forEach(u=>{
+    if(!cities[u.city]) cities[u.city]={upi:0,cash:0,n:0};
+    cities[u.city].upi+=u.upiR; cities[u.city].cash+=u.cashR; cities[u.city].n++;
+  });
+  const labels=Object.keys(cities);
+  const upiAvg=labels.map(c=>(cities[c].upi/cities[c].n*100).toFixed(1));
+  const cashAvg=labels.map(c=>(cities[c].cash/cities[c].n*100).toFixed(1));
+  new Chart(document.getElementById('c-payment-behavior'),{
     type:'bar',
-    data:{
-      labels:['Normal','Anomaly (Exceed Limit)'],
-      datasets:[{
-        data:[normal,anomaly],
-        backgroundColor:['rgba(180,255,110,0.3)','rgba(255,77,109,0.4)'],
-        borderColor:['#b4ff6e','#ff4d6d'],
-        borderWidth:1,borderRadius:8
-      }]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},
-        tooltip:{callbacks:{label:d=>`${d.raw} users`}}},
-      scales:{x:{grid,ticks:tickStyle},y:{grid,ticks:tickStyle}}}
+    data:{labels,datasets:[
+      {label:'UPI %',data:upiAvg,backgroundColor:'#5e17eb99',borderColor:'#5e17eb',borderWidth:1,borderRadius:4},
+      {label:'Cash %',data:cashAvg,backgroundColor:'#38bdf899',borderColor:'#38bdf8',borderWidth:1,borderRadius:4}
+    ]},
+    options:{plugins:{legend:{labels:{color:tickColor()}}},scales:{...baseScales('City','Ratio %'),x:{stacked:false}},responsive:true,maintainAspectRatio:true}
   });
+})();
 
-  // 10. Payment mix stacked bar by city
-  const cityPay = {};
-  users.forEach(u=>{
-    if(!cityPay[u.city]) cityPay[u.city]={upi:0,cash:0,n:0};
-    cityPay[u.city].upi+=u.upi_r;
-    cityPay[u.city].cash+=u.cash_r;
-    cityPay[u.city].n++;
+// 5. City-wise Spending
+(function(){
+  const cities={};
+  USERS.forEach(u=>{
+    if(!cities[u.city]) cities[u.city]={spend:0,n:0};
+    cities[u.city].spend+=u.spent; cities[u.city].n++;
   });
-  const cpCities=Object.keys(cityPay);
-  mkChart('c-payment',{
+  const labels=Object.keys(cities).sort();
+  const spends=labels.map(c=>cities[c].spend/1e5);
+  new Chart(document.getElementById('c-city-spend'),{
     type:'bar',
-    data:{
-      labels:cpCities,
-      datasets:[
-        {label:'UPI Ratio',data:cpCities.map(c=>(cityPay[c].upi/cityPay[c].n).toFixed(3)),backgroundColor:'rgba(0,229,255,0.4)',borderColor:'#00e5ff',borderWidth:1},
-        {label:'Cash Ratio',data:cpCities.map(c=>(cityPay[c].cash/cityPay[c].n).toFixed(3)),backgroundColor:'rgba(255,184,77,0.4)',borderColor:'#ffb84d',borderWidth:1}
-      ]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{color:'#5a6180',boxWidth:12}}},
-      scales:{x:{grid,ticks:tickStyle,stacked:true},y:{grid,ticks:tickStyle,stacked:true}}}
+    data:{labels,datasets:[{label:'Total Spend (₹L)',data:spends,
+      backgroundColor:palette,borderRadius:6,borderColor:'transparent'}]},
+    options:{plugins:{legend:{display:false}},scales:baseScales('City','Total Spend (₹L)'),responsive:true,maintainAspectRatio:true}
   });
-}
+})();
 
-// ─────────────────────────────────────────────
-// MERCHANT KPIs
-// ─────────────────────────────────────────────
-function buildMerchantKPIs() {
-  const unique = merchants.filter((m,i,a)=>a.findIndex(x=>x.name===m.name)===i);
-  const totalM = unique.length;
-  const totalTxn = unique.reduce((s,m)=>s+m.total_txn,0);
-  const totalFraud = unique.reduce((s,m)=>s+m.fraud_txn,0);
-  const avgFraud = unique.reduce((s,m)=>s+m.fraud_ratio,0)/unique.length;
-  const highRiskM = unique.filter(m=>m.risk>0.5).length;
-
-  const kpis = [
-    {label:'Total Merchants',value:totalM,sub:'unique merchants',color:'#00e5ff'},
-    {label:'Total Transactions',value:totalTxn,sub:'combined volume',color:'#b4ff6e'},
-    {label:'Total Fraud Txns',value:totalFraud,sub:'detected fraud',color:'#ff4d6d'},
-    {label:'Avg Fraud Ratio',value:avgFraud.toFixed(3),sub:'0=clean 1=all fraud',color:'#ff4d6d'},
-    {label:'High Risk Merchants',value:highRiskM,sub:'risk score > 0.5',color:'#ffb84d'}
-  ];
-  const el = document.getElementById('merchant-kpis');
-  el.innerHTML = kpis.map(k=>`
-    <div class="kpi-card" style="--kpi-color:${k.color}">
-      <div class="kpi-label">${k.label}</div>
-      <div class="kpi-value">${k.value}</div>
-      <div class="kpi-sub">${k.sub}</div>
-    </div>`).join('');
-}
-
-// ─────────────────────────────────────────────
-// MERCHANT CHARTS
-// ─────────────────────────────────────────────
-function buildMerchantCharts() {
-  const uniq = merchants.filter((m,i,a)=>a.findIndex(x=>x.name===m.name)===i);
-  const names = uniq.map(m=>m.name);
-
-  // 1. Fraud Ratio
-  mkChart('c-fraud-ratio',{
+// 6. Category Behavior
+(function(){
+  const cats={};
+  USERS.forEach(u=>{
+    const k=u.cat.toLowerCase();
+    if(!cats[k]) cats[k]={count:0,spend:0};
+    cats[k].count++; cats[k].spend+=u.spent;
+  });
+  const sorted=Object.entries(cats).sort((a,b)=>b[1].spend-a[1].spend);
+  const labels=sorted.map(([k])=>k);
+  const counts=sorted.map(([,v])=>v.count);
+  new Chart(document.getElementById('c-category'),{
     type:'bar',
-    data:{
-      labels:names,
-      datasets:[{
-        label:'Fraud Ratio',
-        data:uniq.map(m=>m.fraud_ratio),
-        backgroundColor:uniq.map(m=>m.fraud_ratio>0.5?'rgba(255,77,109,0.5)':m.fraud_ratio>0?'rgba(255,184,77,0.4)':'rgba(180,255,110,0.3)'),
-        borderColor:uniq.map(m=>m.fraud_ratio>0.5?'#ff4d6d':m.fraud_ratio>0?'#ffb84d':'#b4ff6e'),
-        borderWidth:1,borderRadius:6
-      }]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false}},
-      scales:{x:{grid,ticks:tickStyle},y:{grid,ticks:tickStyle,max:1.1}}}
+    data:{labels,datasets:[{label:'# Users',data:counts,backgroundColor:palette,borderRadius:6}]},
+    options:{plugins:{legend:{display:false}},
+      indexAxis:'y',
+      scales:{...baseScales('# Users','Category'),
+        x:{grid:{color:gridColor()},ticks:{color:tickColor()}},
+        y:{grid:{color:gridColor()},ticks:{color:tickColor()}}
+      },responsive:true,maintainAspectRatio:true}
   });
+})();
 
-  // 2. Risk Score vs Transactions Scatter
-  mkChart('c-risk-txn',{
+// 7. Activity vs Spending
+(function(){
+  new Chart(document.getElementById('c-activity-spend'),{
     type:'scatter',
-    data:{datasets:[{
-      label:'Merchants',
-      data:uniq.map(m=>({x:m.total_txn,y:m.risk})),
-      backgroundColor:uniq.map(m=>m.risk>0.5?'rgba(255,77,109,0.8)':m.risk>0.2?'rgba(255,184,77,0.7)':'rgba(180,255,110,0.6)'),
-      borderColor:'transparent',
-      pointRadius:uniq.map(m=>6+m.fraud_txn/10),
-      pointHoverRadius:14
+    data:{datasets:[{label:'Users',
+      data:USERS.map(u=>({x:u.days,y:u.spent})),
+      backgroundColor:USERS.map(u=>u.risk>=0.5?'rgba(244,63,94,0.7)':u.risk>=0.3?'rgba(251,146,60,0.7)':'rgba(52,211,153,0.7)'),
+      pointRadius:5,pointHoverRadius:7
     }]},
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},
-        tooltip:{callbacks:{label:d=>{
-          const m=uniq[d.dataIndex];
-          return [`${m.name}`,`Txns: ${m.total_txn}`,`Risk: ${m.risk}`,`Fraud Txns: ${m.fraud_txn}`];
-        }}}},
+    options:{
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:p=>{const u=USERS[p.dataIndex];return [`${u.id}`,`Days: ${u.days}`,`Spent: ₹${u.spent.toLocaleString()}`,`Risk: ${u.risk}`];}}}},
       scales:{
-        x:{grid,ticks:tickStyle,title:{display:true,text:'Total Transactions',color:'#5a6180'}},
-        y:{grid,ticks:tickStyle,title:{display:true,text:'Risk Score',color:'#5a6180'}}
-      }}
+        x:{...baseScales().x,title:{display:true,text:'Active Days',color:tickColor()}},
+        y:{...baseScales().y,title:{display:true,text:'Total Spent (₹)',color:tickColor()}}
+      },responsive:true,maintainAspectRatio:true
+    }
   });
+})();
 
-  // 3. High Value Ratio
-  mkChart('c-hv',{
-    type:'bar',
-    data:{
-      labels:names,
-      datasets:[{
-        label:'High Value Ratio',
-        data:uniq.map(m=>m.hv_ratio.toFixed(3)),
-        backgroundColor:'rgba(167,139,250,0.3)',
-        borderColor:'#a78bfa',
-        borderWidth:1,borderRadius:4
-      }]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
+// 8. Weekend Spending Impact
+(function(){
+  new Chart(document.getElementById('c-weekend'),{
+    type:'scatter',
+    data:{datasets:[{label:'Weekend Spend vs Risk',
+      data:USERS.map(u=>({x:u.weekend,y:u.risk})),
+      backgroundColor:USERS.map(u=>u.risk>=0.5?'rgba(244,63,94,0.7)':'rgba(94,23,235,0.6)'),
+      pointRadius:5
+    }]},
+    options:{
       plugins:{legend:{display:false}},
-      scales:{x:{grid,ticks:tickStyle},y:{grid,ticks:tickStyle}}}
-  });
-
-  // 4. Rule Hit Ratio
-  mkChart('c-rule',{
-    type:'bar',
-    data:{
-      labels:names,
-      datasets:[{
-        label:'Rule Hit Ratio',
-        data:uniq.map(m=>m.rule_hit_ratio.toFixed(3)),
-        backgroundColor:uniq.map(m=>m.rule_hit_ratio>0.5?'rgba(255,77,109,0.4)':m.rule_hit_ratio>0?'rgba(255,184,77,0.4)':'rgba(0,229,255,0.2)'),
-        borderColor:uniq.map(m=>m.rule_hit_ratio>0.5?'#ff4d6d':m.rule_hit_ratio>0?'#ffb84d':'#00e5ff'),
-        borderWidth:1,borderRadius:4
-      }]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false}},
-      scales:{x:{grid,ticks:tickStyle},y:{grid,ticks:tickStyle}}}
-  });
-
-  // 5. Category Risk
-  const catRisk = {};
-  uniq.forEach(m=>{
-    if(!catRisk[m.category]) catRisk[m.category]={risk:0,fraud:0,n:0};
-    catRisk[m.category].risk+=m.risk;
-    catRisk[m.category].fraud+=m.fraud_txn;
-    catRisk[m.category].n++;
-  });
-  const catKeys = Object.keys(catRisk);
-  mkChart('c-cat-risk',{
-    type:'bar',
-    data:{
-      labels:catKeys,
-      datasets:[
-        {label:'Avg Risk Score',data:catKeys.map(c=>(catRisk[c].risk/catRisk[c].n).toFixed(3)),backgroundColor:'rgba(255,77,109,0.3)',borderColor:'#ff4d6d',borderWidth:1,borderRadius:4,yAxisID:'y'},
-        {label:'Total Fraud Txns',data:catKeys.map(c=>catRisk[c].fraud),type:'line',borderColor:'#ffb84d',borderWidth:2,tension:0.4,yAxisID:'y1',pointBackgroundColor:'#ffb84d',pointRadius:5}
-      ]
-    },
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{labels:{color:'#5a6180',boxWidth:12}}},
       scales:{
-        x:{grid,ticks:{...tickStyle,maxRotation:30}},
-        y:{grid,ticks:tickStyle,title:{display:true,text:'Avg Risk',color:'#5a6180'}},
-        y1:{position:'right',grid:{display:false},ticks:tickStyle,title:{display:true,text:'Fraud Txns',color:'#5a6180'}}
-      }}
+        x:{...baseScales().x,title:{display:true,text:'Weekend Spending (₹)',color:tickColor()}},
+        y:{...baseScales().y,title:{display:true,text:'Risk Score',color:tickColor()}}
+      },responsive:true,maintainAspectRatio:true
+    }
   });
+})();
 
-  // 6. Bubble Chart
-  mkChart('c-bubble',{
+// ═══════════════════════════════════════════
+// MERCHANT CHARTS
+// ═══════════════════════════════════════════
+
+// 1. Fraud Ratio
+(function(){
+  const sorted=[...MERCHANTS].sort((a,b)=>b.fraudR-a.fraudR);
+  new Chart(document.getElementById('c-fraud-ratio'),{
+    type:'bar',
+    data:{
+      labels:sorted.map(m=>m.name),
+      datasets:[{label:'Fraud Ratio',data:sorted.map(m=>m.fraudR),
+        backgroundColor:sorted.map(m=>m.fraudR>0.5?'#f43f5e99':m.fraudR>0.2?'#fb923c99':'#34d39999'),
+        borderColor:sorted.map(m=>m.fraudR>0.5?'#f43f5e':m.fraudR>0.2?'#fb923c':'#34d399'),
+        borderWidth:1,borderRadius:6}]
+    },
+    options:{plugins:{legend:{display:false}},scales:baseScales('Merchant','Fraud Ratio'),responsive:true,maintainAspectRatio:true}
+  });
+})();
+
+// 2. Fraud Bubble
+(function(){
+  new Chart(document.getElementById('c-fraud-bubble'),{
     type:'bubble',
-    data:{datasets:[{
-      label:'Merchants',
-      data:uniq.map(m=>({x:m.total_txn,y:m.fraud_txn,r:Math.max(4,m.fraud_ratio*30+5)})),
-      backgroundColor:uniq.map(m=>m.fraud_ratio>0?'rgba(255,77,109,0.5)':'rgba(0,229,255,0.3)'),
-      borderColor:uniq.map(m=>m.fraud_ratio>0?'#ff4d6d':'#00e5ff'),
-      borderWidth:1
+    data:{datasets:[{label:'Merchant',
+      data:MERCHANTS.map(m=>({x:m.total,y:m.fraud,r:Math.max(6,m.fraudR*40+m.risk*15)})),
+      backgroundColor:MERCHANTS.map(m=>m.fraudR>0?'rgba(244,63,94,0.65)':m.risk>0.3?'rgba(251,146,60,0.65)':'rgba(52,211,153,0.65)'),
+      borderColor:MERCHANTS.map(m=>m.fraudR>0?'#f43f5e':m.risk>0.3?'#fb923c':'#34d399'),
     }]},
-    options:{responsive:true,maintainAspectRatio:false,
-      plugins:{legend:{display:false},
-        tooltip:{callbacks:{label:d=>{
-          const m=uniq[d.dataIndex];
-          return [`${m.name}`,`Total Txns: ${m.total_txn}`,`Fraud Txns: ${m.fraud_txn}`,`Fraud Ratio: ${m.fraud_ratio}`];
-        }}}},
+    options:{
+      plugins:{legend:{display:false},tooltip:{callbacks:{label:p=>{const m=MERCHANTS[p.dataIndex];return [`${m.name}`,`Total Txn: ${m.total}`,`Fraud Txn: ${m.fraud}`,`Fraud Ratio: ${(m.fraudR*100).toFixed(0)}%`];}}}},
       scales:{
-        x:{grid,ticks:tickStyle,title:{display:true,text:'Total Transactions',color:'#5a6180'}},
-        y:{grid,ticks:tickStyle,title:{display:true,text:'Fraud Transactions',color:'#5a6180'}}
-      }}
+        x:{...baseScales().x,title:{display:true,text:'Total Transactions',color:tickColor()}},
+        y:{...baseScales().y,title:{display:true,text:'Fraud Transactions',color:tickColor()}}
+      },responsive:true,maintainAspectRatio:true
+    }
   });
+})();
+
+// 3. Risk Score vs Transactions
+(function(){
+  new Chart(document.getElementById('c-risk-txn'),{
+    type:'bubble',
+    data:{datasets:[{label:'Merchant',
+      data:MERCHANTS.map(m=>({x:m.total,y:m.risk,r:Math.max(6,m.fraud/5+5)})),
+      backgroundColor:MERCHANTS.map(m=>m.risk>0.5?'rgba(244,63,94,0.65)':m.risk>0.2?'rgba(251,146,60,0.65)':'rgba(52,211,153,0.65)'),
+    }]},
+    options:{
+      plugins:{tooltip:{callbacks:{label:p=>{const m=MERCHANTS[p.dataIndex];return [`${m.name}`,`Txn: ${m.total}`,`Risk: ${m.risk.toFixed(2)}`,`Fraud Txn: ${m.fraud}`];}}}},
+      scales:{
+        x:{...baseScales().x,title:{display:true,text:'Total Transactions',color:tickColor()}},
+        y:{...baseScales().y,title:{display:true,text:'Risk Score',color:tickColor()}}
+      },responsive:true,maintainAspectRatio:true
+    }
+  });
+})();
+
+// 4. High Value Transaction
+(function(){
+  const sorted=[...MERCHANTS].sort((a,b)=>b.hvR-a.hvR);
+  new Chart(document.getElementById('c-high-value'),{
+    type:'bar',
+    data:{labels:sorted.map(m=>m.name),
+      datasets:[{label:'High Value Ratio',data:sorted.map(m=>m.hvR),
+        backgroundColor:'#7c3aed99',borderColor:'#7c3aed',borderWidth:1,borderRadius:6}]},
+    options:{plugins:{legend:{display:false}},scales:baseScales('Merchant','High Value Ratio'),responsive:true,maintainAspectRatio:true}
+  });
+})();
+
+// 5. Rule Hit
+(function(){
+  new Chart(document.getElementById('c-rule-hit'),{
+    type:'bar',
+    data:{labels:MERCHANTS.map(m=>m.name),
+      datasets:[{label:'Rule Hit Ratio',data:MERCHANTS.map(m=>m.ruleR),
+        backgroundColor:MERCHANTS.map(m=>m.ruleR>0.5?'#f43f5e99':'#38bdf899'),
+        borderColor:MERCHANTS.map(m=>m.ruleR>0.5?'#f43f5e':'#38bdf8'),
+        borderWidth:1,borderRadius:6}]},
+    options:{plugins:{legend:{display:false}},scales:baseScales('Merchant','Rule Hit Ratio'),responsive:true,maintainAspectRatio:true}
+  });
+})();
+
+// 6. Category Risk
+(function(){
+  const cats={};
+  MERCHANTS.forEach(m=>{
+    if(!cats[m.cat]) cats[m.cat]={risk:0,fraud:0,n:0};
+    cats[m.cat].risk+=m.risk; cats[m.cat].fraud+=m.fraud; cats[m.cat].n++;
+  });
+  const labels=Object.keys(cats);
+  new Chart(document.getElementById('c-cat-risk'),{
+    type:'bar',
+    data:{labels,datasets:[
+      {label:'Avg Risk Score',data:labels.map(c=>cats[c].risk/cats[c].n),backgroundColor:'#5e17eb99',borderRadius:6,borderColor:'#5e17eb',borderWidth:1},
+      {label:'Total Fraud Txn (scaled)',data:labels.map(c=>cats[c].fraud/100),backgroundColor:'#f43f5e99',borderRadius:6,borderColor:'#f43f5e',borderWidth:1}
+    ]},
+    options:{plugins:{legend:{labels:{color:tickColor()}}},scales:baseScales('Category','Score / Fraud (scaled)'),responsive:true,maintainAspectRatio:true}
+  });
+})();
+
+// ═══════════════════════════════════════════
+// CHATBOT
+// ═══════════════════════════════════════════
+const chatToggle = document.getElementById('chatToggle');
+const chatWindow = document.getElementById('chatWindow');
+const chatClose = document.getElementById('chatClose');
+const chatMessages = document.getElementById('chatMessages');
+const chatInput = document.getElementById('chatInput');
+const chatSend = document.getElementById('chatSend');
+
+chatToggle.addEventListener('click', () => chatWindow.classList.toggle('open'));
+chatClose.addEventListener('click', () => chatWindow.classList.remove('open'));
+
+document.querySelectorAll('.chat-opt').forEach(btn => {
+  btn.addEventListener('click', () => sendChat(btn.dataset.q));
+});
+
+chatSend.addEventListener('click', () => { const v=chatInput.value.trim(); if(v){sendChat(v);chatInput.value='';} });
+chatInput.addEventListener('keydown', e => { if(e.key==='Enter'){const v=chatInput.value.trim();if(v){sendChat(v);chatInput.value='';}} });
+
+// Hint suggestions
+const hints = ["Which category buys more?","Total fraud merchants?","Avg risk score?","Which city spends most?","Top merchant by transactions?"];
+let hintI=0;
+function rotateHint(){
+  if(document.activeElement !== chatInput){
+    chatInput.placeholder = hints[hintI % hints.length];
+    hintI++;
+  }
+  setTimeout(rotateHint, 2800);
+}
+rotateHint();
+
+function addMsg(text, role='bot'){
+  const div = document.createElement('div');
+  div.className = 'msg ' + role;
+  div.innerHTML = `<div class="msg-bubble">${text}</div>`;
+  chatMessages.appendChild(div);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
 }
 
-// ─────────────────────────────────────────────
-// TAB SWITCH
-// ─────────────────────────────────────────────
-function switchTab(name, el) {
-  document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  document.querySelectorAll('.content').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active');
-  document.getElementById('tab-'+name).classList.add('active');
+function addTyping(){
+  const div = document.createElement('div');
+  div.className = 'msg bot';
+  div.id = 'typing-indicator';
+  div.innerHTML = `<div class="msg-bubble"><div class="typing-dots"><span></span><span></span><span></span></div></div>`;
+  chatMessages.appendChild(div);
+  chatMessages.scrollTop = chatMessages.scrollHeight;
+  return div;
 }
 
-// ─────────────────────────────────────────────
-// INIT
-// ─────────────────────────────────────────────
-buildUserKPIs();
-buildUserCharts();
-buildMerchantKPIs();
-buildMerchantCharts();
+// Local fallback answers
+function localAnswer(q){
+  const ql = q.toLowerCase();
+  if(ql.includes('total customer')||ql.includes('total user')) return `There are <strong>${USERS.length} users</strong> in total.`;
+  if(ql.includes('total spend')||ql.includes('total spending')) return `Total spending across all users: <strong>${fmt(totalSpend)}</strong>`;
+  if(ql.includes('avg spend')||ql.includes('average spend')) return `Average spending per user: <strong>${fmt(avgSpend)}</strong>`;
+  if(ql.includes('risk')||ql.includes('high risk user')) return `Average risk score is <strong>${avgRisk.toFixed(2)}</strong>. High-risk users (>0.4): <strong>${highRisk}</strong>`;
+  if(ql.includes('category')||ql.includes('which category')) {
+    const cats={}; USERS.forEach(u=>{cats[u.cat]=(cats[u.cat]||0)+u.spent;});
+    const top=Object.entries(cats).sort((a,b)=>b[1]-a[1])[0];
+    return `Top category by spending: <strong>${top[0]}</strong> with <strong>${fmt(top[1])}</strong>`;
+  }
+  if(ql.includes('fraud merchant')||ql.includes('highest fraud')) {
+    const top=[...MERCHANTS].sort((a,b)=>b.fraudR-a.fraudR)[0];
+    return `<strong>${top.name}</strong> has the highest fraud ratio at <strong>${(top.fraudR*100).toFixed(0)}%</strong> with ${top.fraud} fraud transactions.`;
+  }
+  if(ql.includes('city')) {
+    const cities={}; USERS.forEach(u=>{cities[u.city]=(cities[u.city]||0)+u.spent;});
+    const top=Object.entries(cities).sort((a,b)=>b[1]-a[1])[0];
+    return `<strong>${top[0]}</strong> has the highest total spending at <strong>${fmt(top[1])}</strong>`;
+  }
+  if(ql.includes('merchant')||ql.includes('total txn')||ql.includes('transaction')) return `Total of <strong>${MERCHANTS.length} merchants</strong> with <strong>${totalTxn.toLocaleString()}</strong> total transactions.`;
+  return null;
+}
+
+async function sendChat(q){
+  addMsg(q, 'user');
+  const typing = addTyping();
+
+  // Try local first
+  const local = localAnswer(q);
+  if(local){
+    await new Promise(r=>setTimeout(r, 600));
+    typing.remove();
+    addMsg(local);
+    return;
+  }
+
+  // Try HuggingFace API
+  try {
+    const res = await fetch('https://rudra-g-23-smart-transaction-ledger-api.hf.space/chat', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({message:q}),
+      signal: AbortSignal.timeout(8000)
+    });
+    const data = await res.json();
+    typing.remove();
+    const reply = data.response || data.answer || data.message || data.reply || '';
+    if(reply && reply.trim()){
+      addMsg(reply);
+    } else {
+      addMsg("Sorry, I couldn't find an answer to that. Try another query! 🙏");
+    }
+  } catch(e){
+    typing.remove();
+    addMsg("Sorry, I couldn't connect to the data service right now. Try: <em>Total users</em> or <em>Top category</em>!");
+  }
+}
 </script>
 </body>
 </html>
