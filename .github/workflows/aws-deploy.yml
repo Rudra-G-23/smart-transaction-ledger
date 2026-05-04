@@ -1,0 +1,40 @@
+name: Deploy to AWS ECS
+
+on:
+  workflow_run:
+    workflows: ["Build and Push Docker Image"]
+    types:
+      - completed
+
+jobs:
+  deploy:
+    name: Deploy to ECS
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout code
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Step 2: Configure AWS credentials
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ap-south-1
+
+      # Step 3: Update ECS Service
+      - name: Deploy to ECS Service
+        run: |
+          aws ecs update-service \
+            --cluster messy-ai-cluster \
+            --service messy-ai-service \
+            --force-new-deployment
+
+      # Step 4: Wait for Deployment Stability
+      - name: Wait for Service Stability
+        run: |
+          aws ecs wait services-stable \
+            --cluster messy-ai-cluster \
+            --services messy-ai-service

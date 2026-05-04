@@ -1,0 +1,35 @@
+version: "3.9"
+
+# This file helps you run your FastAPI app locally using Docker
+# It also mimics production behavior for consistency
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: messy-ai-app
+
+    ports:
+      - "8000:8000"  # Expose FastAPI app
+
+    environment:
+      # Required API key (ONLY input needed)
+      - GROQ_API_KEY=${GROQ_API_KEY}
+
+    volumes:
+      - .:/app  # Mount code for live reload (dev only)
+
+    restart: always
+
+    command: >
+      uvicorn main:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+
+# Optional: Add network if you scale later
+networks:
+  default:
+    driver: bridge
