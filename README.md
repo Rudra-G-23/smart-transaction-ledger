@@ -3,7 +3,20 @@
 ## Description
 Smart Transaction Ledger is an AI-powered financial transaction cleaner and fraud detector. It helps working professionals and small business owners automatically clean, categorize, and monitor their messy financial transaction data for fraud. This allows users to clearly understand their spending and detect suspicious activities without manual effort.
 
+### Interface
+
+<!-- 
+[![Watch the demo](https://img.youtube.com/vi/DR4vruOE8zM/maxresdefault.jpg)](https://youtu.be/DR4vruOE8zM)
+-->
+
+---
+
 ### Architecture & Data Flow
+
+![img](assets\data-flow.png)
+
+<details>
+<summary>Mermaid Diagram</summary>
 
 ```mermaid
 graph TD
@@ -37,6 +50,10 @@ graph TD
     ML --> API
     API --> UI
 ```
+
+</details>
+
+---
 
 **1. Data Pipeline Layer**
 - **Raw Data**: Initial unstructured or raw exported CSV files containing transaction logs, merchant data, and user behaviors.
@@ -99,6 +116,11 @@ Simply open `index.html` in your web browser to interact with the frontend and t
 3. **Data Processing (Optional):**
 To see how the data was transformed, explore the Jupyter Notebooks inside the `notesbooks/` directory.
 
+4. **API key for LLM Query:** 
+   - [Hugging Face Repo](https://huggingface.co/spaces/Rudra-G-23/smart-transaction-ledger-api/tree/main)
+    - [FastAPI Doc](https://rudra-g-23-smart-transaction-ledger-api.hf.space/docs)
+
+
 ## Tech Stack
 
 - **Backend / API**: Python, FastAPI, Uvicorn
@@ -135,7 +157,5 @@ MIT License
 
 ## Author
 
-[Rudra-G-23](https://github.com/Rudra-G-23)
-
----
-**API key for LLM Query:** [Hugging Face Repo](https://huggingface.co/spaces/Rudra-G-23/smart-transaction-ledger-api/tree/main) & [FastAPI Doc](https://rudra-g-23-smart-transaction-ledger-api.hf.space/docs)
+**Rudra Prasad Bhuyan**  
+Connect: https://rudra-g-23.github.io/
