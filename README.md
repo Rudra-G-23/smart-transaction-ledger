@@ -14,8 +14,7 @@ https://github.com/user-attachments/assets/7a3e7fd6-6781-4963-9ec7-b0ce73eca2ec
 
 ![img](assets/data-flow.png)
 
-<details>
-<summary>Mermaid Diagram</summary>
+---
 
 ```mermaid
 graph TD
@@ -50,7 +49,7 @@ graph TD
     API --> UI
 ```
 
-</details>
+
 
 ---
 
@@ -145,6 +144,27 @@ smart-transaction-ledger/
 ├── pyproject.toml        # Project metadata
 └── requirements.txt      # Python dependencies
 ```
+
+## CI/CD & Deployment (GitHub Workflows)
+
+The project includes pre-configured (currently disabled) GitHub Actions workflows under `.github/workflows/` for automated deployment to AWS.
+
+- **Docker Image Build & Push** (`docker-build.yaml.disabled`): Triggers on pushes to the `main` branch. It automatically builds a Docker image for the FastAPI application and pushes it to Amazon Elastic Container Registry (ECR).
+- **AWS ECS Deployment** (`aws-deploy.yaml.disabled`): Triggers upon the successful completion of the build workflow. It updates the Amazon ECS service (`messy-ai-service` on `messy-ai-cluster`) with the newly built Docker image and waits for the service to stabilize.
+
+*Note: To enable these workflows, remove the `.disabled` extension from the filenames and ensure that the required AWS credentials (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`) are set up as GitHub Secrets.*
+
+## Docker Support
+
+For local testing and deployment, a `docker-compose.yaml.disabled` file is also provided in the workflows directory.
+
+1. Rename it to `docker-compose.yaml` (and move it to the root directory if preferred).
+2. Ensure your `.env` file contains the `GROQ_API_KEY`.
+3. Run the following command to start the application in a Docker container:
+```bash
+docker-compose up --build -d
+```
+This mimics the production environment while allowing local development with live reloads.
 
 ## Contributing
 

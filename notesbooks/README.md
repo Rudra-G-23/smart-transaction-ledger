@@ -1,8 +1,16 @@
 # Data Cleaning Process
 
----
+
 
 ## 1. Merchant
+
+```mermaid
+graph TD
+    M_In[Raw Merchant] --> M1[Assume 'store' means 'Local Store']
+    M1 --> M2[Fill NaN Category with 'Others']
+    M2 --> M3[Encode Risk Level Label]
+    M3 --> M_Out[(Clean Merchant Data)]
+```
 
 ### 1.1.  Merchant Name
 Assumptions:
@@ -19,6 +27,15 @@ Assumptions:
 ---
 
 ## 2. User DB
+
+```mermaid
+graph TD
+    U_In[Raw User] --> U1[Use Railway Station Code & FFill for City]
+    U1 --> U2[Treat NaN Income as <45k & Map]
+    U2 --> U3[Map Risk Score 0.2/0.3/0.5 & BFill]
+    U3 --> U4[Fill NaN Spending Limit with Min Value]
+    U4 --> U_Out[(Clean User Data)]
+```
 
 ### 2.1. City
 - Used Railway Station Code
@@ -40,6 +57,13 @@ Assumptions:
 
 ## 3. Fraud Pattern
 
+```mermaid
+graph TD
+    F_In[Raw Fraud] --> F1[Fill NaN Merchant with 'Unknown']
+    F1 --> F2[Fill Amount Range with '>20000']
+    F2 --> F_Out[(Clean Fraud Data)]
+```
+
 ### 3.1 merchant
 - NaN value fill with the Unknown
 
@@ -49,6 +73,15 @@ Assumptions:
 ---
 
 ## 4. Fin Txn DB
+
+```mermaid
+graph TD
+    T_In[Raw Fin Txn] --> T1[Fix Date Format]
+    T1 --> T2[Make Amount Positive & Bin]
+    T2 --> T3[Extract Merchant Name from Desc]
+    T3 --> T4[Create Refund Feature]
+    T4 --> T_Out[(Clean Fin Txn Data)]
+```
 
 ### 4.1. Date
 - Fix the date format
